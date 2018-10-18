@@ -1,0 +1,2424 @@
+-- Log Listener [Contiki SDN simulation]: Started at Tue Nov 14 18:15:37 SAST 2017
+00:00.369	ID:2	Rime started with address 2.0
+00:00.380	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki 3.0 started. Node id is set to 2.
+00:00.382	ID:6	Rime started with address 6.0
+00:00.389	ID:2	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.390	ID:2	
+00:00.393	ID:2	Ticks per second: 32768
+00:00.394	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki 3.0 started. Node id is set to 6.
+00:00.397	ID:2	Node SDN Address:[ 02 00 ]
+00:00.403	ID:6	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.403	ID:6	
+00:00.404	ID:2	next_hop == own address, action is forced to receive
+00:00.407	ID:6	Ticks per second: 32768
+00:00.409	ID:2	sdn_solve_unknown_dest [ 02 00 ]
+00:00.411	ID:6	Initializing neighbor discovery
+00:00.413	ID:6	I am sink
+00:00.419	ID:2	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.423	ID:2	Initializing neighbor discovery
+00:00.429	ID:2	Null Controller Discovery initialized!
+00:00.432	ID:2	SDN Core initialized!
+00:00.436	ID:2	SDN Address size set to 2.
+00:00.481	ID:4	Rime started with address 4.0
+00:00.492	ID:4	MAC 04:00:00:00:00:00:00:00 Contiki 3.0 started. Node id is set to 4.
+00:00.502	ID:4	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.502	ID:4	
+00:00.505	ID:4	Ticks per second: 32768
+00:00.509	ID:4	Node SDN Address:[ 04 00 ]
+00:00.514	ID:1	Rime started with address 1.0
+00:00.516	ID:4	next_hop == own address, action is forced to receive
+00:00.521	ID:4	sdn_solve_unknown_dest [ 04 00 ]
+00:00.525	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki 3.0 started. Node id is set to 1.
+00:00.531	ID:4	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.535	ID:1	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.535	ID:1	
+00:00.535	ID:4	Initializing neighbor discovery
+00:00.538	ID:1	Ticks per second: 32768
+00:00.541	ID:4	Null Controller Discovery initialized!
+00:00.543	ID:1	Initializing neighbor discovery
+00:00.544	ID:4	SDN Core initialized!
+00:00.544	ID:1	I am sink
+00:00.548	ID:4	SDN Address size set to 2.
+00:00.847	ID:5	Rime started with address 5.0
+00:00.859	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki 3.0 started. Node id is set to 5.
+00:00.868	ID:5	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.868	ID:5	
+00:00.872	ID:5	Ticks per second: 32768
+00:00.875	ID:5	Node SDN Address:[ 05 00 ]
+00:00.883	ID:5	next_hop == own address, action is forced to receive
+00:00.887	ID:5	sdn_solve_unknown_dest [ 05 00 ]
+00:00.897	ID:5	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.902	ID:5	Initializing neighbor discovery
+00:00.908	ID:5	Null Controller Discovery initialized!
+00:00.911	ID:5	SDN Core initialized!
+00:00.914	ID:5	SDN Address size set to 2.
+00:00.918	ID:5	sdn_solve_unknown_flow 2017
+00:00.922	ID:5	Packet for send, enqueued!
+00:00.926	ID:5	Packets on Send Queue (1):
+00:00.932	ID:5	(0) [ 0D FF 14 00 05 00 ] [ 00 00 E1 07 ]
+00:00.932	ID:5	
+00:00.935	ID:5	=[ 05 00 ]=TX=0D=00=0=
+00:00.937	ID:5	dfe == NULL
+00:00.939	ID:5	sdn_unknown_flow 0
+00:00.939	ID:5	
+00:00.942	ID:5	SDN_ACTION_DROP
+00:00.955	ID:5	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 05 00] Payload [00 00 E1 07]
+00:00.957	ID:5	send(): dest == NULL
+00:00.961	ID:5	Packet for send, dequeued!
+00:00.965	ID:5	Packets on Send Queue (0):
+00:00.965	ID:5	
+00:01.032	ID:3	Rime started with address 3.0
+00:01.043	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki 3.0 started. Node id is set to 3.
+00:01.053	ID:3	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.053	ID:3	
+00:01.056	ID:3	Ticks per second: 32768
+00:01.060	ID:3	Node SDN Address:[ 03 00 ]
+00:01.067	ID:3	next_hop == own address, action is forced to receive
+00:01.072	ID:3	sdn_solve_unknown_dest [ 03 00 ]
+00:01.082	ID:3	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.086	ID:3	Initializing neighbor discovery
+00:01.092	ID:3	Null Controller Discovery initialized!
+00:01.095	ID:3	SDN Core initialized!
+00:01.099	ID:3	SDN Address size set to 2.
+00:10.408	ID:2	 1286 P 2.0 0 1854 325777 75 250014 0 0 1854 325777 75 250014 0 0 (radio 76.33% / 76.33% tx 0.02% / 0.02% listen 76.30% / 76.30%)
+00:10.422	ID:6	 1286 P 6.0 0 454 327175 47 246201 0 0 454 327175 47 246201 0 0 (radio 75.16% / 75.16% tx 0.01% / 0.01% listen 75.14% / 75.14%)
+00:10.520	ID:4	 1286 P 4.0 0 1686 325945 46 250041 0 0 1686 325945 46 250041 0 0 (radio 76.33% / 76.33% tx 0.01% / 0.01% listen 76.31% / 76.31%)
+00:10.553	ID:1	 1286 P 1.0 0 632 326997 76 211356 0 0 632 326997 76 211356 0 0 (radio 64.53% / 64.53% tx 0.02% / 0.02% listen 64.51% / 64.51%)
+00:10.887	ID:5	 1286 P 5.0 0 3484 324144 76 103580 0 0 3484 324144 76 103580 0 0 (radio 31.63% / 31.63% tx 0.02% / 0.02% listen 31.61% / 31.61%)
+00:11.071	ID:3	 1286 P 3.0 0 1732 325899 46 250042 0 0 1732 325899 46 250042 0 0 (radio 76.33% / 76.33% tx 0.01% / 0.01% listen 76.31% / 76.31%)
+00:20.409	ID:2	 2566 P 2.0 1 2663 652647 121 577646 0 0 808 326870 46 327632 0 0 (radio 88.-6538% / 100.00% tx 0.01% / 0.01% listen 88.-6540% / 99.98%)
+00:20.423	ID:6	 2566 P 6.0 1 1118 654191 47 573881 0 0 663 327016 0 327679 0 0 (radio 87.-6496% / 100.00% tx 0.00% / 0.00% listen 87.-6497% / 100.00%)
+00:20.521	ID:4	 2566 P 4.0 1 2436 652874 69 577697 0 0 749 326929 23 327655 0 0 (radio 88.-6538% / 100.00% tx 0.01% / 0.00% listen 88.-6539% / 99.99%)
+00:20.554	ID:1	 2566 P 1.0 1 1482 653824 129 538982 0 0 849 326827 53 327625 0 0 (radio 82.-6528% / 100.00% tx 0.01% / 0.01% listen 82.-6530% / 99.98%)
+00:20.888	ID:5	 2566 P 5.0 1 4173 651135 76 431260 0 0 688 326991 0 327679 0 0 (radio 65.-6472% / 100.00% tx 0.01% / 0.00% listen 65.-6474% / 100.00%)
+00:21.072	ID:3	 2566 P 3.0 1 2498 652813 69 577698 0 0 765 326914 23 327656 0 0 (radio 88.-6538% / 100.00% tx 0.01% / 0.00% listen 88.-6539% / 99.99%)
+00:30.409	ID:2	 3846 P 2.0 2 3363 979627 121 905325 0 0 699 326980 0 327679 0 0 (radio 92.-8728% / 100.00% tx 0.01% / 0.00% listen 92.-8729% / 100.00%)
+00:30.423	ID:6	 3846 P 6.0 2 1922 981066 95 901512 0 0 803 326875 48 327630 0 0 (radio 91.-8667% / 100.00% tx 0.00% / 0.01% listen 91.-8668% / 99.98%)
+00:30.423	ID:2	neighbor, metric, next ptr
+00:30.426	ID:6	neighbor, metric, next ptr
+00:30.427	ID:2	([ 03 00 ]) (136) (0x3a9e)
+00:30.429	ID:2	([ 01 00 ]) (00) (0)
+00:30.435	ID:2	Receiving event at SDN core process: 70.
+00:30.438	ID:2	Neighbor Change.
+00:30.521	ID:4	 3846 P 4.0 2 3128 979861 69 905377 0 0 691 326987 0 327679 0 0 (radio 92.-8728% / 100.00% tx 0.00% / 0.00% listen 92.-8729% / 100.00%)
+00:30.535	ID:4	neighbor, metric, next ptr
+00:30.538	ID:4	([ 03 00 ]) (136) (0)
+00:30.544	ID:4	Receiving event at SDN core process: 70.
+00:30.546	ID:4	Neighbor Change.
+00:30.554	ID:1	~~ 3846 P 1.0 2 2229 980755 129 866662 0 0 746 326931 0 327679 0 0 (radio 88.-8721% / 100.00% tx 0.01% / 0.00% listen 88.-8722% / 100.00%)
+00:30.558	ID:1	neighbor, metric, next ptr
+00:30.562	ID:1	([ 02 00 ]) (08) (0x1e98)
+00:30.565	ID:1	([ 05 00 ]) (08) (0)
+00:30.604	ID:1	~)~=[ 01 00 ]=TX=E7=02=[ 02 00 ]=
+00:30.626	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 02 01 00] Payload [02 00 00 00 02 01 00 02 00 00]
+00:30.627	ID:2	[ 02 00 ]
+00:30.630	ID:2	SDN_ACTION_RECEIVE
+00:30.634	ID:2	=[ 01 00 ]=RX=E7=02=[ 02 00 ]=
+00:30.649	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 02 01 00] Payload [02 00 00 00 02 01 00 02 00 00]
+00:30.656	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:30.661	ID:2	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:30.665	ID:2	sdn_solve_unknown_flow 0
+00:30.672	ID:1	[ 02 00 ]~~=[ 01 00 ]=TX=E7=03=[ 05 00 ]=
+00:30.672	ID:2	flowid, next_hop, action, times_used, age, next ptr
+00:30.676	ID:2	0([ 01 00 ]) (02) (00) (01) (0)
+00:30.677	ID:2	LED RED
+00:30.680	ID:2	LED BLUE NEIGHBOR
+00:30.684	ID:2	Packet for send, enqueued!
+00:30.687	ID:2	Packets on Send Queue (1):
+00:30.694	ID:5	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 03 01 00] Payload [05 00 00 00 02 01 00 05 00 00]
+00:30.695	ID:5	[ 05 00 ]
+00:30.696	ID:2	(0) [ 04 FF 14 00 02 00 ] [ 00 00 02 03 00 88 00 01 00 00 00 ]
+00:30.696	ID:2	
+00:30.698	ID:5	SDN_ACTION_RECEIVE
+00:30.700	ID:2	=[ 02 00 ]=TX=04=00=0=
+00:30.702	ID:5	=[ 01 00 ]=RX=E7=03=[ 05 00 ]=
+00:30.703	ID:2	Packet for send, enqueued!
+00:30.707	ID:2	Packets on Send Queue (2):
+00:30.716	ID:2	(0) [ 04 FF 14 00 02 00 ] [ 00 00 02 03 00 88 00 01 00 00 00 ]
+00:30.717	ID:5	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 03 01 00] Payload [05 00 00 00 02 01 00 05 00 00]
+00:30.722	ID:2	(1) [ 0C FF 14 01 02 00 ] [ 00 00 01 02 ]
+00:30.722	ID:2	
+00:30.724	ID:5	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:30.725	ID:2	=[ 02 00 ]=TX=0C=01=0=
+00:30.725	ID:2	
+00:30.728	ID:2	SDN_ACTION_FORWARD
+00:30.729	ID:5	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:30.733	ID:5	sdn_solve_unknown_flow 0
+00:30.737	ID:5	sdn_solve_unknown_flow: match
+00:30.740	ID:5	Packet for send, enqueued!
+00:30.744	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 02 00] Payload [00 00 02 03 00 88 00 01 00 00 00]
+00:30.744	ID:5	Packets on Send Queue (1):
+00:30.750	ID:5	(1) [ 0D FF 14 00 05 00 ] [ 00 00 E1 07 ]
+00:30.750	ID:5	
+00:30.757	ID:5	flowid, next_hop, action, times_used, age, next ptr
+00:30.761	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 02 00] Payload [00 00 02 03 00 88 00 01 00 00 00]
+00:30.763	ID:5	2017([ 05 00 ]) (01) (00) (02) (0x22a4)
+00:30.766	ID:1	[ 05 00 ]~~=[ 02 00 ]=RX=04=00=0=
+00:30.767	ID:5	0([ 01 00 ]) (02) (00) (01) (0)
+00:30.770	ID:5	No neighbors to send.
+00:30.774	ID:5	Packet for send, enqueued!
+00:30.776	ID:1	~6~=[ 01 00 ]=TX=E7=05=[ 03 00 ]=
+00:30.778	ID:5	Packets on Send Queue (2):
+00:30.781	ID:2	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 02 00] Payload [00 00 02 03 00 88 00 01 00 00 00]
+00:30.784	ID:5	(1) [ 0D FF 14 00 05 00 ] [ 00 00 E1 07 ]
+00:30.785	ID:2	Packet for send, dequeued!
+00:30.788	ID:2	Packets on Send Queue (1):
+00:30.790	ID:5	(2) [ 0C FF 14 01 05 00 ] [ 00 00 01 03 ]
+00:30.790	ID:5	
+00:30.793	ID:5	=[ 05 00 ]=TX=0C=01=0=
+00:30.793	ID:5	
+00:30.794	ID:2	(1) [ 0C FF 14 01 02 00 ] [ 00 00 01 02 ]
+00:30.794	ID:2	
+00:30.794	ID:2	
+00:30.796	ID:5	SDN_ACTION_FORWARD
+00:30.797	ID:2	SDN_ACTION_FORWARD
+00:30.808	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 01 02 00] Payload [00 00 01 02]
+00:30.809	ID:5	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 05 00] Payload [00 00 E1 07]
+00:30.821	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 14 01 02 00] Payload [00 00 01 02]
+00:30.823	ID:5	Sending Packet to [ 01 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 05 00] Payload [00 00 E1 07]
+00:30.827	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:30.829	ID:5	Activating trickle time: MAC_TX_COLLISION
+00:30.831	ID:2	TRICKLE_TIME activated 9.
+00:30.833	ID:5	TRICKLE_TIME activated 96.
+00:30.851	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 05 01 00] Payload [02 00 00 00 02 02 00 03 00 01 03 00]
+00:30.853	ID:2	[ 03 00 ]
+00:30.855	ID:2	SDN_ACTION_RECEIVE
+00:30.871	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [02 00 00 00 02 02 00 03 00 01 03 00]
+00:30.878	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:30.882	ID:2	Packet for send, enqueued!
+00:30.885	ID:2	Packets on Send Queue (2):
+00:30.888	ID:5	 3846 P 5.0 2 10131 972857 100 758916 0 0 5957 321722 24 327655 0 0 (radio 77.-4348% / 100.00% tx 0.01% / 0.00% listen 77.-4349% / 99.99%)
+00:30.891	ID:2	(1) [ 0C FF 14 01 02 00 ] [ 00 00 01 02 ]
+00:30.899	ID:2	(2) [ E7 FF 13 05 01 00 ] [ 03 00 00 00 02 02 00 03 00 00 ]
+00:30.900	ID:2	
+00:30.902	ID:5	neighbor, metric, next ptr
+00:30.904	ID:5	([ 01 00 ]) (00) (0)
+00:30.906	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:30.906	ID:2	
+00:30.909	ID:2	SDN_ACTION_FORWARD
+00:30.910	ID:5	Receiving event at SDN core process: 70.
+00:30.912	ID:5	Neighbor Change.
+00:30.916	ID:5	Packet for send, enqueued!
+00:30.920	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 01 02 00] Payload [00 00 01 02]
+00:30.920	ID:5	Packets on Send Queue (3):
+00:30.926	ID:5	(1) [ 0D FF 14 00 05 00 ] [ 00 00 E1 07 ]
+00:30.932	ID:5	(2) [ 0C FF 14 01 05 00 ] [ 00 00 01 03 ]
+00:30.933	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 14 01 02 00] Payload [00 00 01 02]
+00:30.938	ID:1	[ 02 00 ]~~=[ 02 00 ]=RX=0C=01=0=
+00:30.938	ID:1	~
+00:30.939	ID:5	(3) [ 04 FF 14 02 05 00 ] [ 00 00 01 01 00 00 00 ]
+00:30.939	ID:5	
+00:30.942	ID:5	=[ 05 00 ]=TX=04=02=0=
+00:30.948	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 14 01 02 00] Payload [00 00 01 02]
+00:30.948	ID:5	Defering send due status not SDN_SEND_IDLE.
+00:30.948	ID:5	
+00:30.951	ID:5	SDN_ACTION_FORWARD
+00:30.951	ID:2	Packet for send, dequeued!
+00:30.955	ID:2	Packets on Send Queue (1):
+00:30.963	ID:2	(2) [ E7 FF 13 05 01 00 ] [ 03 00 00 00 02 02 00 03 00 00 ]
+00:30.964	ID:2	
+00:30.964	ID:5	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 05 00] Payload [00 00 E1 07]
+00:30.965	ID:2	[ 03 00 ]
+00:30.968	ID:2	SDN_ACTION_FORWARD
+00:30.979	ID:5	Sending Packet to [ 01 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 05 00] Payload [00 00 E1 07]
+00:30.983	ID:1	~=[ 05 00 ]=RX=0D=00=0=
+00:30.984	ID:1	~
+00:30.985	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:30.995	ID:5	Packet Sent to [01:00] [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 05 00] Payload [00 00 E1 07]
+00:30.999	ID:5	Packet for send, dequeued!
+00:31.003	ID:5	Packets on Send Queue (2):
+00:31.003	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.008	ID:5	(2) [ 0C FF 14 01 05 00 ] [ 00 00 01 03 ]
+00:31.009	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:31.013	ID:2	TRICKLE_TIME activated 99.
+00:31.016	ID:5	(3) [ 04 FF 14 02 05 00 ] [ 00 00 01 01 00 00 00 ]
+00:31.016	ID:5	
+00:31.016	ID:5	
+00:31.018	ID:5	SDN_ACTION_FORWARD
+00:31.030	ID:5	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 01 05 00] Payload [00 00 01 03]
+00:31.043	ID:5	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 14 01 05 00] Payload [00 00 01 03]
+00:31.047	ID:1	~=[ 05 00 ]=RX=0C=01=0=
+00:31.048	ID:1	~
+00:31.058	ID:5	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 14 01 05 00] Payload [00 00 01 03]
+00:31.061	ID:5	Packet for send, dequeued!
+00:31.065	ID:5	Packets on Send Queue (1):
+00:31.072	ID:3	 3846 P 3.0 2 3199 979791 69 905378 0 0 700 326978 0 327679 0 0 (radio 92.-8728% / 100.00% tx 0.00% / 0.00% listen 92.-8729% / 100.00%)
+00:31.072	ID:5	(3) [ 04 FF 14 02 05 00 ] [ 00 00 01 01 00 00 00 ]
+00:31.072	ID:5	
+00:31.072	ID:5	
+00:31.075	ID:5	SDN_ACTION_FORWARD
+00:31.086	ID:3	neighbor, metric, next ptr
+00:31.089	ID:5	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 05 00] Payload [00 00 01 01 00 00 00]
+00:31.090	ID:3	([ 02 00 ]) (08) (0x3a9e)
+00:31.093	ID:3	([ 04 00 ]) (264) (0)
+00:31.098	ID:3	Receiving event at SDN core process: 70.
+00:31.101	ID:3	Neighbor Change.
+00:31.105	ID:5	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 05 00] Payload [00 00 01 01 00 00 00]
+00:31.108	ID:2	[ 03 00 ]
+00:31.110	ID:1	~=[ 05 00 ]=RX=04=02=0=
+00:31.111	ID:2	SDN_ACTION_FORWARD
+00:31.123	ID:5	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 05 00] Payload [00 00 01 01 00 00 00]
+00:31.127	ID:5	Packet for send, dequeued!
+00:31.128	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.130	ID:5	Packets on Send Queue (0):
+00:31.131	ID:5	
+00:31.146	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.152	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:31.156	ID:2	TRICKLE_TIME activated 5.
+00:31.158	ID:2	[ 03 00 ]
+00:31.160	ID:2	SDN_ACTION_FORWARD
+00:31.177	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.196	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.217	ID:3	Packet Received from [02:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.217	ID:2	Packet Sent to [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.218	ID:3	[ 03 00 ]
+00:31.221	ID:2	Packet for send, dequeued!
+00:31.221	ID:3	SDN_ACTION_RECEIVE
+00:31.224	ID:2	Packets on Send Queue (0):
+00:31.224	ID:2	
+00:31.225	ID:3	=[ 01 00 ]=RX=E7=05=[ 03 00 ]=
+00:31.240	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 05 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:31.247	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:31.252	ID:3	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:31.256	ID:3	sdn_solve_unknown_flow 0
+00:31.263	ID:3	flowid, next_hop, action, times_used, age, next ptr
+00:31.267	ID:3	0([ 02 00 ]) (02) (00) (01) (0)
+00:31.268	ID:3	LED RED
+00:31.271	ID:3	LED BLUE NEIGHBOR
+00:31.275	ID:3	Packet for send, enqueued!
+00:31.278	ID:3	Packets on Send Queue (1):
+00:31.287	ID:3	(0) [ 04 FF 14 00 03 00 ] [ 00 00 02 02 00 08 00 04 00 08 01 ]
+00:31.287	ID:3	
+00:31.291	ID:3	=[ 03 00 ]=TX=04=00=0=
+00:31.294	ID:3	Packet for send, enqueued!
+00:31.298	ID:3	Packets on Send Queue (2):
+00:31.307	ID:3	(0) [ 04 FF 14 00 03 00 ] [ 00 00 02 02 00 08 00 04 00 08 01 ]
+00:31.313	ID:3	(1) [ 0C FF 14 01 03 00 ] [ 00 00 01 05 ]
+00:31.313	ID:3	
+00:31.316	ID:3	=[ 03 00 ]=TX=0C=01=0=
+00:31.316	ID:3	
+00:31.319	ID:3	SDN_ACTION_FORWARD
+00:31.335	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.352	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.372	ID:2	Packet Received from [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.372	ID:3	Packet Sent to [02:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.372	ID:2	
+00:31.374	ID:2	SDN_ACTION_FORWARD
+00:31.376	ID:3	Packet for send, dequeued!
+00:31.378	ID:2	Packet for send, enqueued!
+00:31.379	ID:3	Packets on Send Queue (1):
+00:31.382	ID:2	Packets on Send Queue (1):
+00:31.385	ID:3	(1) [ 0C FF 14 01 03 00 ] [ 00 00 01 05 ]
+00:31.385	ID:3	
+00:31.385	ID:3	
+00:31.388	ID:3	SDN_ACTION_FORWARD
+00:31.391	ID:2	(3) [ 04 FF 13 00 03 00 ] [ 00 00 02 02 00 08 00 04 00 08 01 ]
+00:31.391	ID:2	
+00:31.391	ID:2	
+00:31.394	ID:2	SDN_ACTION_FORWARD
+00:31.399	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 01 03 00] Payload [00 00 01 05]
+00:31.410	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.412	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_ACK] Header [0C FF 14 01 03 00] Payload [00 00 01 05]
+00:31.427	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.427	ID:3	Packet Sent to [02:00] [SDN_PACKET_ACK] Header [0C FF 14 01 03 00] Payload [00 00 01 05]
+00:31.431	ID:3	Packet for send, dequeued!
+00:31.433	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:31.435	ID:3	Packets on Send Queue (0):
+00:31.435	ID:3	
+00:31.437	ID:2	TRICKLE_TIME activated 35.
+00:31.451	ID:2	Packet Received from [03:00] [SDN_PACKET_ACK] Header [0C FF 14 01 03 00] Payload [00 00 01 05]
+00:31.451	ID:2	
+00:31.453	ID:2	SDN_ACTION_FORWARD
+00:31.457	ID:2	Packet for send, enqueued!
+00:31.461	ID:2	Packets on Send Queue (2):
+00:31.470	ID:2	(3) [ 04 FF 13 00 03 00 ] [ 00 00 02 02 00 08 00 04 00 08 01 ]
+00:31.475	ID:2	(4) [ 0C FF 13 01 03 00 ] [ 00 00 01 05 ]
+00:31.476	ID:2	
+00:31.482	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:31.482	ID:2	
+00:31.484	ID:2	SDN_ACTION_FORWARD
+00:31.500	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.518	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.523	ID:1	~~=[ 03 00 ]=RX=04=00=0=
+00:31.533	ID:1	~~=[ 01 00 ]=TX=E7=07=[ 04 00 ]=
+00:31.538	ID:2	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 03 00] Payload [00 00 02 02 00 08 00 04 00 08 01]
+00:31.541	ID:2	Packet for send, dequeued!
+00:31.545	ID:2	Packets on Send Queue (1):
+00:31.551	ID:2	(4) [ 0C FF 13 01 03 00 ] [ 00 00 01 05 ]
+00:31.551	ID:2	
+00:31.551	ID:2	
+00:31.554	ID:2	SDN_ACTION_FORWARD
+00:31.565	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 01 03 00] Payload [00 00 01 05]
+00:31.578	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 13 01 03 00] Payload [00 00 01 05]
+00:31.584	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:31.588	ID:2	TRICKLE_TIME activated 5.
+00:31.609	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 07 01 00] Payload [02 00 00 00 02 03 00 04 00 02 04 00 03 00]
+00:31.610	ID:2	[ 04 00 ]
+00:31.613	ID:2	SDN_ACTION_RECEIVE
+00:31.629	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 07 01 00] Payload [02 00 00 00 02 03 00 04 00 02 04 00 03 00]
+00:31.636	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:31.640	ID:2	Packet for send, enqueued!
+00:31.644	ID:2	Packets on Send Queue (2):
+00:31.650	ID:2	(4) [ 0C FF 13 01 03 00 ] [ 00 00 01 05 ]
+00:31.659	ID:2	(5) [ E7 FF 13 07 01 00 ] [ 03 00 00 00 02 03 00 04 00 01 04 00 ]
+00:31.659	ID:2	
+00:31.665	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:31.665	ID:2	
+00:31.668	ID:2	SDN_ACTION_FORWARD
+00:31.679	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 01 03 00] Payload [00 00 01 05]
+00:31.692	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 13 01 03 00] Payload [00 00 01 05]
+00:31.697	ID:1	[ 02 00 ]~~=[ 03 00 ]=RX=0C=01=0=
+00:31.697	ID:1	~
+00:31.707	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 13 01 03 00] Payload [00 00 01 05]
+00:31.711	ID:2	Packet for send, dequeued!
+00:31.714	ID:2	Packets on Send Queue (1):
+00:31.724	ID:2	(5) [ E7 FF 13 07 01 00 ] [ 03 00 00 00 02 03 00 04 00 01 04 00 ]
+00:31.724	ID:2	
+00:31.725	ID:2	[ 04 00 ]
+00:31.728	ID:2	SDN_ACTION_FORWARD
+00:31.746	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 07 01 00] Payload [03 00 00 00 02 03 00 04 00 01 04 00]
+00:31.765	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 07 01 00] Payload [03 00 00 00 02 03 00 04 00 01 04 00]
+00:31.787	ID:3	Packet Received from [02:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 07 01 00] Payload [03 00 00 00 02 03 00 04 00 01 04 00]
+00:31.787	ID:2	Packet Sent to [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 07 01 00] Payload [03 00 00 00 02 03 00 04 00 01 04 00]
+00:31.788	ID:3	[ 04 00 ]
+00:31.790	ID:2	Packet for send, dequeued!
+00:31.791	ID:3	SDN_ACTION_RECEIVE
+00:31.794	ID:2	Packets on Send Queue (0):
+00:31.794	ID:2	
+00:31.806	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 07 01 00] Payload [03 00 00 00 02 03 00 04 00 01 04 00]
+00:31.813	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:31.817	ID:3	Packet for send, enqueued!
+00:31.821	ID:3	Packets on Send Queue (1):
+00:31.829	ID:3	(2) [ E7 FF 12 07 01 00 ] [ 04 00 00 00 02 03 00 04 00 00 ]
+00:31.829	ID:3	
+00:31.831	ID:3	[ 04 00 ]
+00:31.833	ID:3	SDN_ACTION_FORWARD
+00:31.850	ID:3	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 07 01 00] Payload [04 00 00 00 02 03 00 04 00 00]
+00:31.869	ID:3	Sending Packet to [ 04 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 07 01 00] Payload [04 00 00 00 02 03 00 04 00 00]
+00:31.889	ID:4	Packet Received from [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 07 01 00] Payload [04 00 00 00 02 03 00 04 00 00]
+00:31.890	ID:3	Packet Sent to [04:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 07 01 00] Payload [04 00 00 00 02 03 00 04 00 00]
+00:31.891	ID:4	[ 04 00 ]
+00:31.893	ID:3	Packet for send, dequeued!
+00:31.893	ID:4	SDN_ACTION_RECEIVE
+00:31.897	ID:3	Packets on Send Queue (0):
+00:31.897	ID:3	
+00:31.898	ID:4	=[ 01 00 ]=RX=E7=07=[ 04 00 ]=
+00:31.913	ID:4	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 11 07 01 00] Payload [04 00 00 00 02 03 00 04 00 00]
+00:31.920	ID:4	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:31.925	ID:4	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:31.928	ID:4	sdn_solve_unknown_flow 0
+00:31.936	ID:4	flowid, next_hop, action, times_used, age, next ptr
+00:31.940	ID:4	0([ 03 00 ]) (02) (00) (01) (0)
+00:31.941	ID:4	LED RED
+00:31.944	ID:4	LED BLUE NEIGHBOR
+00:31.947	ID:4	Packet for send, enqueued!
+00:31.951	ID:4	Packets on Send Queue (1):
+00:31.958	ID:4	(0) [ 04 FF 14 00 04 00 ] [ 00 00 01 03 00 88 00 ]
+00:31.958	ID:4	
+00:31.962	ID:4	=[ 04 00 ]=TX=04=00=0=
+00:31.965	ID:4	Packet for send, enqueued!
+00:31.969	ID:4	Packets on Send Queue (2):
+00:31.976	ID:4	(0) [ 04 FF 14 00 04 00 ] [ 00 00 01 03 00 88 00 ]
+00:31.982	ID:4	(1) [ 0C FF 14 01 04 00 ] [ 00 00 01 07 ]
+00:31.982	ID:4	
+00:31.985	ID:4	=[ 04 00 ]=TX=0C=01=0=
+00:31.985	ID:4	
+00:31.988	ID:4	SDN_ACTION_FORWARD
+00:32.002	ID:4	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.018	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.036	ID:3	Packet Received from [04:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.036	ID:4	Packet Sent to [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.036	ID:3	
+00:32.039	ID:3	SDN_ACTION_FORWARD
+00:32.040	ID:4	Packet for send, dequeued!
+00:32.043	ID:3	Packet for send, enqueued!
+00:32.044	ID:4	Packets on Send Queue (1):
+00:32.046	ID:3	Packets on Send Queue (1):
+00:32.049	ID:4	(1) [ 0C FF 14 01 04 00 ] [ 00 00 01 07 ]
+00:32.050	ID:4	
+00:32.050	ID:4	
+00:32.052	ID:4	SDN_ACTION_FORWARD
+00:32.053	ID:3	(3) [ 04 FF 13 00 04 00 ] [ 00 00 01 03 00 88 00 ]
+00:32.053	ID:3	
+00:32.054	ID:3	
+00:32.056	ID:3	SDN_ACTION_FORWARD
+00:32.064	ID:4	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 01 04 00] Payload [00 00 01 07]
+00:32.071	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.077	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_ACK] Header [0C FF 14 01 04 00] Payload [00 00 01 07]
+00:32.086	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.091	ID:4	Packet Sent to [03:00] [SDN_PACKET_ACK] Header [0C FF 14 01 04 00] Payload [00 00 01 07]
+00:32.092	ID:3	Activating trickle time: MAC_TX_COLLISION
+00:32.095	ID:4	Packet for send, dequeued!
+00:32.096	ID:3	TRICKLE_TIME activated 84.
+00:32.099	ID:4	Packets on Send Queue (0):
+00:32.099	ID:4	
+00:32.110	ID:3	Packet Received from [04:00] [SDN_PACKET_ACK] Header [0C FF 14 01 04 00] Payload [00 00 01 07]
+00:32.110	ID:3	
+00:32.113	ID:3	SDN_ACTION_FORWARD
+00:32.116	ID:3	Packet for send, enqueued!
+00:32.120	ID:3	Packets on Send Queue (2):
+00:32.127	ID:3	(3) [ 04 FF 13 00 04 00 ] [ 00 00 01 03 00 88 00 ]
+00:32.133	ID:3	(4) [ 0C FF 13 01 04 00 ] [ 00 00 01 07 ]
+00:32.133	ID:3	
+00:32.139	ID:3	Defering send due status not SDN_SEND_IDLE.
+00:32.168	ID:3	
+00:32.171	ID:3	SDN_ACTION_FORWARD
+00:32.185	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.201	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.219	ID:2	Packet Received from [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.219	ID:3	Packet Sent to [02:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.219	ID:2	
+00:32.222	ID:2	SDN_ACTION_FORWARD
+00:32.223	ID:3	Packet for send, dequeued!
+00:32.225	ID:2	Packet for send, enqueued!
+00:32.226	ID:3	Packets on Send Queue (1):
+00:32.229	ID:2	Packets on Send Queue (1):
+00:32.232	ID:3	(4) [ 0C FF 13 01 04 00 ] [ 00 00 01 07 ]
+00:32.232	ID:3	
+00:32.233	ID:3	
+00:32.235	ID:3	SDN_ACTION_FORWARD
+00:32.236	ID:2	(6) [ 04 FF 12 00 04 00 ] [ 00 00 01 03 00 88 00 ]
+00:32.236	ID:2	
+00:32.236	ID:2	
+00:32.239	ID:2	SDN_ACTION_FORWARD
+00:32.247	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 01 04 00] Payload [00 00 01 07]
+00:32.253	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.259	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_ACK] Header [0C FF 13 01 04 00] Payload [00 00 01 07]
+00:32.269	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.274	ID:3	Packet Sent to [02:00] [SDN_PACKET_ACK] Header [0C FF 13 01 04 00] Payload [00 00 01 07]
+00:32.275	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:32.278	ID:3	Packet for send, dequeued!
+00:32.279	ID:2	TRICKLE_TIME activated 46.
+00:32.282	ID:3	Packets on Send Queue (0):
+00:32.282	ID:3	
+00:32.293	ID:2	Packet Received from [03:00] [SDN_PACKET_ACK] Header [0C FF 13 01 04 00] Payload [00 00 01 07]
+00:32.293	ID:2	
+00:32.295	ID:2	SDN_ACTION_FORWARD
+00:32.299	ID:2	Packet for send, enqueued!
+00:32.303	ID:2	Packets on Send Queue (2):
+00:32.310	ID:2	(6) [ 04 FF 12 00 04 00 ] [ 00 00 01 03 00 88 00 ]
+00:32.316	ID:2	(7) [ 0C FF 12 01 04 00 ] [ 00 00 01 07 ]
+00:32.316	ID:2	
+00:32.322	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:32.322	ID:2	
+00:32.325	ID:2	SDN_ACTION_FORWARD
+00:32.339	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.355	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.360	ID:1	~=[ 04 00 ]=RX=04=00=0=
+00:32.373	ID:2	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 00 04 00] Payload [00 00 01 03 00 88 00]
+00:32.377	ID:2	Packet for send, dequeued!
+00:32.380	ID:2	Packets on Send Queue (1):
+00:32.386	ID:2	(7) [ 0C FF 12 01 04 00 ] [ 00 00 01 07 ]
+00:32.386	ID:2	
+00:32.386	ID:2	
+00:32.389	ID:2	SDN_ACTION_FORWARD
+00:32.400	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 12 01 04 00] Payload [00 00 01 07]
+00:32.413	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 12 01 04 00] Payload [00 00 01 07]
+00:32.418	ID:1	~~=[ 04 00 ]=RX=0C=01=0=
+00:32.419	ID:1	~
+00:32.428	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 12 01 04 00] Payload [00 00 01 07]
+00:32.432	ID:2	Packet for send, dequeued!
+00:32.436	ID:2	Packets on Send Queue (0):
+00:32.436	ID:2	
+00:40.410	ID:2	 5126 P 2.0 3 44109 1266561 368 1232757 0 0 40745 286934 247 327431 0 0 (radio 94.-6546% / 99.99% tx 0.02% / 0.07% listen 94.-6549% / 99.92%)
+00:40.423	ID:6	 5126 P 6.0 3 2738 1307930 95 1229192 0 0 815 326864 0 327679 0 0 (radio 93.-6475% / 100.00% tx 0.00% / 0.00% listen 93.-6476% / 100.00%)
+00:40.522	ID:4	 5126 P 4.0 3 12028 1298641 172 1232954 0 0 8899 318780 103 327576 0 0 (radio 94.-6546% / 100.00% tx 0.01% / 0.03% listen 94.-6547% / 99.96%)
+00:40.555	ID:1	~ 5126 P 1.0 3 6536 1304126 251 1194219 0 0 4306 323371 122 327556 0 0 (radio 91.-6541% / 100.00% tx 0.01% / 0.03% listen 91.-6543% / 99.96%)
+00:40.889	ID:5	 5126 P 5.0 3 18555 1292112 196 1086499 0 0 8423 319255 96 327583 0 0 (radio 82.-6463% / 100.00% tx 0.01% / 0.02% listen 82.-6465% / 99.97%)
+00:41.073	ID:3	 5126 P 3.0 3 24531 1286138 282 1232843 0 0 21331 306347 213 327464 0 0 (radio 94.-6546% / 99.99% tx 0.02% / 0.06% listen 94.-6548% / 99.93%)
+00:49.877	ID:4	neighbor, metric, next ptr
+00:49.877	ID:2	neighbor, metric, next ptr
+00:49.880	ID:4	([ 03 00 ]) (16) (0)
+00:49.880	ID:2	([ 03 00 ]) (16) (0x3a9e)
+00:49.883	ID:2	([ 01 00 ]) (00) (0)
+00:49.885	ID:4	Receiving event at SDN core process: 70.
+00:49.888	ID:4	Neighbor Change.
+00:49.889	ID:2	Receiving event at SDN core process: 70.
+00:49.890	ID:4	LED BLUE NEIGHBOR
+00:49.891	ID:2	Neighbor Change.
+00:49.894	ID:2	LED BLUE NEIGHBOR
+00:49.894	ID:4	Packet for send, enqueued!
+00:49.898	ID:2	Packet for send, enqueued!
+00:49.898	ID:4	Packets on Send Queue (1):
+00:49.901	ID:2	Packets on Send Queue (1):
+00:49.905	ID:4	(2) [ 04 FF 14 02 04 00 ] [ 00 00 01 03 00 10 00 ]
+00:49.905	ID:4	
+00:49.908	ID:4	=[ 04 00 ]=TX=04=02=0=
+00:49.908	ID:4	
+00:49.910	ID:2	(8) [ 04 FF 14 02 02 00 ] [ 00 00 02 03 00 10 00 01 00 00 00 ]
+00:49.910	ID:2	
+00:49.911	ID:4	SDN_ACTION_FORWARD
+00:49.914	ID:2	=[ 02 00 ]=TX=04=02=0=
+00:49.914	ID:2	
+00:49.916	ID:2	SDN_ACTION_FORWARD
+00:49.925	ID:4	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 04 00] Payload [00 00 01 03 00 10 00]
+00:49.932	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 02 00] Payload [00 00 02 03 00 10 00 01 00 00 00]
+00:49.941	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 04 00] Payload [00 00 01 03 00 10 00]
+00:49.950	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 02 00] Payload [00 00 02 03 00 10 00 01 00 00 00]
+00:49.956	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:49.959	ID:3	Packet Received from [04:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 04 00] Payload [00 00 01 03 00 10 00]
+00:49.959	ID:4	Packet Sent to [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 04 00] Payload [00 00 01 03 00 10 00]
+00:49.959	ID:3	
+00:49.960	ID:2	TRICKLE_TIME activated 72.
+00:49.962	ID:3	SDN_ACTION_FORWARD
+00:49.963	ID:4	Packet for send, dequeued!
+00:49.965	ID:3	Packet for send, enqueued!
+00:49.966	ID:4	Packets on Send Queue (0):
+00:49.967	ID:4	
+00:49.969	ID:3	Packets on Send Queue (1):
+00:49.976	ID:3	(5) [ 04 FF 13 02 04 00 ] [ 00 00 01 03 00 10 00 ]
+00:49.976	ID:3	
+00:49.976	ID:3	
+00:49.979	ID:3	SDN_ACTION_FORWARD
+00:49.993	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.009	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.027	ID:2	Packet Received from [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.027	ID:3	Packet Sent to [02:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.027	ID:2	
+00:50.030	ID:2	SDN_ACTION_FORWARD
+00:50.031	ID:3	Packet for send, dequeued!
+00:50.033	ID:2	Packet for send, enqueued!
+00:50.035	ID:3	Packets on Send Queue (0):
+00:50.035	ID:3	
+00:50.037	ID:2	Packets on Send Queue (2):
+00:50.046	ID:2	(8) [ 04 FF 14 02 02 00 ] [ 00 00 02 03 00 10 00 01 00 00 00 ]
+00:50.053	ID:2	(9) [ 04 FF 12 02 04 00 ] [ 00 00 01 03 00 10 00 ]
+00:50.053	ID:2	
+00:50.059	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:50.059	ID:2	
+00:50.062	ID:2	SDN_ACTION_FORWARD
+00:50.078	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 02 00] Payload [00 00 02 03 00 10 00 01 00 00 00]
+00:50.096	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 02 00] Payload [00 00 02 03 00 10 00 01 00 00 00]
+00:50.101	ID:1	=[ 02 00 ]=RX=04=02=0=
+00:50.115	ID:2	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 02 00] Payload [00 00 02 03 00 10 00 01 00 00 00]
+00:50.119	ID:2	Packet for send, dequeued!
+00:50.123	ID:2	Packets on Send Queue (1):
+00:50.130	ID:2	(9) [ 04 FF 12 02 04 00 ] [ 00 00 01 03 00 10 00 ]
+00:50.130	ID:2	
+00:50.130	ID:2	
+00:50.133	ID:2	SDN_ACTION_FORWARD
+00:50.147	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.163	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.168	ID:1	~~=[ 04 00 ]=RX=04=02=0=
+00:50.181	ID:2	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 12 02 04 00] Payload [00 00 01 03 00 10 00]
+00:50.184	ID:2	Packet for send, dequeued!
+00:50.188	ID:2	Packets on Send Queue (0):
+00:50.188	ID:2	
+00:50.410	ID:2	 6406 P 2.0 4 53573 1584776 448 1560356 0 0 9464 318215 80 327598 0 0 (radio 95.-7838% / 99.99% tx 0.02% / 0.02% listen 95.-7841% / 99.97%)
+00:50.423	ID:6	 6406 P 6.0 4 3448 1634899 95 1556872 0 0 710 326969 0 327679 0 0 (radio 95.-7862% / 100.00% tx 0.00% / 0.00% listen 95.-7862% / 100.00%)
+00:50.522	ID:4	 6406 P 4.0 4 15837 1622511 198 1560608 0 0 3808 323870 26 327653 0 0 (radio 95.-7838% / 100.00% tx 0.01% / 0.00% listen 95.-7840% / 99.99%)
+00:50.555	ID:1	~~ 6406 P 1.0 4 7724 1630618 251 1521898 0 0 1187 326492 0 327679 0 0 (radio 92.-7774% / 100.00% tx 0.01% / 0.00% listen 92.-7776% / 100.00%)
+00:50.888	ID:5	 6406 P 5.0 4 19291 1619056 196 1414179 0 0 735 326944 0 327679 0 0 (radio 86.-7832% / 100.00% tx 0.01% / 0.00% listen 86.-7833% / 100.00%)
+00:51.073	ID:3	 6406 P 3.0 4 28352 1609995 332 1560472 0 0 3820 323857 50 327628 0 0 (radio 95.-7838% / 100.00% tx 0.02% / 0.01% listen 95.-7840% / 99.98%)
+00:52.302	ID:3	neighbor, metric, next ptr
+00:52.306	ID:3	([ 02 00 ]) (08) (0x3a9e)
+00:52.309	ID:3	([ 04 00 ]) (24) (0)
+00:52.315	ID:3	Receiving event at SDN core process: 70.
+00:52.317	ID:3	Neighbor Change.
+00:52.320	ID:3	LED BLUE NEIGHBOR
+00:52.323	ID:3	Packet for send, enqueued!
+00:52.327	ID:3	Packets on Send Queue (1):
+00:52.336	ID:3	(6) [ 04 FF 14 02 03 00 ] [ 00 00 02 02 00 08 00 04 00 18 00 ]
+00:52.336	ID:3	
+00:52.339	ID:3	=[ 03 00 ]=TX=04=02=0=
+00:52.339	ID:3	
+00:52.342	ID:3	SDN_ACTION_FORWARD
+00:52.358	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.375	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.395	ID:2	Packet Received from [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.395	ID:3	Packet Sent to [02:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.395	ID:2	
+00:52.398	ID:2	SDN_ACTION_FORWARD
+00:52.399	ID:3	Packet for send, dequeued!
+00:52.401	ID:2	Packet for send, enqueued!
+00:52.402	ID:3	Packets on Send Queue (0):
+00:52.403	ID:3	
+00:52.405	ID:2	Packets on Send Queue (1):
+00:52.414	ID:2	(0) [ 04 FF 13 02 03 00 ] [ 00 00 02 02 00 08 00 04 00 18 00 ]
+00:52.414	ID:2	
+00:52.414	ID:2	
+00:52.417	ID:2	SDN_ACTION_FORWARD
+00:52.433	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.450	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.455	ID:1	=[ 03 00 ]=RX=04=02=0=
+00:52.470	ID:2	Packet Sent to [01:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 02 03 00] Payload [00 00 02 02 00 08 00 04 00 18 00]
+00:52.474	ID:2	Packet for send, dequeued!
+00:52.477	ID:2	Packets on Send Queue (0):
+00:52.478	ID:2	
+01:00.410	ID:2	 7686 P 2.0 5 57615 1908414 479 1888005 0 0 4041 323638 31 327648 0 0 (radio 96.-8733% / 100.00% tx 0.02% / 0.00% listen 96.-8736% / 99.99%)
+01:00.423	ID:6	 7686 P 6.0 5 4158 1961868 95 1884552 0 0 709 326969 0 327679 0 0 (radio 95.-8653% / 100.00% tx 0.00% / 0.00% listen 95.-8653% / 100.00%)
+01:00.436	ID:2	Timer reset
+01:00.440	ID:2	Packet for send, enqueued!
+01:00.444	ID:2	Packets on Send Queue (1):
+01:00.453	ID:2	(1) [ 05 FF 14 03 02 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.453	ID:2	
+01:00.457	ID:2	=[ 02 00 ]=TX=05=03=2017=
+01:00.458	ID:2	dfe == NULL
+01:00.461	ID:2	sdn_unknown_flow 2017
+01:00.465	ID:2	Packet for send, enqueued!
+01:00.469	ID:2	Packets on Send Queue (2):
+01:00.478	ID:2	(1) [ 05 FF 14 03 02 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.484	ID:2	(2) [ 03 FF 14 04 02 00 ] [ 00 00 E1 07 ]
+01:00.484	ID:2	
+01:00.487	ID:2	=[ 02 00 ]=TX=03=04=0=
+01:00.487	ID:2	
+01:00.490	ID:2	SDN_ACTION_DROP
+01:00.504	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.507	ID:2	send(): dest == NULL
+01:00.511	ID:2	Packet for send, dequeued!
+01:00.515	ID:2	Packets on Send Queue (1):
+01:00.521	ID:2	(2) [ 03 FF 14 04 02 00 ] [ 00 00 E1 07 ]
+01:00.521	ID:2	
+01:00.521	ID:2	
+01:00.522	ID:4	 7686 P 4.0 5 16623 1949405 221 1888264 0 0 785 326894 23 327656 0 0 (radio 96.-8733% / 100.00% tx 0.01% / 0.00% listen 96.-8734% / 99.99%)
+01:00.524	ID:2	SDN_ACTION_FORWARD
+01:00.537	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 02 00] Payload [00 00 E1 07]
+01:00.549	ID:4	Timer reset
+01:00.552	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 02 00] Payload [00 00 E1 07]
+01:00.552	ID:4	Packet for send, enqueued!
+01:00.555	ID:1	~~ 7686 P 1.0 5 8728 1957294 275 1849554 0 0 1003 326676 24 327655 0 0 (radio 94.-8730% / 100.00% tx 0.01% / 0.00% listen 94.-8731% / 99.99%)
+01:00.556	ID:4	Packets on Send Queue (1):
+01:00.558	ID:1	=[ 02 00 ]=RX=03=04=0=
+01:00.559	ID:1	~
+01:00.565	ID:4	(3) [ 05 FF 14 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.565	ID:4	
+01:00.567	ID:1	~=[ 01 00 ]=TX=E7=0A=[ 02 00 ]=
+01:00.569	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 02 00] Payload [00 00 E1 07]
+01:00.569	ID:4	=[ 04 00 ]=TX=05=03=2017=
+01:00.571	ID:4	dfe == NULL
+01:00.572	ID:2	Packet for send, dequeued!
+01:00.574	ID:4	sdn_unknown_flow 2017
+01:00.576	ID:2	Packets on Send Queue (0):
+01:00.576	ID:2	
+01:00.577	ID:4	Packet for send, enqueued!
+01:00.581	ID:4	Packets on Send Queue (2):
+01:00.590	ID:4	(3) [ 05 FF 14 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.595	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 0A 01 00] Payload [02 00 E1 07 02 01 00 02 00 00]
+01:00.596	ID:4	(4) [ 03 FF 14 04 04 00 ] [ 00 00 E1 07 ]
+01:00.596	ID:4	
+01:00.597	ID:2	[ 02 00 ]
+01:00.599	ID:2	SDN_ACTION_RECEIVE
+01:00.600	ID:4	=[ 04 00 ]=TX=03=04=0=
+01:00.600	ID:4	
+01:00.602	ID:4	SDN_ACTION_DROP
+01:00.604	ID:2	=[ 01 00 ]=RX=E7=0A=[ 02 00 ]=
+01:00.617	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.618	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0A 01 00] Payload [02 00 E1 07 02 01 00 02 00 00]
+01:00.620	ID:4	send(): dest == NULL
+01:00.623	ID:4	Packet for send, dequeued!
+01:00.625	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:00.627	ID:4	Packets on Send Queue (1):
+01:00.631	ID:2	Processing SDN_PACKET_DATA_FLOW_SETUP.
+01:00.633	ID:4	(4) [ 03 FF 14 04 04 00 ] [ 00 00 E1 07 ]
+01:00.633	ID:4	
+01:00.633	ID:4	
+01:00.635	ID:2	sdn_solve_unknown_flow 2017
+01:00.636	ID:4	SDN_ACTION_FORWARD
+01:00.639	ID:2	sdn_solve_unknown_flow: match
+01:00.643	ID:2	Packet for send, enqueued!
+01:00.646	ID:2	Packets on Send Queue (1):
+01:00.649	ID:4	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 04 00] Payload [00 00 E1 07]
+01:00.656	ID:2	(3) [ 05 FF 14 03 02 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.656	ID:2	
+01:00.663	ID:2	flowid, next_hop, action, times_used, age, next ptr
+01:00.664	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 04 00] Payload [00 00 E1 07]
+01:00.668	ID:2	0([ 01 00 ]) (02) (21) (02) (0x22bc)
+01:00.673	ID:2	2017([ 01 00 ]) (02) (00) (01) (0)
+01:00.674	ID:2	LED GREEN
+01:00.678	ID:2	Packet for send, enqueued!
+01:00.681	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 04 00] Payload [00 00 E1 07]
+01:00.681	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 04 00] Payload [00 00 E1 07]
+01:00.681	ID:3	
+01:00.682	ID:2	Packets on Send Queue (2):
+01:00.684	ID:3	SDN_ACTION_FORWARD
+01:00.685	ID:4	Packet for send, dequeued!
+01:00.687	ID:3	Packet for send, enqueued!
+01:00.688	ID:4	Packets on Send Queue (0):
+01:00.688	ID:4	
+01:00.691	ID:2	(3) [ 05 FF 14 03 02 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.691	ID:3	Packets on Send Queue (1):
+01:00.697	ID:2	(4) [ 0C FF 14 05 02 00 ] [ 00 00 01 0A ]
+01:00.697	ID:3	(7) [ 03 FF 13 04 04 00 ] [ 00 00 E1 07 ]
+01:00.697	ID:2	
+01:00.697	ID:3	
+01:00.697	ID:3	
+01:00.700	ID:3	SDN_ACTION_FORWARD
+01:00.700	ID:2	=[ 02 00 ]=TX=0C=05=0=
+01:00.700	ID:2	
+01:00.703	ID:2	SDN_ACTION_FORWARD
+01:00.713	ID:3	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 04 00] Payload [00 00 E1 07]
+01:00.718	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.728	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 04 00] Payload [00 00 E1 07]
+01:00.734	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.740	ID:2	Activating trickle time: MAC_TX_COLLISION
+01:00.744	ID:2	TRICKLE_TIME activated 25.
+01:00.745	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 04 00] Payload [00 00 E1 07]
+01:00.748	ID:3	Packet for send, dequeued!
+01:00.752	ID:3	Packets on Send Queue (0):
+01:00.752	ID:3	
+01:00.760	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 04 00] Payload [00 00 E1 07]
+01:00.760	ID:2	
+01:00.762	ID:2	SDN_ACTION_FORWARD
+01:00.766	ID:2	Packet for send, enqueued!
+01:00.770	ID:2	Packets on Send Queue (3):
+01:00.779	ID:2	(3) [ 05 FF 14 03 02 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.785	ID:2	(4) [ 0C FF 14 05 02 00 ] [ 00 00 01 0A ]
+01:00.791	ID:2	(5) [ 03 FF 12 04 04 00 ] [ 00 00 E1 07 ]
+01:00.791	ID:2	
+01:00.797	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:00.797	ID:2	
+01:00.800	ID:2	SDN_ACTION_FORWARD
+01:00.815	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.831	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.850	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.853	ID:2	Packet for send, dequeued!
+01:00.857	ID:2	Packets on Send Queue (2):
+01:00.858	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 13 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.862	ID:5	Packet for recv, enqueued!
+01:00.863	ID:2	(4) [ 0C FF 14 05 02 00 ] [ 00 00 01 0A ]
+01:00.866	ID:5	Packets on Recv Queue (1):
+01:00.869	ID:2	(5) [ 03 FF 12 04 04 00 ] [ 00 00 E1 07 ]
+01:00.869	ID:2	
+01:00.869	ID:2	
+01:00.872	ID:2	SDN_ACTION_FORWARD
+01:00.875	ID:5	(0) [ 05 FF 12 03 02 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:00.875	ID:5	
+01:00.881	ID:5	Receiving event at SDN core process: 72.
+01:00.883	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 05 02 00] Payload [00 00 01 0A]
+01:00.885	ID:5	Packet for recv, dequeued!
+01:00.888	ID:5	Packets on Recv Queue (0):
+01:00.889	ID:5	
+01:00.889	ID:5	
+01:00.891	ID:5	SDN_ACTION_RECEIVE
+01:00.895	ID:5	=[ 02 00 ]=RX=05=03=2017=
+01:00.896	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 14 05 02 00] Payload [00 00 01 0A]
+01:00.901	ID:1	[ 02 00 ]~~~test 0~[ 05 00 ]~~=[ 02 00 ]=RX=0C=05=0=
+01:00.901	ID:1	~
+01:00.903	ID:1	
+01:00.908	ID:5	[SDN_PACKET_DATA] Header [05 FF 12 03 02 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:00.911	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 14 05 02 00] Payload [00 00 01 0A]
+01:00.911	ID:5	Processing SDN_PACKET_DATA.
+01:00.914	ID:2	Packet for send, dequeued!
+01:00.918	ID:2	Packets on Send Queue (1):
+01:00.918	ID:5	Receiving message from [ 02 00 ] of len 10: test 0
+01:00.924	ID:2	(5) [ 03 FF 12 04 04 00 ] [ 00 00 E1 07 ]
+01:00.924	ID:2	
+01:00.924	ID:2	
+01:00.927	ID:2	SDN_ACTION_FORWARD
+01:00.940	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 12 04 04 00] Payload [00 00 E1 07]
+01:00.940	ID:5	 7692 P 5.0 5 22557 1945175 196 1743564 0 0 3266 326119 0 329384 0 0 (radio 88.-8670% / 99.99% tx 0.00% / 0.00% listen 88.-8671% / 99.99%)
+01:00.955	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 12 04 04 00] Payload [00 00 E1 07]
+01:00.960	ID:1	~=[ 04 00 ]=RX=03=04=0=
+01:00.961	ID:1	~
+01:00.969	ID:1	~=[ 01 00 ]=TX=E7=0B=[ 03 00 ]=
+01:00.972	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 12 04 04 00] Payload [00 00 E1 07]
+01:00.976	ID:2	Packet for send, dequeued!
+01:00.979	ID:2	Packets on Send Queue (0):
+01:00.980	ID:2	
+01:00.999	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 0B 01 00] Payload [02 00 E1 07 02 02 00 03 00 01 03 00]
+01:01.001	ID:2	[ 03 00 ]
+01:01.003	ID:2	SDN_ACTION_RECEIVE
+01:01.019	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [02 00 E1 07 02 02 00 03 00 01 03 00]
+01:01.026	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.030	ID:2	Packet for send, enqueued!
+01:01.033	ID:1	[ 02 00 ]~~=[ 01 00 ]=TX=E7=0C=[ 04 00 ]=
+01:01.034	ID:2	Packets on Send Queue (1):
+01:01.042	ID:2	(6) [ E7 FF 13 0B 01 00 ] [ 03 00 E1 07 02 02 00 03 00 00 ]
+01:01.042	ID:2	
+01:01.043	ID:2	[ 03 00 ]
+01:01.046	ID:2	SDN_ACTION_FORWARD
+01:01.063	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.073	ID:3	 7686 P 3.0 5 35359 1930666 387 1888097 0 0 7006 320671 55 327624 0 0 (radio 96.-8733% / 100.00% tx 0.01% / 0.01% listen 96.-8735% / 99.98%)
+01:01.082	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.088	ID:2	Activating trickle time: MAC_TX_COLLISION
+01:01.092	ID:2	TRICKLE_TIME activated 85.
+01:01.100	ID:3	Timer reset
+01:01.103	ID:3	Packet for send, enqueued!
+01:01.107	ID:3	Packets on Send Queue (1):
+01:01.113	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 0C 01 00] Payload [02 00 E1 07 02 03 00 04 00 02 04 00 03 00]
+01:01.114	ID:2	[ 04 00 ]
+01:01.116	ID:3	(8) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.116	ID:3	
+01:01.117	ID:2	SDN_ACTION_RECEIVE
+01:01.120	ID:3	=[ 03 00 ]=TX=05=03=2017=
+01:01.122	ID:3	dfe == NULL
+01:01.125	ID:3	sdn_unknown_flow 2017
+01:01.128	ID:3	Packet for send, enqueued!
+01:01.132	ID:3	Packets on Send Queue (2):
+01:01.133	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0C 01 00] Payload [02 00 E1 07 02 03 00 04 00 02 04 00 03 00]
+01:01.140	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.141	ID:3	(8) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.144	ID:2	Packet for send, enqueued!
+01:01.147	ID:3	(9) [ 03 FF 14 04 03 00 ] [ 00 00 E1 07 ]
+01:01.147	ID:3	
+01:01.148	ID:2	Packets on Send Queue (2):
+01:01.151	ID:3	=[ 03 00 ]=TX=03=04=0=
+01:01.151	ID:3	
+01:01.153	ID:3	SDN_ACTION_DROP
+01:01.156	ID:2	(6) [ E7 FF 13 0B 01 00 ] [ 03 00 E1 07 02 02 00 03 00 00 ]
+01:01.165	ID:2	(7) [ E7 FF 13 0C 01 00 ] [ 03 00 E1 07 02 03 00 04 00 01 04 00 ]
+01:01.165	ID:2	
+01:01.168	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.171	ID:3	send(): dest == NULL
+01:01.171	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:01.173	ID:2	[ 03 00 ]
+01:01.174	ID:3	Packet for send, dequeued!
+01:01.175	ID:2	SDN_ACTION_FORWARD
+01:01.178	ID:3	Packets on Send Queue (1):
+01:01.184	ID:3	(9) [ 03 FF 14 04 03 00 ] [ 00 00 E1 07 ]
+01:01.184	ID:3	
+01:01.184	ID:3	
+01:01.187	ID:3	SDN_ACTION_FORWARD
+01:01.192	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.200	ID:3	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 03 00] Payload [00 00 E1 07]
+01:01.211	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.215	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 03 00] Payload [00 00 E1 07]
+01:01.221	ID:3	Activating trickle time: MAC_TX_COLLISION
+01:01.225	ID:3	TRICKLE_TIME activated 35.
+01:01.232	ID:2	Packet Sent to [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.235	ID:2	Packet for send, dequeued!
+01:01.239	ID:2	Packets on Send Queue (1):
+01:01.244	ID:3	Packet Received from [02:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.246	ID:3	[ 03 00 ]
+01:01.248	ID:3	SDN_ACTION_RECEIVE
+01:01.248	ID:2	(7) [ E7 FF 13 0C 01 00 ] [ 03 00 E1 07 02 03 00 04 00 01 04 00 ]
+01:01.249	ID:2	
+01:01.250	ID:2	[ 04 00 ]
+01:01.253	ID:2	SDN_ACTION_FORWARD
+01:01.253	ID:3	=[ 01 00 ]=RX=E7=0B=[ 03 00 ]=
+01:01.267	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0B 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.270	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0C 01 00] Payload [03 00 E1 07 02 03 00 04 00 01 04 00]
+01:01.274	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.280	ID:3	Processing SDN_PACKET_DATA_FLOW_SETUP.
+01:01.284	ID:3	sdn_solve_unknown_flow 2017
+01:01.288	ID:3	sdn_solve_unknown_flow: match
+01:01.290	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0C 01 00] Payload [03 00 E1 07 02 03 00 04 00 01 04 00]
+01:01.292	ID:3	Packet for send, enqueued!
+01:01.295	ID:3	Packets on Send Queue (2):
+01:01.301	ID:3	(9) [ 03 FF 14 04 03 00 ] [ 00 00 E1 07 ]
+01:01.310	ID:3	(0) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.310	ID:3	
+01:01.312	ID:2	Packet Sent to [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0C 01 00] Payload [03 00 E1 07 02 03 00 04 00 01 04 00]
+01:01.315	ID:2	Packet for send, dequeued!
+01:01.317	ID:3	Defering send due status not SDN_SEND_IDLE.
+01:01.319	ID:2	Packets on Send Queue (0):
+01:01.319	ID:2	
+01:01.324	ID:3	flowid, next_hop, action, times_used, age, next ptr
+01:01.329	ID:3	0([ 02 00 ]) (02) (13) (02) (0x22bc)
+01:01.334	ID:3	2017([ 02 00 ]) (02) (00) (01) (0)
+01:01.335	ID:3	LED GREEN
+01:01.339	ID:3	Packet for send, enqueued!
+01:01.343	ID:3	Packets on Send Queue (3):
+01:01.348	ID:3	(9) [ 03 FF 14 04 03 00 ] [ 00 00 E1 07 ]
+01:01.358	ID:3	(0) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.363	ID:3	(1) [ 0C FF 14 05 03 00 ] [ 00 00 01 0B ]
+01:01.364	ID:3	
+01:01.367	ID:3	=[ 03 00 ]=TX=0C=05=0=
+01:01.373	ID:3	Defering send due status not SDN_SEND_IDLE.
+01:01.393	ID:3	Packet Received from [02:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0C 01 00] Payload [03 00 E1 07 02 03 00 04 00 01 04 00]
+01:01.394	ID:3	[ 04 00 ]
+01:01.397	ID:3	SDN_ACTION_RECEIVE
+01:01.413	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0C 01 00] Payload [03 00 E1 07 02 03 00 04 00 01 04 00]
+01:01.420	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.423	ID:3	Packet for send, enqueued!
+01:01.427	ID:3	Packets on Send Queue (4):
+01:01.433	ID:3	(9) [ 03 FF 14 04 03 00 ] [ 00 00 E1 07 ]
+01:01.442	ID:3	(0) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.448	ID:3	(1) [ 0C FF 14 05 03 00 ] [ 00 00 01 0B ]
+01:01.456	ID:3	(2) [ E7 FF 12 0C 01 00 ] [ 04 00 E1 07 02 03 00 04 00 00 ]
+01:01.456	ID:3	
+01:01.462	ID:3	Defering send due status not SDN_SEND_IDLE.
+01:01.463	ID:3	
+01:01.465	ID:3	SDN_ACTION_FORWARD
+01:01.478	ID:3	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 03 00] Payload [00 00 E1 07]
+01:01.493	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 03 00] Payload [00 00 E1 07]
+01:01.510	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 03 00] Payload [00 00 E1 07]
+01:01.510	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 04 03 00] Payload [00 00 E1 07]
+01:01.510	ID:2	
+01:01.513	ID:2	SDN_ACTION_FORWARD
+01:01.514	ID:3	Packet for send, dequeued!
+01:01.516	ID:2	Packet for send, enqueued!
+01:01.518	ID:3	Packets on Send Queue (3):
+01:01.520	ID:2	Packets on Send Queue (1):
+01:01.526	ID:2	(8) [ 03 FF 13 04 03 00 ] [ 00 00 E1 07 ]
+01:01.526	ID:2	
+01:01.526	ID:2	
+01:01.527	ID:3	(0) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.529	ID:2	SDN_ACTION_FORWARD
+01:01.533	ID:3	(1) [ 0C FF 14 05 03 00 ] [ 00 00 01 0B ]
+01:01.541	ID:3	(2) [ E7 FF 12 0C 01 00 ] [ 04 00 E1 07 02 03 00 04 00 00 ]
+01:01.541	ID:3	
+01:01.541	ID:3	
+01:01.542	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 03 00] Payload [00 00 E1 07]
+01:01.544	ID:3	SDN_ACTION_FORWARD
+01:01.557	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 03 00] Payload [00 00 E1 07]
+01:01.559	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.562	ID:1	[ 02 00 ]~~=[ 03 00 ]=RX=03=04=0=
+01:01.563	ID:1	~
+01:01.571	ID:1	9~=[ 01 00 ]=TX=E7=0D=[ 03 00 ]=
+01:01.574	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 04 03 00] Payload [00 00 E1 07]
+01:01.575	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.578	ID:2	Packet for send, dequeued!
+01:01.581	ID:3	Activating trickle time: MAC_TX_COLLISION
+01:01.581	ID:2	Packets on Send Queue (0):
+01:01.582	ID:2	
+01:01.585	ID:3	TRICKLE_TIME activated 5.
+01:01.585	ID:3	
+01:01.588	ID:3	SDN_ACTION_FORWARD
+01:01.601	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 0D 01 00] Payload [02 00 E1 07 02 02 00 03 00 01 03 00]
+01:01.603	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.603	ID:2	[ 03 00 ]
+01:01.605	ID:2	SDN_ACTION_RECEIVE
+01:01.619	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.621	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [02 00 E1 07 02 02 00 03 00 01 03 00]
+01:01.628	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.632	ID:2	Packet for send, enqueued!
+01:01.636	ID:2	Packets on Send Queue (1):
+01:01.638	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.641	ID:3	Packet for send, dequeued!
+01:01.644	ID:2	(9) [ E7 FF 13 0D 01 00 ] [ 03 00 E1 07 02 02 00 03 00 00 ]
+01:01.644	ID:2	
+01:01.645	ID:3	Packets on Send Queue (2):
+01:01.645	ID:2	[ 03 00 ]
+01:01.648	ID:2	SDN_ACTION_FORWARD
+01:01.651	ID:3	(1) [ 0C FF 14 05 03 00 ] [ 00 00 01 0B ]
+01:01.659	ID:3	(2) [ E7 FF 12 0C 01 00 ] [ 04 00 E1 07 02 03 00 04 00 00 ]
+01:01.659	ID:3	
+01:01.660	ID:3	
+01:01.662	ID:3	SDN_ACTION_FORWARD
+01:01.665	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.674	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 0B]
+01:01.684	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.687	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 0B]
+01:01.690	ID:2	Activating trickle time: MAC_TX_COLLISION
+01:01.694	ID:2	TRICKLE_TIME activated 79.
+01:01.701	ID:3	Packet Sent to [02:00] [SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 0B]
+01:01.705	ID:3	Packet for send, dequeued!
+01:01.709	ID:3	Packets on Send Queue (1):
+01:01.711	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.714	ID:2	Packet for recv, enqueued!
+01:01.717	ID:3	(2) [ E7 FF 12 0C 01 00 ] [ 04 00 E1 07 02 03 00 04 00 00 ]
+01:01.717	ID:3	
+01:01.718	ID:2	Packets on Recv Queue (1):
+01:01.719	ID:3	[ 04 00 ]
+01:01.721	ID:3	SDN_ACTION_FORWARD
+01:01.727	ID:2	(0) [ 05 FF 13 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.728	ID:2	
+01:01.738	ID:3	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0C 01 00] Payload [04 00 E1 07 02 03 00 04 00 00]
+01:01.741	ID:2	Packet Received from [03:00] [SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 0B]
+01:01.741	ID:2	
+01:01.744	ID:2	SDN_ACTION_FORWARD
+01:01.747	ID:2	Packet for send, enqueued!
+01:01.751	ID:2	Packets on Send Queue (2):
+01:01.757	ID:3	Sending Packet to [ 04 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0C 01 00] Payload [04 00 E1 07 02 03 00 04 00 00]
+01:01.759	ID:2	(9) [ E7 FF 13 0D 01 00 ] [ 03 00 E1 07 02 02 00 03 00 00 ]
+01:01.765	ID:2	(0) [ 0C FF 13 05 03 00 ] [ 00 00 01 0B ]
+01:01.765	ID:2	
+01:01.772	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:01.777	ID:2	Receiving event at SDN core process: 72.
+01:01.778	ID:4	Packet Received from [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0C 01 00] Payload [04 00 E1 07 02 03 00 04 00 00]
+01:01.778	ID:3	Packet Sent to [04:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0C 01 00] Payload [04 00 E1 07 02 03 00 04 00 00]
+01:01.779	ID:4	[ 04 00 ]
+01:01.781	ID:2	Packet for recv, dequeued!
+01:01.781	ID:3	Packet for send, dequeued!
+01:01.782	ID:4	SDN_ACTION_RECEIVE
+01:01.785	ID:2	Packets on Recv Queue (0):
+01:01.785	ID:2	
+01:01.785	ID:2	
+01:01.785	ID:3	Packets on Send Queue (0):
+01:01.785	ID:3	
+01:01.786	ID:4	=[ 01 00 ]=RX=E7=0C=[ 04 00 ]=
+01:01.788	ID:2	SDN_ACTION_FORWARD
+01:01.791	ID:2	Packet for send, enqueued!
+01:01.795	ID:2	Packets on Send Queue (3):
+01:01.801	ID:4	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 11 0C 01 00] Payload [04 00 E1 07 02 03 00 04 00 00]
+01:01.803	ID:2	(9) [ E7 FF 13 0D 01 00 ] [ 03 00 E1 07 02 02 00 03 00 00 ]
+01:01.808	ID:4	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.809	ID:2	(0) [ 0C FF 13 05 03 00 ] [ 00 00 01 0B ]
+01:01.813	ID:4	Processing SDN_PACKET_DATA_FLOW_SETUP.
+01:01.817	ID:4	sdn_solve_unknown_flow 2017
+01:01.818	ID:2	(1) [ 05 FF 13 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.819	ID:2	
+01:01.821	ID:4	sdn_solve_unknown_flow: match
+01:01.825	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:01.825	ID:4	Packet for send, enqueued!
+01:01.826	ID:2	[ 03 00 ]
+01:01.829	ID:4	Packets on Send Queue (1):
+01:01.829	ID:2	SDN_ACTION_FORWARD
+01:01.838	ID:4	(5) [ 05 FF 14 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.838	ID:4	
+01:01.845	ID:4	flowid, next_hop, action, times_used, age, next ptr
+01:01.846	ID:2	Trying to send: [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.850	ID:4	0([ 03 00 ]) (02) (04) (02) (0x22bc)
+01:01.855	ID:4	2017([ 03 00 ]) (02) (00) (01) (0)
+01:01.857	ID:4	LED GREEN
+01:01.860	ID:4	Packet for send, enqueued!
+01:01.864	ID:4	Packets on Send Queue (2):
+01:01.864	ID:2	Sending Packet to [ 03 00 ][SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.873	ID:4	(5) [ 05 FF 14 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.879	ID:4	(6) [ 0C FF 14 05 04 00 ] [ 00 00 01 0C ]
+01:01.879	ID:4	
+01:01.882	ID:4	=[ 04 00 ]=TX=0C=05=0=
+01:01.883	ID:4	
+01:01.885	ID:3	Packet Received from [02:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.885	ID:2	Packet Sent to [03:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.885	ID:4	SDN_ACTION_FORWARD
+01:01.886	ID:3	[ 03 00 ]
+01:01.889	ID:2	Packet for send, dequeued!
+01:01.889	ID:3	SDN_ACTION_RECEIVE
+01:01.893	ID:2	Packets on Send Queue (2):
+01:01.893	ID:3	=[ 01 00 ]=RX=E7=0D=[ 03 00 ]=
+01:01.898	ID:2	(0) [ 0C FF 13 05 03 00 ] [ 00 00 01 0B ]
+01:01.900	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.908	ID:2	(1) [ 05 FF 13 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.908	ID:2	
+01:01.908	ID:2	
+01:01.908	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 12 0D 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.911	ID:2	SDN_ACTION_FORWARD
+01:01.915	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.916	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.921	ID:3	Processing SDN_PACKET_DATA_FLOW_SETUP.
+01:01.922	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 05 03 00] Payload [00 00 01 0B]
+01:01.922	ID:4	Activating trickle time: MAC_TX_COLLISION
+01:01.924	ID:3	sdn_solve_unknown_flow 2017
+01:01.926	ID:4	TRICKLE_TIME activated 35.
+01:01.932	ID:3	flowid, next_hop, action, times_used, age, next ptr
+01:01.935	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 13 05 03 00] Payload [00 00 01 0B]
+01:01.937	ID:3	0([ 02 00 ]) (02) (15) (03) (0x22bc)
+01:01.940	ID:1	[ 02 00 ]~~=[ 03 00 ]=RX=0C=05=0=
+01:01.940	ID:1	~
+01:01.942	ID:3	2017([ 02 00 ]) (02) (00) (01) (0)
+01:01.943	ID:3	LED GREEN
+01:01.947	ID:3	Packet for send, enqueued!
+01:01.950	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 13 05 03 00] Payload [00 00 01 0B]
+01:01.951	ID:3	Packets on Send Queue (1):
+01:01.953	ID:4	
+01:01.953	ID:2	Packet for send, dequeued!
+01:01.956	ID:4	SDN_ACTION_FORWARD
+01:01.956	ID:3	(3) [ 0C FF 14 06 03 00 ] [ 00 00 01 0D ]
+01:01.956	ID:3	
+01:01.957	ID:2	Packets on Send Queue (1):
+01:01.960	ID:3	=[ 03 00 ]=TX=0C=06=0=
+01:01.960	ID:3	
+01:01.962	ID:3	SDN_ACTION_FORWARD
+01:01.966	ID:2	(1) [ 05 FF 13 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:01.966	ID:2	
+01:01.967	ID:2	
+01:01.969	ID:2	SDN_ACTION_FORWARD
+01:01.971	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.974	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 06 03 00] Payload [00 00 01 0D]
+01:01.984	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.987	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_ACK] Header [0C FF 14 06 03 00] Payload [00 00 01 0D]
+01:01.987	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:01.993	ID:4	Activating trickle time: MAC_TX_COLLISION
+01:01.997	ID:4	TRICKLE_TIME activated 10.
+01:02.000	ID:4	
+01:02.000	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.002	ID:3	Packet Sent to [02:00] [SDN_PACKET_ACK] Header [0C FF 14 06 03 00] Payload [00 00 01 0D]
+01:02.003	ID:4	SDN_ACTION_FORWARD
+01:02.005	ID:3	Packet for send, dequeued!
+01:02.006	ID:2	Activating trickle time: MAC_TX_COLLISION
+01:02.009	ID:3	Packets on Send Queue (0):
+01:02.009	ID:3	
+01:02.010	ID:2	TRICKLE_TIME activated 29.
+01:02.018	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.024	ID:2	Packet Received from [03:00] [SDN_PACKET_ACK] Header [0C FF 14 06 03 00] Payload [00 00 01 0D]
+01:02.024	ID:2	
+01:02.027	ID:2	SDN_ACTION_FORWARD
+01:02.030	ID:2	Packet for send, enqueued!
+01:02.034	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.034	ID:2	Packets on Send Queue (2):
+01:02.043	ID:2	(1) [ 05 FF 13 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.049	ID:2	(2) [ 0C FF 13 06 03 00 ] [ 00 00 01 0D ]
+01:02.049	ID:2	
+01:02.053	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.053	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.055	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:02.056	ID:2	
+01:02.056	ID:3	Packet for recv, enqueued!
+01:02.056	ID:4	Packet for send, dequeued!
+01:02.058	ID:2	SDN_ACTION_FORWARD
+01:02.060	ID:3	Packets on Recv Queue (1):
+01:02.060	ID:4	Packets on Send Queue (1):
+01:02.066	ID:4	(6) [ 0C FF 14 05 04 00 ] [ 00 00 01 0C ]
+01:02.066	ID:4	
+01:02.066	ID:4	
+01:02.069	ID:4	SDN_ACTION_FORWARD
+01:02.069	ID:3	(0) [ 05 FF 13 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.069	ID:3	
+01:02.073	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.075	ID:3	Receiving event at SDN core process: 72.
+01:02.079	ID:3	Packet for recv, dequeued!
+01:02.080	ID:4	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 05 04 00] Payload [00 00 01 0C]
+01:02.083	ID:3	Packets on Recv Queue (0):
+01:02.083	ID:3	
+01:02.083	ID:3	
+01:02.085	ID:3	SDN_ACTION_FORWARD
+01:02.089	ID:3	Packet for send, enqueued!
+01:02.090	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.093	ID:3	Packets on Send Queue (1):
+01:02.093	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_ACK] Header [0C FF 14 05 04 00] Payload [00 00 01 0C]
+01:02.102	ID:3	(4) [ 05 FF 13 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.102	ID:3	
+01:02.108	ID:4	Packet Sent to [03:00] [SDN_PACKET_ACK] Header [0C FF 14 05 04 00] Payload [00 00 01 0C]
+01:02.108	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.112	ID:4	Packet for send, dequeued!
+01:02.112	ID:2	Packet for send, dequeued!
+01:02.115	ID:4	Packets on Send Queue (0):
+01:02.116	ID:3	Packet Received from [04:00] [SDN_PACKET_ACK] Header [0C FF 14 05 04 00] Payload [00 00 01 0C]
+01:02.116	ID:4	
+01:02.116	ID:2	Packets on Send Queue (1):
+01:02.116	ID:3	
+01:02.117	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 12 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.118	ID:3	SDN_ACTION_FORWARD
+01:02.120	ID:5	Packet for recv, enqueued!
+01:02.121	ID:2	(2) [ 0C FF 13 06 03 00 ] [ 00 00 01 0D ]
+01:02.122	ID:2	
+01:02.122	ID:2	
+01:02.122	ID:3	Packet for send, enqueued!
+01:02.124	ID:5	Packets on Recv Queue (1):
+01:02.124	ID:2	SDN_ACTION_FORWARD
+01:02.126	ID:3	Packets on Send Queue (2):
+01:02.133	ID:5	(1) [ 05 FF 11 03 03 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.134	ID:5	
+01:02.135	ID:3	(4) [ 05 FF 13 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.136	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 06 03 00] Payload [00 00 01 0D]
+01:02.139	ID:5	Receiving event at SDN core process: 72.
+01:02.141	ID:3	(5) [ 0C FF 13 05 04 00 ] [ 00 00 01 0C ]
+01:02.141	ID:3	
+01:02.141	ID:3	
+01:02.143	ID:5	Packet for recv, dequeued!
+01:02.144	ID:3	SDN_ACTION_FORWARD
+01:02.147	ID:5	Packets on Recv Queue (0):
+01:02.147	ID:5	
+01:02.147	ID:5	
+01:02.149	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 13 06 03 00] Payload [00 00 01 0D]
+01:02.150	ID:5	SDN_ACTION_RECEIVE
+01:02.153	ID:5	=[ 03 00 ]=RX=05=03=2017=
+01:02.155	ID:2	Activating trickle time: MAC_TX_COLLISION
+01:02.159	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.159	ID:2	TRICKLE_TIME activated 33.
+01:02.166	ID:5	[SDN_PACKET_DATA] Header [05 FF 11 03 03 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.170	ID:5	Processing SDN_PACKET_DATA.
+01:02.175	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.177	ID:5	Receiving message from [ 03 00 ] of len 10: test 0
+01:02.193	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.193	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.197	ID:2	Packet for recv, enqueued!
+01:02.197	ID:3	Packet for send, dequeued!
+01:02.201	ID:2	Packets on Recv Queue (1):
+01:02.201	ID:3	Packets on Send Queue (1):
+01:02.207	ID:3	(5) [ 0C FF 13 05 04 00 ] [ 00 00 01 0C ]
+01:02.207	ID:3	
+01:02.207	ID:3	
+01:02.210	ID:3	SDN_ACTION_FORWARD
+01:02.210	ID:2	(1) [ 05 FF 12 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.210	ID:2	
+01:02.216	ID:2	Receiving event at SDN core process: 72.
+01:02.220	ID:2	Packet for recv, dequeued!
+01:02.221	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 05 04 00] Payload [00 00 01 0C]
+01:02.223	ID:2	Packets on Recv Queue (0):
+01:02.224	ID:2	
+01:02.224	ID:2	
+01:02.226	ID:2	SDN_ACTION_FORWARD
+01:02.230	ID:2	Packet for send, enqueued!
+01:02.234	ID:2	Packets on Send Queue (2):
+01:02.234	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_ACK] Header [0C FF 13 05 04 00] Payload [00 00 01 0C]
+01:02.240	ID:2	(2) [ 0C FF 13 06 03 00 ] [ 00 00 01 0D ]
+01:02.249	ID:2	(3) [ 05 FF 12 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.249	ID:3	Packet Sent to [02:00] [SDN_PACKET_ACK] Header [0C FF 13 05 04 00] Payload [00 00 01 0C]
+01:02.249	ID:2	
+01:02.253	ID:3	Packet for send, dequeued!
+01:02.255	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:02.256	ID:3	Packets on Send Queue (0):
+01:02.256	ID:3	
+01:02.268	ID:2	Packet Received from [03:00] [SDN_PACKET_ACK] Header [0C FF 13 05 04 00] Payload [00 00 01 0C]
+01:02.268	ID:2	
+01:02.271	ID:2	SDN_ACTION_FORWARD
+01:02.275	ID:2	Packet for send, enqueued!
+01:02.279	ID:2	Packets on Send Queue (3):
+01:02.284	ID:2	(2) [ 0C FF 13 06 03 00 ] [ 00 00 01 0D ]
+01:02.294	ID:2	(3) [ 05 FF 12 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.299	ID:2	(4) [ 0C FF 12 05 04 00 ] [ 00 00 01 0C ]
+01:02.300	ID:2	
+01:02.306	ID:2	Defering send due status not SDN_SEND_IDLE.
+01:02.306	ID:2	
+01:02.308	ID:2	SDN_ACTION_FORWARD
+01:02.320	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 06 03 00] Payload [00 00 01 0D]
+01:02.333	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 13 06 03 00] Payload [00 00 01 0D]
+01:02.337	ID:1	~~test 0~[ 05 00 ]~~=[ 03 00 ]=RX=0C=06=0=
+01:02.338	ID:1	~
+01:02.348	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 13 06 03 00] Payload [00 00 01 0D]
+01:02.351	ID:2	Packet for send, dequeued!
+01:02.355	ID:2	Packets on Send Queue (2):
+01:02.364	ID:2	(3) [ 05 FF 12 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.370	ID:2	(4) [ 0C FF 12 05 04 00 ] [ 00 00 01 0C ]
+01:02.370	ID:2	
+01:02.370	ID:2	
+01:02.373	ID:2	SDN_ACTION_FORWARD
+01:02.388	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.404	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.423	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.426	ID:2	Packet for send, dequeued!
+01:02.430	ID:2	Packets on Send Queue (1):
+01:02.432	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 11 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.435	ID:5	Packet for recv, enqueued!
+01:02.436	ID:2	(4) [ 0C FF 12 05 04 00 ] [ 00 00 01 0C ]
+01:02.436	ID:2	
+01:02.436	ID:2	
+01:02.439	ID:2	SDN_ACTION_FORWARD
+01:02.439	ID:5	Packets on Recv Queue (1):
+01:02.448	ID:5	(0) [ 05 FF 10 03 04 00 ] [ E1 07 74 65 73 74 20 30 00 00 00 00 ]
+01:02.448	ID:5	
+01:02.450	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 12 05 04 00] Payload [00 00 01 0C]
+01:02.454	ID:5	Receiving event at SDN core process: 72.
+01:02.458	ID:5	Packet for recv, dequeued!
+01:02.462	ID:5	Packets on Recv Queue (0):
+01:02.462	ID:5	
+01:02.462	ID:5	
+01:02.463	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 12 05 04 00] Payload [00 00 01 0C]
+01:02.464	ID:5	SDN_ACTION_RECEIVE
+01:02.468	ID:1	~~test 0~[ 05 00 ]~~=[ 04 00 ]=RX=0C=05=0=
+01:02.468	ID:5	=[ 04 00 ]=RX=05=03=2017=
+01:02.469	ID:1	~
+01:02.478	ID:2	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 12 05 04 00] Payload [00 00 01 0C]
+01:02.481	ID:5	[SDN_PACKET_DATA] Header [05 FF 10 03 04 00] Payload [E1 07 74 65 73 74 20 30 00 00 00 00]
+01:02.482	ID:2	Packet for send, dequeued!
+01:02.485	ID:5	Processing SDN_PACKET_DATA.
+01:02.486	ID:2	Packets on Send Queue (0):
+01:02.486	ID:2	
+01:02.492	ID:5	Receiving message from [ 04 00 ] of len 10: test 0
+01:10.410	ID:2	 8966 P 2.0 6 119293 2174413 848 2215315 0 0 61677 265999 369 327309 0 0 (radio 96.-9301% / 100.00% tx 0.03% / 0.11% listen 96.-9305% / 99.88%)
+01:10.423	ID:6	 8966 P 6.0 6 4873 2288833 95 2212233 0 0 714 326965 0 327680 0 0 (radio 96.-9318% / 100.00% tx 0.00% / 0.00% listen 96.-9318% / 100.00%)
+01:10.522	ID:4	 8966 P 4.0 6 32769 2260940 298 2215867 0 0 16145 311535 77 327602 0 0 (radio 96.-9301% / 99.99% tx 0.01% / 0.02% listen 96.-9302% / 99.97%)
+01:10.556	ID:1	~ 8966 P 1.0 6 13028 2280672 495 2177013 0 0 4300 323378 220 327458 0 0 (radio 94.-9270% / 100.00% tx 0.02% / 0.06% listen 94.-9272% / 99.93%)
+01:10.889	ID:5	 8966 P 5.0 6 28373 2265334 196 2069540 0 0 5815 320159 0 325975 0 0 (radio 90.-7467% / 100.00% tx 0.00% / 0.00% listen 90.-7468% / 100.00%)
+01:11.073	ID:3	 8966 P 3.0 6 70574 2223131 571 2215591 0 0 35214 292465 184 327493 0 0 (radio 96.-9301% / 99.99% tx 0.02% / 0.05% listen 96.-9304% / 99.94%)
+01:20.410	ID:2	 10246 P 2.0 7 120059 2501327 848 2542994 0 0 765 326914 0 327678 0 0 (radio 97.-8188% / 99.99% tx 0.03% / 0.00% listen 97.-8192% / 99.99%)
+01:20.423	ID:6	 10246 P 6.0 7 5578 2615808 95 2539912 0 0 704 326975 0 327679 0 0 (radio 96.-8103% / 100.00% tx 0.00% / 0.00% listen 96.-8103% / 100.00%)
+01:20.522	ID:4	 10246 P 4.0 7 33506 2587882 298 2543547 0 0 736 326942 0 327679 0 0 (radio 97.-8188% / 100.00% tx 0.01% / 0.00% listen 97.-8190% / 100.00%)
+01:20.555	ID:1	 10246 P 1.0 7 13813 2607567 518 2504668 0 0 784 326895 23 327655 0 0 (radio 95.-8136% / 99.99% tx 0.01% / 0.00% listen 95.-8138% / 99.99%)
+01:20.888	ID:5	 10246 P 5.0 7 29110 2592276 196 2397219 0 0 737 326942 0 327678 0 0 (radio 91.-8147% / 99.99% tx 0.00% / 0.00% listen 91.-8148% / 99.99%)
+01:21.073	ID:3	 10246 P 3.0 7 71318 2550066 571 2543271 0 0 743 326935 0 327679 0 0 (radio 97.-8188% / 100.00% tx 0.02% / 0.00% listen 97.-8191% / 100.00%)
+01:30.410	ID:2	 11526 P 2.0 8 120789 2828277 848 2870675 0 0 729 326950 0 327680 0 0 (radio 97.-8702% / 100.00% tx 0.02% / 0.00% listen 97.-8705% / 100.00%)
+01:30.423	ID:6	 11526 P 6.0 8 6290 2942776 95 2867592 0 0 711 326968 0 327679 0 0 (radio 97.-8715% / 100.00% tx 0.00% / 0.00% listen 97.-8715% / 100.00%)
+01:30.522	ID:4	 11526 P 4.0 8 34239 2914829 298 2871227 0 0 732 326947 0 327679 0 0 (radio 97.-8702% / 100.00% tx 0.01% / 0.00% listen 97.-8703% / 100.00%)
+01:30.555	ID:1	 11526 P 1.0 8 14534 2934525 518 2832348 0 0 721 326958 0 327679 0 0 (radio 96.-8733% / 100.00% tx 0.01% / 0.00% listen 96.-8735% / 100.00%)
+01:30.889	ID:5	 11526 P 5.0 8 29826 2919240 196 2724899 0 0 715 326964 0 327679 0 0 (radio 92.-8698% / 100.00% tx 0.00% / 0.00% listen 92.-8699% / 100.00%)
+01:31.073	ID:3	 11526 P 3.0 8 72044 2877020 571 2870951 0 0 725 326954 0 327679 0 0 (radio 97.-8702% / 100.00% tx 0.01% / 0.00% listen 97.-8704% / 100.00%)
+01:40.410	ID:2	 12806 P 2.0 9 121521 3155225 848 3198354 0 0 731 326948 0 327679 0 0 (radio 97.-9112% / 100.00% tx 0.02% / 0.00% listen 97.-9115% / 100.00%)
+01:40.424	ID:6	 12806 P 6.0 9 7053 3269692 119 3195248 0 0 762 326916 24 327655 0 0 (radio 97.-9124% / 100.00% tx 0.00% / 0.00% listen 97.-9124% / 99.99%)
+01:40.522	ID:4	 12806 P 4.0 9 34965 3241783 298 3198907 0 0 725 326954 0 327679 0 0 (radio 97.-9112% / 100.00% tx 0.00% / 0.00% listen 97.-9113% / 100.00%)
+01:40.555	ID:1	 12806 P 1.0 9 15259 3261480 518 3160028 0 0 725 326955 0 327679 0 0 (radio 96.-9130% / 99.99% tx 0.01% / 0.00% listen 96.-9132% / 99.99%)
+01:40.889	ID:5	 12806 P 5.0 9 30551 3246195 196 3052579 0 0 724 326955 0 327679 0 0 (radio 93.-9159% / 100.00% tx 0.00% / 0.00% listen 93.-9160% / 100.00%)
+01:41.073	ID:3	 12806 P 3.0 9 72777 3203967 571 3198631 0 0 732 326947 0 327680 0 0 (radio 97.-9112% / 100.00% tx 0.01% / 0.00% listen 97.-9114% / 100.00%)
+01:50.410	ID:2	 14086 P 2.0 10 122253 3482173 848 3526034 0 0 731 326948 0 327679 0 0 (radio 97.-9448% / 100.00% tx 0.02% / 0.00% listen 97.-9451% / 100.00%)
+01:50.423	ID:6	 14086 P 6.0 10 7772 3596653 119 3522928 0 0 719 326961 0 327679 0 0 (radio 97.-9459% / 99.99% tx 0.00% / 0.00% listen 97.-9459% / 99.99%)
+01:50.522	ID:4	 14086 P 4.0 10 35691 3568737 298 3526587 0 0 725 326954 0 327680 0 0 (radio 97.-9448% / 100.00% tx 0.00% / 0.00% listen 97.-9449% / 100.00%)
+01:50.555	ID:1	 14086 P 1.0 10 15981 3588437 518 3487708 0 0 722 326957 0 327679 0 0 (radio 96.-9456% / 100.00% tx 0.01% / 0.00% listen 96.-9457% / 100.00%)
+01:50.889	ID:5	 14086 P 5.0 10 31276 3573150 196 3380259 0 0 724 326955 0 327679 0 0 (radio 93.-8263% / 100.00% tx 0.00% / 0.00% listen 93.-8263% / 100.00%)
+01:51.073	ID:3	 14086 P 3.0 10 73503 3530921 571 3526311 0 0 725 326954 0 327679 0 0 (radio 97.-9448% / 100.00% tx 0.01% / 0.00% listen 97.-9450% / 100.00%)
+02:00.410	ID:2	 15366 P 2.0 11 123003 3809103 848 3853714 0 0 749 326930 0 327679 0 0 (radio 98.-8736% / 100.00% tx 0.02% / 0.00% listen 98.-8738% / 100.00%)
+02:00.424	ID:6	 15366 P 6.0 11 8492 3923612 119 3850608 0 0 720 326959 0 327679 0 0 (radio 97.-8646% / 100.00% tx 0.00% / 0.00% listen 97.-8646% / 100.00%)
+02:00.436	ID:2	Timer reset
+02:00.440	ID:2	Packet for send, enqueued!
+02:00.444	ID:2	Packets on Send Queue (1):
+02:00.453	ID:2	(5) [ 05 FF 14 06 02 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.453	ID:2	
+02:00.457	ID:2	=[ 02 00 ]=TX=05=06=2017=
+02:00.457	ID:2	
+02:00.460	ID:2	SDN_ACTION_FORWARD
+02:00.474	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 02 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.491	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 06 02 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.509	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 06 02 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.513	ID:2	Packet for send, dequeued!
+02:00.517	ID:2	Packets on Send Queue (0):
+02:00.517	ID:2	
+02:00.518	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 13 06 02 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.522	ID:5	Packet for recv, enqueued!
+02:00.522	ID:4	 15366 P 4.0 11 36493 3895615 321 3854244 0 0 801 326878 23 327657 0 0 (radio 98.-8736% / 100.00% tx 0.00% / 0.00% listen 98.-8737% / 99.99%)
+02:00.526	ID:5	Packets on Recv Queue (1):
+02:00.535	ID:5	(1) [ 05 FF 12 06 02 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.535	ID:5	
+02:00.541	ID:5	Receiving event at SDN core process: 72.
+02:00.544	ID:5	Packet for recv, dequeued!
+02:00.548	ID:5	Packets on Recv Queue (0):
+02:00.548	ID:5	
+02:00.548	ID:5	
+02:00.549	ID:4	Timer reset
+02:00.551	ID:5	SDN_ACTION_RECEIVE
+02:00.552	ID:4	Packet for send, enqueued!
+02:00.555	ID:5	=[ 02 00 ]=RX=05=06=2017=
+02:00.556	ID:1	~test 1~[ 05 00 ]~~ 15366 P 1.0 11 17016 3915080 550 3815356 0 0 1034 326643 32 327647 0 0 (radio 97.-8734% / 100.00% tx 0.01% / 0.00% listen 97.-8736% / 99.99%)
+02:00.556	ID:4	Packets on Send Queue (1):
+02:00.565	ID:4	(7) [ 05 FF 14 06 04 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.565	ID:4	
+02:00.567	ID:5	[SDN_PACKET_DATA] Header [05 FF 12 06 02 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.569	ID:4	=[ 04 00 ]=TX=05=06=2017=
+02:00.569	ID:4	
+02:00.571	ID:5	Processing SDN_PACKET_DATA.
+02:00.572	ID:4	SDN_ACTION_FORWARD
+02:00.578	ID:5	Receiving message from [ 02 00 ] of len 10: test 1
+02:00.587	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.603	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.621	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.622	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.625	ID:3	Packet for recv, enqueued!
+02:00.625	ID:4	Packet for send, dequeued!
+02:00.629	ID:3	Packets on Recv Queue (1):
+02:00.629	ID:4	Packets on Send Queue (0):
+02:00.629	ID:4	
+02:00.638	ID:3	(1) [ 05 FF 13 06 04 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.638	ID:3	
+02:00.644	ID:3	Receiving event at SDN core process: 72.
+02:00.648	ID:3	Packet for recv, dequeued!
+02:00.651	ID:3	Packets on Recv Queue (0):
+02:00.652	ID:3	
+02:00.652	ID:3	
+02:00.654	ID:3	SDN_ACTION_FORWARD
+02:00.658	ID:3	Packet for send, enqueued!
+02:00.662	ID:3	Packets on Send Queue (1):
+02:00.671	ID:3	(6) [ 05 FF 13 06 04 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.671	ID:3	
+02:00.671	ID:3	
+02:00.674	ID:3	SDN_ACTION_FORWARD
+02:00.689	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.705	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.724	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.724	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.727	ID:2	Packet for recv, enqueued!
+02:00.727	ID:3	Packet for send, dequeued!
+02:00.731	ID:2	Packets on Recv Queue (1):
+02:00.731	ID:3	Packets on Send Queue (0):
+02:00.731	ID:3	
+02:00.740	ID:2	(0) [ 05 FF 12 06 04 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.740	ID:2	
+02:00.746	ID:2	Receiving event at SDN core process: 72.
+02:00.750	ID:2	Packet for recv, dequeued!
+02:00.754	ID:2	Packets on Recv Queue (0):
+02:00.754	ID:2	
+02:00.754	ID:2	
+02:00.757	ID:2	SDN_ACTION_FORWARD
+02:00.760	ID:2	Packet for send, enqueued!
+02:00.764	ID:2	Packets on Send Queue (1):
+02:00.773	ID:2	(6) [ 05 FF 12 06 04 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.773	ID:2	
+02:00.773	ID:2	
+02:00.776	ID:2	SDN_ACTION_FORWARD
+02:00.791	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.807	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.826	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.830	ID:2	Packet for send, dequeued!
+02:00.833	ID:2	Packets on Send Queue (0):
+02:00.834	ID:2	
+02:00.835	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 11 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.838	ID:5	Packet for recv, enqueued!
+02:00.842	ID:5	Packets on Recv Queue (1):
+02:00.851	ID:5	(0) [ 05 FF 10 06 04 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:00.851	ID:5	
+02:00.857	ID:5	Receiving event at SDN core process: 72.
+02:00.861	ID:5	Packet for recv, dequeued!
+02:00.865	ID:5	Packets on Recv Queue (0):
+02:00.865	ID:5	
+02:00.865	ID:5	
+02:00.868	ID:5	SDN_ACTION_RECEIVE
+02:00.871	ID:5	=[ 04 00 ]=RX=05=06=2017=
+02:00.884	ID:5	[SDN_PACKET_DATA] Header [05 FF 10 06 04 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:00.888	ID:5	Processing SDN_PACKET_DATA.
+02:00.895	ID:5	Receiving message from [ 04 00 ] of len 10: test 1
+02:00.917	ID:5	 15369 P 5.0 11 37068 3895962 196 3708864 0 0 5791 322812 0 328604 0 0 (radio 94.-8706% / 100.00% tx 0.00% / 0.00% listen 94.-8707% / 100.00%)
+02:01.073	ID:3	 15366 P 3.0 11 78461 3853643 626 3853936 0 0 4957 322722 55 327625 0 0 (radio 98.-8736% / 100.00% tx 0.01% / 0.01% listen 98.-8738% / 99.98%)
+02:01.100	ID:3	Timer reset
+02:01.103	ID:3	Packet for send, enqueued!
+02:01.107	ID:3	Packets on Send Queue (1):
+02:01.116	ID:3	(7) [ 05 FF 14 07 03 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:01.116	ID:3	
+02:01.120	ID:3	=[ 03 00 ]=TX=05=07=2017=
+02:01.120	ID:3	
+02:01.123	ID:3	SDN_ACTION_FORWARD
+02:01.138	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.154	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.172	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.173	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.176	ID:2	Packet for recv, enqueued!
+02:01.176	ID:3	Packet for send, dequeued!
+02:01.180	ID:2	Packets on Recv Queue (1):
+02:01.180	ID:3	Packets on Send Queue (0):
+02:01.180	ID:3	
+02:01.189	ID:2	(1) [ 05 FF 13 07 03 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:01.189	ID:2	
+02:01.195	ID:2	Receiving event at SDN core process: 72.
+02:01.199	ID:2	Packet for recv, dequeued!
+02:01.202	ID:2	Packets on Recv Queue (0):
+02:01.203	ID:2	
+02:01.203	ID:2	
+02:01.205	ID:2	SDN_ACTION_FORWARD
+02:01.209	ID:2	Packet for send, enqueued!
+02:01.213	ID:2	Packets on Send Queue (1):
+02:01.222	ID:2	(7) [ 05 FF 13 07 03 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:01.222	ID:2	
+02:01.222	ID:2	
+02:01.225	ID:2	SDN_ACTION_FORWARD
+02:01.240	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.256	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.275	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.278	ID:2	Packet for send, dequeued!
+02:01.282	ID:2	Packets on Send Queue (0):
+02:01.282	ID:2	
+02:01.283	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 12 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.287	ID:5	Packet for recv, enqueued!
+02:01.291	ID:5	Packets on Recv Queue (1):
+02:01.300	ID:5	(1) [ 05 FF 11 07 03 00 ] [ E1 07 74 65 73 74 20 31 00 00 00 00 ]
+02:01.300	ID:5	
+02:01.306	ID:5	Receiving event at SDN core process: 72.
+02:01.310	ID:5	Packet for recv, dequeued!
+02:01.313	ID:5	Packets on Recv Queue (0):
+02:01.314	ID:5	
+02:01.314	ID:5	
+02:01.316	ID:5	SDN_ACTION_RECEIVE
+02:01.320	ID:5	=[ 03 00 ]=RX=05=07=2017=
+02:01.333	ID:5	[SDN_PACKET_DATA] Header [05 FF 11 07 03 00] Payload [E1 07 74 65 73 74 20 31 00 00 00 00]
+02:01.337	ID:5	Processing SDN_PACKET_DATA.
+02:01.344	ID:5	Receiving message from [ 03 00 ] of len 10: test 1
+02:10.411	ID:2	 16646 P 2.0 12 134780 4125006 941 4181301 0 0 11776 315903 93 327586 0 0 (radio 98.-9057% / 100.00% tx 0.02% / 0.02% listen 98.-9059% / 99.97%)
+02:10.424	ID:6	 16646 P 6.0 12 9231 4250553 119 4178289 0 0 738 326941 0 327680 0 0 (radio 98.-9066% / 100.00% tx 0.00% / 0.00% listen 98.-9066% / 100.00%)
+02:10.522	ID:4	 16646 P 4.0 12 39938 4219850 352 4181892 0 0 3444 324235 31 327648 0 0 (radio 98.-9057% / 100.00% tx 0.00% / 0.00% listen 98.-9058% / 99.99%)
+02:10.556	ID:1	~test 1~[ 05 00 ]~~~test 1~[ 05 00 ]~~ 16646 P 1.0 12 18398 4241376 612 4142974 0 0 1382 326296 62 327617 0 0 (radio 97.-9048% / 100.00% tx 0.01% / 0.01% listen 97.-9049% / 99.98%)
+02:10.889	ID:5	 16646 P 5.0 12 40410 4219375 219 4035596 0 0 3341 323413 23 326731 0 0 (radio 94.-9001% / 100.00% tx 0.00% / 0.00% listen 94.-9001% / 99.99%)
+02:11.073	ID:3	 16646 P 3.0 12 81916 4177868 657 4181584 0 0 3454 324225 31 327648 0 0 (radio 98.-9057% / 100.00% tx 0.01% / 0.00% listen 98.-9058% / 99.99%)
+02:20.410	ID:2	 17926 P 2.0 13 135544 4451920 941 4508981 0 0 763 326914 0 327679 0 0 (radio 98.-9332% / 100.00% tx 0.02% / 0.00% listen 98.-9334% / 100.00%)
+02:20.424	ID:6	 17926 P 6.0 13 9955 4577509 119 4505968 0 0 723 326956 0 327679 0 0 (radio 98.-9340% / 100.00% tx 0.00% / 0.00% listen 98.-9341% / 100.00%)
+02:20.522	ID:4	 17926 P 4.0 13 40699 4546770 352 4509572 0 0 760 326920 0 327679 0 0 (radio 98.-9332% / 99.99% tx 0.00% / 0.00% listen 98.-9333% / 99.99%)
+02:20.555	ID:1	 17926 P 1.0 13 19137 4568317 612 4470653 0 0 738 326941 0 327679 0 0 (radio 97.-9316% / 100.00% tx 0.01% / 0.00% listen 97.-9318% / 100.00%)
+02:20.888	ID:5	 17926 P 5.0 13 41156 4546309 219 4363275 0 0 745 326934 0 327678 0 0 (radio 95.-9351% / 99.99% tx 0.00% / 0.00% listen 95.-9352% / 99.99%)
+02:21.073	ID:3	 17926 P 3.0 13 82714 4504749 681 4509240 0 0 797 326881 24 327655 0 0 (radio 98.-9332% / 100.00% tx 0.01% / 0.00% listen 98.-9333% / 99.99%)
+02:30.410	ID:2	 19206 P 2.0 14 136282 4778862 941 4836661 0 0 737 326942 0 327680 0 0 (radio 98.-9570% / 100.00% tx 0.01% / 0.00% listen 98.-9572% / 100.00%)
+02:30.424	ID:6	 19206 P 6.0 14 10679 4904465 119 4833648 0 0 723 326956 0 327679 0 0 (radio 98.-9578% / 100.00% tx 0.00% / 0.00% listen 98.-9578% / 100.00%)
+02:30.522	ID:4	 19206 P 4.0 14 41420 4873728 352 4837252 0 0 721 326958 0 327679 0 0 (radio 98.-9570% / 100.00% tx 0.00% / 0.00% listen 98.-9571% / 100.00%)
+02:30.555	ID:1	 19206 P 1.0 14 19882 4895252 612 4798333 0 0 744 326935 0 327679 0 0 (radio 97.-9549% / 100.00% tx 0.01% / 0.00% listen 97.-9550% / 100.00%)
+02:30.889	ID:5	 19206 P 5.0 14 41878 4873267 219 4690955 0 0 721 326958 0 327679 0 0 (radio 95.-8694% / 100.00% tx 0.00% / 0.00% listen 95.-8695% / 100.00%)
+02:31.073	ID:3	 19206 P 3.0 14 83446 4831697 681 4836919 0 0 731 326948 0 327679 0 0 (radio 98.-9570% / 100.00% tx 0.01% / 0.00% listen 98.-9572% / 100.00%)
+02:40.410	ID:2	 20486 P 2.0 15 137028 5105796 941 5164341 0 0 745 326934 0 327680 0 0 (radio 98.-9779% / 100.00% tx 0.01% / 0.00% listen 98.-9781% / 100.00%)
+02:40.424	ID:6	 20486 P 6.0 15 11424 5231400 119 5161328 0 0 744 326935 0 327679 0 0 (radio 98.-9786% / 100.00% tx 0.00% / 0.00% listen 98.-9786% / 100.00%)
+02:40.522	ID:4	 20486 P 4.0 15 42203 5200625 376 5164907 0 0 782 326897 24 327655 0 0 (radio 98.-9779% / 100.00% tx 0.00% / 0.00% listen 98.-9780% / 99.99%)
+02:40.555	ID:1	 20486 P 1.0 15 20613 5222201 612 5126013 0 0 730 326949 0 327679 0 0 (radio 97.-8933% / 100.00% tx 0.01% / 0.00% listen 97.-8935% / 100.00%)
+02:40.889	ID:5	 20486 P 5.0 15 42609 5200216 219 5018635 0 0 730 326949 0 327679 0 0 (radio 95.-8939% / 100.00% tx 0.00% / 0.00% listen 95.-8939% / 100.00%)
+02:41.073	ID:3	 20486 P 3.0 15 84189 5158634 681 5164599 0 0 742 326937 0 327679 0 0 (radio 98.-9779% / 100.00% tx 0.01% / 0.00% listen 98.-9780% / 100.00%)
+02:50.410	ID:2	 21766 P 2.0 16 137766 5432738 941 5492021 0 0 737 326942 0 327679 0 0 (radio 98.-9192% / 100.00% tx 0.01% / 0.00% listen 98.-9194% / 100.00%)
+02:50.424	ID:6	 21766 P 6.0 16 12162 5558342 119 5489008 0 0 737 326942 0 327679 0 0 (radio 98.-9199% / 100.00% tx 0.00% / 0.00% listen 98.-9199% / 100.00%)
+02:50.522	ID:4	 21766 P 4.0 16 42935 5527573 376 5492587 0 0 731 326948 0 327679 0 0 (radio 98.-9192% / 100.00% tx 0.00% / 0.00% listen 98.-9193% / 100.00%)
+02:50.555	ID:1	 21766 P 1.0 16 21344 5549150 612 5453693 0 0 730 326949 0 327679 0 0 (radio 97.-9161% / 100.00% tx 0.01% / 0.00% listen 97.-9162% / 100.00%)
+02:50.889	ID:5	 21766 P 5.0 16 43347 5527158 219 5346315 0 0 737 326942 0 327679 0 0 (radio 95.-9155% / 100.00% tx 0.00% / 0.00% listen 95.-9155% / 100.00%)
+02:51.073	ID:3	 21766 P 3.0 16 84920 5485583 681 5492279 0 0 730 326949 0 327679 0 0 (radio 98.-9192% / 100.00% tx 0.01% / 0.00% listen 98.-9193% / 100.00%)
+03:00.410	ID:2	 23046 P 2.0 17 138504 5759680 941 5819701 0 0 737 326942 0 327680 0 0 (radio 98.-9398% / 100.00% tx 0.01% / 0.00% listen 98.-9400% / 100.00%)
+03:00.424	ID:6	 23046 P 6.0 17 12893 5885291 119 5816688 0 0 730 326949 0 327679 0 0 (radio 98.-9405% / 100.00% tx 0.00% / 0.00% listen 98.-9405% / 100.00%)
+03:00.436	ID:2	Timer reset
+03:00.440	ID:2	Packet for send, enqueued!
+03:00.444	ID:2	Packets on Send Queue (1):
+03:00.453	ID:2	(8) [ 05 FF 14 07 02 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.453	ID:2	
+03:00.457	ID:2	=[ 02 00 ]=TX=05=07=2017=
+03:00.457	ID:2	
+03:00.460	ID:2	SDN_ACTION_FORWARD
+03:00.474	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 02 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.491	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 07 02 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.509	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 07 02 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.513	ID:2	Packet for send, dequeued!
+03:00.517	ID:2	Packets on Send Queue (0):
+03:00.517	ID:2	
+03:00.518	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 13 07 02 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.522	ID:5	Packet for recv, enqueued!
+03:00.522	ID:4	 23046 P 4.0 17 43673 5854515 376 5820268 0 0 737 326942 0 327680 0 0 (radio 98.-9398% / 100.00% tx 0.00% / 0.00% listen 98.-9399% / 100.00%)
+03:00.526	ID:5	Packets on Recv Queue (1):
+03:00.535	ID:5	(0) [ 05 FF 12 07 02 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.535	ID:5	
+03:00.541	ID:5	Receiving event at SDN core process: 72.
+03:00.544	ID:5	Packet for recv, dequeued!
+03:00.548	ID:5	Packets on Recv Queue (0):
+03:00.548	ID:5	
+03:00.548	ID:5	
+03:00.549	ID:4	Timer reset
+03:00.551	ID:5	SDN_ACTION_RECEIVE
+03:00.552	ID:4	Packet for send, enqueued!
+03:00.555	ID:5	=[ 02 00 ]=RX=05=07=2017=
+03:00.556	ID:1	~test 2~[ 05 00 ]~~ 23046 P 1.0 17 22380 5875794 643 5781342 0 0 1035 326644 31 327648 0 0 (radio 98.-9464% / 100.00% tx 0.01% / 0.00% listen 98.-9465% / 99.99%)
+03:00.556	ID:4	Packets on Send Queue (1):
+03:00.565	ID:4	(8) [ 05 FF 14 07 04 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.565	ID:4	
+03:00.567	ID:5	[SDN_PACKET_DATA] Header [05 FF 12 07 02 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.569	ID:4	=[ 04 00 ]=TX=05=07=2017=
+03:00.569	ID:4	
+03:00.571	ID:5	Processing SDN_PACKET_DATA.
+03:00.572	ID:4	SDN_ACTION_FORWARD
+03:00.578	ID:5	Receiving message from [ 02 00 ] of len 10: test 2
+03:00.587	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.603	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.621	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.622	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.625	ID:3	Packet for recv, enqueued!
+03:00.625	ID:4	Packet for send, dequeued!
+03:00.629	ID:3	Packets on Recv Queue (1):
+03:00.629	ID:4	Packets on Send Queue (0):
+03:00.629	ID:4	
+03:00.638	ID:3	(0) [ 05 FF 13 07 04 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.638	ID:3	
+03:00.644	ID:3	Receiving event at SDN core process: 72.
+03:00.648	ID:3	Packet for recv, dequeued!
+03:00.651	ID:3	Packets on Recv Queue (0):
+03:00.652	ID:3	
+03:00.652	ID:3	
+03:00.654	ID:3	SDN_ACTION_FORWARD
+03:00.658	ID:3	Packet for send, enqueued!
+03:00.662	ID:3	Packets on Send Queue (1):
+03:00.671	ID:3	(8) [ 05 FF 13 07 04 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.671	ID:3	
+03:00.671	ID:3	
+03:00.674	ID:3	SDN_ACTION_FORWARD
+03:00.689	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.705	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.724	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.724	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.727	ID:2	Packet for recv, enqueued!
+03:00.727	ID:3	Packet for send, dequeued!
+03:00.731	ID:2	Packets on Recv Queue (1):
+03:00.731	ID:3	Packets on Send Queue (0):
+03:00.731	ID:3	
+03:00.740	ID:2	(0) [ 05 FF 12 07 04 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.740	ID:2	
+03:00.746	ID:2	Receiving event at SDN core process: 72.
+03:00.750	ID:2	Packet for recv, dequeued!
+03:00.754	ID:2	Packets on Recv Queue (0):
+03:00.754	ID:2	
+03:00.754	ID:2	
+03:00.757	ID:2	SDN_ACTION_FORWARD
+03:00.760	ID:2	Packet for send, enqueued!
+03:00.764	ID:2	Packets on Send Queue (1):
+03:00.773	ID:2	(9) [ 05 FF 12 07 04 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.773	ID:2	
+03:00.774	ID:2	
+03:00.776	ID:2	SDN_ACTION_FORWARD
+03:00.791	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.808	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.826	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.830	ID:2	Packet for send, dequeued!
+03:00.834	ID:2	Packets on Send Queue (0):
+03:00.834	ID:2	
+03:00.835	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 11 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.839	ID:5	Packet for recv, enqueued!
+03:00.843	ID:5	Packets on Recv Queue (1):
+03:00.852	ID:5	(1) [ 05 FF 10 07 04 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:00.852	ID:5	
+03:00.857	ID:5	Receiving event at SDN core process: 72.
+03:00.861	ID:5	Packet for recv, dequeued!
+03:00.865	ID:5	Packets on Recv Queue (0):
+03:00.865	ID:5	
+03:00.865	ID:5	
+03:00.868	ID:5	SDN_ACTION_RECEIVE
+03:00.872	ID:5	=[ 04 00 ]=RX=05=07=2017=
+03:00.884	ID:5	[SDN_PACKET_DATA] Header [05 FF 10 07 04 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:00.888	ID:5	Processing SDN_PACKET_DATA.
+03:00.895	ID:5	Receiving message from [ 04 00 ] of len 10: test 2
+03:00.917	ID:5	 23049 P 5.0 17 49143 5849977 219 5674933 0 0 5795 322819 0 328617 0 0 (radio 96.-9445% / 100.00% tx 0.00% / 0.00% listen 96.-9445% / 100.00%)
+03:01.073	ID:3	 23046 P 3.0 17 89807 5808376 713 5819927 0 0 4886 322793 32 327647 0 0 (radio 98.-9398% / 100.00% tx 0.01% / 0.00% listen 98.-9400% / 99.99%)
+03:01.100	ID:3	Timer reset
+03:01.103	ID:3	Packet for send, enqueued!
+03:01.107	ID:3	Packets on Send Queue (1):
+03:01.116	ID:3	(9) [ 05 FF 14 08 03 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:01.116	ID:3	
+03:01.120	ID:3	=[ 03 00 ]=TX=05=08=2017=
+03:01.120	ID:3	
+03:01.123	ID:3	SDN_ACTION_FORWARD
+03:01.138	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.154	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.172	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.173	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.176	ID:2	Packet for recv, enqueued!
+03:01.176	ID:3	Packet for send, dequeued!
+03:01.180	ID:2	Packets on Recv Queue (1):
+03:01.180	ID:3	Packets on Send Queue (0):
+03:01.180	ID:3	
+03:01.189	ID:2	(1) [ 05 FF 13 08 03 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:01.189	ID:2	
+03:01.195	ID:2	Receiving event at SDN core process: 72.
+03:01.199	ID:2	Packet for recv, dequeued!
+03:01.202	ID:2	Packets on Recv Queue (0):
+03:01.203	ID:2	
+03:01.203	ID:2	
+03:01.205	ID:2	SDN_ACTION_FORWARD
+03:01.209	ID:2	Packet for send, enqueued!
+03:01.213	ID:2	Packets on Send Queue (1):
+03:01.222	ID:2	(0) [ 05 FF 13 08 03 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:01.222	ID:2	
+03:01.222	ID:2	
+03:01.225	ID:2	SDN_ACTION_FORWARD
+03:01.240	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.256	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.275	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.278	ID:2	Packet for send, dequeued!
+03:01.282	ID:2	Packets on Send Queue (0):
+03:01.282	ID:2	
+03:01.283	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 12 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.287	ID:5	Packet for recv, enqueued!
+03:01.291	ID:5	Packets on Recv Queue (1):
+03:01.300	ID:5	(0) [ 05 FF 11 08 03 00 ] [ E1 07 74 65 73 74 20 32 00 00 00 00 ]
+03:01.300	ID:5	
+03:01.306	ID:5	Receiving event at SDN core process: 72.
+03:01.310	ID:5	Packet for recv, dequeued!
+03:01.313	ID:5	Packets on Recv Queue (0):
+03:01.314	ID:5	
+03:01.314	ID:5	
+03:01.316	ID:5	SDN_ACTION_RECEIVE
+03:01.320	ID:5	=[ 03 00 ]=RX=05=08=2017=
+03:01.333	ID:5	[SDN_PACKET_DATA] Header [05 FF 11 08 03 00] Payload [E1 07 74 65 73 74 20 32 00 00 00 00]
+03:01.337	ID:5	Processing SDN_PACKET_DATA.
+03:01.344	ID:5	Receiving message from [ 03 00 ] of len 10: test 2
+03:10.411	ID:2	 24326 P 2.0 18 150275 6075588 1035 6147287 0 0 11770 315908 94 327586 0 0 (radio 98.-9583% / 100.00% tx 0.01% / 0.02% listen 98.-9585% / 99.97%)
+03:10.424	ID:6	 24326 P 6.0 18 13630 6212234 119 6144368 0 0 736 326943 0 327679 0 0 (radio 98.-9589% / 100.00% tx 0.00% / 0.00% listen 98.-9589% / 100.00%)
+03:10.522	ID:4	 24326 P 4.0 18 47110 6178758 407 6147916 0 0 3436 324243 31 327648 0 0 (radio 98.-9583% / 100.00% tx 0.00% / 0.00% listen 98.-9584% / 99.99%)
+03:10.556	ID:1	~|[test 2~[ 05 00 ]~~~test 2~[ 05 00 ]~~ 24326 P 1.0 18 23802 6202051 729 6108936 0 0 1421 326257 86 327593 0 0 (radio 98.-9645% / 100.00% tx 0.01% / 0.02% listen 98.-9646% / 99.97%)
+03:10.889	ID:5	 24326 P 5.0 18 52423 6173440 219 6001676 0 0 3279 323463 0 326742 0 0 (radio 96.-8928% / 100.00% tx 0.00% / 0.00% listen 96.-8929% / 100.00%)
+03:11.073	ID:3	 24326 P 3.0 18 93252 6132610 744 6147576 0 0 3444 324234 31 327648 0 0 (radio 98.-9583% / 100.00% tx 0.01% / 0.00% listen 98.-9584% / 99.99%)
+03:20.410	ID:2	 25606 P 2.0 19 151034 6402508 1035 6474967 0 0 759 326920 0 327679 0 0 (radio 98.-9749% / 100.00% tx 0.01% / 0.00% listen 98.-9751% / 100.00%)
+03:20.424	ID:6	 25606 P 6.0 19 14413 6539131 142 6472024 0 0 782 326897 23 327655 0 0 (radio 98.-9755% / 99.99% tx 0.00% / 0.00% listen 98.-9755% / 99.99%)
+03:20.522	ID:4	 25606 P 4.0 19 47849 6505699 407 6475595 0 0 738 326941 0 327679 0 0 (radio 98.-9749% / 100.00% tx 0.00% / 0.00% listen 98.-9750% / 100.00%)
+03:20.555	ID:1	 25606 P 1.0 19 24540 6528992 729 6436616 0 0 737 326941 0 327679 0 0 (radio 98.-9153% / 100.00% tx 0.01% / 0.00% listen 98.-9154% / 100.00%)
+03:20.889	ID:5	 25606 P 5.0 19 53173 6500370 219 6329356 0 0 749 326930 0 327679 0 0 (radio 96.-9117% / 100.00% tx 0.00% / 0.00% listen 96.-9118% / 100.00%)
+03:21.073	ID:3	 25606 P 3.0 19 93998 6459544 744 6475256 0 0 745 326934 0 327680 0 0 (radio 98.-9749% / 100.00% tx 0.01% / 0.00% listen 98.-9750% / 100.00%)
+03:30.410	ID:2	 26886 P 2.0 20 151787 6729435 1035 6802647 0 0 752 326927 0 327680 0 0 (radio 98.-9276% / 100.00% tx 0.01% / 0.00% listen 98.-9277% / 100.00%)
+03:30.424	ID:6	 26886 P 6.0 20 15146 6866078 142 6799704 0 0 733 326947 0 327679 0 0 (radio 98.-9281% / 99.99% tx 0.00% / 0.00% listen 98.-9281% / 99.99%)
+03:30.522	ID:4	 26886 P 4.0 20 48580 6832648 407 6803275 0 0 730 326949 0 327679 0 0 (radio 98.-9276% / 100.00% tx 0.00% / 0.00% listen 98.-9276% / 100.00%)
+03:30.555	ID:1	 26886 P 1.0 20 25270 6855941 729 6764296 0 0 730 326949 0 327679 0 0 (radio 98.-9332% / 100.00% tx 0.01% / 0.00% listen 98.-9333% / 100.00%)
+03:30.889	ID:5	 26886 P 5.0 20 53904 6827319 219 6657035 0 0 730 326949 0 327679 0 0 (radio 96.-9288% / 100.00% tx 0.00% / 0.00% listen 96.-9289% / 100.00%)
+03:31.073	ID:3	 26886 P 3.0 20 94729 6786493 744 6802935 0 0 730 326949 0 327679 0 0 (radio 98.-9276% / 100.00% tx 0.01% / 0.00% listen 98.-9277% / 100.00%)
+03:40.410	ID:2	 28166 P 2.0 21 152531 7056370 1035 7130327 0 0 743 326935 0 327679 0 0 (radio 98.-9441% / 100.00% tx 0.01% / 0.00% listen 98.-9442% / 100.00%)
+03:40.424	ID:6	 28166 P 6.0 21 15867 7193037 142 7127384 0 0 720 326959 0 327679 0 0 (radio 98.-9446% / 100.00% tx 0.00% / 0.00% listen 98.-9446% / 100.00%)
+03:40.522	ID:4	 28166 P 4.0 21 49311 7159597 407 7130955 0 0 730 326949 0 327679 0 0 (radio 98.-9441% / 100.00% tx 0.00% / 0.00% listen 98.-9441% / 100.00%)
+03:40.555	ID:1	 28166 P 1.0 21 26000 7182890 729 7091976 0 0 730 326949 0 327679 0 0 (radio 98.-9494% / 100.00% tx 0.01% / 0.00% listen 98.-9495% / 100.00%)
+03:40.889	ID:5	 28166 P 5.0 21 54642 7154261 219 6984716 0 0 737 326942 0 327680 0 0 (radio 96.-9444% / 100.00% tx 0.00% / 0.00% listen 96.-9444% / 100.00%)
+03:41.073	ID:3	 28166 P 3.0 21 95460 7113442 744 7130615 0 0 730 326949 0 327679 0 0 (radio 98.-9441% / 100.00% tx 0.01% / 0.00% listen 98.-9442% / 100.00%)
+03:50.410	ID:2	 29446 P 2.0 22 153276 7383305 1035 7458007 0 0 744 326935 0 327680 0 0 (radio 98.-9591% / 100.00% tx 0.01% / 0.00% listen 98.-9593% / 100.00%)
+03:50.424	ID:6	 29446 P 6.0 22 16597 7519986 142 7455064 0 0 730 326949 0 327679 0 0 (radio 98.-9596% / 100.00% tx 0.00% / 0.00% listen 98.-9597% / 100.00%)
+03:50.522	ID:4	 29446 P 4.0 22 50049 7486539 407 7458636 0 0 737 326942 0 327680 0 0 (radio 98.-9591% / 100.00% tx 0.00% / 0.00% listen 98.-9592% / 100.00%)
+03:50.555	ID:1	 29446 P 1.0 22 26736 7509833 729 7419656 0 0 736 326943 0 327679 0 0 (radio 98.-9643% / 100.00% tx 0.00% / 0.00% listen 98.-9644% / 100.00%)
+03:50.889	ID:5	 29446 P 5.0 22 55373 7481210 219 7312395 0 0 730 326949 0 327679 0 0 (radio 97.-9686% / 100.00% tx 0.00% / 0.00% listen 97.-9686% / 100.00%)
+03:51.073	ID:3	 29446 P 3.0 22 96191 7440391 744 7458295 0 0 730 326949 0 327679 0 0 (radio 98.-9591% / 100.00% tx 0.00% / 0.00% listen 98.-9592% / 100.00%)
+04:00.410	ID:2	 30726 P 2.0 23 154073 7710188 1058 7785663 0 0 796 326883 23 327656 0 0 (radio 99.-9830% / 100.00% tx 0.01% / 0.00% listen 99.-9831% / 99.99%)
+04:00.424	ID:6	 30726 P 6.0 23 17327 7846935 142 7782744 0 0 730 326949 0 327679 0 0 (radio 98.-9734% / 100.00% tx 0.00% / 0.00% listen 98.-9735% / 100.00%)
+04:00.436	ID:2	Timer reset
+04:00.440	ID:2	Packet for send, enqueued!
+04:00.444	ID:2	Packets on Send Queue (1):
+04:00.453	ID:2	(1) [ 05 FF 14 08 02 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.453	ID:2	
+04:00.457	ID:2	=[ 02 00 ]=TX=05=08=2017=
+04:00.457	ID:2	
+04:00.460	ID:2	SDN_ACTION_FORWARD
+04:00.474	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 02 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.491	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 08 02 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.509	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 08 02 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.513	ID:2	Packet for send, dequeued!
+04:00.517	ID:2	Packets on Send Queue (0):
+04:00.517	ID:2	
+04:00.518	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 13 08 02 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.522	ID:5	Packet for recv, enqueued!
+04:00.522	ID:4	 30726 P 4.0 23 50780 7813488 407 7786315 0 0 730 326949 0 327679 0 0 (radio 99.-9830% / 100.00% tx 0.00% / 0.00% listen 99.-9830% / 100.00%)
+04:00.526	ID:5	Packets on Recv Queue (1):
+04:00.535	ID:5	(1) [ 05 FF 12 08 02 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.535	ID:5	
+04:00.541	ID:5	Receiving event at SDN core process: 72.
+04:00.544	ID:5	Packet for recv, dequeued!
+04:00.548	ID:5	Packets on Recv Queue (0):
+04:00.548	ID:5	
+04:00.549	ID:5	
+04:00.549	ID:4	Timer reset
+04:00.551	ID:5	SDN_ACTION_RECEIVE
+04:00.552	ID:4	Packet for send, enqueued!
+04:00.555	ID:5	=[ 02 00 ]=RX=05=08=2017=
+04:00.556	ID:1	~test 3~[ 05 00 ]~~ 30726 P 1.0 23 27793 7836456 760 7747305 0 0 1056 326623 31 327648 0 0 (radio 98.-9779% / 100.00% tx 0.00% / 0.00% listen 98.-9780% / 99.99%)
+04:00.556	ID:4	Packets on Send Queue (1):
+04:00.565	ID:4	(9) [ 05 FF 14 08 04 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.565	ID:4	
+04:00.567	ID:5	[SDN_PACKET_DATA] Header [05 FF 12 08 02 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.569	ID:4	=[ 04 00 ]=TX=05=08=2017=
+04:00.569	ID:4	
+04:00.571	ID:5	Processing SDN_PACKET_DATA.
+04:00.572	ID:4	SDN_ACTION_FORWARD
+04:00.578	ID:5	Receiving message from [ 02 00 ] of len 10: test 3
+04:00.587	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.603	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.621	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.622	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.625	ID:3	Packet for recv, enqueued!
+04:00.625	ID:4	Packet for send, dequeued!
+04:00.629	ID:3	Packets on Recv Queue (1):
+04:00.629	ID:4	Packets on Send Queue (0):
+04:00.629	ID:4	
+04:00.638	ID:3	(1) [ 05 FF 13 08 04 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.638	ID:3	
+04:00.644	ID:3	Receiving event at SDN core process: 72.
+04:00.648	ID:3	Packet for recv, dequeued!
+04:00.651	ID:3	Packets on Recv Queue (0):
+04:00.652	ID:3	
+04:00.652	ID:3	
+04:00.654	ID:3	SDN_ACTION_FORWARD
+04:00.658	ID:3	Packet for send, enqueued!
+04:00.662	ID:3	Packets on Send Queue (1):
+04:00.671	ID:3	(0) [ 05 FF 13 08 04 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.671	ID:3	
+04:00.671	ID:3	
+04:00.674	ID:3	SDN_ACTION_FORWARD
+04:00.689	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.705	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.724	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.724	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.727	ID:2	Packet for recv, enqueued!
+04:00.727	ID:3	Packet for send, dequeued!
+04:00.731	ID:2	Packets on Recv Queue (1):
+04:00.731	ID:3	Packets on Send Queue (0):
+04:00.731	ID:3	
+04:00.740	ID:2	(0) [ 05 FF 12 08 04 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.740	ID:2	
+04:00.746	ID:2	Receiving event at SDN core process: 72.
+04:00.750	ID:2	Packet for recv, dequeued!
+04:00.754	ID:2	Packets on Recv Queue (0):
+04:00.754	ID:2	
+04:00.754	ID:2	
+04:00.757	ID:2	SDN_ACTION_FORWARD
+04:00.760	ID:2	Packet for send, enqueued!
+04:00.764	ID:2	Packets on Send Queue (1):
+04:00.773	ID:2	(2) [ 05 FF 12 08 04 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.773	ID:2	
+04:00.773	ID:2	
+04:00.776	ID:2	SDN_ACTION_FORWARD
+04:00.791	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.807	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.826	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.830	ID:2	Packet for send, dequeued!
+04:00.833	ID:2	Packets on Send Queue (0):
+04:00.834	ID:2	
+04:00.837	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 11 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.841	ID:5	Packet for recv, enqueued!
+04:00.844	ID:5	Packets on Recv Queue (1):
+04:00.853	ID:5	(0) [ 05 FF 10 08 04 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:00.854	ID:5	
+04:00.859	ID:5	Receiving event at SDN core process: 72.
+04:00.863	ID:5	Packet for recv, dequeued!
+04:00.867	ID:5	Packets on Recv Queue (0):
+04:00.867	ID:5	
+04:00.867	ID:5	
+04:00.870	ID:5	SDN_ACTION_RECEIVE
+04:00.873	ID:5	=[ 04 00 ]=RX=05=08=2017=
+04:00.886	ID:5	[SDN_PACKET_DATA] Header [05 FF 10 08 04 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:00.890	ID:5	Processing SDN_PACKET_DATA.
+04:00.897	ID:5	Receiving message from [ 04 00 ] of len 10: test 3
+04:00.919	ID:5	 30729 P 5.0 23 61211 7804046 242 7641046 0 0 5837 322836 23 328650 0 0 (radio 97.-9268% / 100.00% tx 0.00% / 0.00% listen 97.-9269% / 99.99%)
+04:01.074	ID:3	 30726 P 3.0 23 101090 7763172 776 7785943 0 0 4898 322781 32 327647 0 0 (radio 99.-9830% / 100.00% tx 0.00% / 0.00% listen 99.-9831% / 99.99%)
+04:01.100	ID:3	Timer reset
+04:01.103	ID:3	Packet for send, enqueued!
+04:01.107	ID:3	Packets on Send Queue (1):
+04:01.116	ID:3	(1) [ 05 FF 14 09 03 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:01.116	ID:3	
+04:01.120	ID:3	=[ 03 00 ]=TX=05=09=2017=
+04:01.120	ID:3	
+04:01.123	ID:3	SDN_ACTION_FORWARD
+04:01.138	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.154	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.172	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.173	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.176	ID:2	Packet for recv, enqueued!
+04:01.176	ID:3	Packet for send, dequeued!
+04:01.180	ID:2	Packets on Recv Queue (1):
+04:01.180	ID:3	Packets on Send Queue (0):
+04:01.180	ID:3	
+04:01.189	ID:2	(1) [ 05 FF 13 09 03 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:01.189	ID:2	
+04:01.195	ID:2	Receiving event at SDN core process: 72.
+04:01.199	ID:2	Packet for recv, dequeued!
+04:01.202	ID:2	Packets on Recv Queue (0):
+04:01.203	ID:2	
+04:01.203	ID:2	
+04:01.205	ID:2	SDN_ACTION_FORWARD
+04:01.209	ID:2	Packet for send, enqueued!
+04:01.213	ID:2	Packets on Send Queue (1):
+04:01.222	ID:2	(3) [ 05 FF 13 09 03 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:01.222	ID:2	
+04:01.222	ID:2	
+04:01.225	ID:2	SDN_ACTION_FORWARD
+04:01.240	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.256	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.275	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.278	ID:2	Packet for send, dequeued!
+04:01.282	ID:2	Packets on Send Queue (0):
+04:01.282	ID:2	
+04:01.284	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 12 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.288	ID:5	Packet for recv, enqueued!
+04:01.292	ID:5	Packets on Recv Queue (1):
+04:01.301	ID:5	(1) [ 05 FF 11 09 03 00 ] [ E1 07 74 65 73 74 20 33 00 00 00 00 ]
+04:01.301	ID:5	
+04:01.307	ID:5	Receiving event at SDN core process: 72.
+04:01.311	ID:5	Packet for recv, dequeued!
+04:01.314	ID:5	Packets on Recv Queue (0):
+04:01.315	ID:5	
+04:01.315	ID:5	
+04:01.317	ID:5	SDN_ACTION_RECEIVE
+04:01.321	ID:5	=[ 03 00 ]=RX=05=09=2017=
+04:01.334	ID:5	[SDN_PACKET_DATA] Header [05 FF 11 09 03 00] Payload [E1 07 74 65 73 74 20 33 00 00 00 00]
+04:01.337	ID:5	Processing SDN_PACKET_DATA.
+04:01.345	ID:5	Receiving message from [ 03 00 ] of len 10: test 3
+04:10.411	ID:2	 32006 P 2.0 24 165839 8026099 1153 8113248 0 0 11765 315911 95 327584 0 0 (radio 99.-9432% / 100.00% tx 0.01% / 0.02% listen 99.-9434% / 99.97%)
+04:10.424	ID:6	 32006 P 6.0 24 18065 8173877 142 8110424 0 0 738 326942 0 327679 0 0 (radio 99.-9437% / 99.99% tx 0.00% / 0.00% listen 99.-9437% / 99.99%)
+04:10.522	ID:4	 32006 P 4.0 24 54217 8137731 438 8113964 0 0 3436 324243 31 327648 0 0 (radio 99.-9432% / 100.00% tx 0.00% / 0.00% listen 99.-9433% / 99.99%)
+04:10.556	ID:1	~test 3~[ 05 00 ]~~~	test 3~[ 05 00 ]~~ 32006 P 1.0 24 29155 8162773 823 8074921 0 0 1362 326317 63 327615 0 0 (radio 98.-9380% / 99.99% tx 0.01% / 0.01% listen 98.-9381% / 99.98%)
+04:10.889	ID:5	 32006 P 5.0 24 64485 8127457 242 7967731 0 0 3273 323411 0 326684 0 0 (radio 97.-9411% / 100.00% tx 0.00% / 0.00% listen 97.-9411% / 100.00%)
+04:11.074	ID:3	 32006 P 3.0 24 104549 8087393 808 8113592 0 0 3458 324221 32 327648 0 0 (radio 99.-9432% / 100.00% tx 0.00% / 0.00% listen 99.-9433% / 99.99%)
+04:20.410	ID:2	 33286 P 2.0 25 166608 8353011 1153 8440928 0 0 768 326912 0 327680 0 0 (radio 99.-9570% / 100.00% tx 0.01% / 0.00% listen 99.-9571% / 100.00%)
+04:20.424	ID:6	 33286 P 6.0 25 18796 8500826 142 8438105 0 0 730 326949 0 327680 0 0 (radio 99.-9574% / 100.00% tx 0.00% / 0.00% listen 99.-9575% / 100.00%)
+04:20.522	ID:4	 33286 P 4.0 25 54966 8464663 438 8441644 0 0 748 326932 0 327680 0 0 (radio 99.-9570% / 100.00% tx 0.00% / 0.00% listen 99.-9570% / 100.00%)
+04:20.555	ID:1	 33286 P 1.0 25 29905 8489703 823 8402602 0 0 749 326930 0 327680 0 0 (radio 98.-9515% / 100.00% tx 0.00% / 0.00% listen 98.-9516% / 100.00%)
+04:20.889	ID:5	 33286 P 5.0 25 65231 8454391 242 8295412 0 0 745 326934 0 327680 0 0 (radio 97.-9542% / 100.00% tx 0.00% / 0.00% listen 97.-9542% / 100.00%)
+04:21.073	ID:3	 33286 P 3.0 25 105305 8414318 808 8441272 0 0 755 326925 0 327679 0 0 (radio 99.-9570% / 99.99% tx 0.00% / 0.00% listen 99.-9571% / 99.99%)
+04:30.410	ID:2	 34566 P 2.0 26 167360 8679938 1153 8768608 0 0 752 326927 0 327679 0 0 (radio 99.-9697% / 100.00% tx 0.01% / 0.00% listen 99.-9699% / 100.00%)
+04:30.424	ID:6	 34566 P 6.0 26 19527 8827775 142 8765784 0 0 730 326949 0 327679 0 0 (radio 99.-9702% / 100.00% tx 0.00% / 0.00% listen 99.-9702% / 100.00%)
+04:30.522	ID:4	 34566 P 4.0 26 55711 8791597 438 8769324 0 0 745 326934 0 327679 0 0 (radio 99.-9697% / 100.00% tx 0.00% / 0.00% listen 99.-9698% / 100.00%)
+04:30.555	ID:1	 34566 P 1.0 26 30636 8816652 823 8730281 0 0 730 326949 0 327679 0 0 (radio 98.-9641% / 100.00% tx 0.00% / 0.00% listen 98.-9642% / 100.00%)
+04:30.889	ID:5	 34566 P 5.0 26 65962 8781340 242 8623091 0 0 730 326949 0 327679 0 0 (radio 97.-9663% / 100.00% tx 0.00% / 0.00% listen 97.-9663% / 100.00%)
+04:31.073	ID:3	 34566 P 3.0 26 106033 8741269 808 8768952 0 0 728 326951 0 327679 0 0 (radio 99.-9697% / 100.00% tx 0.00% / 0.00% listen 99.-9698% / 100.00%)
+04:40.410	ID:2	 35846 P 2.0 27 168105 9006873 1153 9096288 0 0 744 326935 0 327679 0 0 (radio 99.-9815% / 100.00% tx 0.01% / 0.00% listen 99.-9817% / 100.00%)
+04:40.424	ID:6	 35846 P 6.0 27 20265 9154717 142 9093464 0 0 737 326942 0 327679 0 0 (radio 99.-9820% / 100.00% tx 0.00% / 0.00% listen 99.-9820% / 100.00%)
+04:40.522	ID:4	 35846 P 4.0 27 56442 9118546 438 9097004 0 0 730 326949 0 327679 0 0 (radio 99.-9815% / 100.00% tx 0.00% / 0.00% listen 99.-9816% / 100.00%)
+04:40.555	ID:1	 35846 P 1.0 27 31367 9143601 823 9057961 0 0 730 326949 0 327679 0 0 (radio 98.-9758% / 100.00% tx 0.00% / 0.00% listen 98.-9759% / 100.00%)
+04:40.889	ID:5	 35846 P 5.0 27 66700 9108282 242 8950771 0 0 737 326942 0 327679 0 0 (radio 97.-9307% / 100.00% tx 0.00% / 0.00% listen 97.-9307% / 100.00%)
+04:41.073	ID:3	 35846 P 3.0 27 106771 9068211 808 9096632 0 0 737 326942 0 327680 0 0 (radio 99.-9815% / 100.00% tx 0.00% / 0.00% listen 99.-9816% / 100.00%)
+04:50.410	ID:2	 37126 P 2.0 28 168850 9333808 1153 9423968 0 0 744 326935 0 327680 0 0 (radio 99.-9474% / 100.00% tx 0.01% / 0.00% listen 99.-9475% / 100.00%)
+04:50.424	ID:6	 37126 P 6.0 28 20996 9481666 142 9421144 0 0 730 326949 0 327679 0 0 (radio 99.-9478% / 100.00% tx 0.00% / 0.00% listen 99.-9478% / 100.00%)
+04:50.522	ID:4	 37126 P 4.0 28 57173 9445495 438 9424684 0 0 730 326949 0 327680 0 0 (radio 99.-9474% / 100.00% tx 0.00% / 0.00% listen 99.-9474% / 100.00%)
+04:50.555	ID:1	 37126 P 1.0 28 32098 9470550 823 9385641 0 0 730 326949 0 327679 0 0 (radio 98.-9414% / 100.00% tx 0.00% / 0.00% listen 98.-9415% / 100.00%)
+04:50.889	ID:5	 37126 P 5.0 28 67431 9435231 242 9278451 0 0 730 326949 0 327679 0 0 (radio 97.-9428% / 100.00% tx 0.00% / 0.00% listen 97.-9428% / 100.00%)
+04:51.073	ID:3	 37126 P 3.0 28 107509 9395153 808 9424312 0 0 737 326942 0 327680 0 0 (radio 99.-9474% / 100.00% tx 0.00% / 0.00% listen 99.-9474% / 100.00%)
+05:00.410	ID:2	 38406 P 2.0 29 169607 9660731 1153 9751648 0 0 756 326923 0 327680 0 0 (radio 99.-9591% / 100.00% tx 0.01% / 0.00% listen 99.-9593% / 100.00%)
+05:00.424	ID:6	 38406 P 6.0 29 21779 9808563 166 9748800 0 0 782 326897 24 327655 0 0 (radio 99.-9595% / 100.00% tx 0.00% / 0.00% listen 99.-9595% / 99.99%)
+05:00.436	ID:2	Timer reset
+05:00.440	ID:2	Packet for send, enqueued!
+05:00.444	ID:2	Packets on Send Queue (1):
+05:00.453	ID:2	(4) [ 05 FF 14 09 02 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.453	ID:2	
+05:00.457	ID:2	=[ 02 00 ]=TX=05=09=2017=
+05:00.457	ID:2	
+05:00.460	ID:2	SDN_ACTION_FORWARD
+05:00.474	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 02 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.491	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 09 02 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.509	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 09 02 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.513	ID:2	Packet for send, dequeued!
+05:00.517	ID:2	Packets on Send Queue (0):
+05:00.517	ID:2	
+05:00.518	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 13 09 02 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.522	ID:5	Packet for recv, enqueued!
+05:00.522	ID:4	 38406 P 4.0 29 57904 9772444 438 9752364 0 0 730 326949 0 327680 0 0 (radio 99.-9591% / 100.00% tx 0.00% / 0.00% listen 99.-9592% / 100.00%)
+05:00.526	ID:5	Packets on Recv Queue (1):
+05:00.535	ID:5	(0) [ 05 FF 12 09 02 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.535	ID:5	
+05:00.541	ID:5	Receiving event at SDN core process: 72.
+05:00.544	ID:5	Packet for recv, dequeued!
+05:00.548	ID:5	Packets on Recv Queue (0):
+05:00.548	ID:5	
+05:00.548	ID:5	
+05:00.549	ID:4	Timer reset
+05:00.551	ID:5	SDN_ACTION_RECEIVE
+05:00.552	ID:4	Packet for send, enqueued!
+05:00.555	ID:5	=[ 02 00 ]=RX=05=09=2017=
+05:00.556	ID:1	~|[	test 4~[ 05 00 ]~~ 38406 P 1.0 29 33185 9797142 878 9713265 0 0 1086 326592 55 327623 0 0 (radio 98.-9531% / 100.00% tx 0.00% / 0.01% listen 98.-9532% / 99.98%)
+05:00.556	ID:4	Packets on Send Queue (1):
+05:00.565	ID:4	(0) [ 05 FF 14 09 04 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.565	ID:4	
+05:00.567	ID:5	[SDN_PACKET_DATA] Header [05 FF 12 09 02 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.569	ID:4	=[ 04 00 ]=TX=05=09=2017=
+05:00.569	ID:4	
+05:00.571	ID:5	Processing SDN_PACKET_DATA.
+05:00.572	ID:4	SDN_ACTION_FORWARD
+05:00.578	ID:5	Receiving message from [ 02 00 ] of len 10: test 4
+05:00.587	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.603	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.622	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.622	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.625	ID:3	Packet for recv, enqueued!
+05:00.625	ID:4	Packet for send, dequeued!
+05:00.629	ID:3	Packets on Recv Queue (1):
+05:00.629	ID:4	Packets on Send Queue (0):
+05:00.629	ID:4	
+05:00.638	ID:3	(0) [ 05 FF 13 09 04 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.638	ID:3	
+05:00.644	ID:3	Receiving event at SDN core process: 72.
+05:00.648	ID:3	Packet for recv, dequeued!
+05:00.651	ID:3	Packets on Recv Queue (0):
+05:00.652	ID:3	
+05:00.652	ID:3	
+05:00.654	ID:3	SDN_ACTION_FORWARD
+05:00.658	ID:3	Packet for send, enqueued!
+05:00.662	ID:3	Packets on Send Queue (1):
+05:00.671	ID:3	(2) [ 05 FF 13 09 04 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.671	ID:3	
+05:00.671	ID:3	
+05:00.674	ID:3	SDN_ACTION_FORWARD
+05:00.689	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.705	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.724	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.724	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.727	ID:2	Packet for recv, enqueued!
+05:00.728	ID:3	Packet for send, dequeued!
+05:00.731	ID:2	Packets on Recv Queue (1):
+05:00.731	ID:3	Packets on Send Queue (0):
+05:00.731	ID:3	
+05:00.740	ID:2	(0) [ 05 FF 12 09 04 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.740	ID:2	
+05:00.746	ID:2	Receiving event at SDN core process: 72.
+05:00.750	ID:2	Packet for recv, dequeued!
+05:00.754	ID:2	Packets on Recv Queue (0):
+05:00.754	ID:2	
+05:00.754	ID:2	
+05:00.757	ID:2	SDN_ACTION_FORWARD
+05:00.760	ID:2	Packet for send, enqueued!
+05:00.764	ID:2	Packets on Send Queue (1):
+05:00.773	ID:2	(5) [ 05 FF 12 09 04 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.773	ID:2	
+05:00.774	ID:2	
+05:00.776	ID:2	SDN_ACTION_FORWARD
+05:00.791	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.807	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.826	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.830	ID:2	Packet for send, dequeued!
+05:00.833	ID:2	Packets on Send Queue (0):
+05:00.834	ID:2	
+05:00.835	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 11 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.838	ID:5	Packet for recv, enqueued!
+05:00.842	ID:5	Packets on Recv Queue (1):
+05:00.851	ID:5	(1) [ 05 FF 10 09 04 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:00.851	ID:5	
+05:00.857	ID:5	Receiving event at SDN core process: 72.
+05:00.861	ID:5	Packet for recv, dequeued!
+05:00.865	ID:5	Packets on Recv Queue (0):
+05:00.865	ID:5	
+05:00.865	ID:5	
+05:00.867	ID:5	SDN_ACTION_RECEIVE
+05:00.871	ID:5	=[ 04 00 ]=RX=05=09=2017=
+05:00.884	ID:5	[SDN_PACKET_DATA] Header [05 FF 10 09 04 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:00.888	ID:5	Processing SDN_PACKET_DATA.
+05:00.895	ID:5	Receiving message from [ 04 00 ] of len 10: test 4
+05:00.917	ID:5	 38409 P 5.0 29 73235 9758029 242 9607055 0 0 5803 322798 0 328603 0 0 (radio 97.-9539% / 100.00% tx 0.00% / 0.00% listen 97.-9540% / 100.00%)
+05:01.074	ID:3	 38406 P 3.0 29 112418 9717923 839 9751961 0 0 4908 322770 31 327649 0 0 (radio 99.-9591% / 100.00% tx 0.00% / 0.00% listen 99.-9592% / 99.99%)
+05:01.100	ID:3	Timer reset
+05:01.103	ID:3	Packet for send, enqueued!
+05:01.107	ID:3	Packets on Send Queue (1):
+05:01.116	ID:3	(3) [ 05 FF 14 0A 03 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:01.116	ID:3	
+05:01.120	ID:3	=[ 03 00 ]=TX=05=0A=2017=
+05:01.120	ID:3	
+05:01.123	ID:3	SDN_ACTION_FORWARD
+05:01.138	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.154	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.172	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.173	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.176	ID:2	Packet for recv, enqueued!
+05:01.176	ID:3	Packet for send, dequeued!
+05:01.180	ID:2	Packets on Recv Queue (1):
+05:01.180	ID:3	Packets on Send Queue (0):
+05:01.180	ID:3	
+05:01.189	ID:2	(1) [ 05 FF 13 0A 03 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:01.189	ID:2	
+05:01.195	ID:2	Receiving event at SDN core process: 72.
+05:01.199	ID:2	Packet for recv, dequeued!
+05:01.202	ID:2	Packets on Recv Queue (0):
+05:01.203	ID:2	
+05:01.203	ID:2	
+05:01.205	ID:2	SDN_ACTION_FORWARD
+05:01.209	ID:2	Packet for send, enqueued!
+05:01.213	ID:2	Packets on Send Queue (1):
+05:01.222	ID:2	(6) [ 05 FF 13 0A 03 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:01.222	ID:2	
+05:01.222	ID:2	
+05:01.225	ID:2	SDN_ACTION_FORWARD
+05:01.240	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.256	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.260	ID:1	~	test 4~[ 05 00 ]~~~
+05:01.275	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.278	ID:2	Packet for send, dequeued!
+05:01.282	ID:2	Packets on Send Queue (0):
+05:01.282	ID:2	
+05:01.283	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 12 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.287	ID:5	Packet for recv, enqueued!
+05:01.291	ID:5	Packets on Recv Queue (1):
+05:01.300	ID:5	(0) [ 05 FF 11 0A 03 00 ] [ E1 07 74 65 73 74 20 34 00 00 00 00 ]
+05:01.300	ID:5	
+05:01.306	ID:5	Receiving event at SDN core process: 72.
+05:01.310	ID:5	Packet for recv, dequeued!
+05:01.313	ID:5	Packets on Recv Queue (0):
+05:01.314	ID:5	
+05:01.314	ID:5	
+05:01.316	ID:5	SDN_ACTION_RECEIVE
+05:01.320	ID:5	=[ 03 00 ]=RX=05=0A=2017=
+05:01.333	ID:5	[SDN_PACKET_DATA] Header [05 FF 11 0A 03 00] Payload [E1 07 74 65 73 74 20 34 00 00 00 00]
+05:01.336	ID:5	Processing SDN_PACKET_DATA.
+05:01.344	ID:5	Receiving message from [ 03 00 ] of len 10: test 4
+05:10.411	ID:2	 39686 P 2.0 30 181384 9976632 1249 10079232 0 0 11776 315901 96 327584 0 0 (radio 99.-9702% / 100.00% tx 0.01% / 0.02% listen 99.-9703% / 99.97%)
+05:10.424	ID:6	 39686 P 6.0 30 22516 10135506 166 10076480 0 0 737 326943 0 327679 0 0 (radio 99.-9705% / 99.99% tx 0.00% / 0.00% listen 99.-9706% / 99.99%)
+05:10.523	ID:4	 39686 P 4.0 30 61351 10096677 470 10080012 0 0 3446 324233 32 327648 0 0 (radio 99.-9702% / 100.00% tx 0.00% / 0.00% listen 99.-9702% / 99.99%)
+05:10.556	ID:1	test 4~[ 05 00 ]~~ 39686 P 1.0 30 34546 10123460 942 10040881 0 0 1361 326318 64 327615 0 0 (radio 98.-9640% / 100.00% tx 0.00% / 0.01% listen 98.-9641% / 99.98%)
+05:10.889	ID:5	 39686 P 5.0 30 76507 10081511 242 9933812 0 0 3271 323482 0 326756 0 0 (radio 97.-9646% / 100.00% tx 0.00% / 0.00% listen 97.-9646% / 100.00%)
+05:11.074	ID:3	 39686 P 3.0 30 115880 10042141 871 10079609 0 0 3461 324218 32 327647 0 0 (radio 99.-9702% / 100.00% tx 0.00% / 0.00% listen 99.-9702% / 99.99%)
+05:20.411	ID:2	 40966 P 2.0 31 182157 10303538 1249 10406912 0 0 772 326906 0 327679 0 0 (radio 99.-9805% / 100.00% tx 0.01% / 0.00% listen 99.-9806% / 100.00%)
+05:20.424	ID:6	 40966 P 6.0 31 23251 10462451 166 10404160 0 0 734 326945 0 327679 0 0 (radio 99.-9809% / 100.00% tx 0.00% / 0.00% listen 99.-9809% / 100.00%)
+05:20.523	ID:4	 40966 P 4.0 31 62103 10423604 470 10407692 0 0 751 326927 0 327679 0 0 (radio 99.-9805% / 100.00% tx 0.00% / 0.00% listen 99.-9805% / 100.00%)
+05:20.556	ID:1	 40966 P 1.0 31 35310 10450376 942 10368561 0 0 763 326916 0 327679 0 0 (radio 98.-9742% / 100.00% tx 0.00% / 0.00% listen 98.-9743% / 100.00%)
+05:20.889	ID:5	 40966 P 5.0 31 77252 10408446 242 10261491 0 0 744 326935 0 327679 0 0 (radio 97.-9335% / 100.00% tx 0.00% / 0.00% listen 97.-9335% / 100.00%)
+05:21.074	ID:3	 40966 P 3.0 31 116639 10369061 871 10407289 0 0 758 326920 0 327679 0 0 (radio 99.-9805% / 100.00% tx 0.00% / 0.00% listen 99.-9806% / 100.00%)
+05:30.411	ID:2	 42246 P 2.0 32 182915 10630460 1249 10734592 0 0 757 326922 0 327679 0 0 (radio 99.-9505% / 100.00% tx 0.01% / 0.00% listen 99.-9506% / 100.00%)
+05:30.424	ID:6	 42246 P 6.0 32 23995 10789387 166 10731840 0 0 744 326936 0 327679 0 0 (radio 99.-9508% / 99.99% tx 0.00% / 0.00% listen 99.-9508% / 99.99%)
+05:30.523	ID:4	 42246 P 4.0 32 62848 10750539 470 10735372 0 0 744 326935 0 327680 0 0 (radio 99.-9505% / 100.00% tx 0.00% / 0.00% listen 99.-9505% / 100.00%)
+05:30.556	ID:1	 42246 P 1.0 32 36054 10777312 942 10696241 0 0 743 326936 0 327679 0 0 (radio 98.-9441% / 100.00% tx 0.00% / 0.00% listen 98.-9441% / 100.00%)
+05:30.889	ID:5	 42246 P 5.0 32 77996 10735382 242 10589171 0 0 743 326936 0 327679 0 0 (radio 97.-9440% / 100.00% tx 0.00% / 0.00% listen 97.-9440% / 100.00%)
+05:31.074	ID:3	 42246 P 3.0 32 117390 10695990 871 10734969 0 0 750 326929 0 327680 0 0 (radio 99.-9505% / 100.00% tx 0.00% / 0.00% listen 99.-9506% / 100.00%)
+05:40.411	ID:2	 43526 P 2.0 33 183673 10957382 1249 11062272 0 0 757 326922 0 327680 0 0 (radio 99.-9608% / 100.00% tx 0.01% / 0.00% listen 99.-9609% / 100.00%)
+05:40.424	ID:6	 43526 P 6.0 33 24742 11116320 166 11059520 0 0 747 326933 0 327679 0 0 (radio 99.-9611% / 99.99% tx 0.00% / 0.00% listen 99.-9611% / 99.99%)
+05:40.523	ID:4	 43526 P 4.0 33 63592 11077474 470 11063052 0 0 743 326935 0 327680 0 0 (radio 99.-9608% / 100.00% tx 0.00% / 0.00% listen 99.-9608% / 100.00%)
+05:40.556	ID:1	 43526 P 1.0 33 36798 11104248 942 11023921 0 0 744 326936 0 327679 0 0 (radio 98.-9542% / 99.99% tx 0.00% / 0.00% listen 98.-9543% / 99.99%)
+05:40.889	ID:5	 43526 P 5.0 33 78740 11062318 242 10916851 0 0 743 326936 0 327679 0 0 (radio 97.-9539% / 100.00% tx 0.00% / 0.00% listen 97.-9539% / 100.00%)
+05:41.074	ID:3	 43526 P 3.0 33 118141 11022919 871 11062649 0 0 750 326929 0 327680 0 0 (radio 99.-9608% / 100.00% tx 0.00% / 0.00% listen 99.-9609% / 100.00%)
+05:50.411	ID:2	 44806 P 2.0 34 184431 11284304 1249 11389952 0 0 757 326922 0 327680 0 0 (radio 99.-9705% / 100.00% tx 0.01% / 0.00% listen 99.-9706% / 100.00%)
+05:50.424	ID:6	 44806 P 6.0 34 25477 11443265 166 11387200 0 0 734 326945 0 327679 0 0 (radio 99.-9708% / 100.00% tx 0.00% / 0.00% listen 99.-9708% / 100.00%)
+05:50.523	ID:4	 44806 P 4.0 34 64343 11404402 470 11390732 0 0 750 326928 0 327680 0 0 (radio 99.-9705% / 100.00% tx 0.00% / 0.00% listen 99.-9705% / 100.00%)
+05:50.556	ID:1	 44806 P 1.0 34 37533 11431193 942 11351601 0 0 735 326945 0 327679 0 0 (radio 98.-9639% / 99.99% tx 0.00% / 0.00% listen 98.-9639% / 99.99%)
+05:50.889	ID:5	 44806 P 5.0 34 79484 11389253 242 11244531 0 0 743 326935 0 327679 0 0 (radio 98.-9733% / 100.00% tx 0.00% / 0.00% listen 98.-9733% / 100.00%)
+05:51.074	ID:3	 44806 P 3.0 34 118899 11349841 871 11390329 0 0 757 326922 0 327680 0 0 (radio 99.-9705% / 100.00% tx 0.00% / 0.00% listen 99.-9706% / 100.00%)
+06:00.411	ID:2	 46086 P 2.0 35 185189 11611226 1249 11717632 0 0 757 326922 0 327680 0 0 (radio 99.-9797% / 100.00% tx 0.01% / 0.00% listen 99.-9798% / 100.00%)
+06:00.424	ID:6	 46086 P 6.0 35 26221 11770201 166 11714880 0 0 744 326936 0 327679 0 0 (radio 99.-9800% / 99.99% tx 0.00% / 0.00% listen 99.-9800% / 99.99%)
+06:00.436	ID:2	Timer reset
+06:00.440	ID:2	Packet for send, enqueued!
+06:00.444	ID:2	Packets on Send Queue (1):
+06:00.453	ID:2	(7) [ 05 FF 14 0A 02 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.453	ID:2	
+06:00.457	ID:2	=[ 02 00 ]=TX=05=0A=2017=
+06:00.457	ID:2	
+06:00.460	ID:2	SDN_ACTION_FORWARD
+06:00.474	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0A 02 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.491	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 0A 02 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.494	ID:1	~
+06:00.509	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 02 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.513	ID:2	Packet for send, dequeued!
+06:00.517	ID:2	Packets on Send Queue (0):
+06:00.517	ID:2	
+06:00.519	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 13 0A 02 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.523	ID:5	Packet for recv, enqueued!
+06:00.523	ID:4	 46086 P 4.0 35 65088 11731337 470 11718412 0 0 744 326935 0 327679 0 0 (radio 99.-9797% / 100.00% tx 0.00% / 0.00% listen 99.-9797% / 100.00%)
+06:00.526	ID:5	Packets on Recv Queue (1):
+06:00.535	ID:5	(1) [ 05 FF 12 0A 02 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.536	ID:5	
+06:00.541	ID:5	Receiving event at SDN core process: 72.
+06:00.545	ID:5	Packet for recv, dequeued!
+06:00.549	ID:4	Timer reset
+06:00.549	ID:5	Packets on Recv Queue (0):
+06:00.549	ID:5	
+06:00.549	ID:5	
+06:00.552	ID:5	SDN_ACTION_RECEIVE
+06:00.552	ID:4	Packet for send, enqueued!
+06:00.555	ID:5	=[ 02 00 ]=RX=05=0A=2017=
+06:00.556	ID:1	test 5~[ 05 00 ]~~ 46086 P 1.0 35 38572 11757833 974 11679249 0 0 1039 326640 32 327647 0 0 (radio 99.-9829% / 100.00% tx 0.00% / 0.00% listen 99.-9830% / 99.99%)
+06:00.556	ID:4	Packets on Send Queue (1):
+06:00.565	ID:4	(1) [ 05 FF 14 0A 04 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.565	ID:4	
+06:00.568	ID:5	[SDN_PACKET_DATA] Header [05 FF 12 0A 02 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.569	ID:4	=[ 04 00 ]=TX=05=0A=2017=
+06:00.569	ID:4	
+06:00.572	ID:4	SDN_ACTION_FORWARD
+06:00.572	ID:5	Processing SDN_PACKET_DATA.
+06:00.579	ID:5	Receiving message from [ 02 00 ] of len 10: test 5
+06:00.587	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.603	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.621	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.622	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.625	ID:3	Packet for recv, enqueued!
+06:00.625	ID:4	Packet for send, dequeued!
+06:00.629	ID:3	Packets on Recv Queue (1):
+06:00.629	ID:4	Packets on Send Queue (0):
+06:00.629	ID:4	
+06:00.638	ID:3	(1) [ 05 FF 13 0A 04 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.638	ID:3	
+06:00.644	ID:3	Receiving event at SDN core process: 72.
+06:00.648	ID:3	Packet for recv, dequeued!
+06:00.651	ID:3	Packets on Recv Queue (0):
+06:00.652	ID:3	
+06:00.652	ID:3	
+06:00.654	ID:3	SDN_ACTION_FORWARD
+06:00.658	ID:3	Packet for send, enqueued!
+06:00.662	ID:3	Packets on Send Queue (1):
+06:00.671	ID:3	(4) [ 05 FF 13 0A 04 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.671	ID:3	
+06:00.671	ID:3	
+06:00.674	ID:3	SDN_ACTION_FORWARD
+06:00.689	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.705	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.724	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.724	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.727	ID:2	Packet for recv, enqueued!
+06:00.727	ID:3	Packet for send, dequeued!
+06:00.731	ID:2	Packets on Recv Queue (1):
+06:00.731	ID:3	Packets on Send Queue (0):
+06:00.731	ID:3	
+06:00.740	ID:2	(0) [ 05 FF 12 0A 04 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.740	ID:2	
+06:00.746	ID:2	Receiving event at SDN core process: 72.
+06:00.750	ID:2	Packet for recv, dequeued!
+06:00.754	ID:2	Packets on Recv Queue (0):
+06:00.754	ID:2	
+06:00.754	ID:2	
+06:00.757	ID:2	SDN_ACTION_FORWARD
+06:00.760	ID:2	Packet for send, enqueued!
+06:00.764	ID:2	Packets on Send Queue (1):
+06:00.773	ID:2	(8) [ 05 FF 12 0A 04 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.773	ID:2	
+06:00.773	ID:2	
+06:00.776	ID:2	SDN_ACTION_FORWARD
+06:00.791	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.807	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.811	ID:1	~
+06:00.826	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.830	ID:2	Packet for send, dequeued!
+06:00.833	ID:2	Packets on Send Queue (0):
+06:00.833	ID:2	
+06:00.835	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 11 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.838	ID:5	Packet for recv, enqueued!
+06:00.842	ID:5	Packets on Recv Queue (1):
+06:00.851	ID:5	(0) [ 05 FF 10 0A 04 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:00.851	ID:5	
+06:00.857	ID:5	Receiving event at SDN core process: 72.
+06:00.861	ID:5	Packet for recv, dequeued!
+06:00.865	ID:5	Packets on Recv Queue (0):
+06:00.865	ID:5	
+06:00.865	ID:5	
+06:00.868	ID:5	SDN_ACTION_RECEIVE
+06:00.871	ID:5	=[ 04 00 ]=RX=05=0A=2017=
+06:00.884	ID:5	[SDN_PACKET_DATA] Header [05 FF 10 0A 04 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:00.888	ID:5	Processing SDN_PACKET_DATA.
+06:00.895	ID:5	Receiving message from [ 04 00 ] of len 10: test 5
+06:00.918	ID:5	 46089 P 5.0 35 85296 11712045 242 11573136 0 0 5811 322792 0 328604 0 0 (radio 98.-9456% / 100.00% tx 0.00% / 0.00% listen 98.-9456% / 100.00%)
+06:01.074	ID:3	 46086 P 3.0 35 123806 11672613 903 11717977 0 0 4906 322772 32 327647 0 0 (radio 99.-9797% / 100.00% tx 0.00% / 0.00% listen 99.-9797% / 99.99%)
+06:01.100	ID:3	Timer reset
+06:01.103	ID:3	Packet for send, enqueued!
+06:01.107	ID:3	Packets on Send Queue (1):
+06:01.116	ID:3	(5) [ 05 FF 14 0B 03 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:01.116	ID:3	
+06:01.120	ID:3	=[ 03 00 ]=TX=05=0B=2017=
+06:01.120	ID:3	
+06:01.123	ID:3	SDN_ACTION_FORWARD
+06:01.138	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.154	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.172	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.173	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.176	ID:2	Packet for recv, enqueued!
+06:01.176	ID:3	Packet for send, dequeued!
+06:01.180	ID:2	Packets on Recv Queue (1):
+06:01.180	ID:3	Packets on Send Queue (0):
+06:01.180	ID:3	
+06:01.189	ID:2	(1) [ 05 FF 13 0B 03 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:01.189	ID:2	
+06:01.195	ID:2	Receiving event at SDN core process: 72.
+06:01.199	ID:2	Packet for recv, dequeued!
+06:01.202	ID:2	Packets on Recv Queue (0):
+06:01.203	ID:2	
+06:01.203	ID:2	
+06:01.205	ID:2	SDN_ACTION_FORWARD
+06:01.209	ID:2	Packet for send, enqueued!
+06:01.213	ID:2	Packets on Send Queue (1):
+06:01.222	ID:2	(9) [ 05 FF 13 0B 03 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:01.222	ID:2	
+06:01.222	ID:2	
+06:01.225	ID:2	SDN_ACTION_FORWARD
+06:01.240	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.256	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.275	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.278	ID:2	Packet for send, dequeued!
+06:01.282	ID:2	Packets on Send Queue (0):
+06:01.282	ID:2	
+06:01.283	ID:5	Packet Received from [01:00] [SDN_PACKET_DATA] Header [05 FF 12 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.287	ID:5	Packet for recv, enqueued!
+06:01.291	ID:5	Packets on Recv Queue (1):
+06:01.300	ID:5	(1) [ 05 FF 11 0B 03 00 ] [ E1 07 74 65 73 74 20 35 00 00 00 00 ]
+06:01.300	ID:5	
+06:01.306	ID:5	Receiving event at SDN core process: 72.
+06:01.310	ID:5	Packet for recv, dequeued!
+06:01.313	ID:5	Packets on Recv Queue (0):
+06:01.314	ID:5	
+06:01.314	ID:5	
+06:01.316	ID:5	SDN_ACTION_RECEIVE
+06:01.320	ID:5	=[ 03 00 ]=RX=05=0B=2017=
+06:01.333	ID:5	[SDN_PACKET_DATA] Header [05 FF 11 0B 03 00] Payload [E1 07 74 65 73 74 20 35 00 00 00 00]
+06:01.336	ID:5	Processing SDN_PACKET_DATA.
+06:01.344	ID:5	Receiving message from [ 03 00 ] of len 10: test 5
+06:10.411	ID:2	 47366 P 2.0 36 196985 11927109 1342 12045218 0 0 11795 315883 93 327586 0 0 (radio 99.-9883% / 100.00% tx 0.01% / 0.02% listen 99.-9885% / 99.97%)
+06:10.424	ID:6	 47366 P 6.0 36 26962 12097140 166 12042560 0 0 741 326939 0 327679 0 0 (radio 99.-9887% / 99.99% tx 0.00% / 0.00% listen 99.-9887% / 99.99%)
+06:10.523	ID:4	 47366 P 4.0 36 68541 12055565 501 12046060 0 0 3452 324228 31 327648 0 0 (radio 99.-9883% / 99.99% tx 0.00% / 0.00% listen 99.-9884% / 99.99%)
+06:10.556	ID:1	test 5~[ 05 00 ]~~~test 5~[ 05 00 ]~~ 47366 P 1.0 36 39957 12084127 1037 12006866 0 0 1385 326294 63 327616 0 0 (radio 99.-9561% / 100.00% tx 0.00% / 0.01% listen 99.-9562% / 99.98%)
+06:10.889	ID:5	 47366 P 5.0 36 88582 12035514 242 11899891 0 0 3285 323469 0 326754 0 0 (radio 98.-9550% / 100.00% tx 0.00% / 0.00% listen 98.-9550% / 100.00%)
+06:11.074	ID:3	 47366 P 3.0 36 127273 11996827 934 12045625 0 0 3466 324214 31 327648 0 0 (radio 99.-9883% / 99.99% tx 0.00% / 0.00% listen 99.-9884% / 99.99%)
+06:20.411	ID:2	 48646 P 2.0 37 197757 12254016 1342 12372898 0 0 771 326907 0 327679 0 0 (radio 99.-9621% / 100.00% tx 0.01% / 0.00% listen 99.-9622% / 100.00%)
+06:20.424	ID:6	 48646 P 6.0 37 27703 12424079 166 12370240 0 0 740 326939 0 327679 0 0 (radio 99.-9624% / 100.00% tx 0.00% / 0.00% listen 99.-9624% / 100.00%)
+06:20.523	ID:4	 48646 P 4.0 37 69297 12382488 501 12373740 0 0 756 326923 0 327679 0 0 (radio 99.-9621% / 100.00% tx 0.00% / 0.00% listen 99.-9621% / 100.00%)
+06:20.556	ID:1	 48646 P 1.0 37 40726 12411038 1037 12334546 0 0 768 326911 0 327679 0 0 (radio 99.-9652% / 100.00% tx 0.00% / 0.00% listen 99.-9653% / 100.00%)
+06:20.889	ID:5	 48646 P 5.0 37 89384 12362392 265 12227548 0 0 801 326878 23 327656 0 0 (radio 98.-9638% / 100.00% tx 0.00% / 0.00% listen 98.-9639% / 99.99%)
+06:21.074	ID:3	 48646 P 3.0 37 128035 12323744 934 12373305 0 0 762 326917 0 327679 0 0 (radio 99.-9621% / 100.00% tx 0.00% / 0.00% listen 99.-9622% / 100.00%)
+06:30.411	ID:2	 49926 P 2.0 38 198522 12580931 1342 12700578 0 0 764 326915 0 327680 0 0 (radio 99.-9708% / 100.00% tx 0.01% / 0.00% listen 99.-9709% / 100.00%)
+06:30.424	ID:6	 49926 P 6.0 38 28453 12751009 166 12697920 0 0 749 326930 0 327679 0 0 (radio 99.-9711% / 100.00% tx 0.00% / 0.00% listen 99.-9711% / 100.00%)
+06:30.523	ID:4	 49926 P 4.0 38 70094 12709371 524 12701396 0 0 796 326883 23 327655 0 0 (radio 99.-9708% / 99.99% tx 0.00% / 0.00% listen 99.-9708% / 99.99%)
+06:30.556	ID:1	 49926 P 1.0 38 41477 12737967 1037 12662226 0 0 751 326929 0 327679 0 0 (radio 99.-9738% / 99.99% tx 0.00% / 0.00% listen 99.-9739% / 99.99%)
+06:30.889	ID:5	 49926 P 5.0 38 90129 12689327 265 12555228 0 0 745 326935 0 327679 0 0 (radio 98.-9722% / 99.99% tx 0.00% / 0.00% listen 98.-9722% / 99.99%)
+06:31.074	ID:3	 49926 P 3.0 38 128799 12650660 934 12700985 0 0 763 326916 0 327679 0 0 (radio 99.-9708% / 100.00% tx 0.00% / 0.00% listen 99.-9708% / 100.00%)
+06:40.411	ID:2	 51206 P 2.0 39 199280 12907853 1342 13028258 0 0 757 326922 0 327679 0 0 (radio 99.-9790% / 100.00% tx 0.01% / 0.00% listen 99.-9791% / 100.00%)
+06:40.424	ID:6	 51206 P 6.0 39 29197 13077945 166 13025600 0 0 743 326936 0 327679 0 0 (radio 99.-9793% / 100.00% tx 0.00% / 0.00% listen 99.-9793% / 100.00%)
+06:40.523	ID:4	 51206 P 4.0 39 70835 13036310 524 13029076 0 0 740 326939 0 327679 0 0 (radio 99.-9790% / 100.00% tx 0.00% / 0.00% listen 99.-9791% / 100.00%)
+06:40.556	ID:1	 51206 P 1.0 39 42219 13064905 1037 12989906 0 0 742 326938 0 327679 0 0 (radio 99.-9820% / 99.99% tx 0.00% / 0.00% listen 99.-9820% / 99.99%)
+06:40.889	ID:5	 51206 P 5.0 39 90864 13016272 265 12882908 0 0 735 326945 0 327679 0 0 (radio 98.-9474% / 99.99% tx 0.00% / 0.00% listen 98.-9474% / 99.99%)
+06:41.074	ID:3	 51206 P 3.0 39 129550 12977588 934 13028665 0 0 750 326928 0 327680 0 0 (radio 99.-9790% / 100.00% tx 0.00% / 0.00% listen 99.-9791% / 100.00%)
+06:50.411	ID:2	 52486 P 2.0 40 200038 13234775 1342 13355938 0 0 757 326922 0 327680 0 0 (radio 99.-9869% / 100.00% tx 0.00% / 0.00% listen 99.-9870% / 100.00%)
+06:50.424	ID:6	 52486 P 6.0 40 29941 13404881 166 13353280 0 0 744 326936 0 327679 0 0 (radio 99.-9871% / 99.99% tx 0.00% / 0.00% listen 99.-9872% / 99.99%)
+06:50.523	ID:4	 52486 P 4.0 40 71580 13363245 524 13356756 0 0 744 326935 0 327679 0 0 (radio 99.-9869% / 100.00% tx 0.00% / 0.00% listen 99.-9869% / 100.00%)
+06:50.556	ID:1	 52486 P 1.0 40 42961 13391843 1037 13317586 0 0 742 326938 0 327679 0 0 (radio 99.-9897% / 99.99% tx 0.00% / 0.00% listen 99.-9898% / 99.99%)
+06:50.889	ID:5	 52486 P 5.0 40 91599 13343217 265 13210588 0 0 735 326945 0 327679 0 0 (radio 98.-9558% / 99.99% tx 0.00% / 0.00% listen 98.-9558% / 99.99%)
+06:51.074	ID:3	 52486 P 3.0 40 130301 13304517 934 13356345 0 0 750 326929 0 327680 0 0 (radio 99.-9869% / 100.00% tx 0.00% / 0.00% listen 99.-9869% / 100.00%)
+07:00.411	ID:2	 53766 P 2.0 41 200848 13561645 1365 13683594 0 0 809 326870 23 327656 0 0 (radio 99.-9631% / 100.00% tx 0.00% / 0.00% listen 99.-9632% / 99.99%)
+07:00.424	ID:6	 53766 P 6.0 41 30676 13731826 166 13680960 0 0 735 326945 0 327679 0 0 (radio 99.-9634% / 99.99% tx 0.00% / 0.00% listen 99.-9634% / 99.99%)
+07:00.436	ID:2	Timer reset
+07:00.440	ID:2	Packet for send, enqueued!
+07:00.444	ID:2	Packets on Send Queue (1):
+07:00.453	ID:2	(0) [ 05 FF 14 0B 02 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:00.453	ID:2	
+07:00.457	ID:2	=[ 02 00 ]=TX=05=0B=2017=
+07:00.457	ID:2	
+07:00.460	ID:2	SDN_ACTION_FORWARD
+07:00.474	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0B 02 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.491	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 14 0B 02 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.509	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 02 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.513	ID:2	Packet for send, dequeued!
+07:00.517	ID:2	Packets on Send Queue (0):
+07:00.517	ID:2	
+07:00.523	ID:4	 53766 P 4.0 41 72324 13690181 524 13684436 0 0 743 326936 0 327679 0 0 (radio 99.-9631% / 100.00% tx 0.00% / 0.00% listen 99.-9632% / 100.00%)
+07:00.549	ID:4	Timer reset
+07:00.552	ID:4	Packet for send, enqueued!
+07:00.556	ID:1	~test 6~ 53766 P 1.0 41 43854 13718629 1037 13645266 0 0 893 326786 0 327679 0 0 (radio 99.-9659% / 100.00% tx 0.00% / 0.00% listen 99.-9660% / 100.00%)
+07:00.556	ID:4	Packets on Send Queue (1):
+07:00.565	ID:4	(2) [ 05 FF 14 0B 04 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:00.565	ID:4	
+07:00.569	ID:4	=[ 04 00 ]=TX=05=0B=2017=
+07:00.569	ID:4	
+07:00.572	ID:4	SDN_ACTION_FORWARD
+07:00.587	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.603	ID:4	Sending Packet to [ 03 00 ][SDN_PACKET_DATA] Header [05 FF 14 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.621	ID:3	Packet Received from [04:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.622	ID:4	Packet Sent to [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.625	ID:3	Packet for recv, enqueued!
+07:00.625	ID:4	Packet for send, dequeued!
+07:00.629	ID:3	Packets on Recv Queue (1):
+07:00.629	ID:4	Packets on Send Queue (0):
+07:00.629	ID:4	
+07:00.638	ID:3	(0) [ 05 FF 13 0B 04 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:00.638	ID:3	
+07:00.644	ID:3	Receiving event at SDN core process: 72.
+07:00.648	ID:3	Packet for recv, dequeued!
+07:00.651	ID:3	Packets on Recv Queue (0):
+07:00.652	ID:3	
+07:00.652	ID:3	
+07:00.654	ID:3	SDN_ACTION_FORWARD
+07:00.658	ID:3	Packet for send, enqueued!
+07:00.662	ID:3	Packets on Send Queue (1):
+07:00.671	ID:3	(6) [ 05 FF 13 0B 04 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:00.671	ID:3	
+07:00.671	ID:3	
+07:00.674	ID:3	SDN_ACTION_FORWARD
+07:00.689	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.705	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 13 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.724	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 13 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.724	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 13 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.727	ID:2	Packet for recv, enqueued!
+07:00.727	ID:3	Packet for send, dequeued!
+07:00.731	ID:2	Packets on Recv Queue (1):
+07:00.731	ID:3	Packets on Send Queue (0):
+07:00.731	ID:3	
+07:00.740	ID:2	(0) [ 05 FF 12 0B 04 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:00.740	ID:2	
+07:00.746	ID:2	Receiving event at SDN core process: 72.
+07:00.750	ID:2	Packet for recv, dequeued!
+07:00.754	ID:2	Packets on Recv Queue (0):
+07:00.754	ID:2	
+07:00.754	ID:2	
+07:00.757	ID:2	SDN_ACTION_FORWARD
+07:00.760	ID:2	Packet for send, enqueued!
+07:00.764	ID:2	Packets on Send Queue (1):
+07:00.773	ID:2	(1) [ 05 FF 12 0B 04 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:00.773	ID:2	
+07:00.773	ID:2	
+07:00.776	ID:2	SDN_ACTION_FORWARD
+07:00.791	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 12 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.807	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 12 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.826	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 12 0B 04 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:00.830	ID:2	Packet for send, dequeued!
+07:00.833	ID:2	Packets on Send Queue (0):
+07:00.834	ID:2	
+07:00.889	ID:5	 53766 P 5.0 41 92350 13670145 265 13538268 0 0 751 326928 0 327679 0 0 (radio 98.-9638% / 100.00% tx 0.00% / 0.00% listen 98.-9638% / 100.00%)
+07:01.074	ID:3	 53766 P 3.0 41 135227 13627270 966 13683993 0 0 4925 322753 32 327648 0 0 (radio 99.-9631% / 100.00% tx 0.00% / 0.00% listen 99.-9632% / 99.99%)
+07:01.100	ID:3	Timer reset
+07:01.103	ID:3	Packet for send, enqueued!
+07:01.107	ID:3	Packets on Send Queue (1):
+07:01.116	ID:3	(7) [ 05 FF 14 0C 03 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:01.116	ID:3	
+07:01.120	ID:3	=[ 03 00 ]=TX=05=0C=2017=
+07:01.120	ID:3	
+07:01.123	ID:3	SDN_ACTION_FORWARD
+07:01.138	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.154	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.172	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.173	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.176	ID:2	Packet for recv, enqueued!
+07:01.176	ID:3	Packet for send, dequeued!
+07:01.180	ID:2	Packets on Recv Queue (1):
+07:01.180	ID:3	Packets on Send Queue (0):
+07:01.180	ID:3	
+07:01.189	ID:2	(1) [ 05 FF 13 0C 03 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:01.189	ID:2	
+07:01.195	ID:2	Receiving event at SDN core process: 72.
+07:01.199	ID:2	Packet for recv, dequeued!
+07:01.202	ID:2	Packets on Recv Queue (0):
+07:01.203	ID:2	
+07:01.203	ID:2	
+07:01.205	ID:2	SDN_ACTION_FORWARD
+07:01.209	ID:2	Packet for send, enqueued!
+07:01.213	ID:2	Packets on Send Queue (1):
+07:01.222	ID:2	(2) [ 05 FF 13 0C 03 00 ] [ E1 07 74 65 73 74 20 36 00 00 00 00 ]
+07:01.222	ID:2	
+07:01.222	ID:2	
+07:01.225	ID:2	SDN_ACTION_FORWARD
+07:01.240	ID:2	Trying to send: [SDN_PACKET_DATA] Header [05 FF 13 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.256	ID:2	Sending Packet to [ 01 00 ][SDN_PACKET_DATA] Header [05 FF 13 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.275	ID:2	Packet Sent to [01:00] [SDN_PACKET_DATA] Header [05 FF 13 0C 03 00] Payload [E1 07 74 65 73 74 20 36 00 00 00 00]
+07:01.278	ID:2	Packet for send, dequeued!
+07:01.282	ID:2	Packets on Send Queue (0):
+07:01.282	ID:2	
+07:10.411	ID:2	 55046 P 2.0 42 212641 13877531 1459 14011180 0 0 11792 315886 94 327585 0 0 (radio 99.-9710% / 100.00% tx 0.01% / 0.02% listen 99.-9711% / 99.97%)
+07:10.424	ID:6	 55046 P 6.0 42 31417 14058765 166 14008640 0 0 741 326939 0 327679 0 0 (radio 99.-9712% / 99.99% tx 0.00% / 0.00% listen 99.-9713% / 99.99%)
+07:10.523	ID:4	 55046 P 4.0 42 75793 14014392 555 14012085 0 0 3468 324211 31 327648 0 0 (radio 99.-9710% / 100.00% tx 0.00% / 0.00% listen 99.-9710% / 99.99%)
+07:10.556	ID:1	~test 6~~test 6~ 55046 P 1.0 42 44879 14045283 1037 13972946 0 0 1024 326654 0 327679 0 0 (radio 99.-9737% / 100.00% tx 0.00% / 0.00% listen 99.-9738% / 100.00%)
+07:10.889	ID:5	 55046 P 5.0 42 93111 13997064 265 13865948 0 0 760 326919 0 327679 0 0 (radio 98.-9714% / 100.00% tx 0.00% / 0.00% listen 98.-9714% / 100.00%)
+07:11.074	ID:3	 55046 P 3.0 42 138745 13951432 1020 14011618 0 0 3517 324162 54 327624 0 0 (radio 99.-9710% / 99.99% tx 0.00% / 0.01% listen 99.-9710% / 99.98%)
+07:20.411	ID:2	 56326 P 2.0 43 213428 14204424 1459 14338859 0 0 786 326893 0 327679 0 0 (radio 99.-9785% / 100.00% tx 0.01% / 0.00% listen 99.-9786% / 100.00%)
+07:20.424	ID:6	 56326 P 6.0 43 32164 14385698 166 14336320 0 0 746 326933 0 327679 0 0 (radio 99.-9787% / 100.00% tx 0.00% / 0.00% listen 99.-9787% / 100.00%)
+07:20.522	ID:4	 56326 P 4.0 43 76546 14341319 555 14339764 0 0 752 326927 0 327678 0 0 (radio 99.-9785% / 99.99% tx 0.00% / 0.00% listen 99.-9785% / 99.99%)
+07:20.556	ID:1	 56326 P 1.0 43 45643 14372199 1037 14300626 0 0 763 326916 0 327679 0 0 (radio 99.-9812% / 100.00% tx 0.00% / 0.00% listen 99.-9812% / 100.00%)
+07:20.889	ID:5	 56326 P 5.0 43 93855 14324000 265 14193628 0 0 743 326936 0 327679 0 0 (radio 98.-9786% / 100.00% tx 0.00% / 0.00% listen 98.-9786% / 100.00%)
+07:21.074	ID:3	 56326 P 3.0 43 139507 14278350 1020 14339297 0 0 761 326918 0 327679 0 0 (radio 99.-9785% / 100.00% tx 0.00% / 0.00% listen 99.-9785% / 100.00%)
+07:30.411	ID:2	 57606 P 2.0 44 214186 14531346 1459 14666539 0 0 757 326922 0 327679 0 0 (radio 99.-9856% / 100.00% tx 0.00% / 0.00% listen 99.-9857% / 100.00%)
+07:30.424	ID:6	 57606 P 6.0 44 32908 14712634 166 14664000 0 0 743 326936 0 327679 0 0 (radio 99.-9859% / 100.00% tx 0.00% / 0.00% listen 99.-9859% / 100.00%)
+07:30.523	ID:4	 57606 P 4.0 44 77282 14668263 555 14667444 0 0 735 326944 0 327679 0 0 (radio 99.-9856% / 100.00% tx 0.00% / 0.00% listen 99.-9857% / 100.00%)
+07:30.556	ID:1	 57606 P 1.0 44 46394 14699128 1037 14628306 0 0 750 326929 0 327679 0 0 (radio 99.-9883% / 100.00% tx 0.00% / 0.00% listen 99.-9883% / 100.00%)
+07:30.889	ID:5	 57606 P 5.0 44 94599 14650936 265 14521308 0 0 744 326936 0 327679 0 0 (radio 98.-9564% / 99.99% tx 0.00% / 0.00% listen 98.-9565% / 99.99%)
+07:31.074	ID:3	 57606 P 3.0 44 140265 14605272 1020 14666977 0 0 757 326922 0 327679 0 0 (radio 99.-9856% / 100.00% tx 0.00% / 0.00% listen 99.-9857% / 100.00%)
+07:40.411	ID:2	 58886 P 2.0 45 214944 14858268 1459 14994219 0 0 757 326922 0 327679 0 0 (radio 99.-9640% / 100.00% tx 0.00% / 0.00% listen 99.-9641% / 100.00%)
+07:40.424	ID:6	 58886 P 6.0 45 33658 15039564 166 14991680 0 0 750 326930 0 327679 0 0 (radio 99.-9642% / 99.99% tx 0.00% / 0.00% listen 99.-9643% / 99.99%)
+07:40.523	ID:4	 58886 P 4.0 45 78026 14995198 555 14995124 0 0 743 326935 0 327679 0 0 (radio 99.-9640% / 100.00% tx 0.00% / 0.00% listen 99.-9640% / 100.00%)
+07:40.556	ID:1	 58886 P 1.0 45 47145 15026057 1037 14955986 0 0 751 326929 0 327679 0 0 (radio 99.-9666% / 99.99% tx 0.00% / 0.00% listen 99.-9666% / 99.99%)
+07:40.889	ID:5	 58886 P 5.0 45 95334 14977881 265 14848988 0 0 735 326945 0 327679 0 0 (radio 98.-9637% / 99.99% tx 0.00% / 0.00% listen 98.-9637% / 99.99%)
+07:41.074	ID:3	 58886 P 3.0 45 141023 14932194 1020 14994657 0 0 757 326922 0 327679 0 0 (radio 99.-9640% / 100.00% tx 0.00% / 0.00% listen 99.-9641% / 100.00%)

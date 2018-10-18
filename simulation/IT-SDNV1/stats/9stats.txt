@@ -1,0 +1,44 @@
+Delivery rates by source node:
+(05 00) 86.84 [ 33 / 38 ]
+(0B 00) 89.19 [ 33 / 37 ]
+(04 00) 86.96 [ 40 / 46 ]
+(0A 00) 81.40 [ 35 / 43 ]
+(02 00) 100.00 [ 23 / 23 ]
+(03 00) 84.44 [ 38 / 45 ]
+(09 00) 84.44 [ 38 / 45 ]
+(07 00) 96.83 [ 61 / 63 ]
+(01 00) 98.04 [ 100 / 102 ]
+
+Delay by source node:
+(05 00) 154.79
+(0B 00) 117.06
+(04 00) 150.62
+(0A 00) 78.26
+(02 00) 1624.52
+(03 00) 1711.76
+(09 00) 1731.82
+(07 00) 145.11
+(01 00) 118.86
+
+Delivery rates by packet type:
+03 87.50 [ 7 / 8 ]      SDN_PACKET_DATA_FLOW_REQUEST
+04 61.43 [ 43 / 70 ]    SDN_PACKET_NEIGHBOR_REPORT
+05 96.27 [ 155 / 161 ]  SDN_PACKET_DATA
+0C 95.00 [ 95 / 100 ]   SDN_PACKET_ACK
+0D 100.00 [ 1 / 1 ]     SDN_PACKET_REGISTER_FLOWID
+E7 98.04 [ 100 / 102 ]  SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP
+Fraction of data packets: 38.65%
+
+Delay by packet type:
+03 86.43        SDN_PACKET_DATA_FLOW_REQUEST
+04 198.23       SDN_PACKET_NEIGHBOR_REPORT
+05 913.22       SDN_PACKET_DATA
+0C 133.66       SDN_PACKET_ACK
+0D 31431.00     SDN_PACKET_REGISTER_FLOWID
+E7 118.86       SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP
+
+Overall delivery rate:
+90.72 [ 401 / 442 ]
+
+Overall delay:
+515.44

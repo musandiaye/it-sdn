@@ -1,0 +1,141 @@
+Executed controller_init()
+1051(ms): NODE ID REQUEST ANSWER: 65541
+Time Stamp: 15 : 18 : 31 
+
+
+Time Stamp: 15 : 19 : 01 
+
+
+Time Stamp: 15 : 19 : 31 
+
+
+Time Stamp: 15 : 20 : 01 
+
+
+Time Stamp: 15 : 20 : 31 
+
+
+Time Stamp: 15 : 21 : 01 
+
+
+Time Stamp: 15 : 21 : 31 
+
+
+Time Stamp: 15 : 22 : 01 
+
+
+Time Stamp: 15 : 22 : 31 
+
+
+Time Stamp: 15 : 23 : 01 
+
+
+Time Stamp: 15 : 23 : 31 
+
+
+Time Stamp: 15 : 24 : 01 
+
+
+Time Stamp: 15 : 24 : 31 
+
+
+Time Stamp: 15 : 25 : 01 
+
+
+Delivery rates by source node:
+(02 00) 100.00 [ 6 / 6 ]
+(03 00) 100.00 [ 6 / 6 ]
+(01 00) 100.00 [ 6 / 6 ]
+
+Delay by source node:
+(02 00) 200.17
+(03 00) 303.67
+(01 00) 98.33
+
+Delivery rates by packet type:
+05 100.00 [ 18 / 18 ] 	SDN_PACKET_DATA
+Fraction of data packets: 100.00%
+
+Delay by packet type:
+05 200.72 	SDN_PACKET_DATA
+
+Overall delivery rate:
+100.00 [ 18 / 18 ]
+
+Overall delay:
+200.72
+
+Time Stamp: 15 : 25 : 31 
+
+Delivery rates by source node:
+(02 00) 100.00 [ 6 / 6 ]
+(03 00) 100.00 [ 6 / 6 ]
+(01 00) 100.00 [ 6 / 6 ]
+
+Delay by source node:
+(02 00) 200.17
+(03 00) 303.67
+(01 00) 98.33
+
+Delivery rates by packet type:
+05 100.00 [ 18 / 18 ] 	SDN_PACKET_DATA
+Fraction of data packets: 100.00%
+
+Delay by packet type:
+05 200.72 	SDN_PACKET_DATA
+
+Overall delivery rate:
+100.00 [ 18 / 18 ]
+
+Overall delay:
+200.72
+
+Time Stamp: 15 : 26 : 01 
+
+Delivery rates by source node:
+(02 00) 100.00 [ 7 / 7 ]
+(03 00) 100.00 [ 7 / 7 ]
+(01 00) 100.00 [ 7 / 7 ]
+
+Delay by source node:
+(02 00) 200.14
+(03 00) 303.43
+(01 00) 98.29
+
+Delivery rates by packet type:
+05 100.00 [ 21 / 21 ] 	SDN_PACKET_DATA
+Fraction of data packets: 100.00%
+
+Delay by packet type:
+05 200.62 	SDN_PACKET_DATA
+
+Overall delivery rate:
+100.00 [ 21 / 21 ]
+
+Overall delay:
+200.62
+
+Time Stamp: 15 : 26 : 31 
+
+Delivery rates by source node:
+(02 00) 100.00 [ 7 / 7 ]
+(03 00) 100.00 [ 7 / 7 ]
+(01 00) 100.00 [ 7 / 7 ]
+
+Delay by source node:
+(02 00) 200.14
+(03 00) 303.43
+(01 00) 98.29
+
+Delivery rates by packet type:
+05 100.00 [ 21 / 21 ] 	SDN_PACKET_DATA
+Fraction of data packets: 100.00%
+
+Delay by packet type:
+05 200.62 	SDN_PACKET_DATA
+
+Overall delivery rate:
+100.00 [ 21 / 21 ]
+
+Overall delay:
+200.62

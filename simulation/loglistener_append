@@ -1,0 +1,4449 @@
+-- Log Listener [Demo]: Started at Tue Sep 19 17:20:47 SAST 2017
+00:00.348	ID:8	Rime started with address 8.0
+00:00.356	ID:8	MAC 08:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 8.
+00:00.367	ID:8	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.369	ID:8	Node SDN Address:[ 08 00 ]
+00:00.373	ID:8	next_hop == own address, action is forced to receive
+00:00.375	ID:8	sdn_solve_unknown_dest [ 08 00 ]
+00:00.380	ID:8	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.382	ID:8	Initializing neighbor discovery
+00:00.387	ID:8	Null Controller Discovery initialized!
+00:00.389	ID:8	SDN Core initialized!
+00:00.391	ID:8	SDN Address size set to 2.
+00:00.466	ID:11	Rime started with address 11.0
+00:00.474	ID:11	MAC 0b:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 11.
+00:00.485	ID:11	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.487	ID:11	Node SDN Address:[ 0B 00 ]
+00:00.491	ID:11	next_hop == own address, action is forced to receive
+00:00.493	ID:11	sdn_solve_unknown_dest [ 0B 00 ]
+00:00.498	ID:11	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.500	ID:11	Initializing neighbor discovery
+00:00.505	ID:11	Null Controller Discovery initialized!
+00:00.507	ID:11	SDN Core initialized!
+00:00.509	ID:11	SDN Address size set to 2.
+00:00.511	ID:2	Rime started with address 2.0
+00:00.520	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 2.
+00:00.526	ID:6	Rime started with address 6.0
+00:00.530	ID:2	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.532	ID:2	Node SDN Address:[ 02 00 ]
+00:00.534	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 6.
+00:00.536	ID:2	next_hop == own address, action is forced to receive
+00:00.539	ID:2	sdn_solve_unknown_dest [ 02 00 ]
+00:00.543	ID:2	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.545	ID:6	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.546	ID:2	Initializing neighbor discovery
+00:00.547	ID:6	Node SDN Address:[ 06 00 ]
+00:00.550	ID:2	Null Controller Discovery initialized!
+00:00.551	ID:6	next_hop == own address, action is forced to receive
+00:00.552	ID:2	SDN Core initialized!
+00:00.553	ID:6	sdn_solve_unknown_dest [ 06 00 ]
+00:00.554	ID:2	SDN Address size set to 2.
+00:00.556	ID:2	sdn_solve_unknown_flow 2017
+00:00.558	ID:6	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.558	ID:2	Packet for send, enqueued!
+00:00.560	ID:2	Packets on Send Queue (1):
+00:00.560	ID:6	Initializing neighbor discovery
+00:00.565	ID:2	(0) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:00.565	ID:2	
+00:00.565	ID:6	Null Controller Discovery initialized!
+00:00.567	ID:6	SDN Core initialized!
+00:00.567	ID:2	=[ 02 00 ]=TX=0D=00=0=
+00:00.568	ID:2	dfe == NULL
+00:00.569	ID:6	SDN Address size set to 2.
+00:00.569	ID:2	sdn_unknown_flow 0
+00:00.570	ID:2	
+00:00.571	ID:2	SDN_ACTION_DROP
+00:00.579	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:00.580	ID:2	send(): dest == NULL
+00:00.582	ID:2	Packet for send, dequeued!
+00:00.584	ID:2	Packets on Send Queue (0):
+00:00.584	ID:2	
+00:00.624	ID:4	Rime started with address 4.0
+00:00.632	ID:4	MAC 04:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 4.
+00:00.642	ID:4	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.645	ID:4	Node SDN Address:[ 04 00 ]
+00:00.648	ID:4	next_hop == own address, action is forced to receive
+00:00.651	ID:4	sdn_solve_unknown_dest [ 04 00 ]
+00:00.656	ID:4	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.657	ID:1	Rime started with address 1.0
+00:00.658	ID:4	Initializing neighbor discovery
+00:00.663	ID:4	Null Controller Discovery initialized!
+00:00.664	ID:4	SDN Core initialized!
+00:00.666	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 1.
+00:00.666	ID:4	SDN Address size set to 2.
+00:00.676	ID:1	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.677	ID:7	Rime started with address 7.0
+00:00.679	ID:1	Initializing neighbor discovery
+00:00.681	ID:1	I am sink
+00:00.685	ID:7	MAC 07:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 7.
+00:00.696	ID:7	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.698	ID:7	Node SDN Address:[ 07 00 ]
+00:00.702	ID:7	next_hop == own address, action is forced to receive
+00:00.704	ID:7	sdn_solve_unknown_dest [ 07 00 ]
+00:00.709	ID:7	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.711	ID:7	Initializing neighbor discovery
+00:00.716	ID:7	Null Controller Discovery initialized!
+00:00.718	ID:7	SDN Core initialized!
+00:00.720	ID:7	SDN Address size set to 2.
+00:00.726	ID:14	Rime started with address 14.0
+00:00.734	ID:14	MAC 0e:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 14.
+00:00.738	ID:15	Rime started with address 15.0
+00:00.744	ID:14	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.747	ID:15	MAC 0f:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 15.
+00:00.747	ID:14	Node SDN Address:[ 0E 00 ]
+00:00.748	ID:16	Rime started with address 16.0
+00:00.750	ID:14	next_hop == own address, action is forced to receive
+00:00.753	ID:14	sdn_solve_unknown_dest [ 0E 00 ]
+00:00.757	ID:15	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.757	ID:16	MAC 10:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 16.
+00:00.758	ID:14	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.759	ID:15	Node SDN Address:[ 0F 00 ]
+00:00.760	ID:14	Initializing neighbor discovery
+00:00.763	ID:15	next_hop == own address, action is forced to receive
+00:00.765	ID:14	Null Controller Discovery initialized!
+00:00.765	ID:15	sdn_solve_unknown_dest [ 0F 00 ]
+00:00.766	ID:14	SDN Core initialized!
+00:00.767	ID:16	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.768	ID:14	SDN Address size set to 2.
+00:00.770	ID:16	Node SDN Address:[ 10 00 ]
+00:00.770	ID:15	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.772	ID:15	Initializing neighbor discovery
+00:00.773	ID:16	next_hop == own address, action is forced to receive
+00:00.776	ID:16	sdn_solve_unknown_dest [ 10 00 ]
+00:00.777	ID:15	Null Controller Discovery initialized!
+00:00.779	ID:15	SDN Core initialized!
+00:00.781	ID:15	SDN Address size set to 2.
+00:00.781	ID:16	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.783	ID:16	Initializing neighbor discovery
+00:00.788	ID:16	Null Controller Discovery initialized!
+00:00.790	ID:16	SDN Core initialized!
+00:00.792	ID:16	SDN Address size set to 2.
+00:00.832	ID:10	Rime started with address 10.0
+00:00.840	ID:10	MAC 0a:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 10.
+00:00.851	ID:10	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.853	ID:10	Node SDN Address:[ 0A 00 ]
+00:00.857	ID:10	next_hop == own address, action is forced to receive
+00:00.859	ID:10	sdn_solve_unknown_dest [ 0A 00 ]
+00:00.864	ID:10	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.866	ID:10	Initializing neighbor discovery
+00:00.870	ID:12	Rime started with address 12.0
+00:00.871	ID:10	Null Controller Discovery initialized!
+00:00.873	ID:10	SDN Core initialized!
+00:00.875	ID:10	SDN Address size set to 2.
+00:00.878	ID:12	MAC 0c:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 12.
+00:00.889	ID:12	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.891	ID:12	Node SDN Address:[ 0C 00 ]
+00:00.895	ID:12	next_hop == own address, action is forced to receive
+00:00.897	ID:12	sdn_solve_unknown_dest [ 0C 00 ]
+00:00.902	ID:12	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.904	ID:12	Initializing neighbor discovery
+00:00.909	ID:12	Null Controller Discovery initialized!
+00:00.911	ID:12	SDN Core initialized!
+00:00.913	ID:12	SDN Address size set to 2.
+00:00.984	ID:9	Rime started with address 9.0
+00:00.990	ID:5	Rime started with address 5.0
+00:00.992	ID:9	MAC 09:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 9.
+00:00.999	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 5.
+00:01.003	ID:9	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.005	ID:9	Node SDN Address:[ 09 00 ]
+00:01.009	ID:9	next_hop == own address, action is forced to receive
+00:01.009	ID:5	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.011	ID:9	sdn_solve_unknown_dest [ 09 00 ]
+00:01.011	ID:5	Node SDN Address:[ 05 00 ]
+00:01.015	ID:5	next_hop == own address, action is forced to receive
+00:01.016	ID:9	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.018	ID:5	sdn_solve_unknown_dest [ 05 00 ]
+00:01.018	ID:9	Initializing neighbor discovery
+00:01.023	ID:5	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.023	ID:9	Null Controller Discovery initialized!
+00:01.025	ID:9	SDN Core initialized!
+00:01.025	ID:5	Initializing neighbor discovery
+00:01.027	ID:9	SDN Address size set to 2.
+00:01.029	ID:5	Null Controller Discovery initialized!
+00:01.031	ID:5	SDN Core initialized!
+00:01.033	ID:5	SDN Address size set to 2.
+00:01.159	ID:13	Rime started with address 13.0
+00:01.168	ID:13	MAC 0d:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 13.
+00:01.175	ID:3	Rime started with address 3.0
+00:01.178	ID:13	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.180	ID:13	Node SDN Address:[ 0D 00 ]
+00:01.183	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 3.
+00:01.184	ID:13	next_hop == own address, action is forced to receive
+00:01.187	ID:13	sdn_solve_unknown_dest [ 0D 00 ]
+00:01.192	ID:13	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.193	ID:3	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.194	ID:13	Initializing neighbor discovery
+00:01.196	ID:3	Node SDN Address:[ 03 00 ]
+00:01.199	ID:13	Null Controller Discovery initialized!
+00:01.199	ID:3	next_hop == own address, action is forced to receive
+00:01.200	ID:13	SDN Core initialized!
+00:01.202	ID:3	sdn_solve_unknown_dest [ 03 00 ]
+00:01.202	ID:13	SDN Address size set to 2.
+00:01.207	ID:3	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.209	ID:3	Initializing neighbor discovery
+00:01.214	ID:3	Null Controller Discovery initialized!
+00:01.215	ID:3	SDN Core initialized!
+00:01.217	ID:3	SDN Address size set to 2.
+00:30.386	ID:8	neighbor, metric, next ptr
+00:30.389	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:30.391	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:30.394	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:30.396	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:30.399	ID:8	([ 0F 00 ]) (144) (0x2ebe)
+00:30.402	ID:8	([ 10 00 ]) (144) (0x2ec4)
+00:30.404	ID:8	([ 0A 00 ]) (144) (0x2eca)
+00:30.407	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:30.410	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:30.411	ID:8	([ 02 00 ]) (08) (0)
+00:30.415	ID:8	Receiving event at SDN core process: 70.
+00:30.416	ID:8	Neighbor Change.
+00:30.504	ID:11	neighbor, metric, next ptr
+00:30.507	ID:11	([ 08 00 ]) (136) (0x2ea6)
+00:30.509	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:30.512	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:30.514	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:30.517	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:30.519	ID:11	([ 0F 00 ]) (144) (0x2ec4)
+00:30.522	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:30.525	ID:11	([ 0A 00 ]) (144) (0x2ed0)
+00:30.528	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:30.530	ID:11	([ 03 00 ]) (16) (0)
+00:30.533	ID:11	Receiving event at SDN core process: 70.
+00:30.534	ID:11	Neighbor Change.
+00:30.549	ID:2	neighbor, metric, next ptr
+00:30.552	ID:2	([ 08 00 ]) (136) (0x2e8e)
+00:30.554	ID:2	([ 0B 00 ]) (16) (0x2e94)
+00:30.557	ID:2	([ 06 00 ]) (08) (0x2e9a)
+00:30.559	ID:2	([ 04 00 ]) (16) (0x2ea0)
+00:30.562	ID:2	([ 07 00 ]) (16) (0x2ea6)
+00:30.564	ID:2	([ 0A 00 ]) (144) (0x2eac)
+00:30.565	ID:6	neighbor, metric, next ptr
+00:30.567	ID:2	([ 05 00 ]) (16) (0x2eb2)
+00:30.567	ID:6	([ 08 00 ]) (136) (0x2ea6)
+00:30.570	ID:2	([ 03 00 ]) (16) (0x2eb8)
+00:30.570	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:30.571	ID:2	([ 01 00 ]) (00) (0)
+00:30.572	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:30.575	ID:2	Receiving event at SDN core process: 70.
+00:30.575	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:30.576	ID:2	Neighbor Change.
+00:30.577	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:30.580	ID:6	([ 0F 00 ]) (144) (0x2ec4)
+00:30.583	ID:6	([ 0A 00 ]) (144) (0x2eca)
+00:30.586	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:30.588	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:30.590	ID:6	([ 05 00 ]) (16) (0)
+00:30.593	ID:6	Receiving event at SDN core process: 70.
+00:30.595	ID:6	Neighbor Change.
+00:30.661	ID:4	neighbor, metric, next ptr
+00:30.664	ID:4	([ 08 00 ]) (136) (0x2ea6)
+00:30.666	ID:4	([ 0B 00 ]) (16) (0x2eac)
+00:30.668	ID:4	([ 06 00 ]) (08) (0x2eb2)
+00:30.671	ID:4	([ 07 00 ]) (16) (0x2eb8)
+00:30.674	ID:4	([ 0C 00 ]) (144) (0x2ebe)
+00:30.676	ID:4	([ 03 00 ]) (16) (0x2ec4)
+00:30.678	ID:4	([ 02 00 ]) (08) (0)
+00:30.678	ID:1	neighbor, metric, next ptr
+00:30.681	ID:1	([ 06 00 ]) (08) (0x139c)
+00:30.681	ID:4	Receiving event at SDN core process: 70.
+00:30.682	ID:4	Neighbor Change.
+00:30.683	ID:1	([ 09 00 ]) (128) (0x13a2)
+00:30.686	ID:1	([ 05 00 ]) (16) (0x13a8)
+00:30.688	ID:1	([ 02 00 ]) (08) (0)
+00:30.715	ID:7	neighbor, metric, next ptr
+00:30.718	ID:7	([ 08 00 ]) (136) (0x2ea6)
+00:30.721	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:30.723	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:30.725	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:30.728	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:30.731	ID:7	([ 0F 00 ]) (144) (0x2ec4)
+00:30.734	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:30.736	ID:7	([ 0A 00 ]) (144) (0x2ed0)
+00:30.739	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:30.741	ID:7	([ 03 00 ]) (16) (0)
+00:30.744	ID:7	Receiving event at SDN core process: 70.
+00:30.745	ID:7	Neighbor Change.
+00:30.763	ID:14	neighbor, metric, next ptr
+00:30.766	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:30.768	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:30.771	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:30.773	ID:14	([ 0F 00 ]) (144) (0x2eb8)
+00:30.776	ID:15	neighbor, metric, next ptr
+00:30.776	ID:14	([ 10 00 ]) (144) (0x2ebe)
+00:30.778	ID:15	([ 08 00 ]) (136) (0x2ea6)
+00:30.779	ID:14	([ 0A 00 ]) (144) (0x2ec4)
+00:30.781	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:30.782	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:30.783	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:30.784	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:30.786	ID:16	neighbor, metric, next ptr
+00:30.786	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:30.786	ID:14	([ 0D 00 ]) (136) (0)
+00:30.788	ID:16	([ 08 00 ]) (136) (0x2ea6)
+00:30.788	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:30.789	ID:14	Receiving event at SDN core process: 70.
+00:30.791	ID:14	Neighbor Change.
+00:30.791	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:30.791	ID:15	([ 10 00 ]) (144) (0x2ec4)
+00:30.793	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:30.794	ID:15	([ 0A 00 ]) (144) (0x2eca)
+00:30.796	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:30.796	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:30.799	ID:16	([ 0F 00 ]) (144) (0x2ebe)
+00:30.799	ID:15	([ 0D 00 ]) (136) (0)
+00:30.801	ID:16	([ 0A 00 ]) (144) (0x2ec4)
+00:30.802	ID:15	Receiving event at SDN core process: 70.
+00:30.803	ID:15	Neighbor Change.
+00:30.803	ID:16	([ 0C 00 ]) (144) (0)
+00:30.807	ID:16	Receiving event at SDN core process: 70.
+00:30.808	ID:16	Neighbor Change.
+00:30.870	ID:10	neighbor, metric, next ptr
+00:30.873	ID:10	([ 08 00 ]) (136) (0x2ea6)
+00:30.876	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:30.878	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:30.881	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:30.883	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:30.886	ID:10	([ 0F 00 ]) (144) (0x2ec4)
+00:30.889	ID:10	([ 10 00 ]) (144) (0x2eca)
+00:30.891	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:30.894	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:30.896	ID:10	([ 05 00 ]) (16) (0)
+00:30.899	ID:10	Receiving event at SDN core process: 70.
+00:30.900	ID:10	Neighbor Change.
+00:30.908	ID:12	neighbor, metric, next ptr
+00:30.910	ID:12	([ 08 00 ]) (136) (0x2ea6)
+00:30.913	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:30.915	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:30.918	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:30.920	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:30.923	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:30.926	ID:12	([ 0F 00 ]) (144) (0x2eca)
+00:30.928	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:30.931	ID:12	([ 0A 00 ]) (144) (0x2ed6)
+00:30.933	ID:12	([ 03 00 ]) (16) (0)
+00:30.936	ID:12	Receiving event at SDN core process: 70.
+00:30.937	ID:12	Neighbor Change.
+00:31.021	ID:9	neighbor, metric, next ptr
+00:31.023	ID:9	([ 06 00 ]) (08) (0x2ea6)
+00:31.026	ID:9	([ 0E 00 ]) (16) (0x2eac)
+00:31.027	ID:5	neighbor, metric, next ptr
+00:31.028	ID:9	([ 0A 00 ]) (144) (0x2eb2)
+00:31.030	ID:5	([ 06 00 ]) (08) (0x2ea6)
+00:31.031	ID:9	([ 05 00 ]) (16) (0x2eb8)
+00:31.033	ID:5	([ 0A 00 ]) (144) (0x2eac)
+00:31.034	ID:9	([ 0D 00 ]) (136) (0x2ebe)
+00:31.035	ID:5	([ 09 00 ]) (128) (0x2eb2)
+00:31.036	ID:9	([ 01 00 ]) (00) (0)
+00:31.038	ID:5	([ 0D 00 ]) (136) (0x2eb8)
+00:31.039	ID:9	Receiving event at SDN core process: 70.
+00:31.040	ID:9	Neighbor Change.
+00:31.040	ID:5	([ 02 00 ]) (08) (0x2ebe)
+00:31.042	ID:5	([ 01 00 ]) (00) (0)
+00:31.045	ID:5	Receiving event at SDN core process: 70.
+00:31.047	ID:5	Neighbor Change.
+00:31.196	ID:13	neighbor, metric, next ptr
+00:31.198	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+00:31.201	ID:13	([ 0F 00 ]) (144) (0x2eac)
+00:31.204	ID:13	([ 0A 00 ]) (144) (0x2eb2)
+00:31.207	ID:13	([ 09 00 ]) (128) (0x2eb8)
+00:31.209	ID:13	([ 05 00 ]) (16) (0)
+00:31.212	ID:13	Receiving event at SDN core process: 70.
+00:31.212	ID:3	neighbor, metric, next ptr
+00:31.213	ID:13	Neighbor Change.
+00:31.215	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:31.217	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:31.220	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:31.222	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:31.225	ID:3	([ 0A 00 ]) (144) (0x2ebe)
+00:31.227	ID:3	([ 0C 00 ]) (144) (0x2ec4)
+00:31.230	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:31.232	ID:3	([ 08 00 ]) (136) (0)
+00:31.235	ID:3	Receiving event at SDN core process: 70.
+00:31.236	ID:3	Neighbor Change.
+00:32.391	ID:16	neighbor, metric, next ptr
+00:32.391	ID:4	neighbor, metric, next ptr
+00:32.391	ID:15	neighbor, metric, next ptr
+00:32.391	ID:3	neighbor, metric, next ptr
+00:32.391	ID:12	neighbor, metric, next ptr
+00:32.391	ID:11	neighbor, metric, next ptr
+00:32.391	ID:7	neighbor, metric, next ptr
+00:32.391	ID:2	neighbor, metric, next ptr
+00:32.392	ID:10	neighbor, metric, next ptr
+00:32.392	ID:6	neighbor, metric, next ptr
+00:32.393	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:32.393	ID:4	([ 08 00 ]) (16) (0x2ea6)
+00:32.393	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:32.393	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:32.394	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:32.394	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:32.394	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:32.394	ID:2	([ 08 00 ]) (16) (0x2e8e)
+00:32.394	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:32.395	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:32.396	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:4	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:32.396	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:32.396	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:2	([ 0B 00 ]) (16) (0x2e94)
+00:32.397	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:32.398	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:32.398	ID:4	([ 06 00 ]) (08) (0x2eb2)
+00:32.398	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:32.398	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:32.398	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:32.399	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:32.399	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:32.399	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:32.399	ID:2	([ 06 00 ]) (08) (0x2e9a)
+00:32.399	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:32.400	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:32.401	ID:4	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:32.401	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:32.401	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:32.401	ID:2	([ 04 00 ]) (16) (0x2ea0)
+00:32.402	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:32.403	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:32.403	ID:4	([ 0C 00 ]) (144) (0x2ebe)
+00:32.404	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:32.404	ID:16	([ 0F 00 ]) (144) (0x2ebe)
+00:32.404	ID:3	([ 0A 00 ]) (144) (0x2ebe)
+00:32.404	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:32.404	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:32.404	ID:2	([ 07 00 ]) (16) (0x2ea6)
+00:32.404	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:32.404	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:32.405	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:32.406	ID:4	([ 03 00 ]) (16) (0x2ec4)
+00:32.406	ID:16	([ 0A 00 ]) (144) (0x2ec4)
+00:32.406	ID:3	([ 0C 00 ]) (144) (0x2ec4)
+00:32.406	ID:15	([ 10 00 ]) (144) (0x2ec4)
+00:32.406	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:32.407	ID:11	([ 0F 00 ]) (144) (0x2ec4)
+00:32.407	ID:2	([ 0A 00 ]) (144) (0x2eac)
+00:32.407	ID:7	([ 0F 00 ]) (144) (0x2ec4)
+00:32.407	ID:10	([ 0F 00 ]) (144) (0x2ec4)
+00:32.408	ID:6	([ 0F 00 ]) (144) (0x2ec4)
+00:32.408	ID:4	([ 02 00 ]) (08) (0)
+00:32.408	ID:16	([ 0C 00 ]) (144) (0)
+00:32.409	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:32.409	ID:15	([ 0A 00 ]) (144) (0x2eca)
+00:32.409	ID:12	([ 0F 00 ]) (144) (0x2eca)
+00:32.409	ID:2	([ 05 00 ]) (16) (0x2eb2)
+00:32.409	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:32.409	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:32.410	ID:10	([ 10 00 ]) (144) (0x2eca)
+00:32.411	ID:6	([ 0A 00 ]) (144) (0x2eca)
+00:32.411	ID:3	([ 08 00 ]) (16) (0)
+00:32.411	ID:4	Receiving event at SDN core process: 70.
+00:32.412	ID:16	Receiving event at SDN core process: 70.
+00:32.412	ID:2	([ 03 00 ]) (16) (0x2eb8)
+00:32.412	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:32.412	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:32.412	ID:11	([ 0A 00 ]) (144) (0x2ed0)
+00:32.412	ID:7	([ 0A 00 ]) (144) (0x2ed0)
+00:32.412	ID:4	Neighbor Change.
+00:32.412	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:32.413	ID:16	Neighbor Change.
+00:32.413	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:32.414	ID:2	([ 01 00 ]) (00) (0)
+00:32.414	ID:15	([ 0D 00 ]) (136) (0)
+00:32.414	ID:3	Receiving event at SDN core process: 70.
+00:32.415	ID:12	([ 0A 00 ]) (144) (0x2ed6)
+00:32.415	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:32.415	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:32.415	ID:3	Neighbor Change.
+00:32.415	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:32.416	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:32.417	ID:12	([ 03 00 ]) (16) (0)
+00:32.417	ID:11	([ 03 00 ]) (16) (0)
+00:32.417	ID:7	([ 03 00 ]) (16) (0)
+00:32.417	ID:10	([ 05 00 ]) (16) (0)
+00:32.417	ID:2	Receiving event at SDN core process: 70.
+00:32.417	ID:15	Receiving event at SDN core process: 70.
+00:32.418	ID:6	([ 05 00 ]) (16) (0)
+00:32.418	ID:2	Neighbor Change.
+00:32.418	ID:15	Neighbor Change.
+00:32.420	ID:11	Receiving event at SDN core process: 70.
+00:32.420	ID:7	Receiving event at SDN core process: 70.
+00:32.420	ID:12	Receiving event at SDN core process: 70.
+00:32.420	ID:10	Receiving event at SDN core process: 70.
+00:32.421	ID:11	Neighbor Change.
+00:32.421	ID:7	Neighbor Change.
+00:32.421	ID:12	Neighbor Change.
+00:32.421	ID:6	Receiving event at SDN core process: 70.
+00:32.422	ID:10	Neighbor Change.
+00:32.423	ID:6	Neighbor Change.
+00:41.741	ID:13	neighbor, metric, next ptr
+00:41.741	ID:16	neighbor, metric, next ptr
+00:41.741	ID:14	neighbor, metric, next ptr
+00:41.741	ID:8	neighbor, metric, next ptr
+00:41.741	ID:12	neighbor, metric, next ptr
+00:41.742	ID:11	neighbor, metric, next ptr
+00:41.742	ID:7	neighbor, metric, next ptr
+00:41.742	ID:10	neighbor, metric, next ptr
+00:41.743	ID:6	neighbor, metric, next ptr
+00:41.743	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+00:41.744	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:41.744	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:41.744	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:41.744	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:41.744	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:41.744	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:41.745	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:41.745	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:41.746	ID:13	([ 0F 00 ]) (24) (0x2eac)
+00:41.746	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:41.746	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:41.746	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:41.746	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:41.747	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:41.747	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:41.747	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:41.748	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:41.749	ID:13	([ 0A 00 ]) (144) (0x2eb2)
+00:41.749	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:41.749	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:41.749	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:41.749	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:41.749	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:41.749	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:41.750	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:41.750	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:41.751	ID:13	([ 09 00 ]) (128) (0x2eb8)
+00:41.751	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:41.751	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:41.751	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:41.751	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:41.752	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:41.752	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:41.752	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:41.753	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:41.753	ID:13	([ 05 00 ]) (16) (0)
+00:41.754	ID:16	([ 0F 00 ]) (24) (0x2ebe)
+00:41.754	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:41.754	ID:14	([ 10 00 ]) (144) (0x2ebe)
+00:41.754	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:41.754	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:41.754	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:41.755	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:41.755	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:41.756	ID:13	Receiving event at SDN core process: 70.
+00:41.756	ID:16	([ 0A 00 ]) (144) (0x2ec4)
+00:41.757	ID:8	([ 10 00 ]) (144) (0x2ec4)
+00:41.757	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:41.757	ID:14	([ 0A 00 ]) (144) (0x2ec4)
+00:41.757	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:41.757	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:41.757	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+00:41.758	ID:13	Neighbor Change.
+00:41.758	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+00:41.759	ID:16	([ 0C 00 ]) (144) (0)
+00:41.759	ID:12	([ 0F 00 ]) (24) (0x2eca)
+00:41.759	ID:8	([ 0A 00 ]) (144) (0x2eca)
+00:41.759	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:41.760	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:41.760	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:41.760	ID:10	([ 10 00 ]) (144) (0x2eca)
+00:41.761	ID:6	([ 0A 00 ]) (144) (0x2eca)
+00:41.762	ID:16	Receiving event at SDN core process: 70.
+00:41.762	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:41.762	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:41.762	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:41.762	ID:11	([ 0A 00 ]) (144) (0x2ed0)
+00:41.762	ID:7	([ 0A 00 ]) (144) (0x2ed0)
+00:41.763	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:41.763	ID:16	Neighbor Change.
+00:41.763	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:41.764	ID:14	([ 0D 00 ]) (136) (0)
+00:41.764	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:41.765	ID:12	([ 0A 00 ]) (144) (0x2ed6)
+00:41.765	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:41.765	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:41.765	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:41.766	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:41.766	ID:8	([ 02 00 ]) (08) (0)
+00:41.767	ID:12	([ 03 00 ]) (16) (0)
+00:41.767	ID:11	([ 03 00 ]) (16) (0)
+00:41.767	ID:7	([ 03 00 ]) (16) (0)
+00:41.767	ID:10	([ 05 00 ]) (16) (0)
+00:41.767	ID:14	Receiving event at SDN core process: 70.
+00:41.768	ID:6	([ 05 00 ]) (16) (0)
+00:41.769	ID:14	Neighbor Change.
+00:41.770	ID:8	Receiving event at SDN core process: 70.
+00:41.770	ID:12	Receiving event at SDN core process: 70.
+00:41.770	ID:11	Receiving event at SDN core process: 70.
+00:41.770	ID:7	Receiving event at SDN core process: 70.
+00:41.771	ID:10	Receiving event at SDN core process: 70.
+00:41.771	ID:8	Neighbor Change.
+00:41.771	ID:12	Neighbor Change.
+00:41.771	ID:6	Receiving event at SDN core process: 70.
+00:41.771	ID:11	Neighbor Change.
+00:41.771	ID:7	Neighbor Change.
+00:41.772	ID:10	Neighbor Change.
+00:41.772	ID:6	Neighbor Change.
+00:43.234	ID:13	neighbor, metric, next ptr
+00:43.234	ID:16	neighbor, metric, next ptr
+00:43.234	ID:5	neighbor, metric, next ptr
+00:43.234	ID:9	neighbor, metric, next ptr
+00:43.234	ID:3	neighbor, metric, next ptr
+00:43.234	ID:14	neighbor, metric, next ptr
+00:43.234	ID:15	neighbor, metric, next ptr
+00:43.234	ID:8	neighbor, metric, next ptr
+00:43.234	ID:2	neighbor, metric, next ptr
+00:43.234	ID:11	neighbor, metric, next ptr
+00:43.234	ID:12	neighbor, metric, next ptr
+00:43.234	ID:7	neighbor, metric, next ptr
+00:43.236	ID:6	neighbor, metric, next ptr
+00:43.236	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+00:43.236	ID:9	([ 06 00 ]) (08) (0x2ea6)
+00:43.236	ID:5	([ 06 00 ]) (08) (0x2ea6)
+00:43.236	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:43.237	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:43.237	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:43.237	ID:2	([ 08 00 ]) (16) (0x2e8e)
+00:43.237	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:43.238	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:43.239	ID:13	([ 0F 00 ]) (24) (0x2eac)
+00:43.239	ID:9	([ 0E 00 ]) (16) (0x2eac)
+00:43.239	ID:5	([ 0A 00 ]) (24) (0x2eac)
+00:43.239	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:43.239	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:43.239	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:2	([ 0B 00 ]) (16) (0x2e94)
+00:43.240	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:43.240	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:43.241	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:43.241	ID:9	([ 0A 00 ]) (24) (0x2eb2)
+00:43.241	ID:13	([ 0A 00 ]) (24) (0x2eb2)
+00:43.241	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:43.241	ID:5	([ 09 00 ]) (128) (0x2eb2)
+00:43.242	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:43.242	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:43.242	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:43.242	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:43.242	ID:2	([ 06 00 ]) (08) (0x2e9a)
+00:43.242	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:43.242	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:43.242	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:43.243	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:43.244	ID:9	([ 05 00 ]) (16) (0x2eb8)
+00:43.244	ID:13	([ 09 00 ]) (128) (0x2eb8)
+00:43.244	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:43.244	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:43.244	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:43.244	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:43.244	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:43.244	ID:5	([ 0D 00 ]) (136) (0x2eb8)
+00:43.244	ID:2	([ 04 00 ]) (16) (0x2ea0)
+00:43.244	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:43.244	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:43.245	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:43.246	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:43.246	ID:13	([ 05 00 ]) (16) (0)
+00:43.247	ID:9	([ 0D 00 ]) (136) (0x2ebe)
+00:43.247	ID:16	([ 0F 00 ]) (24) (0x2ebe)
+00:43.247	ID:3	([ 0A 00 ]) (24) (0x2ebe)
+00:43.247	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:43.247	ID:5	([ 02 00 ]) (08) (0x2ebe)
+00:43.247	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:43.247	ID:14	([ 10 00 ]) (144) (0x2ebe)
+00:43.247	ID:2	([ 07 00 ]) (16) (0x2ea6)
+00:43.247	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:43.247	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:43.247	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:43.248	ID:9	([ 01 00 ]) (00) (0)
+00:43.248	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:43.249	ID:5	([ 01 00 ]) (00) (0)
+00:43.249	ID:16	([ 0A 00 ]) (24) (0x2ec4)
+00:43.249	ID:13	Receiving event at SDN core process: 70.
+00:43.249	ID:3	([ 0C 00 ]) (144) (0x2ec4)
+00:43.249	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+00:43.249	ID:15	([ 10 00 ]) (144) (0x2ec4)
+00:43.250	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:43.250	ID:2	([ 0A 00 ]) (24) (0x2eac)
+00:43.250	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:43.250	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:43.250	ID:8	([ 10 00 ]) (144) (0x2ec4)
+00:43.250	ID:13	Neighbor Change.
+00:43.251	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+00:43.251	ID:16	([ 0C 00 ]) (144) (0)
+00:43.252	ID:9	Receiving event at SDN core process: 70.
+00:43.252	ID:5	Receiving event at SDN core process: 70.
+00:43.252	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:43.252	ID:15	([ 0A 00 ]) (24) (0x2eca)
+00:43.252	ID:12	([ 0F 00 ]) (24) (0x2eca)
+00:43.252	ID:2	([ 05 00 ]) (16) (0x2eb2)
+00:43.252	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:43.252	ID:8	([ 0A 00 ]) (24) (0x2eca)
+00:43.252	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:43.252	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:43.253	ID:9	Neighbor Change.
+00:43.253	ID:5	Neighbor Change.
+00:43.253	ID:6	([ 0A 00 ]) (24) (0x2eca)
+00:43.254	ID:3	([ 08 00 ]) (16) (0)
+00:43.255	ID:2	([ 03 00 ]) (16) (0x2eb8)
+00:43.255	ID:16	Receiving event at SDN core process: 70.
+00:43.255	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:43.255	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:43.255	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:43.255	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:43.255	ID:11	([ 0A 00 ]) (24) (0x2ed0)
+00:43.255	ID:7	([ 0A 00 ]) (24) (0x2ed0)
+00:43.256	ID:16	Neighbor Change.
+00:43.256	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:43.256	ID:2	([ 01 00 ]) (00) (0)
+00:43.257	ID:15	([ 0D 00 ]) (136) (0)
+00:43.257	ID:14	([ 0D 00 ]) (136) (0)
+00:43.257	ID:3	Receiving event at SDN core process: 70.
+00:43.257	ID:12	([ 0A 00 ]) (24) (0x2ed6)
+00:43.257	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:43.258	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:43.258	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:43.258	ID:3	Neighbor Change.
+00:43.259	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:43.259	ID:12	([ 03 00 ]) (16) (0)
+00:43.259	ID:8	([ 02 00 ]) (08) (0)
+00:43.259	ID:7	([ 03 00 ]) (16) (0)
+00:43.259	ID:11	([ 03 00 ]) (16) (0)
+00:43.260	ID:2	Receiving event at SDN core process: 70.
+00:43.260	ID:15	Receiving event at SDN core process: 70.
+00:43.260	ID:14	Receiving event at SDN core process: 70.
+00:43.261	ID:6	([ 05 00 ]) (16) (0)
+00:43.261	ID:2	Neighbor Change.
+00:43.261	ID:15	Neighbor Change.
+00:43.261	ID:14	Neighbor Change.
+00:43.263	ID:8	Receiving event at SDN core process: 70.
+00:43.263	ID:7	Receiving event at SDN core process: 70.
+00:43.263	ID:11	Receiving event at SDN core process: 70.
+00:43.263	ID:12	Receiving event at SDN core process: 70.
+00:43.264	ID:8	Neighbor Change.
+00:43.264	ID:7	Neighbor Change.
+00:43.264	ID:11	Neighbor Change.
+00:43.264	ID:12	Neighbor Change.
+00:43.264	ID:6	Receiving event at SDN core process: 70.
+00:43.265	ID:6	Neighbor Change.
+00:43.266	ID:15	neighbor, metric, next ptr
+00:43.266	ID:10	neighbor, metric, next ptr
+00:43.266	ID:14	neighbor, metric, next ptr
+00:43.269	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:43.269	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:43.269	ID:8	neighbor, metric, next ptr
+00:43.269	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:43.269	ID:12	neighbor, metric, next ptr
+00:43.269	ID:11	neighbor, metric, next ptr
+00:43.269	ID:7	neighbor, metric, next ptr
+00:43.271	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:43.271	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:43.271	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:43.271	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:43.271	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:43.272	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:43.272	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:43.274	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:43.274	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:43.274	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:43.274	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:43.274	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:43.274	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:43.274	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:43.276	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:43.276	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:43.276	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:43.276	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:43.276	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:43.277	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:43.277	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:43.279	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:43.279	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:43.279	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:43.279	ID:14	([ 10 00 ]) (24) (0x2ebe)
+00:43.279	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:43.279	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:43.279	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:43.281	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+00:43.281	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+00:43.281	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:43.281	ID:15	([ 10 00 ]) (24) (0x2ec4)
+00:43.282	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:43.282	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:43.282	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:43.284	ID:15	([ 0A 00 ]) (24) (0x2eca)
+00:43.284	ID:10	([ 10 00 ]) (24) (0x2eca)
+00:43.284	ID:8	([ 10 00 ]) (24) (0x2ec4)
+00:43.284	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:43.284	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:43.284	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:43.284	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:43.286	ID:8	([ 0A 00 ]) (24) (0x2eca)
+00:43.287	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:43.287	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:43.287	ID:12	([ 0F 00 ]) (24) (0x2eca)
+00:43.287	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:43.287	ID:7	([ 10 00 ]) (24) (0x2eca)
+00:43.287	ID:11	([ 10 00 ]) (24) (0x2eca)
+00:43.289	ID:15	([ 0D 00 ]) (136) (0)
+00:43.289	ID:14	([ 0D 00 ]) (136) (0)
+00:43.289	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:43.289	ID:12	([ 10 00 ]) (24) (0x2ed0)
+00:43.289	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:43.289	ID:11	([ 0A 00 ]) (24) (0x2ed0)
+00:43.289	ID:7	([ 0A 00 ]) (24) (0x2ed0)
+00:43.291	ID:10	([ 05 00 ]) (16) (0)
+00:43.292	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:43.292	ID:12	([ 0A 00 ]) (24) (0x2ed6)
+00:43.292	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:43.292	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:43.292	ID:15	Receiving event at SDN core process: 70.
+00:43.292	ID:14	Receiving event at SDN core process: 70.
+00:43.293	ID:15	Neighbor Change.
+00:43.293	ID:14	Neighbor Change.
+00:43.294	ID:8	([ 02 00 ]) (08) (0)
+00:43.294	ID:12	([ 03 00 ]) (16) (0)
+00:43.294	ID:11	([ 03 00 ]) (16) (0)
+00:43.294	ID:7	([ 03 00 ]) (16) (0)
+00:43.294	ID:10	Receiving event at SDN core process: 70.
+00:43.296	ID:10	Neighbor Change.
+00:43.297	ID:8	Receiving event at SDN core process: 70.
+00:43.297	ID:12	Receiving event at SDN core process: 70.
+00:43.297	ID:11	Receiving event at SDN core process: 70.
+00:43.298	ID:7	Receiving event at SDN core process: 70.
+00:43.298	ID:8	Neighbor Change.
+00:43.298	ID:12	Neighbor Change.
+00:43.299	ID:11	Neighbor Change.
+00:43.299	ID:7	Neighbor Change.
+00:44.928	ID:16	neighbor, metric, next ptr
+00:44.928	ID:4	neighbor, metric, next ptr
+00:44.928	ID:3	neighbor, metric, next ptr
+00:44.928	ID:15	neighbor, metric, next ptr
+00:44.928	ID:14	neighbor, metric, next ptr
+00:44.928	ID:8	neighbor, metric, next ptr
+00:44.929	ID:11	neighbor, metric, next ptr
+00:44.929	ID:7	neighbor, metric, next ptr
+00:44.929	ID:10	neighbor, metric, next ptr
+00:44.930	ID:6	neighbor, metric, next ptr
+00:44.930	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:44.930	ID:4	([ 08 00 ]) (16) (0x2ea6)
+00:44.931	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:44.931	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:44.931	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:44.931	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:44.931	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:44.931	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:44.932	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:44.932	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:44.933	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:44.933	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:44.933	ID:4	([ 0B 00 ]) (16) (0x2eac)
+00:44.933	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:44.933	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:44.933	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:44.934	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:44.934	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:44.934	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:44.935	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:44.935	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:44.935	ID:4	([ 06 00 ]) (08) (0x2eb2)
+00:44.936	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:44.936	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:44.936	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:44.936	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:44.936	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:44.936	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:44.937	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:44.937	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:44.938	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:44.938	ID:4	([ 07 00 ]) (16) (0x2eb8)
+00:44.938	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:44.938	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:44.938	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:44.938	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:44.939	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:44.939	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:44.939	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:44.940	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:44.941	ID:16	([ 0F 00 ]) (24) (0x2ebe)
+00:44.941	ID:4	([ 0C 00 ]) (24) (0x2ebe)
+00:44.941	ID:3	([ 0A 00 ]) (24) (0x2ebe)
+00:44.941	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:44.941	ID:14	([ 10 00 ]) (24) (0x2ebe)
+00:44.941	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:44.941	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:44.941	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:44.942	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:44.942	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:44.943	ID:16	([ 0A 00 ]) (24) (0x2ec4)
+00:44.943	ID:4	([ 03 00 ]) (16) (0x2ec4)
+00:44.943	ID:3	([ 0C 00 ]) (24) (0x2ec4)
+00:44.943	ID:15	([ 10 00 ]) (24) (0x2ec4)
+00:44.943	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+00:44.944	ID:8	([ 10 00 ]) (24) (0x2ec4)
+00:44.944	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:44.944	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:44.944	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+00:44.945	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+00:44.945	ID:4	([ 02 00 ]) (08) (0)
+00:44.945	ID:16	([ 0C 00 ]) (24) (0)
+00:44.946	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:44.946	ID:15	([ 0A 00 ]) (24) (0x2eca)
+00:44.946	ID:14	([ 0C 00 ]) (24) (0x2eca)
+00:44.946	ID:8	([ 0A 00 ]) (24) (0x2eca)
+00:44.946	ID:11	([ 10 00 ]) (24) (0x2eca)
+00:44.946	ID:7	([ 10 00 ]) (24) (0x2eca)
+00:44.947	ID:10	([ 10 00 ]) (24) (0x2eca)
+00:44.947	ID:6	([ 0A 00 ]) (24) (0x2eca)
+00:44.948	ID:3	([ 08 00 ]) (16) (0)
+00:44.948	ID:4	Receiving event at SDN core process: 70.
+00:44.948	ID:16	Receiving event at SDN core process: 70.
+00:44.948	ID:15	([ 0C 00 ]) (24) (0x2ed0)
+00:44.949	ID:8	([ 0C 00 ]) (24) (0x2ed0)
+00:44.949	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:44.949	ID:11	([ 0A 00 ]) (24) (0x2ed0)
+00:44.949	ID:7	([ 0A 00 ]) (24) (0x2ed0)
+00:44.949	ID:10	([ 0C 00 ]) (24) (0x2ed0)
+00:44.949	ID:4	Neighbor Change.
+00:44.949	ID:16	Neighbor Change.
+00:44.950	ID:6	([ 0C 00 ]) (24) (0x2ed0)
+00:44.950	ID:15	([ 0D 00 ]) (136) (0)
+00:44.951	ID:14	([ 0D 00 ]) (136) (0)
+00:44.951	ID:3	Receiving event at SDN core process: 70.
+00:44.951	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:44.951	ID:11	([ 0C 00 ]) (24) (0x2ed6)
+00:44.951	ID:7	([ 0C 00 ]) (24) (0x2ed6)
+00:44.952	ID:3	Neighbor Change.
+00:44.952	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:44.953	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:44.953	ID:8	([ 02 00 ]) (08) (0)
+00:44.953	ID:11	([ 03 00 ]) (16) (0)
+00:44.953	ID:7	([ 03 00 ]) (16) (0)
+00:44.954	ID:15	Receiving event at SDN core process: 70.
+00:44.954	ID:10	([ 05 00 ]) (16) (0)
+00:44.954	ID:14	Receiving event at SDN core process: 70.
+00:44.954	ID:6	([ 05 00 ]) (16) (0)
+00:44.955	ID:15	Neighbor Change.
+00:44.955	ID:14	Neighbor Change.
+00:44.956	ID:8	Receiving event at SDN core process: 70.
+00:44.957	ID:11	Receiving event at SDN core process: 70.
+00:44.957	ID:7	Receiving event at SDN core process: 70.
+00:44.957	ID:10	Receiving event at SDN core process: 70.
+00:44.958	ID:8	Neighbor Change.
+00:44.958	ID:6	Receiving event at SDN core process: 70.
+00:44.958	ID:11	Neighbor Change.
+00:44.958	ID:7	Neighbor Change.
+00:44.958	ID:10	Neighbor Change.
+00:44.959	ID:6	Neighbor Change.
+01:00.391	ID:8	Timer reset
+01:00.393	ID:8	Packet for send, enqueued!
+01:00.395	ID:8	Packets on Send Queue (1):
+01:00.403	ID:8	(0) [ 05 FF 14 00 08 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.403	ID:8	
+01:00.406	ID:8	=[ 08 00 ]=TX=05=00=2017=
+01:00.407	ID:8	dfe == NULL
+01:00.409	ID:8	sdn_unknown_flow 2017
+01:00.409	ID:8	
+01:00.410	ID:8	SDN_ACTION_DROP
+01:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 08 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.421	ID:8	send(): dest == NULL
+01:00.423	ID:8	Packet for send, dequeued!
+01:00.425	ID:8	Packets on Send Queue (0):
+01:00.425	ID:8	
+01:00.508	ID:11	Timer reset
+01:00.511	ID:11	Packet for send, enqueued!
+01:00.513	ID:11	Packets on Send Queue (1):
+01:00.521	ID:11	(0) [ 05 FF 14 00 0B 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.521	ID:11	
+01:00.523	ID:11	=[ 0B 00 ]=TX=05=00=2017=
+01:00.524	ID:11	dfe == NULL
+01:00.526	ID:11	sdn_unknown_flow 2017
+01:00.526	ID:11	
+01:00.527	ID:11	SDN_ACTION_DROP
+01:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0B 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.539	ID:11	send(): dest == NULL
+01:00.541	ID:11	Packet for send, dequeued!
+01:00.543	ID:11	Packets on Send Queue (0):
+01:00.543	ID:11	
+01:00.569	ID:6	Timer reset
+01:00.571	ID:6	Packet for send, enqueued!
+01:00.573	ID:6	Packets on Send Queue (1):
+01:00.581	ID:6	(0) [ 05 FF 14 00 06 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.581	ID:6	
+01:00.584	ID:6	=[ 06 00 ]=TX=05=00=2017=
+01:00.585	ID:6	dfe == NULL
+01:00.586	ID:6	sdn_unknown_flow 2017
+01:00.587	ID:6	
+01:00.588	ID:6	SDN_ACTION_DROP
+01:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 06 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.599	ID:6	send(): dest == NULL
+01:00.601	ID:6	Packet for send, dequeued!
+01:00.603	ID:6	Packets on Send Queue (0):
+01:00.603	ID:6	
+01:00.666	ID:4	Timer reset
+01:00.668	ID:4	Packet for send, enqueued!
+01:00.670	ID:4	Packets on Send Queue (1):
+01:00.678	ID:4	(0) [ 05 FF 14 00 04 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.679	ID:4	
+01:00.681	ID:4	=[ 04 00 ]=TX=05=00=2017=
+01:00.682	ID:4	dfe == NULL
+01:00.684	ID:4	sdn_unknown_flow 2017
+01:00.684	ID:4	
+01:00.685	ID:4	SDN_ACTION_DROP
+01:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 04 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.697	ID:4	send(): dest == NULL
+01:00.699	ID:4	Packet for send, dequeued!
+01:00.701	ID:4	Packets on Send Queue (0):
+01:00.701	ID:4	
+01:00.720	ID:7	Timer reset
+01:00.722	ID:7	Packet for send, enqueued!
+01:00.724	ID:7	Packets on Send Queue (1):
+01:00.732	ID:7	(0) [ 05 FF 14 00 07 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.732	ID:7	
+01:00.735	ID:7	=[ 07 00 ]=TX=05=00=2017=
+01:00.736	ID:7	dfe == NULL
+01:00.738	ID:7	sdn_unknown_flow 2017
+01:00.738	ID:7	
+01:00.739	ID:7	SDN_ACTION_DROP
+01:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 07 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.751	ID:7	send(): dest == NULL
+01:00.752	ID:7	Packet for send, dequeued!
+01:00.754	ID:7	Packets on Send Queue (0):
+01:00.754	ID:7	
+01:00.768	ID:14	Timer reset
+01:00.770	ID:14	Packet for send, enqueued!
+01:00.772	ID:14	Packets on Send Queue (1):
+01:00.780	ID:14	(0) [ 05 FF 14 00 0E 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.780	ID:14	
+01:00.780	ID:15	Timer reset
+01:00.783	ID:15	Packet for send, enqueued!
+01:00.783	ID:14	=[ 0E 00 ]=TX=05=00=2017=
+01:00.784	ID:14	dfe == NULL
+01:00.785	ID:15	Packets on Send Queue (1):
+01:00.786	ID:14	sdn_unknown_flow 2017
+01:00.786	ID:14	
+01:00.787	ID:14	SDN_ACTION_DROP
+01:00.791	ID:16	Timer reset
+01:00.793	ID:15	(0) [ 05 FF 14 00 0F 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.793	ID:15	
+01:00.793	ID:16	Packet for send, enqueued!
+01:00.795	ID:16	Packets on Send Queue (1):
+01:00.795	ID:15	=[ 0F 00 ]=TX=05=00=2017=
+01:00.796	ID:15	dfe == NULL
+01:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0E 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.798	ID:15	sdn_unknown_flow 2017
+01:00.798	ID:15	
+01:00.799	ID:14	send(): dest == NULL
+01:00.799	ID:15	SDN_ACTION_DROP
+01:00.801	ID:14	Packet for send, dequeued!
+01:00.803	ID:14	Packets on Send Queue (0):
+01:00.803	ID:14	
+01:00.803	ID:16	(0) [ 05 FF 14 00 10 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.803	ID:16	
+01:00.806	ID:16	=[ 10 00 ]=TX=05=00=2017=
+01:00.807	ID:16	dfe == NULL
+01:00.809	ID:16	sdn_unknown_flow 2017
+01:00.809	ID:16	
+01:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0F 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.810	ID:16	SDN_ACTION_DROP
+01:00.811	ID:15	send(): dest == NULL
+01:00.813	ID:15	Packet for send, dequeued!
+01:00.815	ID:15	Packets on Send Queue (0):
+01:00.815	ID:15	
+01:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 10 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.822	ID:16	send(): dest == NULL
+01:00.824	ID:16	Packet for send, dequeued!
+01:00.826	ID:16	Packets on Send Queue (0):
+01:00.826	ID:16	
+01:00.874	ID:10	Timer reset
+01:00.877	ID:10	Packet for send, enqueued!
+01:00.879	ID:10	Packets on Send Queue (1):
+01:00.887	ID:10	(0) [ 05 FF 14 00 0A 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.887	ID:10	
+01:00.889	ID:10	=[ 0A 00 ]=TX=05=00=2017=
+01:00.890	ID:10	dfe == NULL
+01:00.892	ID:10	sdn_unknown_flow 2017
+01:00.892	ID:10	
+01:00.893	ID:10	SDN_ACTION_DROP
+01:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0A 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.905	ID:10	send(): dest == NULL
+01:00.907	ID:10	Packet for send, dequeued!
+01:00.909	ID:10	Packets on Send Queue (0):
+01:00.909	ID:10	
+01:00.912	ID:12	Timer reset
+01:00.914	ID:12	Packet for send, enqueued!
+01:00.916	ID:12	Packets on Send Queue (1):
+01:00.924	ID:12	(0) [ 05 FF 14 00 0C 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.925	ID:12	
+01:00.927	ID:12	=[ 0C 00 ]=TX=05=00=2017=
+01:00.928	ID:12	dfe == NULL
+01:00.930	ID:12	sdn_unknown_flow 2017
+01:00.930	ID:12	
+01:00.931	ID:12	SDN_ACTION_DROP
+01:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0C 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.943	ID:12	send(): dest == NULL
+01:00.945	ID:12	Packet for send, dequeued!
+01:00.947	ID:12	Packets on Send Queue (0):
+01:00.947	ID:12	
+01:01.026	ID:9	Timer reset
+01:01.029	ID:9	Packet for send, enqueued!
+01:01.031	ID:9	Packets on Send Queue (1):
+01:01.033	ID:5	Timer reset
+01:01.035	ID:5	Packet for send, enqueued!
+01:01.037	ID:5	Packets on Send Queue (1):
+01:01.039	ID:9	(0) [ 05 FF 14 00 09 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.039	ID:9	
+01:01.041	ID:9	=[ 09 00 ]=TX=05=00=2017=
+01:01.042	ID:9	dfe == NULL
+01:01.044	ID:9	sdn_unknown_flow 2017
+01:01.044	ID:9	
+01:01.045	ID:5	(0) [ 05 FF 14 00 05 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.045	ID:5	
+01:01.045	ID:9	SDN_ACTION_DROP
+01:01.048	ID:5	=[ 05 00 ]=TX=05=00=2017=
+01:01.049	ID:5	dfe == NULL
+01:01.051	ID:5	sdn_unknown_flow 2017
+01:01.051	ID:5	
+01:01.052	ID:5	SDN_ACTION_DROP
+01:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 09 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.057	ID:9	send(): dest == NULL
+01:01.059	ID:9	Packet for send, dequeued!
+01:01.061	ID:9	Packets on Send Queue (0):
+01:01.061	ID:9	
+01:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 05 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.064	ID:5	send(): dest == NULL
+01:01.066	ID:5	Packet for send, dequeued!
+01:01.068	ID:5	Packets on Send Queue (0):
+01:01.068	ID:5	
+01:01.202	ID:13	Timer reset
+01:01.204	ID:13	Packet for send, enqueued!
+01:01.206	ID:13	Packets on Send Queue (1):
+01:01.214	ID:13	(0) [ 05 FF 14 00 0D 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.214	ID:13	
+01:01.217	ID:13	=[ 0D 00 ]=TX=05=00=2017=
+01:01.217	ID:3	Timer reset
+01:01.218	ID:13	dfe == NULL
+01:01.219	ID:3	Packet for send, enqueued!
+01:01.220	ID:13	sdn_unknown_flow 2017
+01:01.220	ID:13	
+01:01.221	ID:13	SDN_ACTION_DROP
+01:01.221	ID:3	Packets on Send Queue (1):
+01:01.229	ID:3	(0) [ 05 FF 14 00 03 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.230	ID:3	
+01:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0D 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.232	ID:3	=[ 03 00 ]=TX=05=00=2017=
+01:01.233	ID:13	send(): dest == NULL
+01:01.233	ID:3	dfe == NULL
+01:01.234	ID:13	Packet for send, dequeued!
+01:01.235	ID:3	sdn_unknown_flow 2017
+01:01.235	ID:3	
+01:01.236	ID:3	SDN_ACTION_DROP
+01:01.236	ID:13	Packets on Send Queue (0):
+01:01.236	ID:13	
+01:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 03 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.248	ID:3	send(): dest == NULL
+01:01.250	ID:3	Packet for send, dequeued!
+01:01.252	ID:3	Packets on Send Queue (0):
+01:01.252	ID:3	
+01:02.944	ID:5	neighbor, metric, next ptr
+01:02.944	ID:15	neighbor, metric, next ptr
+01:02.944	ID:14	neighbor, metric, next ptr
+01:02.944	ID:9	neighbor, metric, next ptr
+01:02.945	ID:10	neighbor, metric, next ptr
+01:02.946	ID:5	([ 06 00 ]) (08) (0x2ea6)
+01:02.946	ID:15	([ 08 00 ]) (16) (0x2ea6)
+01:02.946	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+01:02.947	ID:9	([ 06 00 ]) (08) (0x2ea6)
+01:02.947	ID:10	([ 08 00 ]) (16) (0x2ea6)
+01:02.949	ID:5	([ 0A 00 ]) (24) (0x2eac)
+01:02.949	ID:14	([ 06 00 ]) (08) (0x2eac)
+01:02.949	ID:15	([ 0B 00 ]) (16) (0x2eac)
+01:02.949	ID:9	([ 0E 00 ]) (16) (0x2eac)
+01:02.950	ID:10	([ 0B 00 ]) (16) (0x2eac)
+01:02.951	ID:5	([ 09 00 ]) (128) (0x2eb2)
+01:02.951	ID:15	([ 06 00 ]) (08) (0x2eb2)
+01:02.951	ID:14	([ 07 00 ]) (16) (0x2eb2)
+01:02.952	ID:9	([ 0A 00 ]) (24) (0x2eb2)
+01:02.952	ID:10	([ 06 00 ]) (08) (0x2eb2)
+01:02.954	ID:5	([ 0D 00 ]) (24) (0x2eb8)
+01:02.954	ID:15	([ 07 00 ]) (16) (0x2eb8)
+01:02.954	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+01:02.954	ID:9	([ 05 00 ]) (16) (0x2eb8)
+01:02.955	ID:10	([ 07 00 ]) (16) (0x2eb8)
+01:02.956	ID:5	([ 02 00 ]) (08) (0x2ebe)
+01:02.956	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+01:02.957	ID:14	([ 10 00 ]) (24) (0x2ebe)
+01:02.957	ID:9	([ 0D 00 ]) (24) (0x2ebe)
+01:02.957	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+01:02.958	ID:5	([ 01 00 ]) (00) (0)
+01:02.959	ID:9	([ 01 00 ]) (00) (0)
+01:02.959	ID:15	([ 10 00 ]) (24) (0x2ec4)
+01:02.959	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+01:02.960	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+01:02.961	ID:5	Receiving event at SDN core process: 70.
+01:02.961	ID:15	([ 0A 00 ]) (24) (0x2eca)
+01:02.962	ID:14	([ 0C 00 ]) (24) (0x2eca)
+01:02.962	ID:9	Receiving event at SDN core process: 70.
+01:02.962	ID:5	Neighbor Change.
+01:02.963	ID:10	([ 10 00 ]) (24) (0x2eca)
+01:02.963	ID:9	Neighbor Change.
+01:02.964	ID:15	([ 0C 00 ]) (24) (0x2ed0)
+01:02.964	ID:14	([ 09 00 ]) (128) (0x2ed0)
+01:02.965	ID:10	([ 0C 00 ]) (24) (0x2ed0)
+01:02.966	ID:15	([ 0D 00 ]) (24) (0)
+01:02.966	ID:14	([ 0D 00 ]) (24) (0)
+01:02.968	ID:10	([ 09 00 ]) (128) (0x2ed6)
+01:02.969	ID:15	Receiving event at SDN core process: 70.
+01:02.970	ID:14	Receiving event at SDN core process: 70.
+01:02.970	ID:10	([ 05 00 ]) (16) (0)
+01:02.970	ID:15	Neighbor Change.
+01:02.971	ID:14	Neighbor Change.
+01:02.973	ID:10	Receiving event at SDN core process: 70.
+01:02.974	ID:10	Neighbor Change.
+01:03.541	ID:1	~x8	~neighbor, metric, next ptr
+01:03.542	ID:13	neighbor, metric, next ptr
+01:03.542	ID:5	neighbor, metric, next ptr
+01:03.542	ID:14	neighbor, metric, next ptr
+01:03.543	ID:10	neighbor, metric, next ptr
+01:03.544	ID:6	neighbor, metric, next ptr
+01:03.544	ID:1	([ 06 00 ]) (08) (0x139c)
+01:03.544	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+01:03.545	ID:5	([ 06 00 ]) (08) (0x2ea6)
+01:03.545	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+01:03.546	ID:10	([ 08 00 ]) (16) (0x2ea6)
+01:03.546	ID:6	([ 08 00 ]) (16) (0x2ea6)
+01:03.546	ID:1	([ 09 00 ]) (16) (0x13a2)
+01:03.547	ID:13	([ 0F 00 ]) (24) (0x2eac)
+01:03.547	ID:5	([ 0A 00 ]) (24) (0x2eac)
+01:03.547	ID:14	([ 06 00 ]) (08) (0x2eac)
+01:03.548	ID:10	([ 0B 00 ]) (16) (0x2eac)
+01:03.549	ID:6	([ 0B 00 ]) (16) (0x2eac)
+01:03.549	ID:1	([ 05 00 ]) (16) (0x13a8)
+01:03.549	ID:13	([ 0A 00 ]) (24) (0x2eb2)
+01:03.550	ID:5	([ 09 00 ]) (16) (0x2eb2)
+01:03.550	ID:14	([ 07 00 ]) (16) (0x2eb2)
+01:03.551	ID:10	([ 06 00 ]) (08) (0x2eb2)
+01:03.551	ID:1	([ 02 00 ]) (08) (0)
+01:03.551	ID:6	([ 04 00 ]) (16) (0x2eb2)
+01:03.552	ID:13	([ 09 00 ]) (16) (0x2eb8)
+01:03.552	ID:5	([ 0D 00 ]) (24) (0x2eb8)
+01:03.553	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+01:03.553	ID:10	([ 07 00 ]) (16) (0x2eb8)
+01:03.554	ID:6	([ 07 00 ]) (16) (0x2eb8)
+01:03.554	ID:13	([ 05 00 ]) (16) (0)
+01:03.555	ID:5	([ 02 00 ]) (08) (0x2ebe)
+01:03.555	ID:14	([ 10 00 ]) (24) (0x2ebe)
+01:03.556	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+01:03.556	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+01:03.557	ID:5	([ 01 00 ]) (00) (0)
+01:03.557	ID:13	Receiving event at SDN core process: 70.
+01:03.558	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+01:03.558	ID:13	Neighbor Change.
+01:03.558	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+01:03.559	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+01:03.560	ID:5	Receiving event at SDN core process: 70.
+01:03.560	ID:14	([ 0C 00 ]) (24) (0x2eca)
+01:03.561	ID:10	([ 10 00 ]) (24) (0x2eca)
+01:03.561	ID:5	Neighbor Change.
+01:03.562	ID:6	([ 0A 00 ]) (24) (0x2eca)
+01:03.563	ID:14	([ 09 00 ]) (16) (0x2ed0)
+01:03.564	ID:10	([ 0C 00 ]) (24) (0x2ed0)
+01:03.564	ID:6	([ 0C 00 ]) (24) (0x2ed0)
+01:03.565	ID:14	([ 0D 00 ]) (24) (0)
+01:03.566	ID:10	([ 09 00 ]) (16) (0x2ed6)
+01:03.567	ID:6	([ 09 00 ]) (16) (0x2ed6)
+01:03.568	ID:14	Receiving event at SDN core process: 70.
+01:03.568	ID:10	([ 05 00 ]) (16) (0)
+01:03.569	ID:6	([ 05 00 ]) (16) (0)
+01:03.569	ID:14	Neighbor Change.
+01:03.571	ID:10	Receiving event at SDN core process: 70.
+01:03.572	ID:6	Receiving event at SDN core process: 70.
+01:03.573	ID:10	Neighbor Change.
+01:03.573	ID:6	Neighbor Change.
+02:00.391	ID:8	Timer reset
+02:00.393	ID:8	Packet for send, enqueued!
+02:00.395	ID:8	Packets on Send Queue (1):
+02:00.403	ID:8	(1) [ 05 FF 14 01 08 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.403	ID:8	
+02:00.406	ID:8	=[ 08 00 ]=TX=05=01=2017=
+02:00.407	ID:8	dfe == NULL
+02:00.409	ID:8	sdn_unknown_flow 2017
+02:00.409	ID:8	
+02:00.410	ID:8	SDN_ACTION_DROP
+02:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 08 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.422	ID:8	send(): dest == NULL
+02:00.423	ID:8	Packet for send, dequeued!
+02:00.425	ID:8	Packets on Send Queue (0):
+02:00.425	ID:8	
+02:00.508	ID:11	Timer reset
+02:00.511	ID:11	Packet for send, enqueued!
+02:00.513	ID:11	Packets on Send Queue (1):
+02:00.521	ID:11	(1) [ 05 FF 14 01 0B 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.521	ID:11	
+02:00.523	ID:11	=[ 0B 00 ]=TX=05=01=2017=
+02:00.524	ID:11	dfe == NULL
+02:00.526	ID:11	sdn_unknown_flow 2017
+02:00.526	ID:11	
+02:00.527	ID:11	SDN_ACTION_DROP
+02:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 0B 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.539	ID:11	send(): dest == NULL
+02:00.541	ID:11	Packet for send, dequeued!
+02:00.543	ID:11	Packets on Send Queue (0):
+02:00.543	ID:11	
+02:00.569	ID:6	Timer reset
+02:00.571	ID:6	Packet for send, enqueued!
+02:00.573	ID:6	Packets on Send Queue (1):
+02:00.581	ID:6	(1) [ 05 FF 14 01 06 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.581	ID:6	
+02:00.583	ID:6	=[ 06 00 ]=TX=05=01=2017=
+02:00.585	ID:6	dfe == NULL
+02:00.586	ID:6	sdn_unknown_flow 2017
+02:00.586	ID:6	
+02:00.588	ID:6	SDN_ACTION_DROP
+02:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 06 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.599	ID:6	send(): dest == NULL
+02:00.601	ID:6	Packet for send, dequeued!
+02:00.603	ID:6	Packets on Send Queue (0):
+02:00.603	ID:6	
+02:00.666	ID:4	Timer reset
+02:00.669	ID:4	Packet for send, enqueued!
+02:00.670	ID:4	Packets on Send Queue (1):
+02:00.679	ID:4	(1) [ 05 FF 14 01 04 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.679	ID:4	
+02:00.681	ID:4	=[ 04 00 ]=TX=05=01=2017=
+02:00.682	ID:4	dfe == NULL
+02:00.684	ID:4	sdn_unknown_flow 2017
+02:00.684	ID:4	
+02:00.685	ID:4	SDN_ACTION_DROP
+02:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 04 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.697	ID:4	send(): dest == NULL
+02:00.699	ID:4	Packet for send, dequeued!
+02:00.701	ID:4	Packets on Send Queue (0):
+02:00.701	ID:4	
+02:00.720	ID:7	Timer reset
+02:00.722	ID:7	Packet for send, enqueued!
+02:00.724	ID:7	Packets on Send Queue (1):
+02:00.732	ID:7	(1) [ 05 FF 14 01 07 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.732	ID:7	
+02:00.735	ID:7	=[ 07 00 ]=TX=05=01=2017=
+02:00.736	ID:7	dfe == NULL
+02:00.738	ID:7	sdn_unknown_flow 2017
+02:00.738	ID:7	
+02:00.739	ID:7	SDN_ACTION_DROP
+02:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 07 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.751	ID:7	send(): dest == NULL
+02:00.752	ID:7	Packet for send, dequeued!
+02:00.754	ID:7	Packets on Send Queue (0):
+02:00.754	ID:7	
+02:00.768	ID:14	Timer reset
+02:00.770	ID:14	Packet for send, enqueued!
+02:00.772	ID:14	Packets on Send Queue (1):
+02:00.780	ID:14	(1) [ 05 FF 14 01 0E 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.780	ID:14	
+02:00.781	ID:15	Timer reset
+02:00.783	ID:15	Packet for send, enqueued!
+02:00.783	ID:14	=[ 0E 00 ]=TX=05=01=2017=
+02:00.784	ID:14	dfe == NULL
+02:00.785	ID:15	Packets on Send Queue (1):
+02:00.786	ID:14	sdn_unknown_flow 2017
+02:00.786	ID:14	
+02:00.787	ID:14	SDN_ACTION_DROP
+02:00.791	ID:16	Timer reset
+02:00.793	ID:15	(1) [ 05 FF 14 01 0F 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.793	ID:15	
+02:00.793	ID:16	Packet for send, enqueued!
+02:00.795	ID:16	Packets on Send Queue (1):
+02:00.795	ID:15	=[ 0F 00 ]=TX=05=01=2017=
+02:00.797	ID:15	dfe == NULL
+02:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 0E 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.798	ID:15	sdn_unknown_flow 2017
+02:00.798	ID:15	
+02:00.799	ID:14	send(): dest == NULL
+02:00.800	ID:15	SDN_ACTION_DROP
+02:00.801	ID:14	Packet for send, dequeued!
+02:00.803	ID:14	Packets on Send Queue (0):
+02:00.803	ID:14	
+02:00.803	ID:16	(1) [ 05 FF 14 01 10 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.803	ID:16	
+02:00.806	ID:16	=[ 10 00 ]=TX=05=01=2017=
+02:00.807	ID:16	dfe == NULL
+02:00.809	ID:16	sdn_unknown_flow 2017
+02:00.809	ID:16	
+02:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 0F 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.810	ID:16	SDN_ACTION_DROP
+02:00.811	ID:15	send(): dest == NULL
+02:00.813	ID:15	Packet for send, dequeued!
+02:00.815	ID:15	Packets on Send Queue (0):
+02:00.815	ID:15	
+02:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 10 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.822	ID:16	send(): dest == NULL
+02:00.824	ID:16	Packet for send, dequeued!
+02:00.826	ID:16	Packets on Send Queue (0):
+02:00.826	ID:16	
+02:00.874	ID:10	Timer reset
+02:00.877	ID:10	Packet for send, enqueued!
+02:00.879	ID:10	Packets on Send Queue (1):
+02:00.887	ID:10	(1) [ 05 FF 14 01 0A 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.887	ID:10	
+02:00.889	ID:10	=[ 0A 00 ]=TX=05=01=2017=
+02:00.890	ID:10	dfe == NULL
+02:00.892	ID:10	sdn_unknown_flow 2017
+02:00.892	ID:10	
+02:00.893	ID:10	SDN_ACTION_DROP
+02:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 0A 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.905	ID:10	send(): dest == NULL
+02:00.907	ID:10	Packet for send, dequeued!
+02:00.909	ID:10	Packets on Send Queue (0):
+02:00.909	ID:10	
+02:00.912	ID:12	Timer reset
+02:00.915	ID:12	Packet for send, enqueued!
+02:00.916	ID:12	Packets on Send Queue (1):
+02:00.924	ID:12	(1) [ 05 FF 14 01 0C 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.925	ID:12	
+02:00.927	ID:12	=[ 0C 00 ]=TX=05=01=2017=
+02:00.928	ID:12	dfe == NULL
+02:00.930	ID:12	sdn_unknown_flow 2017
+02:00.930	ID:12	
+02:00.931	ID:12	SDN_ACTION_DROP
+02:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 0C 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.943	ID:12	send(): dest == NULL
+02:00.945	ID:12	Packet for send, dequeued!
+02:00.947	ID:12	Packets on Send Queue (0):
+02:00.947	ID:12	
+02:01.026	ID:9	Timer reset
+02:01.029	ID:9	Packet for send, enqueued!
+02:01.031	ID:9	Packets on Send Queue (1):
+02:01.033	ID:5	Timer reset
+02:01.035	ID:5	Packet for send, enqueued!
+02:01.037	ID:5	Packets on Send Queue (1):
+02:01.039	ID:9	(1) [ 05 FF 14 01 09 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:01.039	ID:9	
+02:01.041	ID:9	=[ 09 00 ]=TX=05=01=2017=
+02:01.042	ID:9	dfe == NULL
+02:01.044	ID:9	sdn_unknown_flow 2017
+02:01.044	ID:9	
+02:01.045	ID:5	(1) [ 05 FF 14 01 05 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:01.045	ID:5	
+02:01.045	ID:9	SDN_ACTION_DROP
+02:01.048	ID:5	=[ 05 00 ]=TX=05=01=2017=
+02:01.049	ID:5	dfe == NULL
+02:01.051	ID:5	sdn_unknown_flow 2017
+02:01.051	ID:5	
+02:01.052	ID:5	SDN_ACTION_DROP
+02:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 09 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:01.057	ID:9	send(): dest == NULL
+02:01.059	ID:9	Packet for send, dequeued!
+02:01.061	ID:9	Packets on Send Queue (0):
+02:01.061	ID:9	
+02:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 05 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:01.064	ID:5	send(): dest == NULL
+02:01.066	ID:5	Packet for send, dequeued!
+02:01.068	ID:5	Packets on Send Queue (0):
+02:01.068	ID:5	
+02:01.202	ID:13	Timer reset
+02:01.204	ID:13	Packet for send, enqueued!
+02:01.206	ID:13	Packets on Send Queue (1):
+02:01.214	ID:13	(1) [ 05 FF 14 01 0D 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:01.214	ID:13	
+02:01.217	ID:13	=[ 0D 00 ]=TX=05=01=2017=
+02:01.217	ID:3	Timer reset
+02:01.218	ID:13	dfe == NULL
+02:01.220	ID:3	Packet for send, enqueued!
+02:01.220	ID:13	sdn_unknown_flow 2017
+02:01.220	ID:13	
+02:01.221	ID:13	SDN_ACTION_DROP
+02:01.221	ID:3	Packets on Send Queue (1):
+02:01.229	ID:3	(1) [ 05 FF 14 01 03 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:01.230	ID:3	
+02:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 0D 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:01.232	ID:3	=[ 03 00 ]=TX=05=01=2017=
+02:01.233	ID:13	send(): dest == NULL
+02:01.233	ID:3	dfe == NULL
+02:01.234	ID:13	Packet for send, dequeued!
+02:01.235	ID:3	sdn_unknown_flow 2017
+02:01.235	ID:3	
+02:01.236	ID:3	SDN_ACTION_DROP
+02:01.236	ID:13	Packets on Send Queue (0):
+02:01.236	ID:13	
+02:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 03 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:01.248	ID:3	send(): dest == NULL
+02:01.250	ID:3	Packet for send, dequeued!
+02:01.252	ID:3	Packets on Send Queue (0):
+02:01.252	ID:3	
+03:00.391	ID:8	Timer reset
+03:00.393	ID:8	Packet for send, enqueued!
+03:00.395	ID:8	Packets on Send Queue (1):
+03:00.403	ID:8	(2) [ 05 FF 14 02 08 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.403	ID:8	
+03:00.406	ID:8	=[ 08 00 ]=TX=05=02=2017=
+03:00.407	ID:8	dfe == NULL
+03:00.409	ID:8	sdn_unknown_flow 2017
+03:00.409	ID:8	
+03:00.410	ID:8	SDN_ACTION_DROP
+03:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 08 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.422	ID:8	send(): dest == NULL
+03:00.423	ID:8	Packet for send, dequeued!
+03:00.425	ID:8	Packets on Send Queue (0):
+03:00.425	ID:8	
+03:00.508	ID:11	Timer reset
+03:00.511	ID:11	Packet for send, enqueued!
+03:00.513	ID:11	Packets on Send Queue (1):
+03:00.521	ID:11	(2) [ 05 FF 14 02 0B 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.521	ID:11	
+03:00.523	ID:11	=[ 0B 00 ]=TX=05=02=2017=
+03:00.524	ID:11	dfe == NULL
+03:00.526	ID:11	sdn_unknown_flow 2017
+03:00.526	ID:11	
+03:00.527	ID:11	SDN_ACTION_DROP
+03:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 0B 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.539	ID:11	send(): dest == NULL
+03:00.541	ID:11	Packet for send, dequeued!
+03:00.543	ID:11	Packets on Send Queue (0):
+03:00.543	ID:11	
+03:00.569	ID:6	Timer reset
+03:00.571	ID:6	Packet for send, enqueued!
+03:00.573	ID:6	Packets on Send Queue (1):
+03:00.581	ID:6	(2) [ 05 FF 14 02 06 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.581	ID:6	
+03:00.584	ID:6	=[ 06 00 ]=TX=05=02=2017=
+03:00.585	ID:6	dfe == NULL
+03:00.586	ID:6	sdn_unknown_flow 2017
+03:00.587	ID:6	
+03:00.588	ID:6	SDN_ACTION_DROP
+03:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 06 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.599	ID:6	send(): dest == NULL
+03:00.601	ID:6	Packet for send, dequeued!
+03:00.603	ID:6	Packets on Send Queue (0):
+03:00.603	ID:6	
+03:00.666	ID:4	Timer reset
+03:00.669	ID:4	Packet for send, enqueued!
+03:00.670	ID:4	Packets on Send Queue (1):
+03:00.679	ID:4	(2) [ 05 FF 14 02 04 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.679	ID:4	
+03:00.681	ID:4	=[ 04 00 ]=TX=05=02=2017=
+03:00.682	ID:4	dfe == NULL
+03:00.684	ID:4	sdn_unknown_flow 2017
+03:00.684	ID:4	
+03:00.685	ID:4	SDN_ACTION_DROP
+03:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 04 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.697	ID:4	send(): dest == NULL
+03:00.699	ID:4	Packet for send, dequeued!
+03:00.701	ID:4	Packets on Send Queue (0):
+03:00.701	ID:4	
+03:00.720	ID:7	Timer reset
+03:00.722	ID:7	Packet for send, enqueued!
+03:00.724	ID:7	Packets on Send Queue (1):
+03:00.732	ID:7	(2) [ 05 FF 14 02 07 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.732	ID:7	
+03:00.735	ID:7	=[ 07 00 ]=TX=05=02=2017=
+03:00.736	ID:7	dfe == NULL
+03:00.738	ID:7	sdn_unknown_flow 2017
+03:00.738	ID:7	
+03:00.739	ID:7	SDN_ACTION_DROP
+03:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 07 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.751	ID:7	send(): dest == NULL
+03:00.752	ID:7	Packet for send, dequeued!
+03:00.754	ID:7	Packets on Send Queue (0):
+03:00.754	ID:7	
+03:00.768	ID:14	Timer reset
+03:00.770	ID:14	Packet for send, enqueued!
+03:00.772	ID:14	Packets on Send Queue (1):
+03:00.780	ID:14	(2) [ 05 FF 14 02 0E 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.780	ID:14	
+03:00.781	ID:15	Timer reset
+03:00.783	ID:15	Packet for send, enqueued!
+03:00.783	ID:14	=[ 0E 00 ]=TX=05=02=2017=
+03:00.784	ID:14	dfe == NULL
+03:00.785	ID:15	Packets on Send Queue (1):
+03:00.786	ID:14	sdn_unknown_flow 2017
+03:00.786	ID:14	
+03:00.787	ID:14	SDN_ACTION_DROP
+03:00.791	ID:16	Timer reset
+03:00.793	ID:15	(2) [ 05 FF 14 02 0F 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.793	ID:15	
+03:00.793	ID:16	Packet for send, enqueued!
+03:00.795	ID:16	Packets on Send Queue (1):
+03:00.795	ID:15	=[ 0F 00 ]=TX=05=02=2017=
+03:00.797	ID:15	dfe == NULL
+03:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 0E 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.798	ID:15	sdn_unknown_flow 2017
+03:00.798	ID:15	
+03:00.799	ID:14	send(): dest == NULL
+03:00.800	ID:15	SDN_ACTION_DROP
+03:00.801	ID:14	Packet for send, dequeued!
+03:00.803	ID:14	Packets on Send Queue (0):
+03:00.803	ID:14	
+03:00.803	ID:16	(2) [ 05 FF 14 02 10 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.803	ID:16	
+03:00.806	ID:16	=[ 10 00 ]=TX=05=02=2017=
+03:00.807	ID:16	dfe == NULL
+03:00.809	ID:16	sdn_unknown_flow 2017
+03:00.809	ID:16	
+03:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 0F 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.810	ID:16	SDN_ACTION_DROP
+03:00.811	ID:15	send(): dest == NULL
+03:00.813	ID:15	Packet for send, dequeued!
+03:00.815	ID:15	Packets on Send Queue (0):
+03:00.815	ID:15	
+03:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 10 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.822	ID:16	send(): dest == NULL
+03:00.824	ID:16	Packet for send, dequeued!
+03:00.826	ID:16	Packets on Send Queue (0):
+03:00.826	ID:16	
+03:00.874	ID:10	Timer reset
+03:00.877	ID:10	Packet for send, enqueued!
+03:00.879	ID:10	Packets on Send Queue (1):
+03:00.887	ID:10	(2) [ 05 FF 14 02 0A 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.887	ID:10	
+03:00.889	ID:10	=[ 0A 00 ]=TX=05=02=2017=
+03:00.890	ID:10	dfe == NULL
+03:00.892	ID:10	sdn_unknown_flow 2017
+03:00.892	ID:10	
+03:00.893	ID:10	SDN_ACTION_DROP
+03:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 0A 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.905	ID:10	send(): dest == NULL
+03:00.907	ID:10	Packet for send, dequeued!
+03:00.909	ID:10	Packets on Send Queue (0):
+03:00.909	ID:10	
+03:00.912	ID:12	Timer reset
+03:00.915	ID:12	Packet for send, enqueued!
+03:00.916	ID:12	Packets on Send Queue (1):
+03:00.924	ID:12	(2) [ 05 FF 14 02 0C 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:00.925	ID:12	
+03:00.927	ID:12	=[ 0C 00 ]=TX=05=02=2017=
+03:00.928	ID:12	dfe == NULL
+03:00.930	ID:12	sdn_unknown_flow 2017
+03:00.930	ID:12	
+03:00.931	ID:12	SDN_ACTION_DROP
+03:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 0C 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:00.943	ID:12	send(): dest == NULL
+03:00.945	ID:12	Packet for send, dequeued!
+03:00.947	ID:12	Packets on Send Queue (0):
+03:00.947	ID:12	
+03:01.026	ID:9	Timer reset
+03:01.029	ID:9	Packet for send, enqueued!
+03:01.031	ID:9	Packets on Send Queue (1):
+03:01.033	ID:5	Timer reset
+03:01.035	ID:5	Packet for send, enqueued!
+03:01.037	ID:5	Packets on Send Queue (1):
+03:01.039	ID:9	(2) [ 05 FF 14 02 09 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:01.039	ID:9	
+03:01.041	ID:9	=[ 09 00 ]=TX=05=02=2017=
+03:01.042	ID:9	dfe == NULL
+03:01.044	ID:9	sdn_unknown_flow 2017
+03:01.044	ID:9	
+03:01.045	ID:5	(2) [ 05 FF 14 02 05 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:01.045	ID:5	
+03:01.045	ID:9	SDN_ACTION_DROP
+03:01.048	ID:5	=[ 05 00 ]=TX=05=02=2017=
+03:01.049	ID:5	dfe == NULL
+03:01.051	ID:5	sdn_unknown_flow 2017
+03:01.051	ID:5	
+03:01.052	ID:5	SDN_ACTION_DROP
+03:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 09 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:01.057	ID:9	send(): dest == NULL
+03:01.059	ID:9	Packet for send, dequeued!
+03:01.061	ID:9	Packets on Send Queue (0):
+03:01.061	ID:9	
+03:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 05 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:01.064	ID:5	send(): dest == NULL
+03:01.066	ID:5	Packet for send, dequeued!
+03:01.068	ID:5	Packets on Send Queue (0):
+03:01.068	ID:5	
+03:01.202	ID:13	Timer reset
+03:01.204	ID:13	Packet for send, enqueued!
+03:01.206	ID:13	Packets on Send Queue (1):
+03:01.214	ID:13	(2) [ 05 FF 14 02 0D 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:01.214	ID:13	
+03:01.217	ID:13	=[ 0D 00 ]=TX=05=02=2017=
+03:01.217	ID:3	Timer reset
+03:01.218	ID:13	dfe == NULL
+03:01.220	ID:3	Packet for send, enqueued!
+03:01.220	ID:13	sdn_unknown_flow 2017
+03:01.220	ID:13	
+03:01.221	ID:13	SDN_ACTION_DROP
+03:01.221	ID:3	Packets on Send Queue (1):
+03:01.229	ID:3	(2) [ 05 FF 14 02 03 00 ] [ E1 07 74 65 73 74 65 20 32 00 00 00 ]
+03:01.230	ID:3	
+03:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 0D 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:01.232	ID:3	=[ 03 00 ]=TX=05=02=2017=
+03:01.233	ID:13	send(): dest == NULL
+03:01.233	ID:3	dfe == NULL
+03:01.234	ID:13	Packet for send, dequeued!
+03:01.235	ID:3	sdn_unknown_flow 2017
+03:01.235	ID:3	
+03:01.236	ID:3	SDN_ACTION_DROP
+03:01.236	ID:13	Packets on Send Queue (0):
+03:01.236	ID:13	
+03:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 03 00] Payload [E1 07 74 65 73 74 65 20 32 00 00 00]
+03:01.248	ID:3	send(): dest == NULL
+03:01.250	ID:3	Packet for send, dequeued!
+03:01.252	ID:3	Packets on Send Queue (0):
+03:01.252	ID:3	
+04:00.391	ID:8	Timer reset
+04:00.393	ID:8	Packet for send, enqueued!
+04:00.395	ID:8	Packets on Send Queue (1):
+04:00.403	ID:8	(3) [ 05 FF 14 03 08 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.403	ID:8	
+04:00.406	ID:8	=[ 08 00 ]=TX=05=03=2017=
+04:00.407	ID:8	dfe == NULL
+04:00.408	ID:8	sdn_unknown_flow 2017
+04:00.409	ID:8	
+04:00.410	ID:8	SDN_ACTION_DROP
+04:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 08 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.421	ID:8	send(): dest == NULL
+04:00.423	ID:8	Packet for send, dequeued!
+04:00.425	ID:8	Packets on Send Queue (0):
+04:00.425	ID:8	
+04:00.508	ID:11	Timer reset
+04:00.511	ID:11	Packet for send, enqueued!
+04:00.512	ID:11	Packets on Send Queue (1):
+04:00.521	ID:11	(3) [ 05 FF 14 03 0B 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.521	ID:11	
+04:00.523	ID:11	=[ 0B 00 ]=TX=05=03=2017=
+04:00.524	ID:11	dfe == NULL
+04:00.526	ID:11	sdn_unknown_flow 2017
+04:00.526	ID:11	
+04:00.527	ID:11	SDN_ACTION_DROP
+04:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 0B 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.539	ID:11	send(): dest == NULL
+04:00.541	ID:11	Packet for send, dequeued!
+04:00.543	ID:11	Packets on Send Queue (0):
+04:00.543	ID:11	
+04:00.569	ID:6	Timer reset
+04:00.571	ID:6	Packet for send, enqueued!
+04:00.573	ID:6	Packets on Send Queue (1):
+04:00.581	ID:6	(3) [ 05 FF 14 03 06 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.581	ID:6	
+04:00.583	ID:6	=[ 06 00 ]=TX=05=03=2017=
+04:00.585	ID:6	dfe == NULL
+04:00.586	ID:6	sdn_unknown_flow 2017
+04:00.586	ID:6	
+04:00.588	ID:6	SDN_ACTION_DROP
+04:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 06 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.599	ID:6	send(): dest == NULL
+04:00.601	ID:6	Packet for send, dequeued!
+04:00.603	ID:6	Packets on Send Queue (0):
+04:00.603	ID:6	
+04:00.666	ID:4	Timer reset
+04:00.668	ID:4	Packet for send, enqueued!
+04:00.670	ID:4	Packets on Send Queue (1):
+04:00.678	ID:4	(3) [ 05 FF 14 03 04 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.679	ID:4	
+04:00.681	ID:4	=[ 04 00 ]=TX=05=03=2017=
+04:00.682	ID:4	dfe == NULL
+04:00.684	ID:4	sdn_unknown_flow 2017
+04:00.684	ID:4	
+04:00.685	ID:4	SDN_ACTION_DROP
+04:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 04 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.697	ID:4	send(): dest == NULL
+04:00.699	ID:4	Packet for send, dequeued!
+04:00.701	ID:4	Packets on Send Queue (0):
+04:00.701	ID:4	
+04:00.720	ID:7	Timer reset
+04:00.722	ID:7	Packet for send, enqueued!
+04:00.724	ID:7	Packets on Send Queue (1):
+04:00.732	ID:7	(3) [ 05 FF 14 03 07 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.732	ID:7	
+04:00.735	ID:7	=[ 07 00 ]=TX=05=03=2017=
+04:00.736	ID:7	dfe == NULL
+04:00.737	ID:7	sdn_unknown_flow 2017
+04:00.738	ID:7	
+04:00.739	ID:7	SDN_ACTION_DROP
+04:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 07 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.750	ID:7	send(): dest == NULL
+04:00.752	ID:7	Packet for send, dequeued!
+04:00.754	ID:7	Packets on Send Queue (0):
+04:00.754	ID:7	
+04:00.768	ID:14	Timer reset
+04:00.770	ID:14	Packet for send, enqueued!
+04:00.772	ID:14	Packets on Send Queue (1):
+04:00.780	ID:14	(3) [ 05 FF 14 03 0E 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.780	ID:14	
+04:00.780	ID:15	Timer reset
+04:00.783	ID:15	Packet for send, enqueued!
+04:00.783	ID:14	=[ 0E 00 ]=TX=05=03=2017=
+04:00.784	ID:14	dfe == NULL
+04:00.785	ID:15	Packets on Send Queue (1):
+04:00.786	ID:14	sdn_unknown_flow 2017
+04:00.786	ID:14	
+04:00.787	ID:14	SDN_ACTION_DROP
+04:00.791	ID:16	Timer reset
+04:00.793	ID:15	(3) [ 05 FF 14 03 0F 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.793	ID:15	
+04:00.793	ID:16	Packet for send, enqueued!
+04:00.795	ID:16	Packets on Send Queue (1):
+04:00.795	ID:15	=[ 0F 00 ]=TX=05=03=2017=
+04:00.796	ID:15	dfe == NULL
+04:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 0E 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.798	ID:15	sdn_unknown_flow 2017
+04:00.798	ID:15	
+04:00.799	ID:14	send(): dest == NULL
+04:00.799	ID:15	SDN_ACTION_DROP
+04:00.801	ID:14	Packet for send, dequeued!
+04:00.803	ID:14	Packets on Send Queue (0):
+04:00.803	ID:14	
+04:00.803	ID:16	(3) [ 05 FF 14 03 10 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.803	ID:16	
+04:00.806	ID:16	=[ 10 00 ]=TX=05=03=2017=
+04:00.807	ID:16	dfe == NULL
+04:00.809	ID:16	sdn_unknown_flow 2017
+04:00.809	ID:16	
+04:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 0F 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.810	ID:16	SDN_ACTION_DROP
+04:00.811	ID:15	send(): dest == NULL
+04:00.813	ID:15	Packet for send, dequeued!
+04:00.815	ID:15	Packets on Send Queue (0):
+04:00.815	ID:15	
+04:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 10 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.822	ID:16	send(): dest == NULL
+04:00.824	ID:16	Packet for send, dequeued!
+04:00.826	ID:16	Packets on Send Queue (0):
+04:00.826	ID:16	
+04:00.874	ID:10	Timer reset
+04:00.877	ID:10	Packet for send, enqueued!
+04:00.878	ID:10	Packets on Send Queue (1):
+04:00.887	ID:10	(3) [ 05 FF 14 03 0A 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.887	ID:10	
+04:00.889	ID:10	=[ 0A 00 ]=TX=05=03=2017=
+04:00.890	ID:10	dfe == NULL
+04:00.892	ID:10	sdn_unknown_flow 2017
+04:00.892	ID:10	
+04:00.893	ID:10	SDN_ACTION_DROP
+04:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 0A 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.905	ID:10	send(): dest == NULL
+04:00.907	ID:10	Packet for send, dequeued!
+04:00.909	ID:10	Packets on Send Queue (0):
+04:00.909	ID:10	
+04:00.912	ID:12	Timer reset
+04:00.914	ID:12	Packet for send, enqueued!
+04:00.916	ID:12	Packets on Send Queue (1):
+04:00.924	ID:12	(3) [ 05 FF 14 03 0C 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:00.924	ID:12	
+04:00.927	ID:12	=[ 0C 00 ]=TX=05=03=2017=
+04:00.928	ID:12	dfe == NULL
+04:00.930	ID:12	sdn_unknown_flow 2017
+04:00.930	ID:12	
+04:00.931	ID:12	SDN_ACTION_DROP
+04:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 0C 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:00.943	ID:12	send(): dest == NULL
+04:00.945	ID:12	Packet for send, dequeued!
+04:00.947	ID:12	Packets on Send Queue (0):
+04:00.947	ID:12	
+04:01.026	ID:9	Timer reset
+04:01.029	ID:9	Packet for send, enqueued!
+04:01.031	ID:9	Packets on Send Queue (1):
+04:01.033	ID:5	Timer reset
+04:01.035	ID:5	Packet for send, enqueued!
+04:01.037	ID:5	Packets on Send Queue (1):
+04:01.039	ID:9	(3) [ 05 FF 14 03 09 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:01.039	ID:9	
+04:01.041	ID:9	=[ 09 00 ]=TX=05=03=2017=
+04:01.042	ID:9	dfe == NULL
+04:01.044	ID:9	sdn_unknown_flow 2017
+04:01.044	ID:9	
+04:01.045	ID:5	(3) [ 05 FF 14 03 05 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:01.045	ID:5	
+04:01.045	ID:9	SDN_ACTION_DROP
+04:01.048	ID:5	=[ 05 00 ]=TX=05=03=2017=
+04:01.049	ID:5	dfe == NULL
+04:01.051	ID:5	sdn_unknown_flow 2017
+04:01.051	ID:5	
+04:01.052	ID:5	SDN_ACTION_DROP
+04:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 09 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:01.057	ID:9	send(): dest == NULL
+04:01.059	ID:9	Packet for send, dequeued!
+04:01.061	ID:9	Packets on Send Queue (0):
+04:01.061	ID:9	
+04:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 05 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:01.064	ID:5	send(): dest == NULL
+04:01.066	ID:5	Packet for send, dequeued!
+04:01.068	ID:5	Packets on Send Queue (0):
+04:01.068	ID:5	
+04:01.202	ID:13	Timer reset
+04:01.204	ID:13	Packet for send, enqueued!
+04:01.206	ID:13	Packets on Send Queue (1):
+04:01.214	ID:13	(3) [ 05 FF 14 03 0D 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:01.214	ID:13	
+04:01.217	ID:13	=[ 0D 00 ]=TX=05=03=2017=
+04:01.217	ID:3	Timer reset
+04:01.218	ID:13	dfe == NULL
+04:01.219	ID:3	Packet for send, enqueued!
+04:01.220	ID:13	sdn_unknown_flow 2017
+04:01.220	ID:13	
+04:01.221	ID:13	SDN_ACTION_DROP
+04:01.221	ID:3	Packets on Send Queue (1):
+04:01.229	ID:3	(3) [ 05 FF 14 03 03 00 ] [ E1 07 74 65 73 74 65 20 33 00 00 00 ]
+04:01.230	ID:3	
+04:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 0D 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:01.232	ID:3	=[ 03 00 ]=TX=05=03=2017=
+04:01.233	ID:13	send(): dest == NULL
+04:01.233	ID:3	dfe == NULL
+04:01.235	ID:13	Packet for send, dequeued!
+04:01.235	ID:3	sdn_unknown_flow 2017
+04:01.235	ID:3	
+04:01.236	ID:3	SDN_ACTION_DROP
+04:01.236	ID:13	Packets on Send Queue (0):
+04:01.236	ID:13	
+04:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 03 03 00] Payload [E1 07 74 65 73 74 65 20 33 00 00 00]
+04:01.248	ID:3	send(): dest == NULL
+04:01.250	ID:3	Packet for send, dequeued!
+04:01.252	ID:3	Packets on Send Queue (0):
+04:01.252	ID:3	
+05:00.391	ID:8	Timer reset
+05:00.393	ID:8	Packet for send, enqueued!
+05:00.395	ID:8	Packets on Send Queue (1):
+05:00.403	ID:8	(4) [ 05 FF 14 04 08 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.403	ID:8	
+05:00.406	ID:8	=[ 08 00 ]=TX=05=04=2017=
+05:00.407	ID:8	dfe == NULL
+05:00.409	ID:8	sdn_unknown_flow 2017
+05:00.409	ID:8	
+05:00.410	ID:8	SDN_ACTION_DROP
+05:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 08 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.422	ID:8	send(): dest == NULL
+05:00.423	ID:8	Packet for send, dequeued!
+05:00.425	ID:8	Packets on Send Queue (0):
+05:00.425	ID:8	
+05:00.508	ID:11	Timer reset
+05:00.511	ID:11	Packet for send, enqueued!
+05:00.513	ID:11	Packets on Send Queue (1):
+05:00.521	ID:11	(4) [ 05 FF 14 04 0B 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.521	ID:11	
+05:00.523	ID:11	=[ 0B 00 ]=TX=05=04=2017=
+05:00.524	ID:11	dfe == NULL
+05:00.526	ID:11	sdn_unknown_flow 2017
+05:00.526	ID:11	
+05:00.527	ID:11	SDN_ACTION_DROP
+05:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 0B 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.539	ID:11	send(): dest == NULL
+05:00.541	ID:11	Packet for send, dequeued!
+05:00.543	ID:11	Packets on Send Queue (0):
+05:00.543	ID:11	
+05:00.569	ID:6	Timer reset
+05:00.571	ID:6	Packet for send, enqueued!
+05:00.573	ID:6	Packets on Send Queue (1):
+05:00.581	ID:6	(4) [ 05 FF 14 04 06 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.581	ID:6	
+05:00.584	ID:6	=[ 06 00 ]=TX=05=04=2017=
+05:00.585	ID:6	dfe == NULL
+05:00.586	ID:6	sdn_unknown_flow 2017
+05:00.587	ID:6	
+05:00.588	ID:6	SDN_ACTION_DROP
+05:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 06 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.599	ID:6	send(): dest == NULL
+05:00.601	ID:6	Packet for send, dequeued!
+05:00.603	ID:6	Packets on Send Queue (0):
+05:00.603	ID:6	
+05:00.666	ID:4	Timer reset
+05:00.669	ID:4	Packet for send, enqueued!
+05:00.670	ID:4	Packets on Send Queue (1):
+05:00.679	ID:4	(4) [ 05 FF 14 04 04 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.679	ID:4	
+05:00.681	ID:4	=[ 04 00 ]=TX=05=04=2017=
+05:00.682	ID:4	dfe == NULL
+05:00.684	ID:4	sdn_unknown_flow 2017
+05:00.684	ID:4	
+05:00.685	ID:4	SDN_ACTION_DROP
+05:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 04 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.697	ID:4	send(): dest == NULL
+05:00.699	ID:4	Packet for send, dequeued!
+05:00.701	ID:4	Packets on Send Queue (0):
+05:00.701	ID:4	
+05:00.720	ID:7	Timer reset
+05:00.722	ID:7	Packet for send, enqueued!
+05:00.724	ID:7	Packets on Send Queue (1):
+05:00.732	ID:7	(4) [ 05 FF 14 04 07 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.732	ID:7	
+05:00.735	ID:7	=[ 07 00 ]=TX=05=04=2017=
+05:00.736	ID:7	dfe == NULL
+05:00.738	ID:7	sdn_unknown_flow 2017
+05:00.738	ID:7	
+05:00.739	ID:7	SDN_ACTION_DROP
+05:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 07 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.751	ID:7	send(): dest == NULL
+05:00.752	ID:7	Packet for send, dequeued!
+05:00.754	ID:7	Packets on Send Queue (0):
+05:00.754	ID:7	
+05:00.768	ID:14	Timer reset
+05:00.770	ID:14	Packet for send, enqueued!
+05:00.772	ID:14	Packets on Send Queue (1):
+05:00.780	ID:14	(4) [ 05 FF 14 04 0E 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.780	ID:14	
+05:00.781	ID:15	Timer reset
+05:00.783	ID:15	Packet for send, enqueued!
+05:00.783	ID:14	=[ 0E 00 ]=TX=05=04=2017=
+05:00.784	ID:14	dfe == NULL
+05:00.785	ID:15	Packets on Send Queue (1):
+05:00.786	ID:14	sdn_unknown_flow 2017
+05:00.786	ID:14	
+05:00.787	ID:14	SDN_ACTION_DROP
+05:00.791	ID:16	Timer reset
+05:00.793	ID:15	(4) [ 05 FF 14 04 0F 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.793	ID:15	
+05:00.793	ID:16	Packet for send, enqueued!
+05:00.795	ID:16	Packets on Send Queue (1):
+05:00.795	ID:15	=[ 0F 00 ]=TX=05=04=2017=
+05:00.797	ID:15	dfe == NULL
+05:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 0E 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.798	ID:15	sdn_unknown_flow 2017
+05:00.798	ID:15	
+05:00.799	ID:14	send(): dest == NULL
+05:00.800	ID:15	SDN_ACTION_DROP
+05:00.801	ID:14	Packet for send, dequeued!
+05:00.803	ID:14	Packets on Send Queue (0):
+05:00.803	ID:14	
+05:00.803	ID:16	(4) [ 05 FF 14 04 10 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.803	ID:16	
+05:00.806	ID:16	=[ 10 00 ]=TX=05=04=2017=
+05:00.807	ID:16	dfe == NULL
+05:00.809	ID:16	sdn_unknown_flow 2017
+05:00.809	ID:16	
+05:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 0F 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.810	ID:16	SDN_ACTION_DROP
+05:00.811	ID:15	send(): dest == NULL
+05:00.813	ID:15	Packet for send, dequeued!
+05:00.815	ID:15	Packets on Send Queue (0):
+05:00.815	ID:15	
+05:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 10 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.822	ID:16	send(): dest == NULL
+05:00.824	ID:16	Packet for send, dequeued!
+05:00.826	ID:16	Packets on Send Queue (0):
+05:00.826	ID:16	
+05:00.874	ID:10	Timer reset
+05:00.877	ID:10	Packet for send, enqueued!
+05:00.879	ID:10	Packets on Send Queue (1):
+05:00.887	ID:10	(4) [ 05 FF 14 04 0A 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.887	ID:10	
+05:00.889	ID:10	=[ 0A 00 ]=TX=05=04=2017=
+05:00.890	ID:10	dfe == NULL
+05:00.892	ID:10	sdn_unknown_flow 2017
+05:00.892	ID:10	
+05:00.893	ID:10	SDN_ACTION_DROP
+05:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 0A 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.905	ID:10	send(): dest == NULL
+05:00.907	ID:10	Packet for send, dequeued!
+05:00.909	ID:10	Packets on Send Queue (0):
+05:00.909	ID:10	
+05:00.912	ID:12	Timer reset
+05:00.915	ID:12	Packet for send, enqueued!
+05:00.916	ID:12	Packets on Send Queue (1):
+05:00.924	ID:12	(4) [ 05 FF 14 04 0C 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:00.925	ID:12	
+05:00.927	ID:12	=[ 0C 00 ]=TX=05=04=2017=
+05:00.928	ID:12	dfe == NULL
+05:00.930	ID:12	sdn_unknown_flow 2017
+05:00.930	ID:12	
+05:00.931	ID:12	SDN_ACTION_DROP
+05:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 0C 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:00.943	ID:12	send(): dest == NULL
+05:00.945	ID:12	Packet for send, dequeued!
+05:00.947	ID:12	Packets on Send Queue (0):
+05:00.947	ID:12	
+05:01.026	ID:9	Timer reset
+05:01.029	ID:9	Packet for send, enqueued!
+05:01.031	ID:9	Packets on Send Queue (1):
+05:01.033	ID:5	Timer reset
+05:01.035	ID:5	Packet for send, enqueued!
+05:01.037	ID:5	Packets on Send Queue (1):
+05:01.039	ID:9	(4) [ 05 FF 14 04 09 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:01.039	ID:9	
+05:01.041	ID:9	=[ 09 00 ]=TX=05=04=2017=
+05:01.042	ID:9	dfe == NULL
+05:01.044	ID:9	sdn_unknown_flow 2017
+05:01.044	ID:9	
+05:01.045	ID:5	(4) [ 05 FF 14 04 05 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:01.045	ID:5	
+05:01.045	ID:9	SDN_ACTION_DROP
+05:01.048	ID:5	=[ 05 00 ]=TX=05=04=2017=
+05:01.049	ID:5	dfe == NULL
+05:01.051	ID:5	sdn_unknown_flow 2017
+05:01.051	ID:5	
+05:01.052	ID:5	SDN_ACTION_DROP
+05:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 09 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:01.057	ID:9	send(): dest == NULL
+05:01.059	ID:9	Packet for send, dequeued!
+05:01.061	ID:9	Packets on Send Queue (0):
+05:01.061	ID:9	
+05:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 05 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:01.064	ID:5	send(): dest == NULL
+05:01.066	ID:5	Packet for send, dequeued!
+05:01.068	ID:5	Packets on Send Queue (0):
+05:01.068	ID:5	
+05:01.202	ID:13	Timer reset
+05:01.204	ID:13	Packet for send, enqueued!
+05:01.206	ID:13	Packets on Send Queue (1):
+05:01.214	ID:13	(4) [ 05 FF 14 04 0D 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:01.214	ID:13	
+05:01.217	ID:13	=[ 0D 00 ]=TX=05=04=2017=
+05:01.217	ID:3	Timer reset
+05:01.218	ID:13	dfe == NULL
+05:01.220	ID:3	Packet for send, enqueued!
+05:01.220	ID:13	sdn_unknown_flow 2017
+05:01.220	ID:13	
+05:01.221	ID:13	SDN_ACTION_DROP
+05:01.221	ID:3	Packets on Send Queue (1):
+05:01.229	ID:3	(4) [ 05 FF 14 04 03 00 ] [ E1 07 74 65 73 74 65 20 34 00 00 00 ]
+05:01.230	ID:3	
+05:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 0D 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:01.232	ID:3	=[ 03 00 ]=TX=05=04=2017=
+05:01.233	ID:13	send(): dest == NULL
+05:01.233	ID:3	dfe == NULL
+05:01.234	ID:13	Packet for send, dequeued!
+05:01.235	ID:3	sdn_unknown_flow 2017
+05:01.235	ID:3	
+05:01.236	ID:3	SDN_ACTION_DROP
+05:01.236	ID:13	Packets on Send Queue (0):
+05:01.236	ID:13	
+05:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 04 03 00] Payload [E1 07 74 65 73 74 65 20 34 00 00 00]
+05:01.248	ID:3	send(): dest == NULL
+05:01.250	ID:3	Packet for send, dequeued!
+05:01.252	ID:3	Packets on Send Queue (0):
+05:01.252	ID:3	
+06:00.391	ID:8	Timer reset
+06:00.393	ID:8	Packet for send, enqueued!
+06:00.395	ID:8	Packets on Send Queue (1):
+06:00.403	ID:8	(5) [ 05 FF 14 05 08 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.403	ID:8	
+06:00.406	ID:8	=[ 08 00 ]=TX=05=05=2017=
+06:00.407	ID:8	dfe == NULL
+06:00.408	ID:8	sdn_unknown_flow 2017
+06:00.409	ID:8	
+06:00.410	ID:8	SDN_ACTION_DROP
+06:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 08 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.421	ID:8	send(): dest == NULL
+06:00.423	ID:8	Packet for send, dequeued!
+06:00.425	ID:8	Packets on Send Queue (0):
+06:00.425	ID:8	
+06:00.508	ID:11	Timer reset
+06:00.511	ID:11	Packet for send, enqueued!
+06:00.513	ID:11	Packets on Send Queue (1):
+06:00.521	ID:11	(5) [ 05 FF 14 05 0B 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.521	ID:11	
+06:00.523	ID:11	=[ 0B 00 ]=TX=05=05=2017=
+06:00.524	ID:11	dfe == NULL
+06:00.526	ID:11	sdn_unknown_flow 2017
+06:00.526	ID:11	
+06:00.527	ID:11	SDN_ACTION_DROP
+06:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 0B 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.539	ID:11	send(): dest == NULL
+06:00.541	ID:11	Packet for send, dequeued!
+06:00.543	ID:11	Packets on Send Queue (0):
+06:00.543	ID:11	
+06:00.569	ID:6	Timer reset
+06:00.571	ID:6	Packet for send, enqueued!
+06:00.573	ID:6	Packets on Send Queue (1):
+06:00.581	ID:6	(5) [ 05 FF 14 05 06 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.581	ID:6	
+06:00.583	ID:6	=[ 06 00 ]=TX=05=05=2017=
+06:00.585	ID:6	dfe == NULL
+06:00.586	ID:6	sdn_unknown_flow 2017
+06:00.587	ID:6	
+06:00.588	ID:6	SDN_ACTION_DROP
+06:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 06 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.599	ID:6	send(): dest == NULL
+06:00.601	ID:6	Packet for send, dequeued!
+06:00.603	ID:6	Packets on Send Queue (0):
+06:00.603	ID:6	
+06:00.666	ID:4	Timer reset
+06:00.668	ID:4	Packet for send, enqueued!
+06:00.670	ID:4	Packets on Send Queue (1):
+06:00.678	ID:4	(5) [ 05 FF 14 05 04 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.679	ID:4	
+06:00.681	ID:4	=[ 04 00 ]=TX=05=05=2017=
+06:00.682	ID:4	dfe == NULL
+06:00.684	ID:4	sdn_unknown_flow 2017
+06:00.684	ID:4	
+06:00.685	ID:4	SDN_ACTION_DROP
+06:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 04 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.697	ID:4	send(): dest == NULL
+06:00.699	ID:4	Packet for send, dequeued!
+06:00.701	ID:4	Packets on Send Queue (0):
+06:00.701	ID:4	
+06:00.720	ID:7	Timer reset
+06:00.722	ID:7	Packet for send, enqueued!
+06:00.724	ID:7	Packets on Send Queue (1):
+06:00.732	ID:7	(5) [ 05 FF 14 05 07 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.732	ID:7	
+06:00.735	ID:7	=[ 07 00 ]=TX=05=05=2017=
+06:00.736	ID:7	dfe == NULL
+06:00.738	ID:7	sdn_unknown_flow 2017
+06:00.738	ID:7	
+06:00.739	ID:7	SDN_ACTION_DROP
+06:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 07 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.751	ID:7	send(): dest == NULL
+06:00.752	ID:7	Packet for send, dequeued!
+06:00.754	ID:7	Packets on Send Queue (0):
+06:00.754	ID:7	
+06:00.768	ID:14	Timer reset
+06:00.770	ID:14	Packet for send, enqueued!
+06:00.772	ID:14	Packets on Send Queue (1):
+06:00.780	ID:14	(5) [ 05 FF 14 05 0E 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.780	ID:14	
+06:00.780	ID:15	Timer reset
+06:00.783	ID:15	Packet for send, enqueued!
+06:00.783	ID:14	=[ 0E 00 ]=TX=05=05=2017=
+06:00.784	ID:14	dfe == NULL
+06:00.785	ID:15	Packets on Send Queue (1):
+06:00.786	ID:14	sdn_unknown_flow 2017
+06:00.786	ID:14	
+06:00.787	ID:14	SDN_ACTION_DROP
+06:00.791	ID:16	Timer reset
+06:00.793	ID:15	(5) [ 05 FF 14 05 0F 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.793	ID:15	
+06:00.793	ID:16	Packet for send, enqueued!
+06:00.795	ID:16	Packets on Send Queue (1):
+06:00.795	ID:15	=[ 0F 00 ]=TX=05=05=2017=
+06:00.796	ID:15	dfe == NULL
+06:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 0E 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.798	ID:15	sdn_unknown_flow 2017
+06:00.798	ID:15	
+06:00.799	ID:14	send(): dest == NULL
+06:00.799	ID:15	SDN_ACTION_DROP
+06:00.801	ID:14	Packet for send, dequeued!
+06:00.803	ID:14	Packets on Send Queue (0):
+06:00.803	ID:14	
+06:00.803	ID:16	(5) [ 05 FF 14 05 10 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.803	ID:16	
+06:00.806	ID:16	=[ 10 00 ]=TX=05=05=2017=
+06:00.807	ID:16	dfe == NULL
+06:00.809	ID:16	sdn_unknown_flow 2017
+06:00.809	ID:16	
+06:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 0F 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.810	ID:16	SDN_ACTION_DROP
+06:00.811	ID:15	send(): dest == NULL
+06:00.813	ID:15	Packet for send, dequeued!
+06:00.815	ID:15	Packets on Send Queue (0):
+06:00.815	ID:15	
+06:00.820	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 10 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.822	ID:16	send(): dest == NULL
+06:00.824	ID:16	Packet for send, dequeued!
+06:00.826	ID:16	Packets on Send Queue (0):
+06:00.826	ID:16	
+06:00.874	ID:10	Timer reset
+06:00.877	ID:10	Packet for send, enqueued!
+06:00.878	ID:10	Packets on Send Queue (1):
+06:00.887	ID:10	(5) [ 05 FF 14 05 0A 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.887	ID:10	
+06:00.889	ID:10	=[ 0A 00 ]=TX=05=05=2017=
+06:00.890	ID:10	dfe == NULL
+06:00.892	ID:10	sdn_unknown_flow 2017
+06:00.892	ID:10	
+06:00.893	ID:10	SDN_ACTION_DROP
+06:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 0A 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.905	ID:10	send(): dest == NULL
+06:00.907	ID:10	Packet for send, dequeued!
+06:00.909	ID:10	Packets on Send Queue (0):
+06:00.909	ID:10	
+06:00.912	ID:12	Timer reset
+06:00.914	ID:12	Packet for send, enqueued!
+06:00.916	ID:12	Packets on Send Queue (1):
+06:00.924	ID:12	(5) [ 05 FF 14 05 0C 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:00.924	ID:12	
+06:00.927	ID:12	=[ 0C 00 ]=TX=05=05=2017=
+06:00.928	ID:12	dfe == NULL
+06:00.930	ID:12	sdn_unknown_flow 2017
+06:00.930	ID:12	
+06:00.931	ID:12	SDN_ACTION_DROP
+06:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 0C 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:00.943	ID:12	send(): dest == NULL
+06:00.945	ID:12	Packet for send, dequeued!
+06:00.947	ID:12	Packets on Send Queue (0):
+06:00.947	ID:12	
+06:01.026	ID:9	Timer reset
+06:01.029	ID:9	Packet for send, enqueued!
+06:01.030	ID:9	Packets on Send Queue (1):
+06:01.033	ID:5	Timer reset
+06:01.035	ID:5	Packet for send, enqueued!
+06:01.037	ID:5	Packets on Send Queue (1):
+06:01.039	ID:9	(5) [ 05 FF 14 05 09 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:01.039	ID:9	
+06:01.041	ID:9	=[ 09 00 ]=TX=05=05=2017=
+06:01.042	ID:9	dfe == NULL
+06:01.044	ID:9	sdn_unknown_flow 2017
+06:01.044	ID:9	
+06:01.045	ID:5	(5) [ 05 FF 14 05 05 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:01.045	ID:5	
+06:01.045	ID:9	SDN_ACTION_DROP
+06:01.048	ID:5	=[ 05 00 ]=TX=05=05=2017=
+06:01.049	ID:5	dfe == NULL
+06:01.051	ID:5	sdn_unknown_flow 2017
+06:01.051	ID:5	
+06:01.052	ID:5	SDN_ACTION_DROP
+06:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 09 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:01.057	ID:9	send(): dest == NULL
+06:01.059	ID:9	Packet for send, dequeued!
+06:01.061	ID:9	Packets on Send Queue (0):
+06:01.061	ID:9	
+06:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 05 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:01.064	ID:5	send(): dest == NULL
+06:01.066	ID:5	Packet for send, dequeued!
+06:01.068	ID:5	Packets on Send Queue (0):
+06:01.068	ID:5	
+06:01.202	ID:13	Timer reset
+06:01.204	ID:13	Packet for send, enqueued!
+06:01.206	ID:13	Packets on Send Queue (1):
+06:01.214	ID:13	(5) [ 05 FF 14 05 0D 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:01.214	ID:13	
+06:01.217	ID:13	=[ 0D 00 ]=TX=05=05=2017=
+06:01.217	ID:3	Timer reset
+06:01.218	ID:13	dfe == NULL
+06:01.219	ID:3	Packet for send, enqueued!
+06:01.220	ID:13	sdn_unknown_flow 2017
+06:01.220	ID:13	
+06:01.221	ID:13	SDN_ACTION_DROP
+06:01.221	ID:3	Packets on Send Queue (1):
+06:01.229	ID:3	(5) [ 05 FF 14 05 03 00 ] [ E1 07 74 65 73 74 65 20 35 00 00 00 ]
+06:01.229	ID:3	
+06:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 0D 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:01.232	ID:3	=[ 03 00 ]=TX=05=05=2017=
+06:01.233	ID:13	send(): dest == NULL
+06:01.233	ID:3	dfe == NULL
+06:01.235	ID:13	Packet for send, dequeued!
+06:01.235	ID:3	sdn_unknown_flow 2017
+06:01.235	ID:3	
+06:01.236	ID:3	SDN_ACTION_DROP
+06:01.236	ID:13	Packets on Send Queue (0):
+06:01.236	ID:13	
+06:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 05 03 00] Payload [E1 07 74 65 73 74 65 20 35 00 00 00]
+06:01.248	ID:3	send(): dest == NULL
+06:01.250	ID:3	Packet for send, dequeued!
+06:01.252	ID:3	Packets on Send Queue (0):
+06:01.252	ID:3	
+07:00.391	ID:8	Timer reset
+07:00.393	ID:8	Packet for send, enqueued!
+07:00.395	ID:8	Packets on Send Queue (1):
+07:00.403	ID:8	(6) [ 05 FF 14 06 08 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.403	ID:8	
+07:00.406	ID:8	=[ 08 00 ]=TX=05=06=2017=
+07:00.407	ID:8	dfe == NULL
+07:00.408	ID:8	sdn_unknown_flow 2017
+07:00.409	ID:8	
+07:00.410	ID:8	SDN_ACTION_DROP
+07:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 08 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.421	ID:8	send(): dest == NULL
+07:00.423	ID:8	Packet for send, dequeued!
+07:00.425	ID:8	Packets on Send Queue (0):
+07:00.425	ID:8	
+07:00.508	ID:11	Timer reset
+07:00.511	ID:11	Packet for send, enqueued!
+07:00.513	ID:11	Packets on Send Queue (1):
+07:00.521	ID:11	(6) [ 05 FF 14 06 0B 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.521	ID:11	
+07:00.523	ID:11	=[ 0B 00 ]=TX=05=06=2017=
+07:00.524	ID:11	dfe == NULL
+07:00.526	ID:11	sdn_unknown_flow 2017
+07:00.526	ID:11	
+07:00.527	ID:11	SDN_ACTION_DROP
+07:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 0B 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.539	ID:11	send(): dest == NULL
+07:00.541	ID:11	Packet for send, dequeued!
+07:00.543	ID:11	Packets on Send Queue (0):
+07:00.543	ID:11	
+07:00.569	ID:6	Timer reset
+07:00.571	ID:6	Packet for send, enqueued!
+07:00.573	ID:6	Packets on Send Queue (1):
+07:00.581	ID:6	(6) [ 05 FF 14 06 06 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.581	ID:6	
+07:00.583	ID:6	=[ 06 00 ]=TX=05=06=2017=
+07:00.585	ID:6	dfe == NULL
+07:00.586	ID:6	sdn_unknown_flow 2017
+07:00.587	ID:6	
+07:00.588	ID:6	SDN_ACTION_DROP
+07:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 06 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.599	ID:6	send(): dest == NULL
+07:00.601	ID:6	Packet for send, dequeued!
+07:00.603	ID:6	Packets on Send Queue (0):
+07:00.603	ID:6	
+07:00.666	ID:4	Timer reset
+07:00.668	ID:4	Packet for send, enqueued!
+07:00.670	ID:4	Packets on Send Queue (1):
+07:00.678	ID:4	(6) [ 05 FF 14 06 04 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.679	ID:4	
+07:00.681	ID:4	=[ 04 00 ]=TX=05=06=2017=
+07:00.682	ID:4	dfe == NULL
+07:00.684	ID:4	sdn_unknown_flow 2017
+07:00.684	ID:4	
+07:00.685	ID:4	SDN_ACTION_DROP
+07:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 04 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.697	ID:4	send(): dest == NULL
+07:00.699	ID:4	Packet for send, dequeued!
+07:00.701	ID:4	Packets on Send Queue (0):
+07:00.701	ID:4	
+07:00.720	ID:7	Timer reset
+07:00.722	ID:7	Packet for send, enqueued!
+07:00.724	ID:7	Packets on Send Queue (1):
+07:00.732	ID:7	(6) [ 05 FF 14 06 07 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.732	ID:7	
+07:00.735	ID:7	=[ 07 00 ]=TX=05=06=2017=
+07:00.736	ID:7	dfe == NULL
+07:00.738	ID:7	sdn_unknown_flow 2017
+07:00.738	ID:7	
+07:00.739	ID:7	SDN_ACTION_DROP
+07:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 07 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.751	ID:7	send(): dest == NULL
+07:00.752	ID:7	Packet for send, dequeued!
+07:00.754	ID:7	Packets on Send Queue (0):
+07:00.754	ID:7	
+07:00.768	ID:14	Timer reset
+07:00.770	ID:14	Packet for send, enqueued!
+07:00.772	ID:14	Packets on Send Queue (1):
+07:00.780	ID:14	(6) [ 05 FF 14 06 0E 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.780	ID:14	
+07:00.780	ID:15	Timer reset
+07:00.783	ID:15	Packet for send, enqueued!
+07:00.783	ID:14	=[ 0E 00 ]=TX=05=06=2017=
+07:00.784	ID:14	dfe == NULL
+07:00.785	ID:15	Packets on Send Queue (1):
+07:00.786	ID:14	sdn_unknown_flow 2017
+07:00.786	ID:14	
+07:00.787	ID:14	SDN_ACTION_DROP
+07:00.791	ID:16	Timer reset
+07:00.793	ID:15	(6) [ 05 FF 14 06 0F 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.793	ID:15	
+07:00.793	ID:16	Packet for send, enqueued!
+07:00.795	ID:16	Packets on Send Queue (1):
+07:00.795	ID:15	=[ 0F 00 ]=TX=05=06=2017=
+07:00.796	ID:15	dfe == NULL
+07:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 0E 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.798	ID:15	sdn_unknown_flow 2017
+07:00.798	ID:15	
+07:00.799	ID:14	send(): dest == NULL
+07:00.799	ID:15	SDN_ACTION_DROP
+07:00.801	ID:14	Packet for send, dequeued!
+07:00.803	ID:14	Packets on Send Queue (0):
+07:00.803	ID:14	
+07:00.803	ID:16	(6) [ 05 FF 14 06 10 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.803	ID:16	
+07:00.806	ID:16	=[ 10 00 ]=TX=05=06=2017=
+07:00.807	ID:16	dfe == NULL
+07:00.809	ID:16	sdn_unknown_flow 2017
+07:00.809	ID:16	
+07:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 0F 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.810	ID:16	SDN_ACTION_DROP
+07:00.811	ID:15	send(): dest == NULL
+07:00.813	ID:15	Packet for send, dequeued!
+07:00.815	ID:15	Packets on Send Queue (0):
+07:00.815	ID:15	
+07:00.820	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 10 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.822	ID:16	send(): dest == NULL
+07:00.824	ID:16	Packet for send, dequeued!
+07:00.826	ID:16	Packets on Send Queue (0):
+07:00.826	ID:16	
+07:00.874	ID:10	Timer reset
+07:00.877	ID:10	Packet for send, enqueued!
+07:00.878	ID:10	Packets on Send Queue (1):
+07:00.887	ID:10	(6) [ 05 FF 14 06 0A 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.887	ID:10	
+07:00.889	ID:10	=[ 0A 00 ]=TX=05=06=2017=
+07:00.890	ID:10	dfe == NULL
+07:00.892	ID:10	sdn_unknown_flow 2017
+07:00.892	ID:10	
+07:00.893	ID:10	SDN_ACTION_DROP
+07:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 0A 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.905	ID:10	send(): dest == NULL
+07:00.907	ID:10	Packet for send, dequeued!
+07:00.909	ID:10	Packets on Send Queue (0):
+07:00.909	ID:10	
+07:00.912	ID:12	Timer reset
+07:00.914	ID:12	Packet for send, enqueued!
+07:00.916	ID:12	Packets on Send Queue (1):
+07:00.924	ID:12	(6) [ 05 FF 14 06 0C 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:00.924	ID:12	
+07:00.927	ID:12	=[ 0C 00 ]=TX=05=06=2017=
+07:00.928	ID:12	dfe == NULL
+07:00.930	ID:12	sdn_unknown_flow 2017
+07:00.930	ID:12	
+07:00.931	ID:12	SDN_ACTION_DROP
+07:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 0C 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:00.943	ID:12	send(): dest == NULL
+07:00.945	ID:12	Packet for send, dequeued!
+07:00.947	ID:12	Packets on Send Queue (0):
+07:00.947	ID:12	
+07:01.026	ID:9	Timer reset
+07:01.029	ID:9	Packet for send, enqueued!
+07:01.030	ID:9	Packets on Send Queue (1):
+07:01.033	ID:5	Timer reset
+07:01.035	ID:5	Packet for send, enqueued!
+07:01.037	ID:5	Packets on Send Queue (1):
+07:01.039	ID:9	(6) [ 05 FF 14 06 09 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:01.039	ID:9	
+07:01.041	ID:9	=[ 09 00 ]=TX=05=06=2017=
+07:01.042	ID:9	dfe == NULL
+07:01.044	ID:9	sdn_unknown_flow 2017
+07:01.044	ID:9	
+07:01.045	ID:5	(6) [ 05 FF 14 06 05 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:01.045	ID:5	
+07:01.045	ID:9	SDN_ACTION_DROP
+07:01.048	ID:5	=[ 05 00 ]=TX=05=06=2017=
+07:01.049	ID:5	dfe == NULL
+07:01.051	ID:5	sdn_unknown_flow 2017
+07:01.051	ID:5	
+07:01.052	ID:5	SDN_ACTION_DROP
+07:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 09 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:01.057	ID:9	send(): dest == NULL
+07:01.059	ID:9	Packet for send, dequeued!
+07:01.061	ID:9	Packets on Send Queue (0):
+07:01.061	ID:9	
+07:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 05 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:01.064	ID:5	send(): dest == NULL
+07:01.066	ID:5	Packet for send, dequeued!
+07:01.068	ID:5	Packets on Send Queue (0):
+07:01.068	ID:5	
+07:01.202	ID:13	Timer reset
+07:01.204	ID:13	Packet for send, enqueued!
+07:01.206	ID:13	Packets on Send Queue (1):
+07:01.214	ID:13	(6) [ 05 FF 14 06 0D 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:01.214	ID:13	
+07:01.217	ID:13	=[ 0D 00 ]=TX=05=06=2017=
+07:01.217	ID:3	Timer reset
+07:01.218	ID:13	dfe == NULL
+07:01.219	ID:3	Packet for send, enqueued!
+07:01.220	ID:13	sdn_unknown_flow 2017
+07:01.220	ID:13	
+07:01.221	ID:13	SDN_ACTION_DROP
+07:01.221	ID:3	Packets on Send Queue (1):
+07:01.229	ID:3	(6) [ 05 FF 14 06 03 00 ] [ E1 07 74 65 73 74 65 20 36 00 00 00 ]
+07:01.229	ID:3	
+07:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 0D 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:01.232	ID:3	=[ 03 00 ]=TX=05=06=2017=
+07:01.233	ID:13	send(): dest == NULL
+07:01.233	ID:3	dfe == NULL
+07:01.234	ID:13	Packet for send, dequeued!
+07:01.235	ID:3	sdn_unknown_flow 2017
+07:01.235	ID:3	
+07:01.236	ID:3	SDN_ACTION_DROP
+07:01.236	ID:13	Packets on Send Queue (0):
+07:01.236	ID:13	
+07:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 03 00] Payload [E1 07 74 65 73 74 65 20 36 00 00 00]
+07:01.248	ID:3	send(): dest == NULL
+07:01.250	ID:3	Packet for send, dequeued!
+07:01.252	ID:3	Packets on Send Queue (0):
+07:01.252	ID:3	
+08:00.391	ID:8	Timer reset
+08:00.393	ID:8	Packet for send, enqueued!
+08:00.395	ID:8	Packets on Send Queue (1):
+08:00.403	ID:8	(7) [ 05 FF 14 07 08 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.403	ID:8	
+08:00.406	ID:8	=[ 08 00 ]=TX=05=07=2017=
+08:00.407	ID:8	dfe == NULL
+08:00.408	ID:8	sdn_unknown_flow 2017
+08:00.409	ID:8	
+08:00.410	ID:8	SDN_ACTION_DROP
+08:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 08 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.421	ID:8	send(): dest == NULL
+08:00.423	ID:8	Packet for send, dequeued!
+08:00.425	ID:8	Packets on Send Queue (0):
+08:00.425	ID:8	
+08:00.508	ID:11	Timer reset
+08:00.511	ID:11	Packet for send, enqueued!
+08:00.513	ID:11	Packets on Send Queue (1):
+08:00.521	ID:11	(7) [ 05 FF 14 07 0B 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.521	ID:11	
+08:00.523	ID:11	=[ 0B 00 ]=TX=05=07=2017=
+08:00.524	ID:11	dfe == NULL
+08:00.526	ID:11	sdn_unknown_flow 2017
+08:00.526	ID:11	
+08:00.527	ID:11	SDN_ACTION_DROP
+08:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 0B 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.539	ID:11	send(): dest == NULL
+08:00.541	ID:11	Packet for send, dequeued!
+08:00.543	ID:11	Packets on Send Queue (0):
+08:00.543	ID:11	
+08:00.569	ID:6	Timer reset
+08:00.571	ID:6	Packet for send, enqueued!
+08:00.573	ID:6	Packets on Send Queue (1):
+08:00.581	ID:6	(7) [ 05 FF 14 07 06 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.581	ID:6	
+08:00.583	ID:6	=[ 06 00 ]=TX=05=07=2017=
+08:00.585	ID:6	dfe == NULL
+08:00.586	ID:6	sdn_unknown_flow 2017
+08:00.587	ID:6	
+08:00.588	ID:6	SDN_ACTION_DROP
+08:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 06 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.599	ID:6	send(): dest == NULL
+08:00.601	ID:6	Packet for send, dequeued!
+08:00.603	ID:6	Packets on Send Queue (0):
+08:00.603	ID:6	
+08:00.666	ID:4	Timer reset
+08:00.668	ID:4	Packet for send, enqueued!
+08:00.670	ID:4	Packets on Send Queue (1):
+08:00.678	ID:4	(7) [ 05 FF 14 07 04 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.679	ID:4	
+08:00.681	ID:4	=[ 04 00 ]=TX=05=07=2017=
+08:00.682	ID:4	dfe == NULL
+08:00.684	ID:4	sdn_unknown_flow 2017
+08:00.684	ID:4	
+08:00.685	ID:4	SDN_ACTION_DROP
+08:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 04 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.697	ID:4	send(): dest == NULL
+08:00.699	ID:4	Packet for send, dequeued!
+08:00.701	ID:4	Packets on Send Queue (0):
+08:00.701	ID:4	
+08:00.720	ID:7	Timer reset
+08:00.722	ID:7	Packet for send, enqueued!
+08:00.724	ID:7	Packets on Send Queue (1):
+08:00.732	ID:7	(7) [ 05 FF 14 07 07 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.732	ID:7	
+08:00.735	ID:7	=[ 07 00 ]=TX=05=07=2017=
+08:00.736	ID:7	dfe == NULL
+08:00.738	ID:7	sdn_unknown_flow 2017
+08:00.738	ID:7	
+08:00.739	ID:7	SDN_ACTION_DROP
+08:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 07 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.751	ID:7	send(): dest == NULL
+08:00.752	ID:7	Packet for send, dequeued!
+08:00.754	ID:7	Packets on Send Queue (0):
+08:00.754	ID:7	
+08:00.768	ID:14	Timer reset
+08:00.770	ID:14	Packet for send, enqueued!
+08:00.772	ID:14	Packets on Send Queue (1):
+08:00.780	ID:14	(7) [ 05 FF 14 07 0E 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.780	ID:14	
+08:00.780	ID:15	Timer reset
+08:00.783	ID:15	Packet for send, enqueued!
+08:00.783	ID:14	=[ 0E 00 ]=TX=05=07=2017=
+08:00.784	ID:14	dfe == NULL
+08:00.785	ID:15	Packets on Send Queue (1):
+08:00.786	ID:14	sdn_unknown_flow 2017
+08:00.786	ID:14	
+08:00.787	ID:14	SDN_ACTION_DROP
+08:00.791	ID:16	Timer reset
+08:00.793	ID:15	(7) [ 05 FF 14 07 0F 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.793	ID:15	
+08:00.793	ID:16	Packet for send, enqueued!
+08:00.795	ID:16	Packets on Send Queue (1):
+08:00.795	ID:15	=[ 0F 00 ]=TX=05=07=2017=
+08:00.796	ID:15	dfe == NULL
+08:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 0E 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.798	ID:15	sdn_unknown_flow 2017
+08:00.798	ID:15	
+08:00.799	ID:14	send(): dest == NULL
+08:00.799	ID:15	SDN_ACTION_DROP
+08:00.801	ID:14	Packet for send, dequeued!
+08:00.803	ID:14	Packets on Send Queue (0):
+08:00.803	ID:14	
+08:00.803	ID:16	(7) [ 05 FF 14 07 10 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.803	ID:16	
+08:00.806	ID:16	=[ 10 00 ]=TX=05=07=2017=
+08:00.807	ID:16	dfe == NULL
+08:00.809	ID:16	sdn_unknown_flow 2017
+08:00.809	ID:16	
+08:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 0F 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.810	ID:16	SDN_ACTION_DROP
+08:00.811	ID:15	send(): dest == NULL
+08:00.813	ID:15	Packet for send, dequeued!
+08:00.815	ID:15	Packets on Send Queue (0):
+08:00.815	ID:15	
+08:00.820	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 10 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.822	ID:16	send(): dest == NULL
+08:00.824	ID:16	Packet for send, dequeued!
+08:00.826	ID:16	Packets on Send Queue (0):
+08:00.826	ID:16	
+08:00.874	ID:10	Timer reset
+08:00.877	ID:10	Packet for send, enqueued!
+08:00.878	ID:10	Packets on Send Queue (1):
+08:00.887	ID:10	(7) [ 05 FF 14 07 0A 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.887	ID:10	
+08:00.889	ID:10	=[ 0A 00 ]=TX=05=07=2017=
+08:00.890	ID:10	dfe == NULL
+08:00.892	ID:10	sdn_unknown_flow 2017
+08:00.892	ID:10	
+08:00.893	ID:10	SDN_ACTION_DROP
+08:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 0A 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.905	ID:10	send(): dest == NULL
+08:00.907	ID:10	Packet for send, dequeued!
+08:00.909	ID:10	Packets on Send Queue (0):
+08:00.909	ID:10	
+08:00.912	ID:12	Timer reset
+08:00.914	ID:12	Packet for send, enqueued!
+08:00.916	ID:12	Packets on Send Queue (1):
+08:00.924	ID:12	(7) [ 05 FF 14 07 0C 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:00.924	ID:12	
+08:00.927	ID:12	=[ 0C 00 ]=TX=05=07=2017=
+08:00.928	ID:12	dfe == NULL
+08:00.930	ID:12	sdn_unknown_flow 2017
+08:00.930	ID:12	
+08:00.931	ID:12	SDN_ACTION_DROP
+08:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 0C 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:00.943	ID:12	send(): dest == NULL
+08:00.945	ID:12	Packet for send, dequeued!
+08:00.947	ID:12	Packets on Send Queue (0):
+08:00.947	ID:12	
+08:01.026	ID:9	Timer reset
+08:01.029	ID:9	Packet for send, enqueued!
+08:01.030	ID:9	Packets on Send Queue (1):
+08:01.033	ID:5	Timer reset
+08:01.035	ID:5	Packet for send, enqueued!
+08:01.037	ID:5	Packets on Send Queue (1):
+08:01.039	ID:9	(7) [ 05 FF 14 07 09 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:01.039	ID:9	
+08:01.041	ID:9	=[ 09 00 ]=TX=05=07=2017=
+08:01.042	ID:9	dfe == NULL
+08:01.044	ID:9	sdn_unknown_flow 2017
+08:01.044	ID:9	
+08:01.045	ID:5	(7) [ 05 FF 14 07 05 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:01.045	ID:5	
+08:01.045	ID:9	SDN_ACTION_DROP
+08:01.048	ID:5	=[ 05 00 ]=TX=05=07=2017=
+08:01.049	ID:5	dfe == NULL
+08:01.051	ID:5	sdn_unknown_flow 2017
+08:01.051	ID:5	
+08:01.052	ID:5	SDN_ACTION_DROP
+08:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 09 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:01.057	ID:9	send(): dest == NULL
+08:01.059	ID:9	Packet for send, dequeued!
+08:01.061	ID:9	Packets on Send Queue (0):
+08:01.061	ID:9	
+08:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 05 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:01.064	ID:5	send(): dest == NULL
+08:01.066	ID:5	Packet for send, dequeued!
+08:01.068	ID:5	Packets on Send Queue (0):
+08:01.068	ID:5	
+08:01.202	ID:13	Timer reset
+08:01.204	ID:13	Packet for send, enqueued!
+08:01.206	ID:13	Packets on Send Queue (1):
+08:01.214	ID:13	(7) [ 05 FF 14 07 0D 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:01.214	ID:13	
+08:01.217	ID:13	=[ 0D 00 ]=TX=05=07=2017=
+08:01.217	ID:3	Timer reset
+08:01.218	ID:13	dfe == NULL
+08:01.219	ID:3	Packet for send, enqueued!
+08:01.220	ID:13	sdn_unknown_flow 2017
+08:01.220	ID:13	
+08:01.221	ID:13	SDN_ACTION_DROP
+08:01.221	ID:3	Packets on Send Queue (1):
+08:01.229	ID:3	(7) [ 05 FF 14 07 03 00 ] [ E1 07 74 65 73 74 65 20 37 00 00 00 ]
+08:01.229	ID:3	
+08:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 0D 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:01.232	ID:3	=[ 03 00 ]=TX=05=07=2017=
+08:01.233	ID:13	send(): dest == NULL
+08:01.233	ID:3	dfe == NULL
+08:01.234	ID:13	Packet for send, dequeued!
+08:01.235	ID:3	sdn_unknown_flow 2017
+08:01.235	ID:3	
+08:01.236	ID:3	SDN_ACTION_DROP
+08:01.236	ID:13	Packets on Send Queue (0):
+08:01.236	ID:13	
+08:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 07 03 00] Payload [E1 07 74 65 73 74 65 20 37 00 00 00]
+08:01.248	ID:3	send(): dest == NULL
+08:01.250	ID:3	Packet for send, dequeued!
+08:01.252	ID:3	Packets on Send Queue (0):
+08:01.252	ID:3	
+09:00.391	ID:8	Timer reset
+09:00.393	ID:8	Packet for send, enqueued!
+09:00.395	ID:8	Packets on Send Queue (1):
+09:00.403	ID:8	(8) [ 05 FF 14 08 08 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.403	ID:8	
+09:00.406	ID:8	=[ 08 00 ]=TX=05=08=2017=
+09:00.407	ID:8	dfe == NULL
+09:00.409	ID:8	sdn_unknown_flow 2017
+09:00.409	ID:8	
+09:00.410	ID:8	SDN_ACTION_DROP
+09:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 08 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.422	ID:8	send(): dest == NULL
+09:00.423	ID:8	Packet for send, dequeued!
+09:00.425	ID:8	Packets on Send Queue (0):
+09:00.425	ID:8	
+09:00.508	ID:11	Timer reset
+09:00.511	ID:11	Packet for send, enqueued!
+09:00.513	ID:11	Packets on Send Queue (1):
+09:00.521	ID:11	(8) [ 05 FF 14 08 0B 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.521	ID:11	
+09:00.523	ID:11	=[ 0B 00 ]=TX=05=08=2017=
+09:00.524	ID:11	dfe == NULL
+09:00.526	ID:11	sdn_unknown_flow 2017
+09:00.526	ID:11	
+09:00.527	ID:11	SDN_ACTION_DROP
+09:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 0B 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.539	ID:11	send(): dest == NULL
+09:00.541	ID:11	Packet for send, dequeued!
+09:00.543	ID:11	Packets on Send Queue (0):
+09:00.543	ID:11	
+09:00.569	ID:6	Timer reset
+09:00.571	ID:6	Packet for send, enqueued!
+09:00.573	ID:6	Packets on Send Queue (1):
+09:00.581	ID:6	(8) [ 05 FF 14 08 06 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.581	ID:6	
+09:00.584	ID:6	=[ 06 00 ]=TX=05=08=2017=
+09:00.585	ID:6	dfe == NULL
+09:00.586	ID:6	sdn_unknown_flow 2017
+09:00.587	ID:6	
+09:00.588	ID:6	SDN_ACTION_DROP
+09:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 06 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.599	ID:6	send(): dest == NULL
+09:00.601	ID:6	Packet for send, dequeued!
+09:00.603	ID:6	Packets on Send Queue (0):
+09:00.603	ID:6	
+09:00.666	ID:4	Timer reset
+09:00.669	ID:4	Packet for send, enqueued!
+09:00.670	ID:4	Packets on Send Queue (1):
+09:00.679	ID:4	(8) [ 05 FF 14 08 04 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.679	ID:4	
+09:00.681	ID:4	=[ 04 00 ]=TX=05=08=2017=
+09:00.682	ID:4	dfe == NULL
+09:00.684	ID:4	sdn_unknown_flow 2017
+09:00.684	ID:4	
+09:00.685	ID:4	SDN_ACTION_DROP
+09:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 04 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.697	ID:4	send(): dest == NULL
+09:00.699	ID:4	Packet for send, dequeued!
+09:00.701	ID:4	Packets on Send Queue (0):
+09:00.701	ID:4	
+09:00.720	ID:7	Timer reset
+09:00.722	ID:7	Packet for send, enqueued!
+09:00.724	ID:7	Packets on Send Queue (1):
+09:00.732	ID:7	(8) [ 05 FF 14 08 07 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.732	ID:7	
+09:00.735	ID:7	=[ 07 00 ]=TX=05=08=2017=
+09:00.736	ID:7	dfe == NULL
+09:00.738	ID:7	sdn_unknown_flow 2017
+09:00.738	ID:7	
+09:00.739	ID:7	SDN_ACTION_DROP
+09:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 07 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.751	ID:7	send(): dest == NULL
+09:00.752	ID:7	Packet for send, dequeued!
+09:00.754	ID:7	Packets on Send Queue (0):
+09:00.754	ID:7	
+09:00.768	ID:14	Timer reset
+09:00.770	ID:14	Packet for send, enqueued!
+09:00.772	ID:14	Packets on Send Queue (1):
+09:00.780	ID:14	(8) [ 05 FF 14 08 0E 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.780	ID:14	
+09:00.781	ID:15	Timer reset
+09:00.783	ID:15	Packet for send, enqueued!
+09:00.783	ID:14	=[ 0E 00 ]=TX=05=08=2017=
+09:00.784	ID:14	dfe == NULL
+09:00.785	ID:15	Packets on Send Queue (1):
+09:00.786	ID:14	sdn_unknown_flow 2017
+09:00.786	ID:14	
+09:00.787	ID:14	SDN_ACTION_DROP
+09:00.791	ID:16	Timer reset
+09:00.793	ID:15	(8) [ 05 FF 14 08 0F 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.793	ID:15	
+09:00.793	ID:16	Packet for send, enqueued!
+09:00.795	ID:16	Packets on Send Queue (1):
+09:00.795	ID:15	=[ 0F 00 ]=TX=05=08=2017=
+09:00.797	ID:15	dfe == NULL
+09:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 0E 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.798	ID:15	sdn_unknown_flow 2017
+09:00.798	ID:15	
+09:00.799	ID:14	send(): dest == NULL
+09:00.800	ID:15	SDN_ACTION_DROP
+09:00.801	ID:14	Packet for send, dequeued!
+09:00.803	ID:14	Packets on Send Queue (0):
+09:00.803	ID:14	
+09:00.803	ID:16	(8) [ 05 FF 14 08 10 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.803	ID:16	
+09:00.806	ID:16	=[ 10 00 ]=TX=05=08=2017=
+09:00.807	ID:16	dfe == NULL
+09:00.809	ID:16	sdn_unknown_flow 2017
+09:00.809	ID:16	
+09:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 0F 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.810	ID:16	SDN_ACTION_DROP
+09:00.811	ID:15	send(): dest == NULL
+09:00.813	ID:15	Packet for send, dequeued!
+09:00.815	ID:15	Packets on Send Queue (0):
+09:00.815	ID:15	
+09:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 10 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.822	ID:16	send(): dest == NULL
+09:00.824	ID:16	Packet for send, dequeued!
+09:00.826	ID:16	Packets on Send Queue (0):
+09:00.826	ID:16	
+09:00.874	ID:10	Timer reset
+09:00.877	ID:10	Packet for send, enqueued!
+09:00.879	ID:10	Packets on Send Queue (1):
+09:00.887	ID:10	(8) [ 05 FF 14 08 0A 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.887	ID:10	
+09:00.889	ID:10	=[ 0A 00 ]=TX=05=08=2017=
+09:00.890	ID:10	dfe == NULL
+09:00.892	ID:10	sdn_unknown_flow 2017
+09:00.892	ID:10	
+09:00.893	ID:10	SDN_ACTION_DROP
+09:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 0A 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.905	ID:10	send(): dest == NULL
+09:00.907	ID:10	Packet for send, dequeued!
+09:00.909	ID:10	Packets on Send Queue (0):
+09:00.909	ID:10	
+09:00.912	ID:12	Timer reset
+09:00.915	ID:12	Packet for send, enqueued!
+09:00.916	ID:12	Packets on Send Queue (1):
+09:00.924	ID:12	(8) [ 05 FF 14 08 0C 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:00.925	ID:12	
+09:00.927	ID:12	=[ 0C 00 ]=TX=05=08=2017=
+09:00.928	ID:12	dfe == NULL
+09:00.930	ID:12	sdn_unknown_flow 2017
+09:00.930	ID:12	
+09:00.931	ID:12	SDN_ACTION_DROP
+09:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 0C 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:00.943	ID:12	send(): dest == NULL
+09:00.945	ID:12	Packet for send, dequeued!
+09:00.947	ID:12	Packets on Send Queue (0):
+09:00.947	ID:12	
+09:01.026	ID:9	Timer reset
+09:01.029	ID:9	Packet for send, enqueued!
+09:01.031	ID:9	Packets on Send Queue (1):
+09:01.033	ID:5	Timer reset
+09:01.035	ID:5	Packet for send, enqueued!
+09:01.037	ID:5	Packets on Send Queue (1):
+09:01.039	ID:9	(8) [ 05 FF 14 08 09 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:01.039	ID:9	
+09:01.041	ID:9	=[ 09 00 ]=TX=05=08=2017=
+09:01.042	ID:9	dfe == NULL
+09:01.044	ID:9	sdn_unknown_flow 2017
+09:01.044	ID:9	
+09:01.045	ID:5	(8) [ 05 FF 14 08 05 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:01.045	ID:5	
+09:01.045	ID:9	SDN_ACTION_DROP
+09:01.048	ID:5	=[ 05 00 ]=TX=05=08=2017=
+09:01.049	ID:5	dfe == NULL
+09:01.051	ID:5	sdn_unknown_flow 2017
+09:01.051	ID:5	
+09:01.052	ID:5	SDN_ACTION_DROP
+09:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 09 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:01.057	ID:9	send(): dest == NULL
+09:01.059	ID:9	Packet for send, dequeued!
+09:01.061	ID:9	Packets on Send Queue (0):
+09:01.061	ID:9	
+09:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 05 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:01.064	ID:5	send(): dest == NULL
+09:01.066	ID:5	Packet for send, dequeued!
+09:01.068	ID:5	Packets on Send Queue (0):
+09:01.068	ID:5	
+09:01.202	ID:13	Timer reset
+09:01.204	ID:13	Packet for send, enqueued!
+09:01.206	ID:13	Packets on Send Queue (1):
+09:01.214	ID:13	(8) [ 05 FF 14 08 0D 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:01.214	ID:13	
+09:01.217	ID:13	=[ 0D 00 ]=TX=05=08=2017=
+09:01.217	ID:3	Timer reset
+09:01.218	ID:13	dfe == NULL
+09:01.220	ID:3	Packet for send, enqueued!
+09:01.220	ID:13	sdn_unknown_flow 2017
+09:01.220	ID:13	
+09:01.221	ID:13	SDN_ACTION_DROP
+09:01.221	ID:3	Packets on Send Queue (1):
+09:01.229	ID:3	(8) [ 05 FF 14 08 03 00 ] [ E1 07 74 65 73 74 65 20 38 00 00 00 ]
+09:01.230	ID:3	
+09:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 0D 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:01.232	ID:3	=[ 03 00 ]=TX=05=08=2017=
+09:01.233	ID:13	send(): dest == NULL
+09:01.233	ID:3	dfe == NULL
+09:01.234	ID:13	Packet for send, dequeued!
+09:01.235	ID:3	sdn_unknown_flow 2017
+09:01.235	ID:3	
+09:01.236	ID:3	SDN_ACTION_DROP
+09:01.236	ID:13	Packets on Send Queue (0):
+09:01.236	ID:13	
+09:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 08 03 00] Payload [E1 07 74 65 73 74 65 20 38 00 00 00]
+09:01.248	ID:3	send(): dest == NULL
+09:01.250	ID:3	Packet for send, dequeued!
+09:01.252	ID:3	Packets on Send Queue (0):
+09:01.252	ID:3	
+10:00.391	ID:8	Timer reset
+10:00.393	ID:8	Packet for send, enqueued!
+10:00.395	ID:8	Packets on Send Queue (1):
+10:00.403	ID:8	(9) [ 05 FF 14 09 08 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.403	ID:8	
+10:00.406	ID:8	=[ 08 00 ]=TX=05=09=2017=
+10:00.407	ID:8	dfe == NULL
+10:00.408	ID:8	sdn_unknown_flow 2017
+10:00.409	ID:8	
+10:00.410	ID:8	SDN_ACTION_DROP
+10:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 08 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.421	ID:8	send(): dest == NULL
+10:00.423	ID:8	Packet for send, dequeued!
+10:00.425	ID:8	Packets on Send Queue (0):
+10:00.425	ID:8	
+10:00.508	ID:11	Timer reset
+10:00.511	ID:11	Packet for send, enqueued!
+10:00.513	ID:11	Packets on Send Queue (1):
+10:00.521	ID:11	(9) [ 05 FF 14 09 0B 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.521	ID:11	
+10:00.523	ID:11	=[ 0B 00 ]=TX=05=09=2017=
+10:00.524	ID:11	dfe == NULL
+10:00.526	ID:11	sdn_unknown_flow 2017
+10:00.526	ID:11	
+10:00.527	ID:11	SDN_ACTION_DROP
+10:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 0B 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.539	ID:11	send(): dest == NULL
+10:00.541	ID:11	Packet for send, dequeued!
+10:00.543	ID:11	Packets on Send Queue (0):
+10:00.543	ID:11	
+10:00.569	ID:6	Timer reset
+10:00.571	ID:6	Packet for send, enqueued!
+10:00.573	ID:6	Packets on Send Queue (1):
+10:00.581	ID:6	(9) [ 05 FF 14 09 06 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.581	ID:6	
+10:00.583	ID:6	=[ 06 00 ]=TX=05=09=2017=
+10:00.585	ID:6	dfe == NULL
+10:00.586	ID:6	sdn_unknown_flow 2017
+10:00.587	ID:6	
+10:00.588	ID:6	SDN_ACTION_DROP
+10:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 06 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.599	ID:6	send(): dest == NULL
+10:00.601	ID:6	Packet for send, dequeued!
+10:00.603	ID:6	Packets on Send Queue (0):
+10:00.603	ID:6	
+10:00.666	ID:4	Timer reset
+10:00.668	ID:4	Packet for send, enqueued!
+10:00.670	ID:4	Packets on Send Queue (1):
+10:00.678	ID:4	(9) [ 05 FF 14 09 04 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.679	ID:4	
+10:00.681	ID:4	=[ 04 00 ]=TX=05=09=2017=
+10:00.682	ID:4	dfe == NULL
+10:00.684	ID:4	sdn_unknown_flow 2017
+10:00.684	ID:4	
+10:00.685	ID:4	SDN_ACTION_DROP
+10:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 04 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.697	ID:4	send(): dest == NULL
+10:00.699	ID:4	Packet for send, dequeued!
+10:00.701	ID:4	Packets on Send Queue (0):
+10:00.701	ID:4	
+10:00.720	ID:7	Timer reset
+10:00.722	ID:7	Packet for send, enqueued!
+10:00.724	ID:7	Packets on Send Queue (1):
+10:00.732	ID:7	(9) [ 05 FF 14 09 07 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.732	ID:7	
+10:00.735	ID:7	=[ 07 00 ]=TX=05=09=2017=
+10:00.736	ID:7	dfe == NULL
+10:00.738	ID:7	sdn_unknown_flow 2017
+10:00.738	ID:7	
+10:00.739	ID:7	SDN_ACTION_DROP
+10:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 07 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.751	ID:7	send(): dest == NULL
+10:00.752	ID:7	Packet for send, dequeued!
+10:00.754	ID:7	Packets on Send Queue (0):
+10:00.754	ID:7	
+10:00.768	ID:14	Timer reset
+10:00.770	ID:14	Packet for send, enqueued!
+10:00.772	ID:14	Packets on Send Queue (1):
+10:00.780	ID:14	(9) [ 05 FF 14 09 0E 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.780	ID:14	
+10:00.780	ID:15	Timer reset
+10:00.783	ID:15	Packet for send, enqueued!
+10:00.783	ID:14	=[ 0E 00 ]=TX=05=09=2017=
+10:00.784	ID:14	dfe == NULL
+10:00.785	ID:15	Packets on Send Queue (1):
+10:00.786	ID:14	sdn_unknown_flow 2017
+10:00.786	ID:14	
+10:00.787	ID:14	SDN_ACTION_DROP
+10:00.791	ID:16	Timer reset
+10:00.793	ID:15	(9) [ 05 FF 14 09 0F 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.793	ID:15	
+10:00.793	ID:16	Packet for send, enqueued!
+10:00.795	ID:16	Packets on Send Queue (1):
+10:00.795	ID:15	=[ 0F 00 ]=TX=05=09=2017=
+10:00.796	ID:15	dfe == NULL
+10:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 0E 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.798	ID:15	sdn_unknown_flow 2017
+10:00.798	ID:15	
+10:00.799	ID:14	send(): dest == NULL
+10:00.799	ID:15	SDN_ACTION_DROP
+10:00.801	ID:14	Packet for send, dequeued!
+10:00.803	ID:14	Packets on Send Queue (0):
+10:00.803	ID:14	
+10:00.803	ID:16	(9) [ 05 FF 14 09 10 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.803	ID:16	
+10:00.806	ID:16	=[ 10 00 ]=TX=05=09=2017=
+10:00.807	ID:16	dfe == NULL
+10:00.809	ID:16	sdn_unknown_flow 2017
+10:00.809	ID:16	
+10:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 0F 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.810	ID:16	SDN_ACTION_DROP
+10:00.811	ID:15	send(): dest == NULL
+10:00.813	ID:15	Packet for send, dequeued!
+10:00.815	ID:15	Packets on Send Queue (0):
+10:00.815	ID:15	
+10:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 10 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.822	ID:16	send(): dest == NULL
+10:00.824	ID:16	Packet for send, dequeued!
+10:00.826	ID:16	Packets on Send Queue (0):
+10:00.826	ID:16	
+10:00.874	ID:10	Timer reset
+10:00.877	ID:10	Packet for send, enqueued!
+10:00.879	ID:10	Packets on Send Queue (1):
+10:00.887	ID:10	(9) [ 05 FF 14 09 0A 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.887	ID:10	
+10:00.889	ID:10	=[ 0A 00 ]=TX=05=09=2017=
+10:00.890	ID:10	dfe == NULL
+10:00.892	ID:10	sdn_unknown_flow 2017
+10:00.892	ID:10	
+10:00.893	ID:10	SDN_ACTION_DROP
+10:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 0A 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.905	ID:10	send(): dest == NULL
+10:00.907	ID:10	Packet for send, dequeued!
+10:00.909	ID:10	Packets on Send Queue (0):
+10:00.909	ID:10	
+10:00.912	ID:12	Timer reset
+10:00.914	ID:12	Packet for send, enqueued!
+10:00.916	ID:12	Packets on Send Queue (1):
+10:00.924	ID:12	(9) [ 05 FF 14 09 0C 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:00.924	ID:12	
+10:00.927	ID:12	=[ 0C 00 ]=TX=05=09=2017=
+10:00.928	ID:12	dfe == NULL
+10:00.930	ID:12	sdn_unknown_flow 2017
+10:00.930	ID:12	
+10:00.931	ID:12	SDN_ACTION_DROP
+10:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 0C 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:00.943	ID:12	send(): dest == NULL
+10:00.945	ID:12	Packet for send, dequeued!
+10:00.947	ID:12	Packets on Send Queue (0):
+10:00.947	ID:12	
+10:01.026	ID:9	Timer reset
+10:01.029	ID:9	Packet for send, enqueued!
+10:01.030	ID:9	Packets on Send Queue (1):
+10:01.033	ID:5	Timer reset
+10:01.035	ID:5	Packet for send, enqueued!
+10:01.037	ID:5	Packets on Send Queue (1):
+10:01.039	ID:9	(9) [ 05 FF 14 09 09 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:01.039	ID:9	
+10:01.041	ID:9	=[ 09 00 ]=TX=05=09=2017=
+10:01.042	ID:9	dfe == NULL
+10:01.044	ID:9	sdn_unknown_flow 2017
+10:01.044	ID:9	
+10:01.045	ID:5	(9) [ 05 FF 14 09 05 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:01.045	ID:5	
+10:01.045	ID:9	SDN_ACTION_DROP
+10:01.048	ID:5	=[ 05 00 ]=TX=05=09=2017=
+10:01.049	ID:5	dfe == NULL
+10:01.051	ID:5	sdn_unknown_flow 2017
+10:01.051	ID:5	
+10:01.052	ID:5	SDN_ACTION_DROP
+10:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 09 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:01.057	ID:9	send(): dest == NULL
+10:01.059	ID:9	Packet for send, dequeued!
+10:01.061	ID:9	Packets on Send Queue (0):
+10:01.061	ID:9	
+10:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 05 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:01.064	ID:5	send(): dest == NULL
+10:01.066	ID:5	Packet for send, dequeued!
+10:01.068	ID:5	Packets on Send Queue (0):
+10:01.068	ID:5	
+10:01.202	ID:13	Timer reset
+10:01.204	ID:13	Packet for send, enqueued!
+10:01.206	ID:13	Packets on Send Queue (1):
+10:01.214	ID:13	(9) [ 05 FF 14 09 0D 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:01.214	ID:13	
+10:01.217	ID:13	=[ 0D 00 ]=TX=05=09=2017=
+10:01.217	ID:3	Timer reset
+10:01.218	ID:13	dfe == NULL
+10:01.219	ID:3	Packet for send, enqueued!
+10:01.220	ID:13	sdn_unknown_flow 2017
+10:01.220	ID:13	
+10:01.221	ID:13	SDN_ACTION_DROP
+10:01.221	ID:3	Packets on Send Queue (1):
+10:01.229	ID:3	(9) [ 05 FF 14 09 03 00 ] [ E1 07 74 65 73 74 65 20 39 00 00 00 ]
+10:01.230	ID:3	
+10:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 0D 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:01.232	ID:3	=[ 03 00 ]=TX=05=09=2017=
+10:01.233	ID:13	send(): dest == NULL
+10:01.233	ID:3	dfe == NULL
+10:01.234	ID:13	Packet for send, dequeued!
+10:01.235	ID:3	sdn_unknown_flow 2017
+10:01.235	ID:3	
+10:01.236	ID:3	SDN_ACTION_DROP
+10:01.236	ID:13	Packets on Send Queue (0):
+10:01.236	ID:13	
+10:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 74 65 73 74 65 20 39 00 00 00]
+10:01.248	ID:3	send(): dest == NULL
+10:01.250	ID:3	Packet for send, dequeued!
+10:01.252	ID:3	Packets on Send Queue (0):
+10:01.252	ID:3	
+-- Log Listener [Demo]: Started at Tue Sep 19 17:26:21 SAST 2017
+00:00.348	ID:8	Rime started with address 8.0
+00:00.356	ID:8	MAC 08:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 8.
+00:00.367	ID:8	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.369	ID:8	Node SDN Address:[ 08 00 ]
+00:00.373	ID:8	next_hop == own address, action is forced to receive
+00:00.375	ID:8	sdn_solve_unknown_dest [ 08 00 ]
+00:00.380	ID:8	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.382	ID:8	Initializing neighbor discovery
+00:00.387	ID:8	Null Controller Discovery initialized!
+00:00.389	ID:8	SDN Core initialized!
+00:00.391	ID:8	SDN Address size set to 2.
+00:00.466	ID:11	Rime started with address 11.0
+00:00.474	ID:11	MAC 0b:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 11.
+00:00.485	ID:11	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.487	ID:11	Node SDN Address:[ 0B 00 ]
+00:00.491	ID:11	next_hop == own address, action is forced to receive
+00:00.493	ID:11	sdn_solve_unknown_dest [ 0B 00 ]
+00:00.498	ID:11	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.500	ID:11	Initializing neighbor discovery
+00:00.505	ID:11	Null Controller Discovery initialized!
+00:00.507	ID:11	SDN Core initialized!
+00:00.509	ID:11	SDN Address size set to 2.
+00:00.511	ID:2	Rime started with address 2.0
+00:00.520	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 2.
+00:00.526	ID:6	Rime started with address 6.0
+00:00.530	ID:2	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.532	ID:2	Node SDN Address:[ 02 00 ]
+00:00.534	ID:6	MAC 06:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 6.
+00:00.536	ID:2	next_hop == own address, action is forced to receive
+00:00.539	ID:2	sdn_solve_unknown_dest [ 02 00 ]
+00:00.543	ID:2	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.545	ID:6	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.546	ID:2	Initializing neighbor discovery
+00:00.547	ID:6	Node SDN Address:[ 06 00 ]
+00:00.550	ID:2	Null Controller Discovery initialized!
+00:00.551	ID:6	next_hop == own address, action is forced to receive
+00:00.552	ID:2	SDN Core initialized!
+00:00.553	ID:6	sdn_solve_unknown_dest [ 06 00 ]
+00:00.554	ID:2	SDN Address size set to 2.
+00:00.556	ID:2	sdn_solve_unknown_flow 2017
+00:00.558	ID:6	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.558	ID:2	Packet for send, enqueued!
+00:00.560	ID:2	Packets on Send Queue (1):
+00:00.560	ID:6	Initializing neighbor discovery
+00:00.565	ID:2	(0) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:00.565	ID:2	
+00:00.565	ID:6	Null Controller Discovery initialized!
+00:00.567	ID:6	SDN Core initialized!
+00:00.567	ID:2	=[ 02 00 ]=TX=0D=00=0=
+00:00.568	ID:2	dfe == NULL
+00:00.569	ID:6	SDN Address size set to 2.
+00:00.569	ID:2	sdn_unknown_flow 0
+00:00.570	ID:2	
+00:00.571	ID:2	SDN_ACTION_DROP
+00:00.579	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:00.580	ID:2	send(): dest == NULL
+00:00.582	ID:2	Packet for send, dequeued!
+00:00.584	ID:2	Packets on Send Queue (0):
+00:00.584	ID:2	
+00:00.624	ID:4	Rime started with address 4.0
+00:00.632	ID:4	MAC 04:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 4.
+00:00.642	ID:4	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.645	ID:4	Node SDN Address:[ 04 00 ]
+00:00.648	ID:4	next_hop == own address, action is forced to receive
+00:00.651	ID:4	sdn_solve_unknown_dest [ 04 00 ]
+00:00.656	ID:4	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.657	ID:1	Rime started with address 1.0
+00:00.658	ID:4	Initializing neighbor discovery
+00:00.663	ID:4	Null Controller Discovery initialized!
+00:00.664	ID:4	SDN Core initialized!
+00:00.666	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 1.
+00:00.666	ID:4	SDN Address size set to 2.
+00:00.676	ID:1	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.677	ID:7	Rime started with address 7.0
+00:00.679	ID:1	Initializing neighbor discovery
+00:00.681	ID:1	I am sink
+00:00.685	ID:7	MAC 07:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 7.
+00:00.696	ID:7	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.698	ID:7	Node SDN Address:[ 07 00 ]
+00:00.702	ID:7	next_hop == own address, action is forced to receive
+00:00.704	ID:7	sdn_solve_unknown_dest [ 07 00 ]
+00:00.709	ID:7	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.711	ID:7	Initializing neighbor discovery
+00:00.716	ID:7	Null Controller Discovery initialized!
+00:00.718	ID:7	SDN Core initialized!
+00:00.720	ID:7	SDN Address size set to 2.
+00:00.726	ID:14	Rime started with address 14.0
+00:00.734	ID:14	MAC 0e:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 14.
+00:00.738	ID:15	Rime started with address 15.0
+00:00.744	ID:14	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.747	ID:15	MAC 0f:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 15.
+00:00.747	ID:14	Node SDN Address:[ 0E 00 ]
+00:00.748	ID:16	Rime started with address 16.0
+00:00.750	ID:14	next_hop == own address, action is forced to receive
+00:00.753	ID:14	sdn_solve_unknown_dest [ 0E 00 ]
+00:00.757	ID:15	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.757	ID:16	MAC 10:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 16.
+00:00.758	ID:14	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.759	ID:15	Node SDN Address:[ 0F 00 ]
+00:00.760	ID:14	Initializing neighbor discovery
+00:00.763	ID:15	next_hop == own address, action is forced to receive
+00:00.765	ID:14	Null Controller Discovery initialized!
+00:00.765	ID:15	sdn_solve_unknown_dest [ 0F 00 ]
+00:00.766	ID:14	SDN Core initialized!
+00:00.767	ID:16	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.768	ID:14	SDN Address size set to 2.
+00:00.770	ID:16	Node SDN Address:[ 10 00 ]
+00:00.770	ID:15	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.772	ID:15	Initializing neighbor discovery
+00:00.773	ID:16	next_hop == own address, action is forced to receive
+00:00.776	ID:16	sdn_solve_unknown_dest [ 10 00 ]
+00:00.777	ID:15	Null Controller Discovery initialized!
+00:00.779	ID:15	SDN Core initialized!
+00:00.781	ID:15	SDN Address size set to 2.
+00:00.781	ID:16	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.783	ID:16	Initializing neighbor discovery
+00:00.788	ID:16	Null Controller Discovery initialized!
+00:00.790	ID:16	SDN Core initialized!
+00:00.792	ID:16	SDN Address size set to 2.
+00:00.832	ID:10	Rime started with address 10.0
+00:00.840	ID:10	MAC 0a:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 10.
+00:00.851	ID:10	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.853	ID:10	Node SDN Address:[ 0A 00 ]
+00:00.857	ID:10	next_hop == own address, action is forced to receive
+00:00.859	ID:10	sdn_solve_unknown_dest [ 0A 00 ]
+00:00.864	ID:10	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.866	ID:10	Initializing neighbor discovery
+00:00.870	ID:12	Rime started with address 12.0
+00:00.871	ID:10	Null Controller Discovery initialized!
+00:00.873	ID:10	SDN Core initialized!
+00:00.875	ID:10	SDN Address size set to 2.
+00:00.878	ID:12	MAC 0c:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 12.
+00:00.889	ID:12	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.891	ID:12	Node SDN Address:[ 0C 00 ]
+00:00.895	ID:12	next_hop == own address, action is forced to receive
+00:00.897	ID:12	sdn_solve_unknown_dest [ 0C 00 ]
+00:00.902	ID:12	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.904	ID:12	Initializing neighbor discovery
+00:00.909	ID:12	Null Controller Discovery initialized!
+00:00.911	ID:12	SDN Core initialized!
+00:00.913	ID:12	SDN Address size set to 2.
+00:00.984	ID:9	Rime started with address 9.0
+00:00.990	ID:5	Rime started with address 5.0
+00:00.992	ID:9	MAC 09:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 9.
+00:00.999	ID:5	MAC 05:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 5.
+00:01.003	ID:9	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.005	ID:9	Node SDN Address:[ 09 00 ]
+00:01.009	ID:9	next_hop == own address, action is forced to receive
+00:01.009	ID:5	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.011	ID:9	sdn_solve_unknown_dest [ 09 00 ]
+00:01.011	ID:5	Node SDN Address:[ 05 00 ]
+00:01.015	ID:5	next_hop == own address, action is forced to receive
+00:01.016	ID:9	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.018	ID:5	sdn_solve_unknown_dest [ 05 00 ]
+00:01.018	ID:9	Initializing neighbor discovery
+00:01.023	ID:5	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.023	ID:9	Null Controller Discovery initialized!
+00:01.025	ID:9	SDN Core initialized!
+00:01.025	ID:5	Initializing neighbor discovery
+00:01.027	ID:9	SDN Address size set to 2.
+00:01.029	ID:5	Null Controller Discovery initialized!
+00:01.031	ID:5	SDN Core initialized!
+00:01.033	ID:5	SDN Address size set to 2.
+00:01.159	ID:13	Rime started with address 13.0
+00:01.168	ID:13	MAC 0d:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 13.
+00:01.175	ID:3	Rime started with address 3.0
+00:01.178	ID:13	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.180	ID:13	Node SDN Address:[ 0D 00 ]
+00:01.183	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki-838246f started. Node id is set to 3.
+00:01.184	ID:13	next_hop == own address, action is forced to receive
+00:01.187	ID:13	sdn_solve_unknown_dest [ 0D 00 ]
+00:01.192	ID:13	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.193	ID:3	commutator-protocol CSMA nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.194	ID:13	Initializing neighbor discovery
+00:01.196	ID:3	Node SDN Address:[ 03 00 ]
+00:01.199	ID:13	Null Controller Discovery initialized!
+00:01.199	ID:3	next_hop == own address, action is forced to receive
+00:01.200	ID:13	SDN Core initialized!
+00:01.202	ID:3	sdn_solve_unknown_dest [ 03 00 ]
+00:01.202	ID:13	SDN Address size set to 2.
+00:01.207	ID:3	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.209	ID:3	Initializing neighbor discovery
+00:01.214	ID:3	Null Controller Discovery initialized!
+00:01.215	ID:3	SDN Core initialized!
+00:01.217	ID:3	SDN Address size set to 2.
+00:30.386	ID:8	neighbor, metric, next ptr
+00:30.389	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:30.391	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:30.394	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:30.396	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:30.399	ID:8	([ 0F 00 ]) (144) (0x2ebe)
+00:30.402	ID:8	([ 10 00 ]) (144) (0x2ec4)
+00:30.404	ID:8	([ 0A 00 ]) (144) (0x2eca)
+00:30.407	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:30.410	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:30.411	ID:8	([ 02 00 ]) (08) (0)
+00:30.415	ID:8	Receiving event at SDN core process: 70.
+00:30.416	ID:8	Neighbor Change.
+00:30.504	ID:11	neighbor, metric, next ptr
+00:30.507	ID:11	([ 08 00 ]) (136) (0x2ea6)
+00:30.509	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:30.512	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:30.514	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:30.517	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:30.519	ID:11	([ 0F 00 ]) (144) (0x2ec4)
+00:30.522	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:30.525	ID:11	([ 0A 00 ]) (144) (0x2ed0)
+00:30.528	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:30.530	ID:11	([ 03 00 ]) (16) (0)
+00:30.533	ID:11	Receiving event at SDN core process: 70.
+00:30.534	ID:11	Neighbor Change.
+00:30.549	ID:2	neighbor, metric, next ptr
+00:30.552	ID:2	([ 08 00 ]) (136) (0x2e8e)
+00:30.554	ID:2	([ 0B 00 ]) (16) (0x2e94)
+00:30.557	ID:2	([ 06 00 ]) (08) (0x2e9a)
+00:30.559	ID:2	([ 04 00 ]) (16) (0x2ea0)
+00:30.562	ID:2	([ 07 00 ]) (16) (0x2ea6)
+00:30.564	ID:2	([ 0A 00 ]) (144) (0x2eac)
+00:30.565	ID:6	neighbor, metric, next ptr
+00:30.567	ID:2	([ 05 00 ]) (16) (0x2eb2)
+00:30.567	ID:6	([ 08 00 ]) (136) (0x2ea6)
+00:30.570	ID:2	([ 03 00 ]) (16) (0x2eb8)
+00:30.570	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:30.571	ID:2	([ 01 00 ]) (00) (0)
+00:30.572	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:30.575	ID:2	Receiving event at SDN core process: 70.
+00:30.575	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:30.576	ID:2	Neighbor Change.
+00:30.577	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:30.580	ID:6	([ 0F 00 ]) (144) (0x2ec4)
+00:30.583	ID:6	([ 0A 00 ]) (144) (0x2eca)
+00:30.586	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:30.588	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:30.590	ID:6	([ 05 00 ]) (16) (0)
+00:30.593	ID:6	Receiving event at SDN core process: 70.
+00:30.595	ID:6	Neighbor Change.
+00:30.661	ID:4	neighbor, metric, next ptr
+00:30.664	ID:4	([ 08 00 ]) (136) (0x2ea6)
+00:30.666	ID:4	([ 0B 00 ]) (16) (0x2eac)
+00:30.668	ID:4	([ 06 00 ]) (08) (0x2eb2)
+00:30.671	ID:4	([ 07 00 ]) (16) (0x2eb8)
+00:30.674	ID:4	([ 0C 00 ]) (144) (0x2ebe)
+00:30.676	ID:4	([ 03 00 ]) (16) (0x2ec4)
+00:30.678	ID:4	([ 02 00 ]) (08) (0)
+00:30.678	ID:1	neighbor, metric, next ptr
+00:30.681	ID:1	([ 06 00 ]) (08) (0x139c)
+00:30.681	ID:4	Receiving event at SDN core process: 70.
+00:30.682	ID:4	Neighbor Change.
+00:30.683	ID:1	([ 09 00 ]) (128) (0x13a2)
+00:30.686	ID:1	([ 05 00 ]) (16) (0x13a8)
+00:30.688	ID:1	([ 02 00 ]) (08) (0)
+00:30.715	ID:7	neighbor, metric, next ptr
+00:30.718	ID:7	([ 08 00 ]) (136) (0x2ea6)
+00:30.721	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:30.723	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:30.725	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:30.728	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:30.731	ID:7	([ 0F 00 ]) (144) (0x2ec4)
+00:30.734	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:30.736	ID:7	([ 0A 00 ]) (144) (0x2ed0)
+00:30.739	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:30.741	ID:7	([ 03 00 ]) (16) (0)
+00:30.744	ID:7	Receiving event at SDN core process: 70.
+00:30.745	ID:7	Neighbor Change.
+00:30.763	ID:14	neighbor, metric, next ptr
+00:30.766	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:30.768	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:30.771	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:30.773	ID:14	([ 0F 00 ]) (144) (0x2eb8)
+00:30.776	ID:15	neighbor, metric, next ptr
+00:30.776	ID:14	([ 10 00 ]) (144) (0x2ebe)
+00:30.778	ID:15	([ 08 00 ]) (136) (0x2ea6)
+00:30.779	ID:14	([ 0A 00 ]) (144) (0x2ec4)
+00:30.781	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:30.782	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:30.783	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:30.784	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:30.786	ID:16	neighbor, metric, next ptr
+00:30.786	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:30.786	ID:14	([ 0D 00 ]) (136) (0)
+00:30.788	ID:16	([ 08 00 ]) (136) (0x2ea6)
+00:30.788	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:30.789	ID:14	Receiving event at SDN core process: 70.
+00:30.791	ID:14	Neighbor Change.
+00:30.791	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:30.791	ID:15	([ 10 00 ]) (144) (0x2ec4)
+00:30.793	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:30.794	ID:15	([ 0A 00 ]) (144) (0x2eca)
+00:30.796	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:30.796	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:30.799	ID:16	([ 0F 00 ]) (144) (0x2ebe)
+00:30.799	ID:15	([ 0D 00 ]) (136) (0)
+00:30.801	ID:16	([ 0A 00 ]) (144) (0x2ec4)
+00:30.802	ID:15	Receiving event at SDN core process: 70.
+00:30.803	ID:15	Neighbor Change.
+00:30.803	ID:16	([ 0C 00 ]) (144) (0)
+00:30.807	ID:16	Receiving event at SDN core process: 70.
+00:30.808	ID:16	Neighbor Change.
+00:30.870	ID:10	neighbor, metric, next ptr
+00:30.873	ID:10	([ 08 00 ]) (136) (0x2ea6)
+00:30.876	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:30.878	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:30.881	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:30.883	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:30.886	ID:10	([ 0F 00 ]) (144) (0x2ec4)
+00:30.889	ID:10	([ 10 00 ]) (144) (0x2eca)
+00:30.891	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:30.894	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:30.896	ID:10	([ 05 00 ]) (16) (0)
+00:30.899	ID:10	Receiving event at SDN core process: 70.
+00:30.900	ID:10	Neighbor Change.
+00:30.908	ID:12	neighbor, metric, next ptr
+00:30.910	ID:12	([ 08 00 ]) (136) (0x2ea6)
+00:30.913	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:30.915	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:30.918	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:30.920	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:30.923	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:30.926	ID:12	([ 0F 00 ]) (144) (0x2eca)
+00:30.928	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:30.931	ID:12	([ 0A 00 ]) (144) (0x2ed6)
+00:30.933	ID:12	([ 03 00 ]) (16) (0)
+00:30.936	ID:12	Receiving event at SDN core process: 70.
+00:30.937	ID:12	Neighbor Change.
+00:31.021	ID:9	neighbor, metric, next ptr
+00:31.023	ID:9	([ 06 00 ]) (08) (0x2ea6)
+00:31.026	ID:9	([ 0E 00 ]) (16) (0x2eac)
+00:31.027	ID:5	neighbor, metric, next ptr
+00:31.028	ID:9	([ 0A 00 ]) (144) (0x2eb2)
+00:31.030	ID:5	([ 06 00 ]) (08) (0x2ea6)
+00:31.031	ID:9	([ 05 00 ]) (16) (0x2eb8)
+00:31.033	ID:5	([ 0A 00 ]) (144) (0x2eac)
+00:31.034	ID:9	([ 0D 00 ]) (136) (0x2ebe)
+00:31.035	ID:5	([ 09 00 ]) (128) (0x2eb2)
+00:31.036	ID:9	([ 01 00 ]) (00) (0)
+00:31.038	ID:5	([ 0D 00 ]) (136) (0x2eb8)
+00:31.039	ID:9	Receiving event at SDN core process: 70.
+00:31.040	ID:9	Neighbor Change.
+00:31.040	ID:5	([ 02 00 ]) (08) (0x2ebe)
+00:31.042	ID:5	([ 01 00 ]) (00) (0)
+00:31.045	ID:5	Receiving event at SDN core process: 70.
+00:31.047	ID:5	Neighbor Change.
+00:31.196	ID:13	neighbor, metric, next ptr
+00:31.198	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+00:31.201	ID:13	([ 0F 00 ]) (144) (0x2eac)
+00:31.204	ID:13	([ 0A 00 ]) (144) (0x2eb2)
+00:31.207	ID:13	([ 09 00 ]) (128) (0x2eb8)
+00:31.209	ID:13	([ 05 00 ]) (16) (0)
+00:31.212	ID:13	Receiving event at SDN core process: 70.
+00:31.212	ID:3	neighbor, metric, next ptr
+00:31.213	ID:13	Neighbor Change.
+00:31.215	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:31.217	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:31.220	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:31.222	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:31.225	ID:3	([ 0A 00 ]) (144) (0x2ebe)
+00:31.227	ID:3	([ 0C 00 ]) (144) (0x2ec4)
+00:31.230	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:31.232	ID:3	([ 08 00 ]) (136) (0)
+00:31.235	ID:3	Receiving event at SDN core process: 70.
+00:31.236	ID:3	Neighbor Change.
+00:32.391	ID:16	neighbor, metric, next ptr
+00:32.391	ID:4	neighbor, metric, next ptr
+00:32.391	ID:15	neighbor, metric, next ptr
+00:32.391	ID:3	neighbor, metric, next ptr
+00:32.391	ID:12	neighbor, metric, next ptr
+00:32.391	ID:11	neighbor, metric, next ptr
+00:32.391	ID:7	neighbor, metric, next ptr
+00:32.391	ID:2	neighbor, metric, next ptr
+00:32.392	ID:10	neighbor, metric, next ptr
+00:32.392	ID:6	neighbor, metric, next ptr
+00:32.393	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:32.393	ID:4	([ 08 00 ]) (16) (0x2ea6)
+00:32.393	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:32.393	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:32.394	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:32.394	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:32.394	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:32.394	ID:2	([ 08 00 ]) (16) (0x2e8e)
+00:32.394	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:32.395	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:32.396	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:4	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:32.396	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:32.396	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:32.396	ID:2	([ 0B 00 ]) (16) (0x2e94)
+00:32.397	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:32.398	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:32.398	ID:4	([ 06 00 ]) (08) (0x2eb2)
+00:32.398	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:32.398	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:32.398	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:32.399	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:32.399	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:32.399	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:32.399	ID:2	([ 06 00 ]) (08) (0x2e9a)
+00:32.399	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:32.400	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:32.401	ID:4	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:32.401	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:32.401	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:32.401	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:32.401	ID:2	([ 04 00 ]) (16) (0x2ea0)
+00:32.402	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:32.403	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:32.403	ID:4	([ 0C 00 ]) (144) (0x2ebe)
+00:32.404	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:32.404	ID:16	([ 0F 00 ]) (144) (0x2ebe)
+00:32.404	ID:3	([ 0A 00 ]) (144) (0x2ebe)
+00:32.404	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:32.404	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:32.404	ID:2	([ 07 00 ]) (16) (0x2ea6)
+00:32.404	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:32.404	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:32.405	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:32.406	ID:4	([ 03 00 ]) (16) (0x2ec4)
+00:32.406	ID:16	([ 0A 00 ]) (144) (0x2ec4)
+00:32.406	ID:3	([ 0C 00 ]) (144) (0x2ec4)
+00:32.406	ID:15	([ 10 00 ]) (144) (0x2ec4)
+00:32.406	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:32.407	ID:11	([ 0F 00 ]) (144) (0x2ec4)
+00:32.407	ID:2	([ 0A 00 ]) (144) (0x2eac)
+00:32.407	ID:7	([ 0F 00 ]) (144) (0x2ec4)
+00:32.407	ID:10	([ 0F 00 ]) (144) (0x2ec4)
+00:32.408	ID:6	([ 0F 00 ]) (144) (0x2ec4)
+00:32.408	ID:4	([ 02 00 ]) (08) (0)
+00:32.408	ID:16	([ 0C 00 ]) (144) (0)
+00:32.409	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:32.409	ID:15	([ 0A 00 ]) (144) (0x2eca)
+00:32.409	ID:12	([ 0F 00 ]) (144) (0x2eca)
+00:32.409	ID:2	([ 05 00 ]) (16) (0x2eb2)
+00:32.409	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:32.409	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:32.410	ID:10	([ 10 00 ]) (144) (0x2eca)
+00:32.411	ID:6	([ 0A 00 ]) (144) (0x2eca)
+00:32.411	ID:3	([ 08 00 ]) (16) (0)
+00:32.411	ID:4	Receiving event at SDN core process: 70.
+00:32.412	ID:16	Receiving event at SDN core process: 70.
+00:32.412	ID:2	([ 03 00 ]) (16) (0x2eb8)
+00:32.412	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:32.412	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:32.412	ID:11	([ 0A 00 ]) (144) (0x2ed0)
+00:32.412	ID:7	([ 0A 00 ]) (144) (0x2ed0)
+00:32.412	ID:4	Neighbor Change.
+00:32.412	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:32.413	ID:16	Neighbor Change.
+00:32.413	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:32.414	ID:2	([ 01 00 ]) (00) (0)
+00:32.414	ID:15	([ 0D 00 ]) (136) (0)
+00:32.414	ID:3	Receiving event at SDN core process: 70.
+00:32.415	ID:12	([ 0A 00 ]) (144) (0x2ed6)
+00:32.415	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:32.415	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:32.415	ID:3	Neighbor Change.
+00:32.415	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:32.416	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:32.417	ID:12	([ 03 00 ]) (16) (0)
+00:32.417	ID:11	([ 03 00 ]) (16) (0)
+00:32.417	ID:7	([ 03 00 ]) (16) (0)
+00:32.417	ID:10	([ 05 00 ]) (16) (0)
+00:32.417	ID:2	Receiving event at SDN core process: 70.
+00:32.417	ID:15	Receiving event at SDN core process: 70.
+00:32.418	ID:6	([ 05 00 ]) (16) (0)
+00:32.418	ID:2	Neighbor Change.
+00:32.418	ID:15	Neighbor Change.
+00:32.420	ID:11	Receiving event at SDN core process: 70.
+00:32.420	ID:7	Receiving event at SDN core process: 70.
+00:32.420	ID:12	Receiving event at SDN core process: 70.
+00:32.420	ID:10	Receiving event at SDN core process: 70.
+00:32.421	ID:11	Neighbor Change.
+00:32.421	ID:7	Neighbor Change.
+00:32.421	ID:12	Neighbor Change.
+00:32.421	ID:6	Receiving event at SDN core process: 70.
+00:32.422	ID:10	Neighbor Change.
+00:32.423	ID:6	Neighbor Change.
+00:41.741	ID:13	neighbor, metric, next ptr
+00:41.741	ID:16	neighbor, metric, next ptr
+00:41.741	ID:14	neighbor, metric, next ptr
+00:41.741	ID:8	neighbor, metric, next ptr
+00:41.741	ID:12	neighbor, metric, next ptr
+00:41.742	ID:11	neighbor, metric, next ptr
+00:41.742	ID:7	neighbor, metric, next ptr
+00:41.742	ID:10	neighbor, metric, next ptr
+00:41.743	ID:6	neighbor, metric, next ptr
+00:41.743	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+00:41.744	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:41.744	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:41.744	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:41.744	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:41.744	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:41.744	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:41.745	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:41.745	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:41.746	ID:13	([ 0F 00 ]) (24) (0x2eac)
+00:41.746	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:41.746	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:41.746	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:41.746	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:41.747	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:41.747	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:41.747	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:41.748	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:41.749	ID:13	([ 0A 00 ]) (144) (0x2eb2)
+00:41.749	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:41.749	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:41.749	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:41.749	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:41.749	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:41.749	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:41.750	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:41.750	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:41.751	ID:13	([ 09 00 ]) (128) (0x2eb8)
+00:41.751	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:41.751	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:41.751	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:41.751	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:41.752	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:41.752	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:41.752	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:41.753	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:41.753	ID:13	([ 05 00 ]) (16) (0)
+00:41.754	ID:16	([ 0F 00 ]) (24) (0x2ebe)
+00:41.754	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:41.754	ID:14	([ 10 00 ]) (144) (0x2ebe)
+00:41.754	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:41.754	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:41.754	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:41.755	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:41.755	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:41.756	ID:13	Receiving event at SDN core process: 70.
+00:41.756	ID:16	([ 0A 00 ]) (144) (0x2ec4)
+00:41.757	ID:8	([ 10 00 ]) (144) (0x2ec4)
+00:41.757	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:41.757	ID:14	([ 0A 00 ]) (144) (0x2ec4)
+00:41.757	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:41.757	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:41.757	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+00:41.758	ID:13	Neighbor Change.
+00:41.758	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+00:41.759	ID:16	([ 0C 00 ]) (144) (0)
+00:41.759	ID:12	([ 0F 00 ]) (24) (0x2eca)
+00:41.759	ID:8	([ 0A 00 ]) (144) (0x2eca)
+00:41.759	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:41.760	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:41.760	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:41.760	ID:10	([ 10 00 ]) (144) (0x2eca)
+00:41.761	ID:6	([ 0A 00 ]) (144) (0x2eca)
+00:41.762	ID:16	Receiving event at SDN core process: 70.
+00:41.762	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:41.762	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:41.762	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:41.762	ID:11	([ 0A 00 ]) (144) (0x2ed0)
+00:41.762	ID:7	([ 0A 00 ]) (144) (0x2ed0)
+00:41.763	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:41.763	ID:16	Neighbor Change.
+00:41.763	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:41.764	ID:14	([ 0D 00 ]) (136) (0)
+00:41.764	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:41.765	ID:12	([ 0A 00 ]) (144) (0x2ed6)
+00:41.765	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:41.765	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:41.765	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:41.766	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:41.766	ID:8	([ 02 00 ]) (08) (0)
+00:41.767	ID:12	([ 03 00 ]) (16) (0)
+00:41.767	ID:11	([ 03 00 ]) (16) (0)
+00:41.767	ID:7	([ 03 00 ]) (16) (0)
+00:41.767	ID:10	([ 05 00 ]) (16) (0)
+00:41.767	ID:14	Receiving event at SDN core process: 70.
+00:41.768	ID:6	([ 05 00 ]) (16) (0)
+00:41.769	ID:14	Neighbor Change.
+00:41.770	ID:8	Receiving event at SDN core process: 70.
+00:41.770	ID:12	Receiving event at SDN core process: 70.
+00:41.770	ID:11	Receiving event at SDN core process: 70.
+00:41.770	ID:7	Receiving event at SDN core process: 70.
+00:41.771	ID:10	Receiving event at SDN core process: 70.
+00:41.771	ID:8	Neighbor Change.
+00:41.771	ID:12	Neighbor Change.
+00:41.771	ID:6	Receiving event at SDN core process: 70.
+00:41.771	ID:11	Neighbor Change.
+00:41.771	ID:7	Neighbor Change.
+00:41.772	ID:10	Neighbor Change.
+00:41.772	ID:6	Neighbor Change.
+00:43.234	ID:13	neighbor, metric, next ptr
+00:43.234	ID:16	neighbor, metric, next ptr
+00:43.234	ID:5	neighbor, metric, next ptr
+00:43.234	ID:9	neighbor, metric, next ptr
+00:43.234	ID:3	neighbor, metric, next ptr
+00:43.234	ID:14	neighbor, metric, next ptr
+00:43.234	ID:15	neighbor, metric, next ptr
+00:43.234	ID:8	neighbor, metric, next ptr
+00:43.234	ID:2	neighbor, metric, next ptr
+00:43.234	ID:11	neighbor, metric, next ptr
+00:43.234	ID:12	neighbor, metric, next ptr
+00:43.234	ID:7	neighbor, metric, next ptr
+00:43.236	ID:6	neighbor, metric, next ptr
+00:43.236	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+00:43.236	ID:9	([ 06 00 ]) (08) (0x2ea6)
+00:43.236	ID:5	([ 06 00 ]) (08) (0x2ea6)
+00:43.236	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:43.237	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:43.237	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:43.237	ID:2	([ 08 00 ]) (16) (0x2e8e)
+00:43.237	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:43.237	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:43.238	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:43.239	ID:13	([ 0F 00 ]) (24) (0x2eac)
+00:43.239	ID:9	([ 0E 00 ]) (16) (0x2eac)
+00:43.239	ID:5	([ 0A 00 ]) (24) (0x2eac)
+00:43.239	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:43.239	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:43.239	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:43.239	ID:2	([ 0B 00 ]) (16) (0x2e94)
+00:43.240	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:43.240	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:43.241	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:43.241	ID:9	([ 0A 00 ]) (24) (0x2eb2)
+00:43.241	ID:13	([ 0A 00 ]) (24) (0x2eb2)
+00:43.241	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:43.241	ID:5	([ 09 00 ]) (128) (0x2eb2)
+00:43.242	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:43.242	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:43.242	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:43.242	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:43.242	ID:2	([ 06 00 ]) (08) (0x2e9a)
+00:43.242	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:43.242	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:43.242	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:43.243	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:43.244	ID:9	([ 05 00 ]) (16) (0x2eb8)
+00:43.244	ID:13	([ 09 00 ]) (128) (0x2eb8)
+00:43.244	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:43.244	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:43.244	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:43.244	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:43.244	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:43.244	ID:5	([ 0D 00 ]) (136) (0x2eb8)
+00:43.244	ID:2	([ 04 00 ]) (16) (0x2ea0)
+00:43.244	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:43.244	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:43.245	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:43.246	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:43.246	ID:13	([ 05 00 ]) (16) (0)
+00:43.247	ID:9	([ 0D 00 ]) (136) (0x2ebe)
+00:43.247	ID:16	([ 0F 00 ]) (24) (0x2ebe)
+00:43.247	ID:3	([ 0A 00 ]) (24) (0x2ebe)
+00:43.247	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:43.247	ID:5	([ 02 00 ]) (08) (0x2ebe)
+00:43.247	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:43.247	ID:14	([ 10 00 ]) (144) (0x2ebe)
+00:43.247	ID:2	([ 07 00 ]) (16) (0x2ea6)
+00:43.247	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:43.247	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:43.247	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:43.248	ID:9	([ 01 00 ]) (00) (0)
+00:43.248	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:43.249	ID:5	([ 01 00 ]) (00) (0)
+00:43.249	ID:16	([ 0A 00 ]) (24) (0x2ec4)
+00:43.249	ID:13	Receiving event at SDN core process: 70.
+00:43.249	ID:3	([ 0C 00 ]) (144) (0x2ec4)
+00:43.249	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+00:43.249	ID:15	([ 10 00 ]) (144) (0x2ec4)
+00:43.250	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:43.250	ID:2	([ 0A 00 ]) (24) (0x2eac)
+00:43.250	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:43.250	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:43.250	ID:8	([ 10 00 ]) (144) (0x2ec4)
+00:43.250	ID:13	Neighbor Change.
+00:43.251	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+00:43.251	ID:16	([ 0C 00 ]) (144) (0)
+00:43.252	ID:9	Receiving event at SDN core process: 70.
+00:43.252	ID:5	Receiving event at SDN core process: 70.
+00:43.252	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:43.252	ID:15	([ 0A 00 ]) (24) (0x2eca)
+00:43.252	ID:12	([ 0F 00 ]) (24) (0x2eca)
+00:43.252	ID:2	([ 05 00 ]) (16) (0x2eb2)
+00:43.252	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:43.252	ID:8	([ 0A 00 ]) (24) (0x2eca)
+00:43.252	ID:11	([ 10 00 ]) (144) (0x2eca)
+00:43.252	ID:7	([ 10 00 ]) (144) (0x2eca)
+00:43.253	ID:9	Neighbor Change.
+00:43.253	ID:5	Neighbor Change.
+00:43.253	ID:6	([ 0A 00 ]) (24) (0x2eca)
+00:43.254	ID:3	([ 08 00 ]) (16) (0)
+00:43.255	ID:2	([ 03 00 ]) (16) (0x2eb8)
+00:43.255	ID:16	Receiving event at SDN core process: 70.
+00:43.255	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:43.255	ID:12	([ 10 00 ]) (144) (0x2ed0)
+00:43.255	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:43.255	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:43.255	ID:11	([ 0A 00 ]) (24) (0x2ed0)
+00:43.255	ID:7	([ 0A 00 ]) (24) (0x2ed0)
+00:43.256	ID:16	Neighbor Change.
+00:43.256	ID:6	([ 0C 00 ]) (144) (0x2ed0)
+00:43.256	ID:2	([ 01 00 ]) (00) (0)
+00:43.257	ID:15	([ 0D 00 ]) (136) (0)
+00:43.257	ID:14	([ 0D 00 ]) (136) (0)
+00:43.257	ID:3	Receiving event at SDN core process: 70.
+00:43.257	ID:12	([ 0A 00 ]) (24) (0x2ed6)
+00:43.257	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:43.258	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:43.258	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:43.258	ID:3	Neighbor Change.
+00:43.259	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:43.259	ID:12	([ 03 00 ]) (16) (0)
+00:43.259	ID:8	([ 02 00 ]) (08) (0)
+00:43.259	ID:7	([ 03 00 ]) (16) (0)
+00:43.259	ID:11	([ 03 00 ]) (16) (0)
+00:43.260	ID:2	Receiving event at SDN core process: 70.
+00:43.260	ID:15	Receiving event at SDN core process: 70.
+00:43.260	ID:14	Receiving event at SDN core process: 70.
+00:43.261	ID:6	([ 05 00 ]) (16) (0)
+00:43.261	ID:2	Neighbor Change.
+00:43.261	ID:15	Neighbor Change.
+00:43.261	ID:14	Neighbor Change.
+00:43.263	ID:8	Receiving event at SDN core process: 70.
+00:43.263	ID:7	Receiving event at SDN core process: 70.
+00:43.263	ID:11	Receiving event at SDN core process: 70.
+00:43.263	ID:12	Receiving event at SDN core process: 70.
+00:43.264	ID:8	Neighbor Change.
+00:43.264	ID:7	Neighbor Change.
+00:43.264	ID:11	Neighbor Change.
+00:43.264	ID:12	Neighbor Change.
+00:43.264	ID:6	Receiving event at SDN core process: 70.
+00:43.265	ID:6	Neighbor Change.
+00:43.266	ID:15	neighbor, metric, next ptr
+00:43.266	ID:10	neighbor, metric, next ptr
+00:43.266	ID:14	neighbor, metric, next ptr
+00:43.269	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:43.269	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:43.269	ID:8	neighbor, metric, next ptr
+00:43.269	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:43.269	ID:12	neighbor, metric, next ptr
+00:43.269	ID:11	neighbor, metric, next ptr
+00:43.269	ID:7	neighbor, metric, next ptr
+00:43.271	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:43.271	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:43.271	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:43.271	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:43.271	ID:12	([ 08 00 ]) (16) (0x2ea6)
+00:43.272	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:43.272	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:43.274	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:43.274	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:43.274	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:43.274	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:43.274	ID:12	([ 0B 00 ]) (16) (0x2eac)
+00:43.274	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:43.274	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:43.276	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:43.276	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:43.276	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:43.276	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:43.276	ID:12	([ 06 00 ]) (08) (0x2eb2)
+00:43.277	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:43.277	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:43.279	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:43.279	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:43.279	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:43.279	ID:14	([ 10 00 ]) (24) (0x2ebe)
+00:43.279	ID:12	([ 04 00 ]) (16) (0x2eb8)
+00:43.279	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:43.279	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:43.281	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+00:43.281	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+00:43.281	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:43.281	ID:15	([ 10 00 ]) (24) (0x2ec4)
+00:43.282	ID:12	([ 07 00 ]) (16) (0x2ebe)
+00:43.282	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:43.282	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:43.284	ID:15	([ 0A 00 ]) (24) (0x2eca)
+00:43.284	ID:10	([ 10 00 ]) (24) (0x2eca)
+00:43.284	ID:8	([ 10 00 ]) (24) (0x2ec4)
+00:43.284	ID:12	([ 0E 00 ]) (16) (0x2ec4)
+00:43.284	ID:14	([ 0C 00 ]) (144) (0x2eca)
+00:43.284	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:43.284	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:43.286	ID:8	([ 0A 00 ]) (24) (0x2eca)
+00:43.287	ID:15	([ 0C 00 ]) (144) (0x2ed0)
+00:43.287	ID:10	([ 0C 00 ]) (144) (0x2ed0)
+00:43.287	ID:12	([ 0F 00 ]) (24) (0x2eca)
+00:43.287	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:43.287	ID:7	([ 10 00 ]) (24) (0x2eca)
+00:43.287	ID:11	([ 10 00 ]) (24) (0x2eca)
+00:43.289	ID:15	([ 0D 00 ]) (136) (0)
+00:43.289	ID:14	([ 0D 00 ]) (136) (0)
+00:43.289	ID:8	([ 0C 00 ]) (144) (0x2ed0)
+00:43.289	ID:12	([ 10 00 ]) (24) (0x2ed0)
+00:43.289	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:43.289	ID:11	([ 0A 00 ]) (24) (0x2ed0)
+00:43.289	ID:7	([ 0A 00 ]) (24) (0x2ed0)
+00:43.291	ID:10	([ 05 00 ]) (16) (0)
+00:43.292	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:43.292	ID:12	([ 0A 00 ]) (24) (0x2ed6)
+00:43.292	ID:11	([ 0C 00 ]) (144) (0x2ed6)
+00:43.292	ID:7	([ 0C 00 ]) (144) (0x2ed6)
+00:43.292	ID:15	Receiving event at SDN core process: 70.
+00:43.292	ID:14	Receiving event at SDN core process: 70.
+00:43.293	ID:15	Neighbor Change.
+00:43.293	ID:14	Neighbor Change.
+00:43.294	ID:8	([ 02 00 ]) (08) (0)
+00:43.294	ID:12	([ 03 00 ]) (16) (0)
+00:43.294	ID:11	([ 03 00 ]) (16) (0)
+00:43.294	ID:7	([ 03 00 ]) (16) (0)
+00:43.294	ID:10	Receiving event at SDN core process: 70.
+00:43.296	ID:10	Neighbor Change.
+00:43.297	ID:8	Receiving event at SDN core process: 70.
+00:43.297	ID:12	Receiving event at SDN core process: 70.
+00:43.297	ID:11	Receiving event at SDN core process: 70.
+00:43.298	ID:7	Receiving event at SDN core process: 70.
+00:43.298	ID:8	Neighbor Change.
+00:43.298	ID:12	Neighbor Change.
+00:43.299	ID:11	Neighbor Change.
+00:43.299	ID:7	Neighbor Change.
+00:44.928	ID:16	neighbor, metric, next ptr
+00:44.928	ID:4	neighbor, metric, next ptr
+00:44.928	ID:3	neighbor, metric, next ptr
+00:44.928	ID:15	neighbor, metric, next ptr
+00:44.928	ID:14	neighbor, metric, next ptr
+00:44.928	ID:8	neighbor, metric, next ptr
+00:44.929	ID:11	neighbor, metric, next ptr
+00:44.929	ID:7	neighbor, metric, next ptr
+00:44.929	ID:10	neighbor, metric, next ptr
+00:44.930	ID:6	neighbor, metric, next ptr
+00:44.930	ID:16	([ 08 00 ]) (16) (0x2ea6)
+00:44.930	ID:4	([ 08 00 ]) (16) (0x2ea6)
+00:44.931	ID:3	([ 0B 00 ]) (16) (0x2ea6)
+00:44.931	ID:15	([ 08 00 ]) (16) (0x2ea6)
+00:44.931	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+00:44.931	ID:8	([ 0B 00 ]) (16) (0x2ea6)
+00:44.931	ID:7	([ 08 00 ]) (16) (0x2ea6)
+00:44.931	ID:11	([ 08 00 ]) (16) (0x2ea6)
+00:44.932	ID:10	([ 08 00 ]) (16) (0x2ea6)
+00:44.932	ID:6	([ 08 00 ]) (16) (0x2ea6)
+00:44.933	ID:16	([ 0B 00 ]) (16) (0x2eac)
+00:44.933	ID:3	([ 06 00 ]) (08) (0x2eac)
+00:44.933	ID:4	([ 0B 00 ]) (16) (0x2eac)
+00:44.933	ID:14	([ 06 00 ]) (08) (0x2eac)
+00:44.933	ID:15	([ 0B 00 ]) (16) (0x2eac)
+00:44.933	ID:8	([ 06 00 ]) (08) (0x2eac)
+00:44.934	ID:11	([ 06 00 ]) (08) (0x2eac)
+00:44.934	ID:7	([ 0B 00 ]) (16) (0x2eac)
+00:44.934	ID:10	([ 0B 00 ]) (16) (0x2eac)
+00:44.935	ID:6	([ 0B 00 ]) (16) (0x2eac)
+00:44.935	ID:16	([ 07 00 ]) (16) (0x2eb2)
+00:44.935	ID:4	([ 06 00 ]) (08) (0x2eb2)
+00:44.936	ID:3	([ 04 00 ]) (16) (0x2eb2)
+00:44.936	ID:15	([ 06 00 ]) (08) (0x2eb2)
+00:44.936	ID:14	([ 07 00 ]) (16) (0x2eb2)
+00:44.936	ID:8	([ 04 00 ]) (16) (0x2eb2)
+00:44.936	ID:11	([ 04 00 ]) (16) (0x2eb2)
+00:44.936	ID:7	([ 06 00 ]) (08) (0x2eb2)
+00:44.937	ID:10	([ 06 00 ]) (08) (0x2eb2)
+00:44.937	ID:6	([ 04 00 ]) (16) (0x2eb2)
+00:44.938	ID:16	([ 0E 00 ]) (16) (0x2eb8)
+00:44.938	ID:4	([ 07 00 ]) (16) (0x2eb8)
+00:44.938	ID:3	([ 07 00 ]) (16) (0x2eb8)
+00:44.938	ID:15	([ 07 00 ]) (16) (0x2eb8)
+00:44.938	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+00:44.938	ID:8	([ 07 00 ]) (16) (0x2eb8)
+00:44.939	ID:7	([ 04 00 ]) (16) (0x2eb8)
+00:44.939	ID:11	([ 07 00 ]) (16) (0x2eb8)
+00:44.939	ID:10	([ 07 00 ]) (16) (0x2eb8)
+00:44.940	ID:6	([ 07 00 ]) (16) (0x2eb8)
+00:44.941	ID:16	([ 0F 00 ]) (24) (0x2ebe)
+00:44.941	ID:4	([ 0C 00 ]) (24) (0x2ebe)
+00:44.941	ID:3	([ 0A 00 ]) (24) (0x2ebe)
+00:44.941	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+00:44.941	ID:14	([ 10 00 ]) (24) (0x2ebe)
+00:44.941	ID:8	([ 0F 00 ]) (24) (0x2ebe)
+00:44.941	ID:7	([ 0E 00 ]) (16) (0x2ebe)
+00:44.941	ID:11	([ 0E 00 ]) (16) (0x2ebe)
+00:44.942	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+00:44.942	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+00:44.943	ID:16	([ 0A 00 ]) (24) (0x2ec4)
+00:44.943	ID:4	([ 03 00 ]) (16) (0x2ec4)
+00:44.943	ID:3	([ 0C 00 ]) (24) (0x2ec4)
+00:44.943	ID:15	([ 10 00 ]) (24) (0x2ec4)
+00:44.943	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+00:44.944	ID:8	([ 10 00 ]) (24) (0x2ec4)
+00:44.944	ID:7	([ 0F 00 ]) (24) (0x2ec4)
+00:44.944	ID:11	([ 0F 00 ]) (24) (0x2ec4)
+00:44.944	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+00:44.945	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+00:44.945	ID:4	([ 02 00 ]) (08) (0)
+00:44.945	ID:16	([ 0C 00 ]) (24) (0)
+00:44.946	ID:3	([ 02 00 ]) (08) (0x2eca)
+00:44.946	ID:15	([ 0A 00 ]) (24) (0x2eca)
+00:44.946	ID:14	([ 0C 00 ]) (24) (0x2eca)
+00:44.946	ID:8	([ 0A 00 ]) (24) (0x2eca)
+00:44.946	ID:11	([ 10 00 ]) (24) (0x2eca)
+00:44.946	ID:7	([ 10 00 ]) (24) (0x2eca)
+00:44.947	ID:10	([ 10 00 ]) (24) (0x2eca)
+00:44.947	ID:6	([ 0A 00 ]) (24) (0x2eca)
+00:44.948	ID:3	([ 08 00 ]) (16) (0)
+00:44.948	ID:4	Receiving event at SDN core process: 70.
+00:44.948	ID:16	Receiving event at SDN core process: 70.
+00:44.948	ID:15	([ 0C 00 ]) (24) (0x2ed0)
+00:44.949	ID:8	([ 0C 00 ]) (24) (0x2ed0)
+00:44.949	ID:14	([ 09 00 ]) (128) (0x2ed0)
+00:44.949	ID:11	([ 0A 00 ]) (24) (0x2ed0)
+00:44.949	ID:7	([ 0A 00 ]) (24) (0x2ed0)
+00:44.949	ID:10	([ 0C 00 ]) (24) (0x2ed0)
+00:44.949	ID:4	Neighbor Change.
+00:44.949	ID:16	Neighbor Change.
+00:44.950	ID:6	([ 0C 00 ]) (24) (0x2ed0)
+00:44.950	ID:15	([ 0D 00 ]) (136) (0)
+00:44.951	ID:14	([ 0D 00 ]) (136) (0)
+00:44.951	ID:3	Receiving event at SDN core process: 70.
+00:44.951	ID:8	([ 03 00 ]) (16) (0x2ed6)
+00:44.951	ID:11	([ 0C 00 ]) (24) (0x2ed6)
+00:44.951	ID:7	([ 0C 00 ]) (24) (0x2ed6)
+00:44.952	ID:3	Neighbor Change.
+00:44.952	ID:10	([ 09 00 ]) (128) (0x2ed6)
+00:44.953	ID:6	([ 09 00 ]) (128) (0x2ed6)
+00:44.953	ID:8	([ 02 00 ]) (08) (0)
+00:44.953	ID:11	([ 03 00 ]) (16) (0)
+00:44.953	ID:7	([ 03 00 ]) (16) (0)
+00:44.954	ID:15	Receiving event at SDN core process: 70.
+00:44.954	ID:10	([ 05 00 ]) (16) (0)
+00:44.954	ID:14	Receiving event at SDN core process: 70.
+00:44.954	ID:6	([ 05 00 ]) (16) (0)
+00:44.955	ID:15	Neighbor Change.
+00:44.955	ID:14	Neighbor Change.
+00:44.956	ID:8	Receiving event at SDN core process: 70.
+00:44.957	ID:11	Receiving event at SDN core process: 70.
+00:44.957	ID:7	Receiving event at SDN core process: 70.
+00:44.957	ID:10	Receiving event at SDN core process: 70.
+00:44.958	ID:8	Neighbor Change.
+00:44.958	ID:6	Receiving event at SDN core process: 70.
+00:44.958	ID:11	Neighbor Change.
+00:44.958	ID:7	Neighbor Change.
+00:44.958	ID:10	Neighbor Change.
+00:44.959	ID:6	Neighbor Change.
+01:00.391	ID:8	Timer reset
+01:00.393	ID:8	Packet for send, enqueued!
+01:00.395	ID:8	Packets on Send Queue (1):
+01:00.403	ID:8	(0) [ 05 FF 14 00 08 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.403	ID:8	
+01:00.406	ID:8	=[ 08 00 ]=TX=05=00=2017=
+01:00.407	ID:8	dfe == NULL
+01:00.409	ID:8	sdn_unknown_flow 2017
+01:00.409	ID:8	
+01:00.410	ID:8	SDN_ACTION_DROP
+01:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 08 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.421	ID:8	send(): dest == NULL
+01:00.423	ID:8	Packet for send, dequeued!
+01:00.425	ID:8	Packets on Send Queue (0):
+01:00.425	ID:8	
+01:00.508	ID:11	Timer reset
+01:00.511	ID:11	Packet for send, enqueued!
+01:00.513	ID:11	Packets on Send Queue (1):
+01:00.521	ID:11	(0) [ 05 FF 14 00 0B 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.521	ID:11	
+01:00.523	ID:11	=[ 0B 00 ]=TX=05=00=2017=
+01:00.524	ID:11	dfe == NULL
+01:00.526	ID:11	sdn_unknown_flow 2017
+01:00.526	ID:11	
+01:00.527	ID:11	SDN_ACTION_DROP
+01:00.538	ID:11	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0B 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.539	ID:11	send(): dest == NULL
+01:00.541	ID:11	Packet for send, dequeued!
+01:00.543	ID:11	Packets on Send Queue (0):
+01:00.543	ID:11	
+01:00.569	ID:6	Timer reset
+01:00.571	ID:6	Packet for send, enqueued!
+01:00.573	ID:6	Packets on Send Queue (1):
+01:00.581	ID:6	(0) [ 05 FF 14 00 06 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.581	ID:6	
+01:00.584	ID:6	=[ 06 00 ]=TX=05=00=2017=
+01:00.585	ID:6	dfe == NULL
+01:00.586	ID:6	sdn_unknown_flow 2017
+01:00.587	ID:6	
+01:00.588	ID:6	SDN_ACTION_DROP
+01:00.598	ID:6	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 06 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.599	ID:6	send(): dest == NULL
+01:00.601	ID:6	Packet for send, dequeued!
+01:00.603	ID:6	Packets on Send Queue (0):
+01:00.603	ID:6	
+01:00.666	ID:4	Timer reset
+01:00.668	ID:4	Packet for send, enqueued!
+01:00.670	ID:4	Packets on Send Queue (1):
+01:00.678	ID:4	(0) [ 05 FF 14 00 04 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.679	ID:4	
+01:00.681	ID:4	=[ 04 00 ]=TX=05=00=2017=
+01:00.682	ID:4	dfe == NULL
+01:00.684	ID:4	sdn_unknown_flow 2017
+01:00.684	ID:4	
+01:00.685	ID:4	SDN_ACTION_DROP
+01:00.696	ID:4	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 04 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.697	ID:4	send(): dest == NULL
+01:00.699	ID:4	Packet for send, dequeued!
+01:00.701	ID:4	Packets on Send Queue (0):
+01:00.701	ID:4	
+01:00.720	ID:7	Timer reset
+01:00.722	ID:7	Packet for send, enqueued!
+01:00.724	ID:7	Packets on Send Queue (1):
+01:00.732	ID:7	(0) [ 05 FF 14 00 07 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.732	ID:7	
+01:00.735	ID:7	=[ 07 00 ]=TX=05=00=2017=
+01:00.736	ID:7	dfe == NULL
+01:00.738	ID:7	sdn_unknown_flow 2017
+01:00.738	ID:7	
+01:00.739	ID:7	SDN_ACTION_DROP
+01:00.749	ID:7	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 07 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.751	ID:7	send(): dest == NULL
+01:00.752	ID:7	Packet for send, dequeued!
+01:00.754	ID:7	Packets on Send Queue (0):
+01:00.754	ID:7	
+01:00.768	ID:14	Timer reset
+01:00.770	ID:14	Packet for send, enqueued!
+01:00.772	ID:14	Packets on Send Queue (1):
+01:00.780	ID:14	(0) [ 05 FF 14 00 0E 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.780	ID:14	
+01:00.780	ID:15	Timer reset
+01:00.783	ID:15	Packet for send, enqueued!
+01:00.783	ID:14	=[ 0E 00 ]=TX=05=00=2017=
+01:00.784	ID:14	dfe == NULL
+01:00.785	ID:15	Packets on Send Queue (1):
+01:00.786	ID:14	sdn_unknown_flow 2017
+01:00.786	ID:14	
+01:00.787	ID:14	SDN_ACTION_DROP
+01:00.791	ID:16	Timer reset
+01:00.793	ID:15	(0) [ 05 FF 14 00 0F 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.793	ID:15	
+01:00.793	ID:16	Packet for send, enqueued!
+01:00.795	ID:16	Packets on Send Queue (1):
+01:00.795	ID:15	=[ 0F 00 ]=TX=05=00=2017=
+01:00.796	ID:15	dfe == NULL
+01:00.797	ID:14	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0E 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.798	ID:15	sdn_unknown_flow 2017
+01:00.798	ID:15	
+01:00.799	ID:14	send(): dest == NULL
+01:00.799	ID:15	SDN_ACTION_DROP
+01:00.801	ID:14	Packet for send, dequeued!
+01:00.803	ID:14	Packets on Send Queue (0):
+01:00.803	ID:14	
+01:00.803	ID:16	(0) [ 05 FF 14 00 10 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.803	ID:16	
+01:00.806	ID:16	=[ 10 00 ]=TX=05=00=2017=
+01:00.807	ID:16	dfe == NULL
+01:00.809	ID:16	sdn_unknown_flow 2017
+01:00.809	ID:16	
+01:00.810	ID:15	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0F 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.810	ID:16	SDN_ACTION_DROP
+01:00.811	ID:15	send(): dest == NULL
+01:00.813	ID:15	Packet for send, dequeued!
+01:00.815	ID:15	Packets on Send Queue (0):
+01:00.815	ID:15	
+01:00.821	ID:16	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 10 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.822	ID:16	send(): dest == NULL
+01:00.824	ID:16	Packet for send, dequeued!
+01:00.826	ID:16	Packets on Send Queue (0):
+01:00.826	ID:16	
+01:00.874	ID:10	Timer reset
+01:00.877	ID:10	Packet for send, enqueued!
+01:00.879	ID:10	Packets on Send Queue (1):
+01:00.887	ID:10	(0) [ 05 FF 14 00 0A 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.887	ID:10	
+01:00.889	ID:10	=[ 0A 00 ]=TX=05=00=2017=
+01:00.890	ID:10	dfe == NULL
+01:00.892	ID:10	sdn_unknown_flow 2017
+01:00.892	ID:10	
+01:00.893	ID:10	SDN_ACTION_DROP
+01:00.904	ID:10	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0A 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.905	ID:10	send(): dest == NULL
+01:00.907	ID:10	Packet for send, dequeued!
+01:00.909	ID:10	Packets on Send Queue (0):
+01:00.909	ID:10	
+01:00.912	ID:12	Timer reset
+01:00.914	ID:12	Packet for send, enqueued!
+01:00.916	ID:12	Packets on Send Queue (1):
+01:00.924	ID:12	(0) [ 05 FF 14 00 0C 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:00.925	ID:12	
+01:00.927	ID:12	=[ 0C 00 ]=TX=05=00=2017=
+01:00.928	ID:12	dfe == NULL
+01:00.930	ID:12	sdn_unknown_flow 2017
+01:00.930	ID:12	
+01:00.931	ID:12	SDN_ACTION_DROP
+01:00.942	ID:12	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0C 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:00.943	ID:12	send(): dest == NULL
+01:00.945	ID:12	Packet for send, dequeued!
+01:00.947	ID:12	Packets on Send Queue (0):
+01:00.947	ID:12	
+01:01.026	ID:9	Timer reset
+01:01.029	ID:9	Packet for send, enqueued!
+01:01.031	ID:9	Packets on Send Queue (1):
+01:01.033	ID:5	Timer reset
+01:01.035	ID:5	Packet for send, enqueued!
+01:01.037	ID:5	Packets on Send Queue (1):
+01:01.039	ID:9	(0) [ 05 FF 14 00 09 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.039	ID:9	
+01:01.041	ID:9	=[ 09 00 ]=TX=05=00=2017=
+01:01.042	ID:9	dfe == NULL
+01:01.044	ID:9	sdn_unknown_flow 2017
+01:01.044	ID:9	
+01:01.045	ID:5	(0) [ 05 FF 14 00 05 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.045	ID:5	
+01:01.045	ID:9	SDN_ACTION_DROP
+01:01.048	ID:5	=[ 05 00 ]=TX=05=00=2017=
+01:01.049	ID:5	dfe == NULL
+01:01.051	ID:5	sdn_unknown_flow 2017
+01:01.051	ID:5	
+01:01.052	ID:5	SDN_ACTION_DROP
+01:01.056	ID:9	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 09 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.057	ID:9	send(): dest == NULL
+01:01.059	ID:9	Packet for send, dequeued!
+01:01.061	ID:9	Packets on Send Queue (0):
+01:01.061	ID:9	
+01:01.062	ID:5	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 05 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.064	ID:5	send(): dest == NULL
+01:01.066	ID:5	Packet for send, dequeued!
+01:01.068	ID:5	Packets on Send Queue (0):
+01:01.068	ID:5	
+01:01.202	ID:13	Timer reset
+01:01.204	ID:13	Packet for send, enqueued!
+01:01.206	ID:13	Packets on Send Queue (1):
+01:01.214	ID:13	(0) [ 05 FF 14 00 0D 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.214	ID:13	
+01:01.217	ID:13	=[ 0D 00 ]=TX=05=00=2017=
+01:01.217	ID:3	Timer reset
+01:01.218	ID:13	dfe == NULL
+01:01.219	ID:3	Packet for send, enqueued!
+01:01.220	ID:13	sdn_unknown_flow 2017
+01:01.220	ID:13	
+01:01.221	ID:13	SDN_ACTION_DROP
+01:01.221	ID:3	Packets on Send Queue (1):
+01:01.229	ID:3	(0) [ 05 FF 14 00 03 00 ] [ E1 07 74 65 73 74 65 20 30 00 00 00 ]
+01:01.230	ID:3	
+01:01.231	ID:13	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 0D 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.232	ID:3	=[ 03 00 ]=TX=05=00=2017=
+01:01.233	ID:13	send(): dest == NULL
+01:01.233	ID:3	dfe == NULL
+01:01.234	ID:13	Packet for send, dequeued!
+01:01.235	ID:3	sdn_unknown_flow 2017
+01:01.235	ID:3	
+01:01.236	ID:3	SDN_ACTION_DROP
+01:01.236	ID:13	Packets on Send Queue (0):
+01:01.236	ID:13	
+01:01.247	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 00 03 00] Payload [E1 07 74 65 73 74 65 20 30 00 00 00]
+01:01.248	ID:3	send(): dest == NULL
+01:01.250	ID:3	Packet for send, dequeued!
+01:01.252	ID:3	Packets on Send Queue (0):
+01:01.252	ID:3	
+01:02.944	ID:5	neighbor, metric, next ptr
+01:02.944	ID:15	neighbor, metric, next ptr
+01:02.944	ID:14	neighbor, metric, next ptr
+01:02.944	ID:9	neighbor, metric, next ptr
+01:02.945	ID:10	neighbor, metric, next ptr
+01:02.946	ID:5	([ 06 00 ]) (08) (0x2ea6)
+01:02.946	ID:15	([ 08 00 ]) (16) (0x2ea6)
+01:02.946	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+01:02.947	ID:9	([ 06 00 ]) (08) (0x2ea6)
+01:02.947	ID:10	([ 08 00 ]) (16) (0x2ea6)
+01:02.949	ID:5	([ 0A 00 ]) (24) (0x2eac)
+01:02.949	ID:14	([ 06 00 ]) (08) (0x2eac)
+01:02.949	ID:15	([ 0B 00 ]) (16) (0x2eac)
+01:02.949	ID:9	([ 0E 00 ]) (16) (0x2eac)
+01:02.950	ID:10	([ 0B 00 ]) (16) (0x2eac)
+01:02.951	ID:5	([ 09 00 ]) (128) (0x2eb2)
+01:02.951	ID:15	([ 06 00 ]) (08) (0x2eb2)
+01:02.951	ID:14	([ 07 00 ]) (16) (0x2eb2)
+01:02.952	ID:9	([ 0A 00 ]) (24) (0x2eb2)
+01:02.952	ID:10	([ 06 00 ]) (08) (0x2eb2)
+01:02.954	ID:5	([ 0D 00 ]) (24) (0x2eb8)
+01:02.954	ID:15	([ 07 00 ]) (16) (0x2eb8)
+01:02.954	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+01:02.954	ID:9	([ 05 00 ]) (16) (0x2eb8)
+01:02.955	ID:10	([ 07 00 ]) (16) (0x2eb8)
+01:02.956	ID:5	([ 02 00 ]) (08) (0x2ebe)
+01:02.956	ID:15	([ 0E 00 ]) (16) (0x2ebe)
+01:02.957	ID:14	([ 10 00 ]) (24) (0x2ebe)
+01:02.957	ID:9	([ 0D 00 ]) (24) (0x2ebe)
+01:02.957	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+01:02.958	ID:5	([ 01 00 ]) (00) (0)
+01:02.959	ID:9	([ 01 00 ]) (00) (0)
+01:02.959	ID:15	([ 10 00 ]) (24) (0x2ec4)
+01:02.959	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+01:02.960	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+01:02.961	ID:5	Receiving event at SDN core process: 70.
+01:02.961	ID:15	([ 0A 00 ]) (24) (0x2eca)
+01:02.962	ID:14	([ 0C 00 ]) (24) (0x2eca)
+01:02.962	ID:9	Receiving event at SDN core process: 70.
+01:02.962	ID:5	Neighbor Change.
+01:02.963	ID:10	([ 10 00 ]) (24) (0x2eca)
+01:02.963	ID:9	Neighbor Change.
+01:02.964	ID:15	([ 0C 00 ]) (24) (0x2ed0)
+01:02.964	ID:14	([ 09 00 ]) (128) (0x2ed0)
+01:02.965	ID:10	([ 0C 00 ]) (24) (0x2ed0)
+01:02.966	ID:15	([ 0D 00 ]) (24) (0)
+01:02.966	ID:14	([ 0D 00 ]) (24) (0)
+01:02.968	ID:10	([ 09 00 ]) (128) (0x2ed6)
+01:02.969	ID:15	Receiving event at SDN core process: 70.
+01:02.970	ID:14	Receiving event at SDN core process: 70.
+01:02.970	ID:10	([ 05 00 ]) (16) (0)
+01:02.970	ID:15	Neighbor Change.
+01:02.971	ID:14	Neighbor Change.
+01:02.973	ID:10	Receiving event at SDN core process: 70.
+01:02.974	ID:10	Neighbor Change.
+01:03.541	ID:1	~x8	~neighbor, metric, next ptr
+01:03.542	ID:13	neighbor, metric, next ptr
+01:03.542	ID:5	neighbor, metric, next ptr
+01:03.542	ID:14	neighbor, metric, next ptr
+01:03.543	ID:10	neighbor, metric, next ptr
+01:03.544	ID:6	neighbor, metric, next ptr
+01:03.544	ID:1	([ 06 00 ]) (08) (0x139c)
+01:03.544	ID:13	([ 0E 00 ]) (16) (0x2ea6)
+01:03.545	ID:5	([ 06 00 ]) (08) (0x2ea6)
+01:03.545	ID:14	([ 0B 00 ]) (16) (0x2ea6)
+01:03.546	ID:10	([ 08 00 ]) (16) (0x2ea6)
+01:03.546	ID:6	([ 08 00 ]) (16) (0x2ea6)
+01:03.546	ID:1	([ 09 00 ]) (16) (0x13a2)
+01:03.547	ID:13	([ 0F 00 ]) (24) (0x2eac)
+01:03.547	ID:5	([ 0A 00 ]) (24) (0x2eac)
+01:03.547	ID:14	([ 06 00 ]) (08) (0x2eac)
+01:03.548	ID:10	([ 0B 00 ]) (16) (0x2eac)
+01:03.549	ID:6	([ 0B 00 ]) (16) (0x2eac)
+01:03.549	ID:1	([ 05 00 ]) (16) (0x13a8)
+01:03.549	ID:13	([ 0A 00 ]) (24) (0x2eb2)
+01:03.550	ID:5	([ 09 00 ]) (16) (0x2eb2)
+01:03.550	ID:14	([ 07 00 ]) (16) (0x2eb2)
+01:03.551	ID:10	([ 06 00 ]) (08) (0x2eb2)
+01:03.551	ID:1	([ 02 00 ]) (08) (0)
+01:03.551	ID:6	([ 04 00 ]) (16) (0x2eb2)
+01:03.552	ID:13	([ 09 00 ]) (16) (0x2eb8)
+01:03.552	ID:5	([ 0D 00 ]) (24) (0x2eb8)
+01:03.553	ID:14	([ 0F 00 ]) (24) (0x2eb8)
+01:03.553	ID:10	([ 07 00 ]) (16) (0x2eb8)
+01:03.554	ID:6	([ 07 00 ]) (16) (0x2eb8)
+01:03.554	ID:13	([ 05 00 ]) (16) (0)
+01:03.555	ID:5	([ 02 00 ]) (08) (0x2ebe)
+01:03.555	ID:14	([ 10 00 ]) (24) (0x2ebe)
+01:03.556	ID:10	([ 0E 00 ]) (16) (0x2ebe)
+01:03.556	ID:6	([ 0E 00 ]) (16) (0x2ebe)
+01:03.557	ID:5	([ 01 00 ]) (00) (0)
+01:03.557	ID:13	Receiving event at SDN core process: 70.
+01:03.558	ID:14	([ 0A 00 ]) (24) (0x2ec4)
+01:03.558	ID:13	Neighbor Change.
+01:03.558	ID:10	([ 0F 00 ]) (24) (0x2ec4)
+01:03.559	ID:6	([ 0F 00 ]) (24) (0x2ec4)
+01:03.560	ID:5	Receiving event at SDN core process: 70.
+01:03.560	ID:14	([ 0C 00 ]) (24) (0x2eca)
+01:03.561	ID:10	([ 10 00 ]) (24) (0x2eca)
+01:03.561	ID:5	Neighbor Change.
+01:03.562	ID:6	([ 0A 00 ]) (24) (0x2eca)
+01:03.563	ID:14	([ 09 00 ]) (16) (0x2ed0)
+01:03.564	ID:10	([ 0C 00 ]) (24) (0x2ed0)
+01:03.564	ID:6	([ 0C 00 ]) (24) (0x2ed0)
+01:03.565	ID:14	([ 0D 00 ]) (24) (0)
+01:03.566	ID:10	([ 09 00 ]) (16) (0x2ed6)
+01:03.567	ID:6	([ 09 00 ]) (16) (0x2ed6)
+01:03.568	ID:14	Receiving event at SDN core process: 70.
+01:03.568	ID:10	([ 05 00 ]) (16) (0)
+01:03.569	ID:6	([ 05 00 ]) (16) (0)
+01:03.569	ID:14	Neighbor Change.
+01:03.571	ID:10	Receiving event at SDN core process: 70.
+01:03.572	ID:6	Receiving event at SDN core process: 70.
+01:03.573	ID:10	Neighbor Change.
+01:03.573	ID:6	Neighbor Change.
+02:00.391	ID:8	Timer reset
+02:00.393	ID:8	Packet for send, enqueued!
+02:00.395	ID:8	Packets on Send Queue (1):
+02:00.403	ID:8	(1) [ 05 FF 14 01 08 00 ] [ E1 07 74 65 73 74 65 20 31 00 00 00 ]
+02:00.403	ID:8	
+02:00.406	ID:8	=[ 08 00 ]=TX=05=01=2017=
+02:00.407	ID:8	dfe == NULL
+02:00.409	ID:8	sdn_unknown_flow 2017
+02:00.409	ID:8	
+02:00.410	ID:8	SDN_ACTION_DROP
+02:00.420	ID:8	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 01 08 00] Payload [E1 07 74 65 73 74 65 20 31 00 00 00]
+02:00.422	ID:8	send(): dest == NULL
+02:00.423	ID:8	Packet for send, dequeued!
+02:00.425	ID:8	Packets on Send Queue (0):
+02:00.425	ID:8	

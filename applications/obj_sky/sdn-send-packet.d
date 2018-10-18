@@ -1,0 +1,70 @@
+obj_sky/sdn-send-packet.o: ../sdn-common/sdn-send-packet.c \
+ ../sdn-common/sdn-send-packet.h ../sdn-common/sdn-protocol.h \
+ /home/musa/contiki/core/net/linkaddr.h \
+ /home/musa/contiki/platform/sky/./contiki-conf.h \
+ /home/musa/contiki/platform/sky/./platform-conf.h \
+ /home/musa/contiki/cpu/msp430/./msp430def.h project-conf.h \
+ ../sdn-common/sdn-packetbuf.h /home/musa/contiki/core/./lib/memb.h \
+ /home/musa/contiki/core/./sys/cc.h ../sdn-common/sdn-debug.h \
+ ../sdn-common/sdn-constants.h ../sdn-common/sdn-queue.h \
+ ../sdn-common/sdn-addr.h ../contiki-sdn/sdn-neighbor-table.h \
+ ../sdn-common/sdn-addr.h ../sdn-common/sdn-constants.h \
+ ../contiki-sdn/sdn-send.h ../sdn-common/sdn-serial-packet.h \
+ ../contiki-sdn/sdn-serial.h /home/musa/contiki/core/./contiki.h \
+ /home/musa/contiki/core/./contiki-version.h \
+ /home/musa/contiki/core/./contiki-default-conf.h \
+ /home/musa/contiki/core/./sys/process.h \
+ /home/musa/contiki/core/./sys/pt.h /home/musa/contiki/core/./sys/lc.h \
+ /home/musa/contiki/core/./sys/lc-switch.h \
+ /home/musa/contiki/core/./sys/autostart.h \
+ /home/musa/contiki/core/./sys/process.h \
+ /home/musa/contiki/core/./sys/timer.h \
+ /home/musa/contiki/core/./sys/clock.h \
+ /home/musa/contiki/core/./sys/ctimer.h \
+ /home/musa/contiki/core/./sys/etimer.h \
+ /home/musa/contiki/core/./sys/timer.h \
+ /home/musa/contiki/core/./sys/etimer.h \
+ /home/musa/contiki/core/./sys/rtimer.h \
+ /home/musa/contiki/cpu/msp430/./rtimer-arch.h \
+ /home/musa/contiki/core/./sys/rtimer.h \
+ /home/musa/contiki/core/./sys/pt.h \
+ /home/musa/contiki/core/./sys/procinit.h \
+ /home/musa/contiki/core/./sys/loader.h \
+ /home/musa/contiki/core/./sys/clock.h \
+ /home/musa/contiki/core/./sys/energest.h \
+ ../sdn-common/sdn-serial-packet.h /home/musa/contiki/core/dev/leds.h
+../sdn-common/sdn-send-packet.c :
+ ../sdn-common/sdn-send-packet.h ../sdn-common/sdn-protocol.h :
+ /home/musa/contiki/core/net/linkaddr.h :
+ /home/musa/contiki/platform/sky/./contiki-conf.h :
+ /home/musa/contiki/platform/sky/./platform-conf.h :
+ /home/musa/contiki/cpu/msp430/./msp430def.h project-conf.h :
+ ../sdn-common/sdn-packetbuf.h /home/musa/contiki/core/./lib/memb.h :
+ /home/musa/contiki/core/./sys/cc.h ../sdn-common/sdn-debug.h :
+ ../sdn-common/sdn-constants.h ../sdn-common/sdn-queue.h :
+ ../sdn-common/sdn-addr.h ../contiki-sdn/sdn-neighbor-table.h :
+ ../sdn-common/sdn-addr.h ../sdn-common/sdn-constants.h :
+ ../contiki-sdn/sdn-send.h ../sdn-common/sdn-serial-packet.h :
+ ../contiki-sdn/sdn-serial.h /home/musa/contiki/core/./contiki.h :
+ /home/musa/contiki/core/./contiki-version.h :
+ /home/musa/contiki/core/./contiki-default-conf.h :
+ /home/musa/contiki/core/./sys/process.h :
+ /home/musa/contiki/core/./sys/pt.h /home/musa/contiki/core/./sys/lc.h :
+ /home/musa/contiki/core/./sys/lc-switch.h :
+ /home/musa/contiki/core/./sys/autostart.h :
+ /home/musa/contiki/core/./sys/process.h :
+ /home/musa/contiki/core/./sys/timer.h :
+ /home/musa/contiki/core/./sys/clock.h :
+ /home/musa/contiki/core/./sys/ctimer.h :
+ /home/musa/contiki/core/./sys/etimer.h :
+ /home/musa/contiki/core/./sys/timer.h :
+ /home/musa/contiki/core/./sys/etimer.h :
+ /home/musa/contiki/core/./sys/rtimer.h :
+ /home/musa/contiki/cpu/msp430/./rtimer-arch.h :
+ /home/musa/contiki/core/./sys/rtimer.h :
+ /home/musa/contiki/core/./sys/pt.h :
+ /home/musa/contiki/core/./sys/procinit.h :
+ /home/musa/contiki/core/./sys/loader.h :
+ /home/musa/contiki/core/./sys/clock.h :
+ /home/musa/contiki/core/./sys/energest.h :
+ ../sdn-common/sdn-serial-packet.h /home/musa/contiki/core/dev/leds.h :

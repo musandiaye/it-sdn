@@ -27,6 +27,10 @@ void sdn_receive();
 
 /*---------------------------------------------------------------------------*/
 PROCESS(sdn_core_process, "SDN Controller process");
+unsigned seconds = 60*5;
+double fixed_perc_energy = 1; //  percentage of energy the node will start (2AA) 0-1\
+                                  https://github.com/KineticBattery/Powertrace
+unsigned variation = 2; // between 0 and 99
 AUTOSTART_PROCESSES(&sdn_core_process);
 
 
@@ -94,9 +98,10 @@ void sdn_receive() {
 PROCESS_THREAD(sdn_core_process, ev, data)
 {
   PROCESS_BEGIN();
-  powertrace_start(CLOCK_SECOND * 10);
+  powertrace_start(CLOCK_SECOND * seconds, seconds, fixed_perc_energy, variation);
+  //powertrace_start(CLOCK_SECOND * 10);
   printf("Ticks per second: %u\n", RTIMER_SECOND);
-//powertrace_print();
+  //powertrace_print();
 
   SDN_CD.init(SDN_YES);
   SDN_ND.init(SDN_YES);

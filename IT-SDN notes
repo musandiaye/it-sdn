@@ -1,0 +1,113 @@
+
+
+Modular protocals to achieve southbound communication i.e neighbour discovery and controller discovery. Which fall under topology management.
+
+-all nodes behave both as forwarding devices and end nodes: meaning the handle traffic intelligence and also play the role of actual sensing of the measurand.
+- The nodes should reduce the frame size to the typical IEEE 802.15.4 frame // look into this 
+- SensorOpenFlow (SOF) can be used as a protocal to archieve communication between the controller and the forwarding nodes.
+- The ones based on OpenFlow have issues concerning frame sizes, introduced
+overhead and use of TCP as underlying communication protocol.
+-SDN-Wise implemen-tation is not completely available for download and use
+-TinySDN is highly dependent on TinyOS and also has interoperability limitations
+-IT-SDN inspired by TinySDN is improved and completely open and available.
+
+Features include:
+-clear separation of protocols to archieve southbound SB, neighbour discovery ND and controller discovery CD, this allows for a modular approach to handle topology management. Allows for suitable altanatives to archieve ND and CD(Chen, L. and Bian, K. (2016). Neighbor discovery in mobile sensing applications: A comprehensive survey. Ad Hoc Networks, 48:38–52.) With this approach a researcher can easily change and compare the performance of different algorithms, or design and implement a new algorithm and integrate it with IT-SDN framework; also, a developer can choose the best alternative according to the application scenario.
+- multiple node configuration using a single packet frame.
+
+Architecture 
+Includes the following protocols: 
+1) southbound protocol - concept of flow id(routing according to a label) or by use of address
+2) controller discovery protocol - this defines the next hop candidate to reach the controller/runs at bootstrapping before the node receives information from the controller.
+3) neighbour discovery protocol - obtains and maintains node neighbourhood information. Can run once in static networks just at network bootstrapping or run continously in mobile and dynamic networks.
+
+The southbound protocol is used to define the communication between the controller and enabled-nodes, including packet format definition, the processing and the workflow.
+
+The neighbour discovery protocol must conform to a predefined interface: 1) intialization procedure and packet reception 2) Event generation upon neighbourhood changes. These two funtions define the ND protocol
+
+The CD protocol is also defined by a function to get the best neighbour candidate to reach the controller for the discovered ones, perform initialization, packet reception and event generation.
+
+PACKET DEFINITION IN IT-SDN
+The following are the packets available for use in IT-SDN:
+
+useful for context information include:
+1)Packet Header: Every packet contains a header. this identifies the type. a "time-to-live" field, a sequence number and the source address.
+
+2)Neighbour report:Nodes send this packet to update the controller network representa-
+tion. It contains a list of the current node neighbors associated with a link metric (e.g.
+ETX, RSSI or LQI). The underlying ND protocol determines how often it is transmitted. This report carries most of the context information required for SDNMM.
+
+Other packet information includes :
+3)Flow request: Packets that are always destined to the controller and therefore routed according to the flow id table.They contain a query about how to route a certain packet, in case of a flow table miss-match. Two versions exist: unknown flowid solver and address-based route solver.
+
+4)Flow setup: This is used to change a flow table entry in a certain enabled node. This can be a response to a flow request or according to the controller routing policies(maybe upon receiving context). contents include a destination address, a route identifier,the action to execute upon receiving such a packet with an identifier and an action parameter. 
+A route identifier can be a flow id or an address
+Actions include: drop, forward and receive packet.
+an action parameter can be next hop if it is there.
+
+IT-SDN allows for two forms of flow setups:
+
+a) Source routed flow setup:Certain nodes near the controller need to have flow setup information for a lot of nodes especially in large networks which might overflow the limited address flow tables. Therefore, IT-SDN has the possibility of generating the routing information at the source(controller) hence no need for address flow tables.
+
+
+
+
+b) Multiple flow setup: This is the idea that a single source routed flow setup packet can be used to set the route in multiple nodes without the need for the address routing table. 
+
+5)Acknowledgement packet: This packet provides delivery confirmation that a policy set by a controller has reached its node.This packet relies on the sequence number.
+
+
+6) neighbour discover/controller discover: used by the underlying ND/CD protocols e.g topology management modules. They are not processed by the SDN core, they are directly sent to the management module.//see if the ND/CD protocols can be embedded in the controller via the msi.
+
+
+7)Data packet: These are generated by the application layer and routed according to the flow id table.
+
+
+IT-SDN workflow algorithm
+
+1. Receive packet
+2. Check if it is source routed:
+    - if yes Process header info and forwarded according to the header.
+    - if no check the flow tables
+3. Is there a flow table match?
+    - if no send a flow request and temporary store the packet until a corresponding flow setup is provided.
+    - if yes proceed to action either :
+       a) Receive and process the packet
+       b) Drop the packet
+       c) Forward by resending the packet.
+	etc//
+
+
+
+Major setbacks of IT-SDN are route requesting and route maintenance. using multiple flow and source routed setups can improve the control overhead. using multiple controllers closer to the route can reduce the amount of energy needed to configure a route. 
+
+Route maintenance is highly connected to the neighbour discovery protocol and therefore fine tuning ND message interval and link change threshold may greatly impact energy.
+
+The IT-SDN software architecture 
+
+The software is based on the contiki-os that supports many devices. The framework is based on ND,CD, and southbound protocols which are made up of packet processing and the core. 
+
+Other components include flow tables, transmit and receive queues and neighbour tables.
+
+The flow tables store routing information set by the controller, divided into two tables: flow id table and address flow table.
+
+The neighbour table is used to provide a common data structure for discovered information (context information) by the ND protocol so the core can read and transmit neighbor report packets. Hence the ND in this case plays a role in collecting context data for the management modules in the controller. 
+
+
+The rx/tx queues are basically a buffer to avoid dropping packets during network congestion or long delays on processing.
+
+the core operates on an event based manner,Neighbor report packets are sent to the controller upon an event from ND protocol. The CD protocol event is used to set the controller route for the first time. It uses a reserved flow id number to identify the controller flow. With this convention, nodes can send requests to the controller without knowing its actual address or the actual
+number of controllers.
+
+How IT-SDN is implemented
+
+
+
+
+
+
+
+
+
+
+

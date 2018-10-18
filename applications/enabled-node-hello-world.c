@@ -8,6 +8,7 @@
 #include "flow-table-tests.h"
 #include "src-route-tests.h"
 #include "string.h"
+#include "powertrace.h"
 
 #ifdef DEMO
 #include "leds.h"
@@ -32,28 +33,28 @@ receiver(uint8_t *data, uint16_t len, sdnaddr_t *source_addr, uint16_t flowId) {
 
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(sdn_test_process, ev, data) {
-  PROCESS_BEGIN();
+PROCESS_BEGIN();
+ powertrace_start(CLOCK_SECOND * 10);
+   printf("Ticks per second: %u\n", RTIMER_SECOND);
 
-  sdn_init(receiver);
-  static struct etimer periodic_timer;
-  etimer_set (&periodic_timer, 30 * CLOCK_SECOND);
-  
-  if (sdn_node_addr.u8[0]==2){   /*configures the flow id 2017 to the node with the last byte 2*/
-    sdn_register_flowid(2017);   /*the node with final address 2 is ready to receive messages from flow id 2017*/
-    }
-  while(1) {
-    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
-    etimer_restart(&periodic_timer);
-  if (sdn_node_addr.u8[0]== 3) {
-  char *data = "Hello_World!";
-  uint16_t data_len = 13;
-  sdn_send((uint8_t*) &data, data_len, 2017);
-   }    	
- 
-  }
+sdn_init(receiver);
 
-  PROCESS_END();
+static struct etimer periodic_timer;
+etimer_set(&periodic_timer, 30 * CLOCK_SECOND);
+if (sdn_node_addr.u8[0] == 2) {
+sdn_register_flowid(2017);
 }
-/*This function is equivalent to int main() in C. */
-/* sdn_init(receiver) is necessary to inform IT-SDN to retrive a callback function to process incoming messages to the node.*/
+while
+(1) {
+PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
+etimer_restart(&periodic_timer);
+if
+(sdn_node_addr.u8[0] == 3) {
+char* data = "Hello World!";
+uint16_t data_len = 13;
+sdn_send((uint8_t*) &data, data_len, 2017);
+}
+}
 
+PROCESS_END();
+}

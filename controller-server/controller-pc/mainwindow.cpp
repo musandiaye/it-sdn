@@ -40,7 +40,7 @@
 #include <QDir>
 #include <QTextStream>
 #include <QMessageBox>
-#include "ui_powerwin.h"
+//#include "ui_powerwin.h"
 
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -238,11 +238,11 @@ void MainWindow::myclock()
 ui->time_label->setText(time_text);
 }
 
-void MainWindow::on_pushButton_clicked()
-{
-    Power = new Powerwin(this); //pointer= new class()
-    Power->show();
-}
+//void MainWindow::on_pushButton_clicked()
+//{
+//    Power = new Powerwin(this); //pointer= new class()
+//    Power->show();
+//}
 
 void MainWindow::on_pushButton_2_clicked()
 {

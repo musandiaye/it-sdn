@@ -1,0 +1,749 @@
+00:00.359	ID:2	Rime started with address 2.0
+00:00.371	ID:2	MAC 02:00:00:00:00:00:00:00 Contiki-9451f30 started. Node id is set to 2.
+00:00.380	ID:2	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.380	ID:2	
+00:00.384	ID:2	Node SDN Address:[ 02 00 ]
+00:00.391	ID:2	next_hop == own address, action is forced to receive
+00:00.396	ID:2	sdn_solve_unknown_dest [ 02 00 ]
+00:00.406	ID:2	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:00.410	ID:2	Initializing neighbor discovery
+00:00.416	ID:2	Null Controller Discovery initialized!
+00:00.419	ID:2	SDN Core initialized!
+00:00.423	ID:2	SDN Address size set to 2.
+00:00.427	ID:2	sdn_solve_unknown_flow 2017
+00:00.430	ID:2	Packet for send, enqueued!
+00:00.434	ID:2	Packets on Send Queue (1):
+00:00.440	ID:2	(0) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:00.440	ID:2	
+00:00.443	ID:2	=[ 02 00 ]=TX=0D=00=0=
+00:00.445	ID:2	dfe == NULL
+00:00.448	ID:2	sdn_unknown_flow 0
+00:00.448	ID:2	
+00:00.450	ID:2	SDN_ACTION_DROP
+00:00.463	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:00.466	ID:2	send(): dest == NULL
+00:00.470	ID:2	Packet for send, dequeued!
+00:00.473	ID:2	Packets on Send Queue (0):
+00:00.474	ID:2	
+00:00.504	ID:1	Rime started with address 1.0
+00:00.516	ID:1	MAC 01:00:00:00:00:00:00:00 Contiki-9451f30 started. Node id is set to 1.
+00:00.526	ID:1	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:00.526	ID:1	
+00:00.530	ID:1	Initializing neighbor discovery
+00:00.532	ID:1	I am sink
+00:01.022	ID:3	Rime started with address 3.0
+00:01.034	ID:3	MAC 03:00:00:00:00:00:00:00 Contiki-9451f30 started. Node id is set to 3.
+00:01.043	ID:3	nullmac nullrdc, channel check rate 128 Hz, radio channel 26
+00:01.043	ID:3	
+00:01.047	ID:3	Node SDN Address:[ 03 00 ]
+00:01.054	ID:3	next_hop == own address, action is forced to receive
+00:01.059	ID:3	sdn_solve_unknown_dest [ 03 00 ]
+00:01.069	ID:3	Unknown route module init! SDN_UNKNOWN_ROUTE_ASK SDN_UNKNOWN_ROUTE_KEEP
+00:01.073	ID:3	Initializing neighbor discovery
+00:01.079	ID:3	Null Controller Discovery initialized!
+00:01.082	ID:3	SDN Core initialized!
+00:01.086	ID:3	SDN Address size set to 2.
+00:30.413	ID:2	neighbor, metric, next ptr
+00:30.417	ID:2	([ 03 00 ]) (128) (0x37be)
+00:30.419	ID:2	([ 01 00 ]) (00) (0)
+00:30.425	ID:2	Receiving event at SDN core process: 70.
+00:30.428	ID:2	Neighbor Change.
+00:30.535	ID:1	~~neighbor, metric, next ptr
+00:30.539	ID:1	([ 02 00 ]) (128) (0x1e7c)
+00:30.542	ID:1	([ 03 00 ]) (128) (0)
+00:30.559	ID:1	~[~=[ 01 00 ]=TX=E7=3D=[ 02 00 ]=
+00:30.580	ID:2	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 3D 01 00] Payload [02 00 00 00 02 04 00 02 00 00]
+00:30.582	ID:2	[ 02 00 ]
+00:30.584	ID:2	SDN_ACTION_RECEIVE
+00:30.589	ID:2	=[ 01 00 ]=RX=E7=3D=[ 02 00 ]=
+00:30.604	ID:2	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 3D 01 00] Payload [02 00 00 00 02 04 00 02 00 00]
+00:30.611	ID:2	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:30.616	ID:2	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:30.619	ID:2	sdn_solve_unknown_flow 0
+00:30.623	ID:1	[ 02 00 ]~~=[ 01 00 ]=TX=E7=3E=[ 03 00 ]=
+00:30.624	ID:2	sdn_solve_unknown_flow: match
+00:30.627	ID:2	Packet for send, enqueued!
+00:30.631	ID:2	Packets on Send Queue (1):
+00:30.637	ID:2	(1) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:30.637	ID:2	
+00:30.644	ID:2	flowid, next_hop, action, times_used, age, next ptr
+00:30.645	ID:3	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 3E 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:30.646	ID:3	[ 03 00 ]
+00:30.649	ID:3	SDN_ACTION_RECEIVE
+00:30.650	ID:2	2017([ 02 00 ]) (01) (00) (02) (0x2294)
+00:30.653	ID:3	=[ 01 00 ]=RX=E7=3E=[ 03 00 ]=
+00:30.654	ID:2	0([ 04 00 ]) (02) (00) (01) (0)
+00:30.658	ID:2	Packet for send, enqueued!
+00:30.662	ID:2	Packets on Send Queue (2):
+00:30.668	ID:2	(1) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:30.668	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 3E 01 00] Payload [03 00 00 00 02 02 00 03 00 00]
+00:30.675	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:30.676	ID:2	(2) [ 04 FF 14 01 02 00 ] [ 00 00 02 03 00 80 00 01 00 00 00 ]
+00:30.676	ID:2	
+00:30.680	ID:2	=[ 02 00 ]=TX=04=01=0=
+00:30.680	ID:3	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:30.683	ID:2	Packet for send, enqueued!
+00:30.684	ID:3	sdn_solve_unknown_flow 0
+00:30.687	ID:2	Packets on Send Queue (3):
+00:30.691	ID:3	flowid, next_hop, action, times_used, age, next ptr
+00:30.693	ID:2	(1) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:30.695	ID:3	0([ 02 00 ]) (02) (00) (01) (0)
+00:30.698	ID:3	No neighbors to send.
+00:30.702	ID:2	(2) [ 04 FF 14 01 02 00 ] [ 00 00 02 03 00 80 00 01 00 00 00 ]
+00:30.702	ID:3	Packet for send, enqueued!
+00:30.706	ID:3	Packets on Send Queue (1):
+00:30.708	ID:2	(3) [ 0C FF 14 02 02 00 ] [ 00 00 01 3D ]
+00:30.708	ID:2	
+00:30.711	ID:2	=[ 02 00 ]=TX=0C=02=0=
+00:30.711	ID:2	
+00:30.712	ID:3	(0) [ 0C FF 14 00 03 00 ] [ 00 00 01 3E ]
+00:30.712	ID:3	
+00:30.714	ID:2	SDN_ACTION_FORWARD
+00:30.715	ID:3	=[ 03 00 ]=TX=0C=00=0=
+00:30.715	ID:3	
+00:30.718	ID:3	SDN_ACTION_FORWARD
+00:30.727	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:30.729	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 00 03 00] Payload [00 00 01 3E]
+00:30.741	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:30.742	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_ACK] Header [0C FF 14 00 03 00] Payload [00 00 01 3E]
+00:30.747	ID:2	Activating trickle time: MAC_TX_COLLISION
+00:30.751	ID:2	TRICKLE_TIME activated 75.
+00:30.757	ID:3	Packet Sent to [02:00] [SDN_PACKET_ACK] Header [0C FF 14 00 03 00] Payload [00 00 01 3E]
+00:30.761	ID:3	Packet for send, dequeued!
+00:30.764	ID:3	Packets on Send Queue (0):
+00:30.765	ID:3	
+00:30.765	ID:2	Packet Received from [03:00] [SDN_PACKET_ACK] Header [0C FF 14 00 03 00] Payload [00 00 01 3E]
+00:30.765	ID:2	
+00:30.768	ID:2	SDN_ACTION_FORWARD
+00:30.771	ID:2	Packet for send, enqueued!
+00:30.775	ID:2	Packets on Send Queue (4):
+00:30.781	ID:2	(1) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:30.790	ID:2	(2) [ 04 FF 14 01 02 00 ] [ 00 00 02 03 00 80 00 01 00 00 00 ]
+00:30.796	ID:2	(3) [ 0C FF 14 02 02 00 ] [ 00 00 01 3D ]
+00:30.801	ID:2	(4) [ 0C FF 13 00 03 00 ] [ 00 00 01 3E ]
+00:30.802	ID:2	
+00:30.808	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:30.815	ID:2	
+00:30.818	ID:2	SDN_ACTION_FORWARD
+00:30.831	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:30.846	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:30.853	ID:2	Activating trickle time: MAC_TX_NOACK
+00:30.857	ID:2	TRICKLE_TIME activated 44.
+00:30.894	ID:2	
+00:30.896	ID:2	SDN_ACTION_FORWARD
+00:30.909	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:30.924	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:30.931	ID:2	Activating trickle time: MAC_TX_NOACK
+00:30.935	ID:2	TRICKLE_TIME activated 390.
+00:31.076	ID:3	neighbor, metric, next ptr
+00:31.080	ID:3	([ 01 00 ]) (00) (0x37be)
+00:31.083	ID:3	([ 02 00 ]) (128) (0)
+00:31.088	ID:3	Receiving event at SDN core process: 70.
+00:31.091	ID:3	Neighbor Change.
+00:31.094	ID:3	Packet for send, enqueued!
+00:31.098	ID:3	Packets on Send Queue (1):
+00:31.107	ID:3	(1) [ 04 FF 14 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:31.107	ID:3	
+00:31.110	ID:3	=[ 03 00 ]=TX=04=01=0=
+00:31.114	ID:3	Packet for send, enqueued!
+00:31.118	ID:3	Packets on Send Queue (2):
+00:31.127	ID:3	(1) [ 04 FF 14 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:31.137	ID:3	(2) [ 05 FF 14 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+00:31.137	ID:3	
+00:31.141	ID:3	=[ 03 00 ]=TX=05=02=2017=
+00:31.141	ID:3	
+00:31.143	ID:3	SDN_ACTION_FORWARD
+00:31.159	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:31.177	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:31.196	ID:2	Packet Received from [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:31.197	ID:3	Packet Sent to [02:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:31.197	ID:2	
+00:31.199	ID:2	SDN_ACTION_FORWARD
+00:31.200	ID:3	Packet for send, dequeued!
+00:31.203	ID:2	Packet for send, enqueued!
+00:31.204	ID:3	Packets on Send Queue (1):
+00:31.207	ID:2	Packets on Send Queue (5):
+00:31.213	ID:2	(1) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:31.214	ID:3	(2) [ 05 FF 14 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+00:31.215	ID:3	
+00:31.216	ID:3	dfe == NULL
+00:31.219	ID:3	sdn_unknown_flow 2017
+00:31.221	ID:2	(2) [ 04 FF 14 01 02 00 ] [ 00 00 02 03 00 80 00 01 00 00 00 ]
+00:31.223	ID:3	Packet for send, enqueued!
+00:31.227	ID:3	Packets on Send Queue (2):
+00:31.227	ID:2	(3) [ 0C FF 14 02 02 00 ] [ 00 00 01 3D ]
+00:31.233	ID:2	(4) [ 0C FF 13 00 03 00 ] [ 00 00 01 3E ]
+00:31.237	ID:3	(2) [ 05 FF 14 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+00:31.242	ID:2	(5) [ 04 FF 13 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:31.242	ID:2	
+00:31.243	ID:3	(3) [ 03 FF 14 03 03 00 ] [ 00 00 E1 07 ]
+00:31.243	ID:3	
+00:31.246	ID:3	=[ 03 00 ]=TX=03=03=0=
+00:31.247	ID:3	
+00:31.248	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:31.249	ID:3	SDN_ACTION_DROP
+00:31.265	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 03 00] Payload [E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E]
+00:31.268	ID:3	send(): dest == NULL
+00:31.271	ID:3	Packet for send, dequeued!
+00:31.275	ID:3	Packets on Send Queue (1):
+00:31.281	ID:3	(3) [ 03 FF 14 03 03 00 ] [ 00 00 E1 07 ]
+00:31.281	ID:3	
+00:31.281	ID:3	
+00:31.284	ID:3	SDN_ACTION_FORWARD
+00:31.297	ID:3	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 03 03 00] Payload [00 00 E1 07]
+00:31.312	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 03 03 00] Payload [00 00 E1 07]
+00:31.329	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 03 03 00] Payload [00 00 E1 07]
+00:31.329	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 03 03 00] Payload [00 00 E1 07]
+00:31.329	ID:2	
+00:31.332	ID:2	SDN_ACTION_FORWARD
+00:31.333	ID:3	Packet for send, dequeued!
+00:31.335	ID:2	Packet for send, enqueued!
+00:31.336	ID:3	Packets on Send Queue (0):
+00:31.337	ID:3	
+00:31.339	ID:2	Packets on Send Queue (6):
+00:31.345	ID:2	(1) [ 0D FF 14 00 02 00 ] [ 00 00 E1 07 ]
+00:31.354	ID:2	(2) [ 04 FF 14 01 02 00 ] [ 00 00 02 03 00 80 00 01 00 00 00 ]
+00:31.359	ID:2	(3) [ 0C FF 14 02 02 00 ] [ 00 00 01 3D ]
+00:31.365	ID:2	(4) [ 0C FF 13 00 03 00 ] [ 00 00 01 3E ]
+00:31.374	ID:2	(5) [ 04 FF 13 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:31.380	ID:2	(6) [ 03 FF 13 03 03 00 ] [ 00 00 E1 07 ]
+00:31.380	ID:2	
+00:31.386	ID:2	Defering send due status not SDN_SEND_IDLE.
+00:31.386	ID:2	
+00:31.389	ID:2	SDN_ACTION_FORWARD
+00:31.402	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:31.416	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:31.423	ID:2	Activating trickle time: MAC_TX_NOACK
+00:31.428	ID:2	TRICKLE_TIME activated 220.
+00:31.644	ID:2	
+00:31.646	ID:2	SDN_ACTION_FORWARD
+00:31.659	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:31.674	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:31.681	ID:2	Activating trickle time: MAC_TX_NOACK
+00:31.685	ID:2	TRICKLE_TIME activated 875.
+00:32.558	ID:2	
+00:32.560	ID:2	SDN_ACTION_FORWARD
+00:32.573	ID:2	Trying to send: [SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:32.588	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_REGISTER_FLOWID] Header [0D FF 14 00 02 00] Payload [00 00 E1 07]
+00:32.595	ID:2	Activating trickle time: MAC_TX_NOACK
+00:32.605	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:32.609	ID:2	Packet for send, dequeued!
+00:32.613	ID:2	Packets on Send Queue (5):
+00:32.622	ID:2	(2) [ 04 FF 14 01 02 00 ] [ 00 00 02 03 00 80 00 01 00 00 00 ]
+00:32.627	ID:2	(3) [ 0C FF 14 02 02 00 ] [ 00 00 01 3D ]
+00:32.633	ID:2	(4) [ 0C FF 13 00 03 00 ] [ 00 00 01 3E ]
+00:32.642	ID:2	(5) [ 04 FF 13 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:32.648	ID:2	(6) [ 03 FF 13 03 03 00 ] [ 00 00 E1 07 ]
+00:32.648	ID:2	
+00:32.648	ID:2	
+00:32.651	ID:2	SDN_ACTION_FORWARD
+00:32.667	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:32.684	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:32.691	ID:2	Activating trickle time: MAC_TX_NOACK
+00:32.695	ID:2	TRICKLE_TIME activated 92.
+00:32.776	ID:2	
+00:32.779	ID:2	SDN_ACTION_FORWARD
+00:32.795	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:32.812	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:32.820	ID:2	Activating trickle time: MAC_TX_NOACK
+00:32.824	ID:2	TRICKLE_TIME activated 176.
+00:32.995	ID:2	
+00:32.998	ID:2	SDN_ACTION_FORWARD
+00:33.014	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:33.031	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:33.038	ID:2	Activating trickle time: MAC_TX_NOACK
+00:33.043	ID:2	TRICKLE_TIME activated 133.
+00:33.175	ID:2	
+00:33.177	ID:2	SDN_ACTION_FORWARD
+00:33.193	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:33.211	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:33.218	ID:2	Activating trickle time: MAC_TX_NOACK
+00:33.222	ID:2	TRICKLE_TIME activated 474.
+00:33.690	ID:2	
+00:33.693	ID:2	SDN_ACTION_FORWARD
+00:33.709	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:33.727	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 01 02 00] Payload [00 00 02 03 00 80 00 01 00 00 00]
+00:33.734	ID:2	Activating trickle time: MAC_TX_NOACK
+00:33.744	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:33.748	ID:2	Packet for send, dequeued!
+00:33.752	ID:2	Packets on Send Queue (4):
+00:33.758	ID:2	(3) [ 0C FF 14 02 02 00 ] [ 00 00 01 3D ]
+00:33.763	ID:2	(4) [ 0C FF 13 00 03 00 ] [ 00 00 01 3E ]
+00:33.772	ID:2	(5) [ 04 FF 13 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:33.778	ID:2	(6) [ 03 FF 13 03 03 00 ] [ 00 00 E1 07 ]
+00:33.778	ID:2	
+00:33.778	ID:2	
+00:33.781	ID:2	SDN_ACTION_FORWARD
+00:33.792	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:33.805	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:33.812	ID:2	Activating trickle time: MAC_TX_NOACK
+00:33.816	ID:2	TRICKLE_TIME activated 15.
+00:33.823	ID:2	
+00:33.826	ID:2	SDN_ACTION_FORWARD
+00:33.837	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:33.850	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:33.857	ID:2	Activating trickle time: MAC_TX_NOACK
+00:33.861	ID:2	TRICKLE_TIME activated 121.
+00:33.972	ID:2	
+00:33.974	ID:2	SDN_ACTION_FORWARD
+00:33.986	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:33.999	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:34.006	ID:2	Activating trickle time: MAC_TX_NOACK
+00:34.010	ID:2	TRICKLE_TIME activated 115.
+00:34.112	ID:2	
+00:34.115	ID:2	SDN_ACTION_FORWARD
+00:34.126	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:34.139	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:34.146	ID:2	Activating trickle time: MAC_TX_NOACK
+00:34.150	ID:2	TRICKLE_TIME activated 770.
+00:34.909	ID:2	
+00:34.912	ID:2	SDN_ACTION_FORWARD
+00:34.923	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:34.936	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 14 02 02 00] Payload [00 00 01 3D]
+00:34.943	ID:2	Activating trickle time: MAC_TX_NOACK
+00:34.954	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:34.957	ID:2	Packet for send, dequeued!
+00:34.961	ID:2	Packets on Send Queue (3):
+00:34.967	ID:2	(4) [ 0C FF 13 00 03 00 ] [ 00 00 01 3E ]
+00:34.976	ID:2	(5) [ 04 FF 13 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:34.981	ID:2	(6) [ 03 FF 13 03 03 00 ] [ 00 00 E1 07 ]
+00:34.982	ID:2	
+00:34.982	ID:2	
+00:34.984	ID:2	SDN_ACTION_FORWARD
+00:34.996	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.009	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.016	ID:2	Activating trickle time: MAC_TX_NOACK
+00:35.020	ID:2	TRICKLE_TIME activated 77.
+00:35.089	ID:2	
+00:35.092	ID:2	SDN_ACTION_FORWARD
+00:35.103	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.116	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.123	ID:2	Activating trickle time: MAC_TX_NOACK
+00:35.127	ID:2	TRICKLE_TIME activated 111.
+00:35.230	ID:2	
+00:35.232	ID:2	SDN_ACTION_FORWARD
+00:35.244	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.256	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.263	ID:2	Activating trickle time: MAC_TX_NOACK
+00:35.268	ID:2	TRICKLE_TIME activated 132.
+00:35.386	ID:2	
+00:35.388	ID:2	SDN_ACTION_FORWARD
+00:35.400	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.413	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.420	ID:2	Activating trickle time: MAC_TX_NOACK
+00:35.424	ID:2	TRICKLE_TIME activated 415.
+00:35.831	ID:2	
+00:35.834	ID:2	SDN_ACTION_FORWARD
+00:35.845	ID:2	Trying to send: [SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.858	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_ACK] Header [0C FF 13 00 03 00] Payload [00 00 01 3E]
+00:35.865	ID:2	Activating trickle time: MAC_TX_NOACK
+00:35.875	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:35.879	ID:2	Packet for send, dequeued!
+00:35.883	ID:2	Packets on Send Queue (2):
+00:35.892	ID:2	(5) [ 04 FF 13 01 03 00 ] [ 00 00 02 01 00 00 00 02 00 80 00 ]
+00:35.897	ID:2	(6) [ 03 FF 13 03 03 00 ] [ 00 00 E1 07 ]
+00:35.898	ID:2	
+00:35.898	ID:2	
+00:35.900	ID:2	SDN_ACTION_FORWARD
+00:35.916	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:35.934	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:35.941	ID:2	Activating trickle time: MAC_TX_NOACK
+00:35.945	ID:2	TRICKLE_TIME activated 22.
+00:35.956	ID:2	
+00:35.959	ID:2	SDN_ACTION_FORWARD
+00:35.975	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:35.992	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:35.999	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.004	ID:2	TRICKLE_TIME activated 118.
+00:36.120	ID:2	
+00:36.123	ID:2	SDN_ACTION_FORWARD
+00:36.139	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:36.156	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:36.163	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.167	ID:2	TRICKLE_TIME activated 53.
+00:36.214	ID:2	
+00:36.217	ID:2	SDN_ACTION_FORWARD
+00:36.232	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:36.250	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:36.257	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.261	ID:2	TRICKLE_TIME activated 397.
+00:36.651	ID:2	
+00:36.654	ID:2	SDN_ACTION_FORWARD
+00:36.670	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:36.687	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 01 03 00] Payload [00 00 02 01 00 00 00 02 00 80 00]
+00:36.695	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.705	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:36.709	ID:2	Packet for send, dequeued!
+00:36.713	ID:2	Packets on Send Queue (1):
+00:36.718	ID:2	(6) [ 03 FF 13 03 03 00 ] [ 00 00 E1 07 ]
+00:36.719	ID:2	
+00:36.719	ID:2	
+00:36.721	ID:2	SDN_ACTION_FORWARD
+00:36.735	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.750	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.757	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.760	ID:2	TRICKLE_TIME activated 4.
+00:36.761	ID:2	
+00:36.763	ID:2	SDN_ACTION_FORWARD
+00:36.777	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.792	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.799	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.803	ID:2	TRICKLE_TIME activated 64.
+00:36.862	ID:2	
+00:36.865	ID:2	SDN_ACTION_FORWARD
+00:36.878	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.893	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.900	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.904	ID:2	TRICKLE_TIME activated 47.
+00:36.948	ID:2	
+00:36.951	ID:2	SDN_ACTION_FORWARD
+00:36.964	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.979	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:36.986	ID:2	Activating trickle time: MAC_TX_NOACK
+00:36.990	ID:2	TRICKLE_TIME activated 703.
+00:37.690	ID:2	
+00:37.693	ID:2	SDN_ACTION_FORWARD
+00:37.706	ID:2	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:37.721	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 13 03 03 00] Payload [00 00 E1 07]
+00:37.728	ID:2	Activating trickle time: MAC_TX_NOACK
+00:37.739	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:37.742	ID:2	Packet for send, dequeued!
+00:37.746	ID:2	Packets on Send Queue (0):
+00:37.746	ID:2	
+00:38.086	ID:1	[ 03 00 ]~~neighbor, metric, next ptr
+00:38.086	ID:3	neighbor, metric, next ptr
+00:38.090	ID:1	([ 02 00 ]) (08) (0x1e7c)
+00:38.090	ID:3	([ 01 00 ]) (00) (0x37be)
+00:38.093	ID:3	([ 02 00 ]) (08) (0)
+00:38.093	ID:1	([ 03 00 ]) (128) (0)
+00:38.099	ID:3	Receiving event at SDN core process: 70.
+00:38.101	ID:3	Neighbor Change.
+00:38.105	ID:3	Packet for send, enqueued!
+00:38.109	ID:3	Packets on Send Queue (1):
+00:38.117	ID:3	(4) [ 04 FF 14 04 03 00 ] [ 00 00 02 01 00 00 00 02 00 08 00 ]
+00:38.117	ID:3	
+00:38.121	ID:3	=[ 03 00 ]=TX=04=04=0=
+00:38.121	ID:3	
+00:38.123	ID:3	SDN_ACTION_FORWARD
+00:38.139	ID:3	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.157	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.176	ID:2	Packet Received from [03:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.176	ID:3	Packet Sent to [02:00] [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.177	ID:2	
+00:38.179	ID:2	SDN_ACTION_FORWARD
+00:38.180	ID:3	Packet for send, dequeued!
+00:38.183	ID:2	Packet for send, enqueued!
+00:38.184	ID:3	Packets on Send Queue (0):
+00:38.184	ID:3	
+00:38.187	ID:2	Packets on Send Queue (1):
+00:38.195	ID:2	(7) [ 04 FF 13 04 03 00 ] [ 00 00 02 01 00 00 00 02 00 08 00 ]
+00:38.196	ID:2	
+00:38.196	ID:2	
+00:38.198	ID:2	SDN_ACTION_FORWARD
+00:38.214	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.232	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.239	ID:2	Activating trickle time: MAC_TX_NOACK
+00:38.243	ID:2	TRICKLE_TIME activated 46.
+00:38.276	ID:2	
+00:38.279	ID:2	SDN_ACTION_FORWARD
+00:38.295	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.312	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.320	ID:2	Activating trickle time: MAC_TX_NOACK
+00:38.324	ID:2	TRICKLE_TIME activated 80.
+00:38.401	ID:2	
+00:38.404	ID:2	SDN_ACTION_FORWARD
+00:38.420	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.437	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.445	ID:2	Activating trickle time: MAC_TX_NOACK
+00:38.449	ID:2	TRICKLE_TIME activated 308.
+00:38.753	ID:2	
+00:38.756	ID:2	SDN_ACTION_FORWARD
+00:38.772	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.789	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.796	ID:2	Activating trickle time: MAC_TX_NOACK
+00:38.800	ID:2	TRICKLE_TIME activated 38.
+00:38.831	ID:2	
+00:38.834	ID:2	SDN_ACTION_FORWARD
+00:38.850	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.867	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 13 04 03 00] Payload [00 00 02 01 00 00 00 02 00 08 00]
+00:38.874	ID:2	Activating trickle time: MAC_TX_NOACK
+00:38.885	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:38.889	ID:2	Packet for send, dequeued!
+00:38.892	ID:2	Packets on Send Queue (0):
+00:38.892	ID:2	
+00:57.718	ID:1	~[~neighbor, metric, next ptr
+00:57.718	ID:2	neighbor, metric, next ptr
+00:57.722	ID:1	([ 02 00 ]) (08) (0x1e7c)
+00:57.722	ID:2	([ 03 00 ]) (08) (0x37be)
+00:57.725	ID:1	([ 03 00 ]) (08) (0)
+00:57.725	ID:2	([ 01 00 ]) (00) (0)
+00:57.731	ID:2	Receiving event at SDN core process: 70.
+00:57.733	ID:2	Neighbor Change.
+00:57.735	ID:1	~[~=[ 01 00 ]=TX=E7=41=[ 03 00 ]=
+00:57.737	ID:2	Packet for send, enqueued!
+00:57.741	ID:2	Packets on Send Queue (1):
+00:57.749	ID:2	(8) [ 04 FF 14 03 02 00 ] [ 00 00 02 03 00 08 00 01 00 00 00 ]
+00:57.749	ID:2	
+00:57.753	ID:2	=[ 02 00 ]=TX=04=03=0=
+00:57.753	ID:2	
+00:57.755	ID:2	SDN_ACTION_FORWARD
+00:57.756	ID:3	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 41 01 00] Payload [03 00 00 00 02 01 00 03 00 00]
+00:57.758	ID:3	[ 03 00 ]
+00:57.760	ID:3	SDN_ACTION_RECEIVE
+00:57.765	ID:3	=[ 01 00 ]=RX=E7=41=[ 03 00 ]=
+00:57.771	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:57.780	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 41 01 00] Payload [03 00 00 00 02 01 00 03 00 00]
+00:57.787	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+00:57.789	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:57.792	ID:3	Processing SDN_PACKET_DATA_FLOW_SETUP.
+00:57.795	ID:3	sdn_solve_unknown_flow 0
+00:57.796	ID:2	Activating trickle time: MAC_TX_NOACK
+00:57.800	ID:2	TRICKLE_TIME activated 7.
+00:57.800	ID:2	
+00:57.803	ID:3	flowid, next_hop, action, times_used, age, next ptr
+00:57.803	ID:2	SDN_ACTION_FORWARD
+00:57.807	ID:3	0([ 01 00 ]) (02) (00) (01) (0)
+00:57.811	ID:3	Packet for send, enqueued!
+00:57.815	ID:3	Packets on Send Queue (1):
+00:57.819	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:57.820	ID:3	(5) [ 0C FF 14 05 03 00 ] [ 00 00 01 41 ]
+00:57.821	ID:3	
+00:57.824	ID:3	=[ 03 00 ]=TX=0C=05=0=
+00:57.824	ID:3	
+00:57.827	ID:3	SDN_ACTION_FORWARD
+00:57.836	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:57.838	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 41]
+00:57.844	ID:2	Activating trickle time: MAC_TX_NOACK
+00:57.848	ID:2	TRICKLE_TIME activated 109.
+00:57.851	ID:3	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 41]
+00:57.856	ID:1	[ 03 00 ]~~=[ 03 00 ]=RX=0C=05=0=
+00:57.856	ID:1	~
+00:57.866	ID:3	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 14 05 03 00] Payload [00 00 01 41]
+00:57.869	ID:3	Packet for send, dequeued!
+00:57.873	ID:3	Packets on Send Queue (0):
+00:57.873	ID:3	
+00:57.956	ID:2	
+00:57.959	ID:2	SDN_ACTION_FORWARD
+00:57.975	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:57.992	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:57.999	ID:2	Activating trickle time: MAC_TX_NOACK
+00:58.004	ID:2	TRICKLE_TIME activated 205.
+00:58.206	ID:2	
+00:58.209	ID:2	SDN_ACTION_FORWARD
+00:58.225	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:58.242	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:58.249	ID:2	Activating trickle time: MAC_TX_NOACK
+00:58.253	ID:2	TRICKLE_TIME activated 13.
+00:58.261	ID:2	
+00:58.263	ID:2	SDN_ACTION_FORWARD
+00:58.279	ID:2	Trying to send: [SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:58.297	ID:2	Sending Packet to [ 04 00 ][SDN_PACKET_NEIGHBOR_REPORT] Header [04 FF 14 03 02 00] Payload [00 00 02 03 00 08 00 01 00 00 00]
+00:58.304	ID:2	Activating trickle time: MAC_TX_NOACK
+00:58.315	ID:2	ERROR: ../contiki-sdn/sdn-send.c:183: Reached SDN_MAX_MAC_NOACK, giving up
+00:58.318	ID:2	Packet for send, dequeued!
+00:58.322	ID:2	Packets on Send Queue (0):
+00:58.322	ID:2	
+01:01.107	ID:3	Packet for send, enqueued!
+01:01.111	ID:3	Packets on Send Queue (1):
+01:01.121	ID:3	(6) [ 05 FF 14 06 03 00 ] [ E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D ]
+01:01.122	ID:3	
+01:01.125	ID:3	=[ 03 00 ]=TX=05=06=2017=
+01:01.127	ID:3	dfe == NULL
+01:01.130	ID:3	sdn_unknown_flow 2017
+01:01.134	ID:3	Packet for send, enqueued!
+01:01.137	ID:3	Packets on Send Queue (2):
+01:01.148	ID:3	(6) [ 05 FF 14 06 03 00 ] [ E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D ]
+01:01.154	ID:3	(7) [ 03 FF 14 07 03 00 ] [ 00 00 E1 07 ]
+01:01.154	ID:3	
+01:01.157	ID:3	=[ 03 00 ]=TX=03=07=0=
+01:01.157	ID:3	
+01:01.159	ID:3	SDN_ACTION_DROP
+01:01.175	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 03 00] Payload [E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D]
+01:01.178	ID:3	send(): dest == NULL
+01:01.182	ID:3	Packet for send, dequeued!
+01:01.186	ID:3	Packets on Send Queue (1):
+01:01.192	ID:3	(7) [ 03 FF 14 07 03 00 ] [ 00 00 E1 07 ]
+01:01.192	ID:3	
+01:01.192	ID:3	
+01:01.195	ID:3	SDN_ACTION_FORWARD
+01:01.208	ID:3	Trying to send: [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 07 03 00] Payload [00 00 E1 07]
+01:01.223	ID:3	Sending Packet to [ 01 00 ][SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 07 03 00] Payload [00 00 E1 07]
+01:01.227	ID:1	A~=[ 03 00 ]=RX=03=07=0=
+01:01.228	ID:1	~
+01:01.236	ID:1	~=[ 01 00 ]=TX=E7=42=[ 03 00 ]=
+01:01.239	ID:3	Packet Sent to [01:00] [SDN_PACKET_DATA_FLOW_REQUEST] Header [03 FF 14 07 03 00] Payload [00 00 E1 07]
+01:01.243	ID:3	Packet for send, dequeued!
+01:01.247	ID:3	Packets on Send Queue (0):
+01:01.247	ID:3	
+01:01.266	ID:3	Packet Received from [01:00] [SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 14 42 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.268	ID:3	[ 03 00 ]
+01:01.270	ID:3	SDN_ACTION_RECEIVE
+01:01.274	ID:3	=[ 01 00 ]=RX=E7=42=[ 03 00 ]=
+01:01.289	ID:3	[SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP] Header [E7 FF 13 42 01 00] Payload [03 00 E1 07 02 02 00 03 00 00]
+01:01.296	ID:3	Processing SDN_PACKET_SRC_ROUTED_DATA_FLOW_SETUP.
+01:01.302	ID:3	Processing SDN_PACKET_DATA_FLOW_SETUP.
+01:01.306	ID:3	sdn_solve_unknown_flow 2017
+01:01.310	ID:3	sdn_solve_unknown_flow: match
+01:01.313	ID:3	Packet for send, enqueued!
+01:01.317	ID:3	Packets on Send Queue (1):
+01:01.328	ID:3	(8) [ 05 FF 14 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+01:01.328	ID:3	
+01:01.332	ID:3	sdn_solve_unknown_flow: match
+01:01.336	ID:3	Packet for send, enqueued!
+01:01.339	ID:3	Packets on Send Queue (2):
+01:01.350	ID:3	(8) [ 05 FF 14 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+01:01.360	ID:3	(9) [ 05 FF 14 06 03 00 ] [ E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D ]
+01:01.360	ID:3	
+01:01.368	ID:3	flowid, next_hop, action, times_used, age, next ptr
+01:01.373	ID:3	0([ 01 00 ]) (02) (02) (02) (0x2294)
+01:01.378	ID:3	2017([ 02 00 ]) (02) (00) (01) (0)
+01:01.381	ID:3	Packet for send, enqueued!
+01:01.385	ID:3	Packets on Send Queue (3):
+01:01.395	ID:3	(8) [ 05 FF 14 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+01:01.406	ID:3	(9) [ 05 FF 14 06 03 00 ] [ E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D ]
+01:01.412	ID:3	(0) [ 0C FF 14 08 03 00 ] [ 00 00 01 42 ]
+01:01.412	ID:3	
+01:01.415	ID:3	=[ 03 00 ]=TX=0C=08=0=
+01:01.415	ID:3	
+01:01.418	ID:3	SDN_ACTION_FORWARD
+01:01.434	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 02 03 00] Payload [E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E]
+01:01.452	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 02 03 00] Payload [E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E]
+01:01.471	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 02 03 00] Payload [E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E]
+01:01.471	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 02 03 00] Payload [E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E]
+01:01.475	ID:2	Packet for recv, enqueued!
+01:01.475	ID:3	Packet for send, dequeued!
+01:01.479	ID:2	Packets on Recv Queue (1):
+01:01.479	ID:3	Packets on Send Queue (2):
+01:01.489	ID:2	(0) [ 05 FF 13 02 03 00 ] [ E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E ]
+01:01.489	ID:3	(9) [ 05 FF 14 06 03 00 ] [ E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D ]
+01:01.489	ID:2	
+01:01.495	ID:2	Receiving event at SDN core process: 72.
+01:01.495	ID:3	(0) [ 0C FF 14 08 03 00 ] [ 00 00 01 42 ]
+01:01.495	ID:3	
+01:01.495	ID:3	
+01:01.498	ID:3	SDN_ACTION_FORWARD
+01:01.499	ID:2	Packet for recv, dequeued!
+01:01.503	ID:2	Packets on Recv Queue (0):
+01:01.503	ID:2	
+01:01.503	ID:2	
+01:01.506	ID:2	SDN_ACTION_RECEIVE
+01:01.509	ID:2	=[ 03 00 ]=RX=05=02=2017=
+01:01.514	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 06 03 00] Payload [E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D]
+01:01.523	ID:2	[SDN_PACKET_DATA] Header [05 FF 13 02 03 00] Payload [E1 07 46 DC 00 1C D2 A6 24 E1 01 00 68 A8 0E]
+01:01.527	ID:2	Processing SDN_PACKET_DATA.
+01:01.532	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 06 03 00] Payload [E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D]
+01:01.533	ID:2	Receiving message from [ 03 00 ] of len 13: F
+01:01.552	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 06 03 00] Payload [E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D]
+01:01.552	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 06 03 00] Payload [E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D]
+01:01.555	ID:2	Packet for recv, enqueued!
+01:01.556	ID:3	Packet for send, dequeued!
+01:01.559	ID:2	Packets on Recv Queue (1):
+01:01.559	ID:3	Packets on Send Queue (1):
+01:01.565	ID:3	(0) [ 0C FF 14 08 03 00 ] [ 00 00 01 42 ]
+01:01.565	ID:3	
+01:01.565	ID:3	
+01:01.568	ID:3	SDN_ACTION_FORWARD
+01:01.570	ID:2	(1) [ 05 FF 13 06 03 00 ] [ E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D ]
+01:01.570	ID:2	
+01:01.575	ID:2	Receiving event at SDN core process: 72.
+01:01.579	ID:2	Packet for recv, dequeued!
+01:01.579	ID:3	Trying to send: [SDN_PACKET_ACK] Header [0C FF 14 08 03 00] Payload [00 00 01 42]
+01:01.583	ID:2	Packets on Recv Queue (0):
+01:01.583	ID:2	
+01:01.583	ID:2	
+01:01.586	ID:2	SDN_ACTION_RECEIVE
+01:01.589	ID:2	=[ 03 00 ]=RX=05=06=2017=
+01:01.592	ID:3	Sending Packet to [ 01 00 ][SDN_PACKET_ACK] Header [0C FF 14 08 03 00] Payload [00 00 01 42]
+01:01.597	ID:1	[ 03 00 ]~~=[ 03 00 ]=RX=0C=08=0=
+01:01.598	ID:1	~
+01:01.603	ID:2	[SDN_PACKET_DATA] Header [05 FF 13 06 03 00] Payload [E1 07 46 DC 00 1C D2 A6 07 A0 00 00 68 A8 1D]
+01:01.607	ID:3	Packet Sent to [01:00] [SDN_PACKET_ACK] Header [0C FF 14 08 03 00] Payload [00 00 01 42]
+01:01.607	ID:2	Processing SDN_PACKET_DATA.
+01:01.611	ID:3	Packet for send, dequeued!
+01:01.614	ID:2	Receiving message from [ 03 00 ] of len 13: F
+01:01.615	ID:3	Packets on Send Queue (0):
+01:01.615	ID:3	
+01:31.107	ID:3	Packet for send, enqueued!
+01:31.111	ID:3	Packets on Send Queue (1):
+01:31.121	ID:3	(1) [ 05 FF 14 09 03 00 ] [ E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C ]
+01:31.122	ID:3	
+01:31.125	ID:3	=[ 03 00 ]=TX=05=09=2017=
+01:31.125	ID:3	
+01:31.128	ID:3	SDN_ACTION_FORWARD
+01:31.144	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C]
+01:31.162	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C]
+01:31.182	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C]
+01:31.182	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 09 03 00] Payload [E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C]
+01:31.185	ID:2	Packet for recv, enqueued!
+01:31.185	ID:3	Packet for send, dequeued!
+01:31.189	ID:2	Packets on Recv Queue (1):
+01:31.189	ID:3	Packets on Send Queue (0):
+01:31.189	ID:3	
+01:31.199	ID:2	(0) [ 05 FF 13 09 03 00 ] [ E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C ]
+01:31.200	ID:2	
+01:31.205	ID:2	Receiving event at SDN core process: 72.
+01:31.209	ID:2	Packet for recv, dequeued!
+01:31.213	ID:2	Packets on Recv Queue (0):
+01:31.213	ID:2	
+01:31.213	ID:2	
+01:31.216	ID:2	SDN_ACTION_RECEIVE
+01:31.219	ID:2	=[ 03 00 ]=RX=05=09=2017=
+01:31.233	ID:2	[SDN_PACKET_DATA] Header [05 FF 13 09 03 00] Payload [E1 07 46 DC 00 1C D2 A6 71 5E 00 00 68 A8 2C]
+01:31.237	ID:2	Processing SDN_PACKET_DATA.
+01:31.244	ID:2	Receiving message from [ 03 00 ] of len 13: F
+02:01.107	ID:3	Packet for send, enqueued!
+02:01.111	ID:3	Packets on Send Queue (1):
+02:01.121	ID:3	(2) [ 05 FF 14 0A 03 00 ] [ E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B ]
+02:01.122	ID:3	
+02:01.125	ID:3	=[ 03 00 ]=TX=05=0A=2017=
+02:01.125	ID:3	
+02:01.128	ID:3	SDN_ACTION_FORWARD
+02:01.144	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B]
+02:01.162	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B]
+02:01.182	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B]
+02:01.182	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 0A 03 00] Payload [E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B]
+02:01.185	ID:2	Packet for recv, enqueued!
+02:01.185	ID:3	Packet for send, dequeued!
+02:01.189	ID:2	Packets on Recv Queue (1):
+02:01.189	ID:3	Packets on Send Queue (0):
+02:01.189	ID:3	
+02:01.199	ID:2	(1) [ 05 FF 13 0A 03 00 ] [ E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B ]
+02:01.200	ID:2	
+02:01.205	ID:2	Receiving event at SDN core process: 72.
+02:01.209	ID:2	Packet for recv, dequeued!
+02:01.213	ID:2	Packets on Recv Queue (0):
+02:01.213	ID:2	
+02:01.213	ID:2	
+02:01.216	ID:2	SDN_ACTION_RECEIVE
+02:01.219	ID:2	=[ 03 00 ]=RX=05=0A=2017=
+02:01.233	ID:2	[SDN_PACKET_DATA] Header [05 FF 13 0A 03 00] Payload [E1 07 46 DC 00 1C D2 A6 34 53 00 00 68 A8 3B]
+02:01.237	ID:2	Processing SDN_PACKET_DATA.
+02:01.244	ID:2	Receiving message from [ 03 00 ] of len 13: F
+02:31.107	ID:3	Packet for send, enqueued!
+02:31.111	ID:3	Packets on Send Queue (1):
+02:31.121	ID:3	(3) [ 05 FF 14 0B 03 00 ] [ E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A ]
+02:31.122	ID:3	
+02:31.125	ID:3	=[ 03 00 ]=TX=05=0B=2017=
+02:31.125	ID:3	
+02:31.128	ID:3	SDN_ACTION_FORWARD
+02:31.144	ID:3	Trying to send: [SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A]
+02:31.162	ID:3	Sending Packet to [ 02 00 ][SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A]
+02:31.182	ID:2	Packet Received from [03:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A]
+02:31.182	ID:3	Packet Sent to [02:00] [SDN_PACKET_DATA] Header [05 FF 14 0B 03 00] Payload [E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A]
+02:31.185	ID:2	Packet for recv, enqueued!
+02:31.185	ID:3	Packet for send, dequeued!
+02:31.189	ID:2	Packets on Recv Queue (1):
+02:31.189	ID:3	Packets on Send Queue (0):
+02:31.189	ID:3	
+02:31.199	ID:2	(0) [ 05 FF 13 0B 03 00 ] [ E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A ]
+02:31.200	ID:2	
+02:31.205	ID:2	Receiving event at SDN core process: 72.
+02:31.209	ID:2	Packet for recv, dequeued!
+02:31.213	ID:2	Packets on Recv Queue (0):
+02:31.213	ID:2	
+02:31.213	ID:2	
+02:31.216	ID:2	SDN_ACTION_RECEIVE
+02:31.219	ID:2	=[ 03 00 ]=RX=05=0B=2017=
+02:31.233	ID:2	[SDN_PACKET_DATA] Header [05 FF 13 0B 03 00] Payload [E1 07 46 DC 00 1C D2 A6 20 48 00 00 68 A8 4A]
+02:31.237	ID:2	Processing SDN_PACKET_DATA.
+02:31.244	ID:2	Receiving message from [ 03 00 ] of len 13: F
