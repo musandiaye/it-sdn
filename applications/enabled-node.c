@@ -71,7 +71,7 @@ PROCESS_THREAD(sdn_test_process, ev, data)
     printf("Timer reset\n");
     sprintf(data, "test %d", i++);
     // if (i==2)
-    sdn_send((uint8_t*) data, 10, sink);
+    sdn_send((uint8_t*) data, 10, SDN_CONTROLLER_FLOW);
     
   // #ifdef DEMO
   //   leds_toogle(LEDS_BLUE);
