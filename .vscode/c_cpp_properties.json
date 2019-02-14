@@ -6,12 +6,17 @@
                 "path": [
                     "${workspaceFolder}",
                     "/home/musa/contiki"
-                    
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/home/musa/contiki/core/net",
+                "/home/musa/contiki/platform/apple2enh",
+                "/home/musa/contiki/cpu/6502",
+                "/home/musa/contiki/platform/win32",
+                "/home/musa/contiki/cpu/6502/lib",
+                "/home/musa/contiki/core"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
