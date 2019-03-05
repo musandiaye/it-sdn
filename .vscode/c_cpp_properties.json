@@ -16,7 +16,8 @@
                 "/home/musa/contiki/cpu/6502",
                 "/home/musa/contiki/platform/win32",
                 "/home/musa/contiki/cpu/6502/lib",
-                "/home/musa/contiki/core"
+                "/home/musa/contiki/core",
+                "/home/musa/Dropbox/PhD/ND-CMQ1.0/contiki-sdn/sdn-request-table.h"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
